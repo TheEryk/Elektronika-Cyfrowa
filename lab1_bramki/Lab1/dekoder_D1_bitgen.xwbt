@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Studia\Elektronika_Cyfrowa\LabA\Lab1\dekoder_D1.ncd
+OUTFILE=C:\Studia\Elektronika_Cyfrowa\LabA\Lab1\dekoder_D1.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Studia\Elektronika_Cyfrowa\LabA\Lab1
+LICENSE=WebPack
+USER_INFO=211496791_0_0_912

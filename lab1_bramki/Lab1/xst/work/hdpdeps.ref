@@ -1,0 +1,10 @@
+V3 12
+FL C:/Studia/Elektronika_Cyfrowa/LabA/Lab1/dekoder_D1.vhf 2018/03/21.14:22:43 P.20131013
+EN work/dekoder_D1 1521638569 \
+      FL C:/Studia/Elektronika_Cyfrowa/LabA/Lab1/dekoder_D1.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/dekoder_D1/BEHAVIORAL 1521638570 \
+      FL C:/Studia/Elektronika_Cyfrowa/LabA/Lab1/dekoder_D1.vhf \
+      EN work/dekoder_D1 1521638569 CP AND3B2 CP AND2B1 CP AND3B3 CP AND4B1 CP OR2 \
+      CP AND3B1 CP OR2B1 CP OR3B2

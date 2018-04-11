@@ -1,0 +1,94 @@
+V3 52
+FL C:/Xilinx/project/lab3_rejestry/clk_gen_50.vhd 2018/03/26.17:42:46 P.20131013
+EN work/clk_gen_50 1522355402 FL C:/Xilinx/project/lab3_rejestry/clk_gen_50.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/clk_gen_50/behav 1522355403 \
+      FL C:/Xilinx/project/lab3_rejestry/clk_gen_50.vhd EN work/clk_gen_50 1522355402
+FL C:/Xilinx/project/lab3_rejestry/dekoder.vhf 2018/03/29.22:08:50 P.20131013
+EN work/dekoder 1522355410 FL C:/Xilinx/project/lab3_rejestry/dekoder.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/dekoder/BEHAVIORAL 1522355411 \
+      FL C:/Xilinx/project/lab3_rejestry/dekoder.vhf EN work/dekoder 1522355410 \
+      CP OR2 CP OR3 CP OR4
+FL C:/Xilinx/project/lab3_rejestry/dekoderJohnson.vhf 2018/03/29.20:54:09 P.20131013
+EN work/dekoderJohnson 1522353473 \
+      FL C:/Xilinx/project/lab3_rejestry/dekoderJohnson.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/dekoderJohnson/BEHAVIORAL 1522353474 \
+      FL C:/Xilinx/project/lab3_rejestry/dekoderJohnson.vhf \
+      EN work/dekoderJohnson 1522353473 CP AND2B2 CP AND2B1 CP OR2 CP AND2 CP OR4 \
+      CP OR5
+FL C:/Xilinx/project/lab3_rejestry/koder1zN.vhf 2018/03/29.22:04:10 P.20131013
+EN work/koder1zN 1522355412 FL C:/Xilinx/project/lab3_rejestry/koder1zN.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/koder1zN/BEHAVIORAL 1522355413 \
+      FL C:/Xilinx/project/lab3_rejestry/koder1zN.vhf EN work/koder1zN 1522355412 \
+      CP FD CP NOR5
+FL C:/Xilinx/project/lab3_rejestry/koderJohnson.vhf 2018/03/29.20:39:59 P.20131013
+EN work/FD4CE_MXILINX_koderJohnson 1522353475 \
+      FL C:/Xilinx/project/lab3_rejestry/koderJohnson.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/FD4CE_MXILINX_koderJohnson/BEHAVIORAL 1522353476 \
+      FL C:/Xilinx/project/lab3_rejestry/koderJohnson.vhf \
+      EN work/FD4CE_MXILINX_koderJohnson 1522353475 CP FDCE
+EN work/koderJohnson 1522353477 \
+      FL C:/Xilinx/project/lab3_rejestry/koderJohnson.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/koderJohnson/BEHAVIORAL 1522353478 \
+      FL C:/Xilinx/project/lab3_rejestry/koderJohnson.vhf EN work/koderJohnson 1522353477 \
+      CP FD4CE_MXILINX_koderJohnson CP INV
+FL C:/Xilinx/project/lab3_rejestry/symulacja.vhf 2018/03/29.22:29:59 P.20131013
+EN work/dekoder_MUSER_symulacja 1522355404 \
+      FL C:/Xilinx/project/lab3_rejestry/symulacja.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/dekoder_MUSER_symulacja/BEHAVIORAL 1522355405 \
+      FL C:/Xilinx/project/lab3_rejestry/symulacja.vhf \
+      EN work/dekoder_MUSER_symulacja 1522355404 CP OR2 CP OR3 CP OR4
+EN work/koder1zN_MUSER_symulacja 1522355406 \
+      FL C:/Xilinx/project/lab3_rejestry/symulacja.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/koder1zN_MUSER_symulacja/BEHAVIORAL 1522355407 \
+      FL C:/Xilinx/project/lab3_rejestry/symulacja.vhf \
+      EN work/koder1zN_MUSER_symulacja 1522355406 CP FD CP NOR5
+EN work/symulacja 1522355408 \
+      FL C:/Xilinx/project/lab3_rejestry/symulacja.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/symulacja/BEHAVIORAL 1522355409 \
+      FL C:/Xilinx/project/lab3_rejestry/symulacja.vhf EN work/symulacja 1522355408 \
+      CP clk_gen_50 CP koder1zN_MUSER_symulacja CP dekoder_MUSER_symulacja
+FL C:/Xilinx/project/lab3_rejestry/symulacja_Johnson.vhf 2018/03/29.21:57:40 P.20131013
+EN work/dekoderJohnson_MUSER_symulacja_Johnson 1522353465 \
+      FL C:/Xilinx/project/lab3_rejestry/symulacja_Johnson.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/dekoderJohnson_MUSER_symulacja_Johnson/BEHAVIORAL 1522353466 \
+      FL C:/Xilinx/project/lab3_rejestry/symulacja_Johnson.vhf \
+      EN work/dekoderJohnson_MUSER_symulacja_Johnson 1522353465 CP AND2B2 \
+      CP AND2B1 CP OR2 CP AND2 CP OR4 CP OR5
+EN work/FD4CE_MXILINX_symulacja_Johnson 1522353467 \
+      FL C:/Xilinx/project/lab3_rejestry/symulacja_Johnson.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FD4CE_MXILINX_symulacja_Johnson/BEHAVIORAL 1522353468 \
+      FL C:/Xilinx/project/lab3_rejestry/symulacja_Johnson.vhf \
+      EN work/FD4CE_MXILINX_symulacja_Johnson 1522353467 CP FDCE
+EN work/koderJohnson_MUSER_symulacja_Johnson 1522353469 \
+      FL C:/Xilinx/project/lab3_rejestry/symulacja_Johnson.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/koderJohnson_MUSER_symulacja_Johnson/BEHAVIORAL 1522353470 \
+      FL C:/Xilinx/project/lab3_rejestry/symulacja_Johnson.vhf \
+      EN work/koderJohnson_MUSER_symulacja_Johnson 1522353469 \
+      CP FD4CE_MXILINX_symulacja_Johnson CP INV
+EN work/symulacja_Johnson 1522353471 \
+      FL C:/Xilinx/project/lab3_rejestry/symulacja_Johnson.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/symulacja_Johnson/BEHAVIORAL 1522353472 \
+      FL C:/Xilinx/project/lab3_rejestry/symulacja_Johnson.vhf \
+      EN work/symulacja_Johnson 1522353471 \
+      CP koderJohnson_MUSER_symulacja_Johnson \
+      CP dekoderJohnson_MUSER_symulacja_Johnson CP clk_gen_50

@@ -1,0 +1,8 @@
+sch2sym -intstyle ise -family spartan3e -refsym dekoder_D1 C:/Studia/Elektronika_Cyfrowa/LabA/Lab1/dekoder_D1.sch C:/Studia/Elektronika_Cyfrowa/LabA/Lab1/dekoder_D1.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl dekoder_D1_drc.vhf -w C:/Studia/Elektronika_Cyfrowa/LabA/Lab1/dekoder_D1.sch 
+xst -intstyle ise -ifn "C:/Studia/Elektronika_Cyfrowa/LabA/Lab1/dekoder_D1.xst" -ofn "C:/Studia/Elektronika_Cyfrowa/LabA/Lab1/dekoder_D1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 dekoder_D1.ngc dekoder_D1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o dekoder_D1_map.ncd dekoder_D1.ngd dekoder_D1.pcf 
+par -w -intstyle ise -ol high -t 1 dekoder_D1_map.ncd dekoder_D1.ncd dekoder_D1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml dekoder_D1.twx dekoder_D1.ncd -o dekoder_D1.twr dekoder_D1.pcf 
+bitgen -intstyle ise -f dekoder_D1.ut dekoder_D1.ncd 

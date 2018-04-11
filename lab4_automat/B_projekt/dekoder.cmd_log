@@ -1,0 +1,6 @@
+sch2sym -intstyle ise -family spartan3e -refsym dekoder {C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab 4/lab4B/dekoder.sch} {C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab 4/lab4B/dekoder.sym} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl dekoder_drc.vhf -w {C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab 4/lab4B/dekoder.sch} 
+xst -intstyle ise -ifn "C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab 4/lab4B/dekoder.xst" -ofn "C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab 4/lab4B/dekoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "dekoder.ngc" dekoder.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o dekoder_map.ncd dekoder.ngd dekoder.pcf 
+par -w -intstyle ise -ol high -t 1 dekoder_map.ncd dekoder.ncd dekoder.pcf 

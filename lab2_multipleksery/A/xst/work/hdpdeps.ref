@@ -1,0 +1,65 @@
+V3 46
+FL C:/Xilinx/project/lab2/clk_gen_50.vhd 2018/03/26.17:42:46 P.20131013
+EN work/clk_gen_50 1522160842 FL C:/Xilinx/project/lab2/clk_gen_50.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/clk_gen_50/behav 1522160843 \
+      FL C:/Xilinx/project/lab2/clk_gen_50.vhd EN work/clk_gen_50 1522160842
+FL C:/Xilinx/project/lab2/funkcja2_m8_1e.vhf 2018/03/27.15:53:15 P.20131013
+EN work/M2_1E_MXILINX_funkcja2_m8_1e 1522160856 \
+      FL C:/Xilinx/project/lab2/funkcja2_m8_1e.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1E_MXILINX_funkcja2_m8_1e/BEHAVIORAL 1522160857 \
+      FL C:/Xilinx/project/lab2/funkcja2_m8_1e.vhf \
+      EN work/M2_1E_MXILINX_funkcja2_m8_1e 1522160856 CP AND3 CP AND3B1 CP OR2
+EN work/M8_1E_MXILINX_funkcja2_m8_1e 1522160858 \
+      FL C:/Xilinx/project/lab2/funkcja2_m8_1e.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/M8_1E_MXILINX_funkcja2_m8_1e/BEHAVIORAL 1522160859 \
+      FL C:/Xilinx/project/lab2/funkcja2_m8_1e.vhf \
+      EN work/M8_1E_MXILINX_funkcja2_m8_1e 1522160858 \
+      CP M2_1E_MXILINX_funkcja2_m8_1e CP MUXF5_L CP MUXF6
+EN work/funkcja2_m8_1e 1522160860 \
+      FL C:/Xilinx/project/lab2/funkcja2_m8_1e.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/funkcja2_m8_1e/BEHAVIORAL 1522160861 \
+      FL C:/Xilinx/project/lab2/funkcja2_m8_1e.vhf EN work/funkcja2_m8_1e 1522160860 \
+      CP M8_1E_MXILINX_funkcja2_m8_1e CP AND2 CP INV CP AND2B2
+FL C:/Xilinx/project/lab2/symulacja.vhf 2018/03/27.16:26:59 P.20131013
+EN work/M2_1E_MXILINX_symulacja 1522160844 \
+      FL C:/Xilinx/project/lab2/symulacja.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1E_MXILINX_symulacja/BEHAVIORAL 1522160845 \
+      FL C:/Xilinx/project/lab2/symulacja.vhf EN work/M2_1E_MXILINX_symulacja 1522160844 \
+      CP AND3 CP AND3B1 CP OR2
+EN work/M8_1E_MXILINX_symulacja 1522160846 \
+      FL C:/Xilinx/project/lab2/symulacja.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/M8_1E_MXILINX_symulacja/BEHAVIORAL 1522160847 \
+      FL C:/Xilinx/project/lab2/symulacja.vhf EN work/M8_1E_MXILINX_symulacja 1522160846 \
+      CP M2_1E_MXILINX_symulacja CP MUXF5_L CP MUXF6
+EN work/funkcja2_m8_1e_MUSER_symulacja 1522160848 \
+      FL C:/Xilinx/project/lab2/symulacja.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/funkcja2_m8_1e_MUSER_symulacja/BEHAVIORAL 1522160849 \
+      FL C:/Xilinx/project/lab2/symulacja.vhf \
+      EN work/funkcja2_m8_1e_MUSER_symulacja 1522160848 \
+      CP M8_1E_MXILINX_symulacja CP AND2 CP INV CP AND2B2
+EN work/FTCE_MXILINX_symulacja 1522160850 \
+      FL C:/Xilinx/project/lab2/symulacja.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/FTCE_MXILINX_symulacja/BEHAVIORAL 1522160851 \
+      FL C:/Xilinx/project/lab2/symulacja.vhf EN work/FTCE_MXILINX_symulacja 1522160850 \
+      CP XOR2 CP FDCE
+EN work/CB8CE_MXILINX_symulacja 1522160852 \
+      FL C:/Xilinx/project/lab2/symulacja.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/CB8CE_MXILINX_symulacja/BEHAVIORAL 1522160853 \
+      FL C:/Xilinx/project/lab2/symulacja.vhf EN work/CB8CE_MXILINX_symulacja 1522160852 \
+      CP FTCE_MXILINX_symulacja CP AND5 CP AND2 CP AND3 CP AND4 CP VCC
+EN work/symulacja 1522160854 \
+      FL C:/Xilinx/project/lab2/symulacja.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/symulacja/BEHAVIORAL 1522160855 \
+      FL C:/Xilinx/project/lab2/symulacja.vhf EN work/symulacja 1522160854 \
+      CP clk_gen_50 CP CB8CE_MXILINX_symulacja CP funkcja2_m8_1e_MUSER_symulacja \
+      CP BUF

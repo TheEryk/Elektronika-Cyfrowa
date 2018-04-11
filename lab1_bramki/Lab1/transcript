@@ -1,0 +1,91 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# do {dekoder.fdo}
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 00:09:03 on Mar 22,2018
+# vcom -reportprogress 300 -explicit -93 dekoder.vhf 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Compiling entity dekoder
+# -- Compiling architecture BEHAVIORAL of dekoder
+# End time: 00:09:03 on Mar 22,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui -do "do {dekoder.fdo}" 
+# Start time: 00:09:04 on Mar 22,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading unisim.vcomponents
+# Loading work.dekoder(behavioral)
+# Loading unisim.inv(inv_v)
+# Loading unisim.and3(and3_v)
+# Loading unisim.and4(and4_v)
+# Loading unisim.and2(and2_v)
+# Loading unisim.or2(or2_v)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Tharazi  Hostname: DESKTOP-A3QC56V  ProcessID: 2856
+# 
+#           Attempting to use alternate WLF file "./wlft2mbntd".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft2mbntd
+# 
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+force -freeze sim:/dekoder/we0 1 0, 0 {5 ns} -r 10
+# ** Error: (vsim-3464) Period of -repeat must not be less than the waveform length.
+# 
+force -freeze sim:/dekoder/we1 1 0, 0 {10 ns} -r 20
+# ** Error: (vsim-3464) Period of -repeat must not be less than the waveform length.
+# 
+force -freeze sim:/dekoder/we2 1 0, 0 {20 ns} -r 40
+# ** Error: (vsim-3464) Period of -repeat must not be less than the waveform length.
+# 
+force -freeze sim:/dekoder/we3 1 0, 0 {40 ns} -r 80
+# ** Error: (vsim-3464) Period of -repeat must not be less than the waveform length.
+# 
+run 80ns
+force -freeze sim:/dekoder/we0 1 0, 0 {5 ps} -r 10
+force -freeze sim:/dekoder/we1 1 0, 0 {10 ps} -r 20
+force -freeze sim:/dekoder/we2 1 0, 0 {20 ps} -r 40
+force -freeze sim:/dekoder/we3 1 0, 0 {40 ps} -r 80
+run 80ns
+restart
+force -freeze sim:/dekoder/we0 1 0, 0 {5 ps} -r 10
+force -freeze sim:/dekoder/we1 1 0, 0 {10 ps} -r 20
+force -freeze sim:/dekoder/we2 1 0, 0 {20 ps} -r 40
+force -freeze sim:/dekoder/we3 1 0, 0 {40 ps} -r 80
+run 80ps
+radix hexadecimal
+# hexadecimal
+man radix
+# invalid command name "man"
+radix hexadecimal
+# hexadecimal
+# End time: 00:38:24 on Mar 22,2018, Elapsed time: 0:29:20
+# Errors: 5, Warnings: 2

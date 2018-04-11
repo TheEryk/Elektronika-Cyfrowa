@@ -1,0 +1,434 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab 4/lab4B
+Eautomat
+Z1 w1523283050
+Z2 DPx6 unisim 11 vcomponents 0 22 2L_N91<XgM:Bh8=P>9OR]0
+Z3 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8automat.vhf
+Z7 Fautomat.vhf
+l0
+L93
+V2;0Vi8RQZA0fh?K9d1:Qj1
+!s100 M:8;FD6eenai]j:>?W3oI1
+Z8 OP;C;10.4a;61
+31
+Z9 !s110 1523283063
+!i10b 1
+Z10 !s108 1523283063.000000
+Z11 !s90 -reportprogress|300|-explicit|-93|automat.vhf|
+Z12 !s107 automat.vhf|
+!i113 1
+Z13 o-explicit -93 -O0
+Z14 tExplicit 1
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 7 automat 0 22 2;0Vi8RQZA0fh?K9d1:Qj1
+l207
+L108
+VUa[zXiUeiLPF2nTgLCEWf0
+!s100 H@Ta07D4_AbY9QC^M=ELG1
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Eautomat_muser_symulacja
+Z15 w1523282636
+R2
+R3
+R4
+R5
+R0
+Z16 8symulacja.vhf
+Z17 Fsymulacja.vhf
+l0
+L93
+VWNDHQ5GMW[ZB48DRb?<lX2
+!s100 Nl??ST@?g2W2`L]2OEjCG2
+R8
+31
+Z18 !s110 1523282806
+!i10b 1
+Z19 !s108 1523282805.000000
+Z20 !s90 -reportprogress|300|-explicit|-93|symulacja.vhf|
+Z21 !s107 symulacja.vhf|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 23 automat_muser_symulacja 0 22 WNDHQ5GMW[ZB48DRb?<lX2
+l207
+L108
+V]aOg0JDN?QA1M8Y@XZMW_2
+!s100 E3^kSP:1[N@oTU0:hh4Ie2
+R8
+31
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R13
+R14
+Eclk_gen_50
+Z22 w1523191813
+R3
+R4
+R5
+R0
+Z23 8clk_gen_50.vhd
+Z24 Fclk_gen_50.vhd
+l0
+L46
+VR0];T[Gf==>=Z3Dg1AB2U2
+!s100 =o0gVOWDOMjD9EjI>IRZ<1
+R8
+31
+Z25 !s110 1523282805
+!i10b 1
+R19
+Z26 !s90 -reportprogress|300|-explicit|-93|clk_gen_50.vhd|
+Z27 !s107 clk_gen_50.vhd|
+!i113 1
+R13
+R14
+Abehav
+R3
+R4
+R5
+DEx4 work 10 clk_gen_50 0 22 R0];T[Gf==>=Z3Dg1AB2U2
+l58
+L55
+VlEF2GHChI:Cz1=oQN8c>23
+!s100 1]lH<fOTk1?ViebN:<VI<0
+R8
+31
+R25
+!i10b 1
+R19
+R26
+R27
+!i113 1
+R13
+R14
+Edekoder
+Z28 w1523283962
+R2
+R3
+R4
+R5
+R0
+Z29 8dekoder.vhf
+Z30 Fdekoder.vhf
+l0
+L28
+V5G9Nmkdbhe8Fl>_V?V`RP0
+!s100 nX`lAmBDn=iA8JI`flOQ02
+R8
+31
+Z31 !s110 1523284952
+!i10b 1
+Z32 !s108 1523284952.000000
+Z33 !s90 -reportprogress|300|-explicit|-93|dekoder.vhf|
+Z34 !s107 dekoder.vhf|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 7 dekoder 0 22 5G9Nmkdbhe8Fl>_V?V`RP0
+l70
+L37
+V1EZQ^GRS:mnPhF>>>VlNA0
+!s100 ba`PfDfi0aoo6D?BG_UIf3
+R8
+31
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R13
+R14
+Edekoder_muser_symulacja
+R15
+R2
+R3
+R4
+R5
+R0
+R16
+R17
+l0
+L319
+VjBSBh4]E`5foz4I6n9:Ni3
+!s100 TObgXlI9m`hzM<Yh4]5S;0
+R8
+31
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 23 dekoder_muser_symulacja 0 22 jBSBh4]E`5foz4I6n9:Ni3
+l361
+L328
+Vi>?04WRak5jIR6T2g;8z^1
+!s100 0Dhl2D`]lPidKCX7RiibG3
+R8
+31
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R13
+R14
+Efd4ce_mxilinx_automat
+R1
+R2
+R3
+R4
+R5
+R0
+R6
+R7
+l0
+L28
+VchiUJje9_WgB]c7eD87a:1
+!s100 TTO95J7zX6SCaTHQlE>`k0
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 21 fd4ce_mxilinx_automat 0 22 chiUJje9_WgB]c7eD87a:1
+l54
+L42
+VGiPWC^oLQd_hMeGm_Ka[z2
+!s100 H;8aO4lDFdH0am:BUg14I1
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Efd4ce_mxilinx_symulacja
+R15
+R2
+R3
+R4
+R5
+R0
+R16
+R17
+l0
+L28
+VnQLISnDTnI8lOcVb]54z92
+!s100 3Ig4jzIYJldSN:kZN1h8h2
+R8
+31
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 23 fd4ce_mxilinx_symulacja 0 22 nQLISnDTnI8lOcVb]54z92
+l54
+L42
+VS:2nonXhMH4_Y=P1ZFYK[1
+!s100 b]<K7URBI=64N3?nNjMjK1
+R8
+31
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R13
+R14
+Eled4_driver
+Z35 w1523191834
+R4
+R5
+R0
+Z36 8led4_driver.vhd
+Z37 Fled4_driver.vhd
+l0
+L4
+VoW?=l7D2Fn5JYljbSinY_0
+!s100 WC^m>FaaE9^_Q>6KWERWB2
+R8
+31
+R25
+!i10b 1
+R19
+Z38 !s90 -reportprogress|300|-explicit|-93|led4_driver.vhd|
+Z39 !s107 led4_driver.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R4
+R5
+DEx4 work 11 led4_driver 0 22 oW?=l7D2Fn5JYljbSinY_0
+l18
+L14
+VYSoCBJib@lf8DW_WGzEjX3
+!s100 gHO<h3A<=@Q00f7YY0[BW2
+R8
+31
+R25
+!i10b 1
+R19
+R38
+R39
+!i113 1
+R13
+R14
+Elogika
+Z40 w1523383265
+R2
+R3
+R4
+R5
+Z41 dC:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B
+Z42 8logika.vhf
+Z43 Flogika.vhf
+l0
+L28
+VnPa:R?1kWcL1>GEmURU]T0
+!s100 fDZ3Gz0Y1ST??Ij?Kh8N_2
+R8
+31
+Z44 !s110 1523472412
+!i10b 1
+Z45 !s108 1523472412.000000
+Z46 !s90 -reportprogress|300|-explicit|-93|logika.vhf|
+Z47 !s107 logika.vhf|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 6 logika 0 22 nPa:R?1kWcL1>GEmURU]T0
+l94
+L38
+V_hmneH04l30[FLNDQ<KFZ1
+!s100 f4Ln`ZmGHF7lkf`imP]jl3
+R8
+31
+R44
+!i10b 1
+R45
+R46
+R47
+!i113 1
+R13
+R14
+Esymulacja
+R15
+R2
+R3
+R4
+R5
+R0
+R16
+R17
+l0
+L398
+VOIYKnH@9:VM]a:Q6Oa]TG2
+!s100 K`S7HTdec27CG>5F^_SFm0
+R8
+31
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 9 symulacja 0 22 OIYKnH@9:VM]a:Q6Oa]TG2
+l461
+L409
+Vc@@KOcOf6Qjk4YV<fcCDX2
+!s100 1?J]D`i_eHnR1_c4[QN2K3
+R8
+31
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R13
+R14

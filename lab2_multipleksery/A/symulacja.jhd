@@ -1,0 +1,5 @@
+MODULE symulacja
+	SUBMODULE clk_gen_50
+		INSTANCE XLXI_1
+	SUBMODULE funkcja2_m8_1e
+		INSTANCE XLXI_6

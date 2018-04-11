@@ -1,0 +1,10 @@
+sch2sym -intstyle ise -family spartan3e -refsym automat {C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab 4/lab4B/automat.sch} {C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab 4/lab4B/automat.sym} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl automat_drc.vhf -w {C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab 4/lab4B/automat.sch} 
+xst -intstyle ise -ifn "C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab 4/lab4B/automat.xst" -ofn "C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab 4/lab4B/automat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "automat.ngc" automat.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o automat_map.ncd automat.ngd automat.pcf 
+par -w -intstyle ise -ol high -t 1 automat_map.ncd automat.ncd automat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml automat.twx automat.ncd -o automat.twr automat.pcf 
+bitgen -intstyle ise -f automat.ut automat.ncd 
+sch2sym -intstyle ise -family spartan3e -refsym automat {C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab 4/lab4B/automat.sch} {C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab 4/lab4B/automat.sym} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl automat_drc.vhf -w {C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab 4/lab4B/automat.sch} 

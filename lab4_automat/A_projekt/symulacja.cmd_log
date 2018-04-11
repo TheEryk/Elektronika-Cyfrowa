@@ -1,0 +1,19 @@
+xst -intstyle ise -ifn "C:/Xilinx/project/lab4_automat/symulacja.xst" -ofn "C:/Xilinx/project/lab4_automat/symulacja.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/project/lab4_automat/symulacja.xst" -ofn "C:/Xilinx/project/lab4_automat/symulacja.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 symulacja.ngc symulacja.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o symulacja_map.ncd symulacja.ngd symulacja.pcf 
+par -w -intstyle ise -ol high -t 1 symulacja_map.ncd symulacja.ncd symulacja.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml symulacja.twx symulacja.ncd -o symulacja.twr symulacja.pcf 
+bitgen -intstyle ise -f symulacja.ut symulacja.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/project/lab4_automat/symulacja.xst" -ofn "C:/Xilinx/project/lab4_automat/symulacja.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 symulacja.ngc symulacja.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o symulacja_map.ncd symulacja.ngd symulacja.pcf 
+par -w -intstyle ise -ol high -t 1 symulacja_map.ncd symulacja.ncd symulacja.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml symulacja.twx symulacja.ncd -o symulacja.twr symulacja.pcf 
+bitgen -intstyle ise -f symulacja.ut symulacja.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/project/lab4_automat/symulacja.xst" -ofn "C:/Xilinx/project/lab4_automat/symulacja.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 symulacja.ngc symulacja.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o symulacja_map.ncd symulacja.ngd symulacja.pcf 
+par -w -intstyle ise -ol high -t 1 symulacja_map.ncd symulacja.ncd symulacja.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml symulacja.twx symulacja.ncd -o symulacja.twr symulacja.pcf 
+bitgen -intstyle ise -f symulacja.ut symulacja.ncd 

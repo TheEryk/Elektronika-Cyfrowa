@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\kasia\Desktop\aktualne\Elektronika cyfrowa\laby\labratoria seria A\lab2\lab2\lab2.ncd
+OUTFILE=C:\Users\kasia\Desktop\aktualne\Elektronika cyfrowa\laby\labratoria seria A\lab2\lab2\lab2.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Users\kasia\Desktop\aktualne\Elektronika cyfrowa\laby\labratoria seria A\lab2\lab2
+LICENSE=WebPack
+USER_INFO=211492955_0_0_050

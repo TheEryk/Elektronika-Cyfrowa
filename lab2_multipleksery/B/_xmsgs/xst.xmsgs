@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/FTCE_MXILINX_B</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab2/lab2/B.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/B.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/FTCE_MXILINX_B/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab2/lab2/B.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/B.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/CB4CE_MXILINX_B</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab2/lab2/B.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/B.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/CB4CE_MXILINX_B/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab2/lab2/B.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/B.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/lab2_MUSER_B</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab2/lab2/B.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/B.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/lab2_MUSER_B/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab2/lab2/B.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/B.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/B</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab2/lab2/B.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/B.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/B/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab2/lab2/B.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/B.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/clk_gen_50</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab2/lab2/clk_gen_50.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/clk_gen_50.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/clk_gen_50/behav</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab2/lab2/clk_gen_50.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/clk_gen_50.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/lab2</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab2/lab2/lab2.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/lab2.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/lab2/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab2/lab2/lab2.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/lab2.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/B.vhf</arg>&quot; line <arg fmt="%d" index="2">380</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CE_MXILINX_B</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/B.vhf</arg>&quot; line <arg fmt="%d" index="2">380</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CE_MXILINX_B</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/B.vhf</arg>&quot; line <arg fmt="%d" index="2">391</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">f_1</arg>&apos; of component &apos;<arg fmt="%s" index="4">clk_gen_50</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_3/counter_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_3/counter_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_3/counter_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_3/counter_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_3/counter_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_3/counter_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_3/counter_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_3/counter_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_3/counter_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_3/counter_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_3/counter_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_3/counter_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_3/counter_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_3/counter_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_3/counter_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_3/counter_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_3/counter_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_3/counter_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_3/counter_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_3/counter_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_3/counter_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_3/counter_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_3/counter_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_3/counter_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">O0</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ROM16X1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">O1</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ROM16X1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">O2</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ROM16X1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">O3</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ROM16X1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

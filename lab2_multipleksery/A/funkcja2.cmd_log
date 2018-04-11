@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -refsym funkcja2 C:/Xilinx/project/lab2/funkcja2.sch C:/Xilinx/project/lab2/funkcja2.sym 

@@ -1,0 +1,49 @@
+V3 30
+FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/B.vhf" 2018/03/29.11:51:56 P.20131013
+EN work/FTCE_MXILINX_B 1522317124 \
+      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/B.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FTCE_MXILINX_B/BEHAVIORAL 1522317125 \
+      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/B.vhf" \
+      EN work/FTCE_MXILINX_B 1522317124 CP XOR2 CP FDCE
+EN work/CB4CE_MXILINX_B 1522317126 \
+      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/B.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CB4CE_MXILINX_B/BEHAVIORAL 1522317127 \
+      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/B.vhf" \
+      EN work/CB4CE_MXILINX_B 1522317126 CP FTCE_MXILINX_B CP AND4 CP AND3 CP AND2 \
+      CP VCC
+EN work/lab2_MUSER_B 1522317128 \
+      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/B.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/lab2_MUSER_B/BEHAVIORAL 1522317129 \
+      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/B.vhf" \
+      EN work/lab2_MUSER_B 1522317128 CP ROM16X1
+EN work/B 1522317130 \
+      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/B.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/B/BEHAVIORAL 1522317131 \
+      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/B.vhf" \
+      EN work/B 1522317130 CP lab2_MUSER_B CP CB4CE_MXILINX_B CP clk_gen_50
+FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/clk_gen_50.vhd" 2018/03/27.15:52:32 P.20131013
+EN work/clk_gen_50 1522317122 \
+      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/clk_gen_50.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/clk_gen_50/behav 1522317123 \
+      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/clk_gen_50.vhd" \
+      EN work/clk_gen_50 1522317122
+FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/lab2.vhf" 2018/03/29.11:51:55 P.20131013
+EN work/lab2 1522317132 \
+      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/lab2.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/lab2/BEHAVIORAL 1522317133 \
+      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/lab2.vhf" \
+      EN work/lab2 1522317132 CP ROM16X1
+FL "C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab2/lab2/B.vhf" 2018/03/27.16:18:46 P.20131013
+FL "C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab2/lab2/clk_gen_50.vhd" 2018/03/27.15:52:30 P.20131013
+FL "C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab2/lab2/lab2.vhf" 2018/03/27.16:18:46 P.20131013

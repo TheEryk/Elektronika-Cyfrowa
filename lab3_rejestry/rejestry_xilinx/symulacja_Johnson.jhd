@@ -1,0 +1,7 @@
+MODULE symulacja_Johnson
+	SUBMODULE koderJohnson
+		INSTANCE XLXI_1
+	SUBMODULE dekoderJohnson
+		INSTANCE XLXI_2
+	SUBMODULE clk_gen_50
+		INSTANCE XLXI_3

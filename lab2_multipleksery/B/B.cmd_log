@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab2/lab2/B.xst" -ofn "C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab2/lab2/B.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "B.ngc" B.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o B_map.ncd B.ngd B.pcf 
+par -w -intstyle ise -ol high -t 1 B_map.ncd B.ncd B.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml B.twx B.ncd -o B.twr B.pcf 
+xst -intstyle ise -ifn "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/B.xst" -ofn "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/multipleksery/B/B.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "B.ngc" B.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o B_map.ncd B.ngd B.pcf 
+par -w -intstyle ise -ol high -t 1 B_map.ncd B.ncd B.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml B.twx B.ncd -o B.twr B.pcf 
+bitgen -intstyle ise -f B.ut B.ncd 

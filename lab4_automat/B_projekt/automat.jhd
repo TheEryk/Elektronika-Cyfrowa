@@ -1,0 +1,3 @@
+MODULE automat
+	SUBMODULE logika
+		INSTANCE XLXI_31

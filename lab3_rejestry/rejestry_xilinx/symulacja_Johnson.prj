@@ -1,0 +1,4 @@
+vhdl work "koderJohnson.vhf"
+vhdl work "dekoderJohnson.vhf"
+vhdl work "clk_gen_50.vhd"
+vhdl work "symulacja_Johnson.vhf"

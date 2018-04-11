@@ -1,0 +1,481 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Xilinx/project/lab2
+Ecb8ce_mxilinx_symulacja
+Z1 w1522160646
+Z2 DPx6 unisim 11 vcomponents 0 22 2L_N91<XgM:Bh8=P>9OR]0
+Z3 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8symulacja.vhf
+Z7 Fsymulacja.vhf
+l0
+L354
+VA^GhPW?oOo4zG^8YgeOdi0
+!s100 >W6Ea[^`4ced?LmECNPSY0
+Z8 OP;C;10.4a;61
+31
+Z9 !s110 1522160655
+!i10b 1
+Z10 !s108 1522160655.000000
+Z11 !s90 -reportprogress|300|-explicit|-93|symulacja.vhf|
+Z12 !s107 symulacja.vhf|
+!i113 1
+Z13 o-explicit -93 -O0
+Z14 tExplicit 1
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 23 cb8ce_mxilinx_symulacja 0 22 A^GhPW?oOo4zG^8YgeOdi0
+l431
+L363
+V8`0H8fz`fVJ2NcfeQ]dJO3
+!s100 cj[IfBbg0Jo2Zk[]5^M_n2
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Eclk_gen_50
+Z15 w1522078966
+R3
+R4
+R5
+R0
+Z16 8clk_gen_50.vhd
+Z17 Fclk_gen_50.vhd
+l0
+L46
+VR0];T[Gf==>=Z3Dg1AB2U2
+!s100 =o0gVOWDOMjD9EjI>IRZ<1
+R8
+31
+R9
+!i10b 1
+R10
+Z18 !s90 -reportprogress|300|-explicit|-93|clk_gen_50.vhd|
+Z19 !s107 clk_gen_50.vhd|
+!i113 1
+R13
+R14
+Abehav
+R3
+R4
+R5
+DEx4 work 10 clk_gen_50 0 22 R0];T[Gf==>=Z3Dg1AB2U2
+l58
+L55
+VlEF2GHChI:Cz1=oQN8c>23
+!s100 1]lH<fOTk1?ViebN:<VI<0
+R8
+31
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14
+Eftce_mxilinx_symulacja
+R1
+R2
+R3
+R4
+R5
+R0
+R6
+R7
+l0
+L297
+VnOZ1LLO<bI=c<[Jiz`?853
+!s100 nJAE^G^9WCTiWmhmFBaIi0
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 22 ftce_mxilinx_symulacja 0 22 nOZ1LLO<bI=c<[Jiz`?853
+l329
+L306
+VbAi44jCHfgSPKKDeOBmVJ1
+!s100 biJQi^0=9lH9T<CZP:[YR1
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Efunkcja2
+Z20 w1522072175
+R2
+R3
+R4
+R5
+R0
+Z21 8funkcja2.vhf
+Z22 Ffunkcja2.vhf
+l0
+L28
+VWAV7g2zzh]QlPY9RzWM3k1
+!s100 cn:H@K3]BA]W_=me7dZe^2
+R8
+31
+Z23 !s110 1522072194
+!i10b 1
+Z24 !s108 1522072194.000000
+Z25 !s90 -reportprogress|300|-explicit|-93|funkcja2.vhf|
+Z26 !s107 funkcja2.vhf|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 8 funkcja2 0 22 WAV7g2zzh]QlPY9RzWM3k1
+l88
+L37
+V8z2bQ_Q2KiHFV>dk7G7G`1
+!s100 YadR2zliQ?5Mn1P1PVTeL2
+R8
+31
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R13
+R14
+Efunkcja2_m8_1e
+Z27 w1522161068
+R2
+R3
+R4
+R5
+R0
+Z28 8funkcja2_m8_1e.vhf
+Z29 Ffunkcja2_m8_1e.vhf
+l0
+L201
+VS?fiYVC3YKKIf@>cdR_:c2
+!s100 KCi5C1C`HRdUPN::3`?8l0
+R8
+31
+Z30 !s110 1522161078
+!i10b 1
+Z31 !s108 1522161078.000000
+Z32 !s90 -reportprogress|300|-explicit|-93|funkcja2_m8_1e.vhf|
+Z33 !s107 funkcja2_m8_1e.vhf|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+Z34 DEx4 work 14 funkcja2_m8_1e 0 22 S?fiYVC3YKKIf@>cdR_:c2
+l255
+L210
+Z35 V:U^P`JzEViZ69QWL?QidO2
+Z36 !s100 nWQNj<ZZ20`dlJI^XOII71
+R8
+31
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R13
+R14
+Efunkcja2_m8_1e_muser_symulacja
+R1
+R2
+R3
+R4
+R5
+R0
+R6
+R7
+l0
+L201
+VKcm7<M]?JkHYl3aAOE0cj1
+!s100 64dJz=HzKMJ@RGK=c>O>:1
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 30 funkcja2_m8_1e_muser_symulacja 0 22 Kcm7<M]?JkHYl3aAOE0cj1
+l255
+L210
+VG:OLknh8fVjMmS4BVcNll2
+!s100 ^:RmSm3I@m;IzN:UkRVEM1
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Em2_1e_mxilinx_funkcja2_m8_1e
+R27
+R2
+R3
+R4
+R5
+R0
+R28
+R29
+l0
+L28
+VJ_cFBSE4;G2W0P98R@;D20
+!s100 MgCY;IYzEH9[^O0FD9XB71
+R8
+31
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+Z37 DEx4 work 28 m2_1e_mxilinx_funkcja2_m8_1e 0 22 J_cFBSE4;G2W0P98R@;D20
+l63
+L36
+Z38 V?g5_WLe6Gn:_fDUzbf1ZK3
+Z39 !s100 c5W>8YO0Q@OC67RlAMfm:0
+R8
+31
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R13
+R14
+Em2_1e_mxilinx_symulacja
+R1
+R2
+R3
+R4
+R5
+R0
+R6
+R7
+l0
+L28
+VPMo7IN5hF0H>XXO3MT4563
+!s100 ZIm;[a8^iZ;Jao>aYM`zn3
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 23 m2_1e_mxilinx_symulacja 0 22 PMo7IN5hF0H>XXO3MT4563
+l63
+L36
+VocXa9blj]jbLTa2=V?ki[0
+!s100 :1mll5nJK_=5YO_C_PWh<3
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Em8_1e_mxilinx_funkcja2_m8_1e
+R27
+R2
+R3
+R4
+R5
+R0
+R28
+R29
+l0
+L91
+VQL`nlST<AkhoE?:_HV^Yj2
+!s100 iU<c:l_e7eIffAC0:emBi0
+R8
+31
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+Z40 DEx4 work 28 m8_1e_mxilinx_funkcja2_m8_1e 0 22 QL`nlST<AkhoE?:_HV^Yj2
+l144
+L107
+Z41 Vf6n::ClVlFXTz6R@TKPmm3
+Z42 !s100 2e8BAl2]6XYM>D=UdThMH2
+R8
+31
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R13
+R14
+Em8_1e_mxilinx_symulacja
+R1
+R2
+R3
+R4
+R5
+R0
+R6
+R7
+l0
+L91
+VQSP?YJJ1dhI0M>l?mLTHY2
+!s100 jacUGB:fU8Jl>1Gz^H4fB0
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 23 m8_1e_mxilinx_symulacja 0 22 QSP?YJJ1dhI0M>l?mLTHY2
+l144
+L107
+VAzLAfHmoUzHZ8?TjXH]9D2
+!s100 _bZSE>IBVWX4:1J<m6mbj1
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Esymulacja
+R1
+R2
+R3
+R4
+R5
+R0
+R6
+R7
+l0
+L552
+V31>H=MGB@nkGV=B6i`MSG2
+!s100 MZ8PFIdgEoh[3]F3VaNz42
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 9 symulacja 0 22 31>H=MGB@nkGV=B6i`MSG2
+l610
+L575
+VL2jQ1VF2cg];?<SHUjgBI3
+!s100 6eYAnK864Lzmg2hbU>Bhl0
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14

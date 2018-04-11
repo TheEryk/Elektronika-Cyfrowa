@@ -1,0 +1,3 @@
+vhdl work "lab2.vhf"
+vhdl work "clk_gen_50.vhd"
+vhdl work "B.vhf"

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab 4/lab4B/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab 4/lab4B/xst"
+elaborate
+-ifn led4_driver.prj
+-ifmt mixed

@@ -1,0 +1,74 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# do {funkcja2_m8_1e.fdo}
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:31:18 on Mar 27,2018
+# vcom -reportprogress 300 -explicit -93 funkcja2_m8_1e.vhf 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Compiling entity M2_1E_MXILINX_funkcja2_m8_1e
+# -- Compiling architecture BEHAVIORAL of M2_1E_MXILINX_funkcja2_m8_1e
+# -- Compiling entity M8_1E_MXILINX_funkcja2_m8_1e
+# -- Compiling architecture BEHAVIORAL of M8_1E_MXILINX_funkcja2_m8_1e
+# -- Compiling entity funkcja2_m8_1e
+# -- Compiling architecture BEHAVIORAL of funkcja2_m8_1e
+# End time: 16:31:18 on Mar 27,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui -do "do {funkcja2_m8_1e.fdo}" 
+# Start time: 16:31:18 on Mar 27,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading unisim.vcomponents
+# Loading work.funkcja2_m8_1e(behavioral)
+# Loading work.m8_1e_mxilinx_funkcja2_m8_1e(behavioral)
+# Loading work.m2_1e_mxilinx_funkcja2_m8_1e(behavioral)
+# Loading unisim.and3(and3_v)
+# Loading unisim.and3b1(and3b1_v)
+# Loading unisim.or2(or2_v)
+# Loading unisim.muxf5_l(muxf5_l_v)
+# Loading unisim.muxf6(muxf6_v)
+# Loading unisim.and2(and2_v)
+# Loading unisim.inv(inv_v)
+# Loading unisim.and2b2(and2b2_v)
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+restart
+force -freeze sim:/funkcja2_m8_1e/E 1 0, 0 {5 ps} -r 10ps
+force -freeze sim:/funkcja2_m8_1e/E 0 0, 1 {5 ps} -r 10ps
+force -freeze sim:/funkcja2_m8_1e/D 0 0, 1 {10 ps} -r 20ps
+noforce sim:/funkcja2_m8_1e/C
+force -freeze sim:/funkcja2_m8_1e/C 0 0, 1 {20 ps} -r 40ps
+force -freeze sim:/funkcja2_m8_1e/B 0 80ps, 1 {130 ps} -r 100
+# ** Error: (vsim-3464) Period of -repeat must not be less than the waveform length.
+# 
+force -freeze sim:/funkcja2_m8_1e/A 0 0, 1 {80 ps} -r 160ps
+run
+force -freeze sim:/funkcja2_m8_1e/B 0 0, 1 {40 ps} -r 80ps
+run
+# End time: 16:35:12 on Mar 27,2018, Elapsed time: 0:03:54
+# Errors: 1, Warnings: 0

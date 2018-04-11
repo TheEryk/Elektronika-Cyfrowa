@@ -1,0 +1,4 @@
+sch2sym -intstyle ise -family spartan3e -refsym logika {C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab 4/lab4B/logika.sch} {C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab 4/lab4B/logika.sym} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl logika_drc.vhf -w {C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab 4/lab4B/logika.sch} 
+sch2sym -intstyle ise -family spartan3e -refsym logika {C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/logika.sch} {C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/logika.sym} 
+sch2sym -intstyle ise -family spartan3e -w -refsym logika {C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/logika.sch} {C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/logika.sym} 

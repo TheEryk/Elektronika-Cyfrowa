@@ -1,0 +1,569 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Xilinx/project/lab2_rejestry
+Edekoder
+Z1 w1522354130
+Z2 DPx6 unisim 11 vcomponents 0 22 2L_N91<XgM:Bh8=P>9OR]0
+Z3 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z6 dC:/Xilinx/project/lab3_rejestry
+Z7 8dekoder.vhf
+Z8 Fdekoder.vhf
+l0
+L28
+VB8Ua2]:XS]<UNCB^RVi]`2
+!s100 cRFJf8<od4am<b:4gE]CB1
+Z9 OP;C;10.4a;61
+31
+Z10 !s110 1522354139
+!i10b 1
+Z11 !s108 1522354139.000000
+Z12 !s90 -reportprogress|300|-explicit|-93|dekoder.vhf|
+Z13 !s107 dekoder.vhf|
+!i113 1
+Z14 o-explicit -93 -O0
+Z15 tExplicit 1
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 7 dekoder 0 22 B8Ua2]:XS]<UNCB^RVi]`2
+l67
+L41
+Vbm=V?PZ0ma0QnXENbAX[=3
+!s100 EcFNecVY2U7?>CSUe@<J`3
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Edekoderjohnson
+Z16 w1522349649
+R2
+R3
+R4
+R5
+R6
+Z17 8dekoderJohnson.vhf
+Z18 FdekoderJohnson.vhf
+l0
+L28
+VC[1N6NS511DXhm0K0i86W1
+!s100 WU75n4>kDgYHMgedNb:2<2
+R9
+31
+Z19 !s110 1522350751
+!i10b 1
+Z20 !s108 1522350751.000000
+Z21 !s90 -reportprogress|300|-explicit|-93|dekoderJohnson.vhf|
+Z22 !s107 dekoderJohnson.vhf|
+!i113 1
+R14
+R15
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 14 dekoderjohnson 0 22 C[1N6NS511DXhm0K0i86W1
+l95
+L39
+VzRUlHaNJ90@Yf>0mVBl8l1
+!s100 ]gMCg>iI=M6h3zHihCNVV2
+R9
+31
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R14
+R15
+Edekoderjohnson_muser_symulacja_johnson
+Z23 w1522349883
+R2
+R3
+R4
+R5
+R6
+Z24 8symulacja_Johnson.vhf
+Z25 Fsymulacja_Johnson.vhf
+l0
+L28
+V6Pz<j26gB8MV^[I@;R`IT1
+!s100 mI9@hH;0??TU4IlzicmId2
+R9
+31
+Z26 !s110 1522349892
+!i10b 1
+Z27 !s108 1522349892.000000
+Z28 !s90 -reportprogress|300|-explicit|-93|symulacja_Johnson.vhf|
+Z29 !s107 symulacja_Johnson.vhf|
+!i113 1
+R14
+R15
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 38 dekoderjohnson_muser_symulacja_johnson 0 22 6Pz<j26gB8MV^[I@;R`IT1
+l95
+L39
+VJ=4]VT2nFeAkPi=>SR4=J0
+!s100 <PX^6dZF5PEAK_D[n1hGl2
+R9
+31
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R14
+R15
+Edekoderjohnson_muser_symulacjajohsnon
+Z30 w1522348885
+R2
+R3
+R4
+R5
+R6
+Z31 8symulacjaJohsnon.vhf
+Z32 FsymulacjaJohsnon.vhf
+l0
+L28
+VQTGa``d<bSJkdKbYaNWbO1
+!s100 EFBXUN;CTifN<^nCQ=b4m2
+R9
+31
+Z33 !s110 1522348894
+!i10b 1
+Z34 !s108 1522348894.000000
+Z35 !s90 -reportprogress|300|-explicit|-93|symulacjaJohsnon.vhf|
+Z36 !s107 symulacjaJohsnon.vhf|
+!i113 1
+R14
+R15
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 37 dekoderjohnson_muser_symulacjajohsnon 0 22 QTGa``d<bSJkdKbYaNWbO1
+l95
+L39
+VfUgik2lbC=Z8G0L53H<zS3
+!s100 iO3nT2[WjBMna0W@j9EU43
+R9
+31
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R14
+R15
+Efd4ce_mxilinx_koderjohnson
+Z37 w1522348799
+R2
+R3
+R4
+R5
+R6
+Z38 8koderJohnson.vhf
+Z39 FkoderJohnson.vhf
+l0
+L28
+V45aAkbm5?93fMac?>i^nB1
+!s100 Cn5XS9]?TB1OJ4ZfHZY`30
+R9
+31
+Z40 !s110 1522352176
+!i10b 1
+Z41 !s108 1522352175.000000
+Z42 !s90 -reportprogress|300|-explicit|-93|koderJohnson.vhf|
+Z43 !s107 koderJohnson.vhf|
+!i113 1
+R14
+R15
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 26 fd4ce_mxilinx_koderjohnson 0 22 45aAkbm5?93fMac?>i^nB1
+l54
+L42
+VCAN4J4J0UJP4^P7mhOKO^1
+!s100 5FR5=^K8n8g1a9Rz1JL4T2
+R9
+31
+R40
+!i10b 1
+R41
+R42
+R43
+!i113 1
+R14
+R15
+Efd4ce_mxilinx_symulacja_johnson
+R23
+R2
+R3
+R4
+R5
+R6
+R24
+R25
+l0
+L168
+V4EBbnZYWZbU0l_5Y^SHGc0
+!s100 4nc1OA<f60f;1`2Iz_e6j1
+R9
+31
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R14
+R15
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 31 fd4ce_mxilinx_symulacja_johnson 0 22 4EBbnZYWZbU0l_5Y^SHGc0
+l194
+L182
+VV1BR:z1MOZmKRbCL[2YK21
+!s100 8F7]bIEa3BI=U]APFFUC92
+R9
+31
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R14
+R15
+Efd4ce_mxilinx_symulacjajohsnon
+Z44 w1522348826
+R2
+R3
+R4
+R5
+R6
+R31
+R32
+l0
+L168
+VOYNQD=L>O2YjAL@W5Ck9G0
+!s100 >85SnYfo2km]gEQ@ona_k3
+R9
+31
+Z45 !s110 1522348863
+!i10b 1
+Z46 !s108 1522348863.000000
+R35
+R36
+!i113 1
+R14
+R15
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 30 fd4ce_mxilinx_symulacjajohsnon 0 22 OYNQD=L>O2YjAL@W5Ck9G0
+l194
+L182
+V1j`=F9DET5^n6P9W0=YO<0
+!s100 KMn1XF^jYS:^?T3Olia_[0
+R9
+31
+R45
+!i10b 1
+R46
+R35
+R36
+!i113 1
+R14
+R15
+Ekoder1zn
+Z47 w1522353850
+R2
+R3
+R4
+R5
+R6
+Z48 8koder1zN.vhf
+Z49 Fkoder1zN.vhf
+l0
+L28
+VDQj;[oZ_dLX=zZMML]CU]3
+!s100 7OMM[YS[:mz;Zg_EhI;bm3
+R9
+31
+Z50 !s110 1522353859
+!i10b 1
+Z51 !s108 1522353859.000000
+Z52 !s90 -reportprogress|300|-explicit|-93|koder1zN.vhf|
+Z53 !s107 koder1zN.vhf|
+!i113 1
+R14
+R15
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 8 koder1zn 0 22 DQj;[oZ_dLX=zZMML]CU]3
+l64
+L38
+VN9I3FioQOOC7kUE]U^TTh0
+!s100 @ZNLk?gL0MHZQjLgO:FS`2
+R9
+31
+R50
+!i10b 1
+R51
+R52
+R53
+!i113 1
+R14
+R15
+Ekoder1zn_muser_dekoder
+Z54 w1522313342
+R2
+R3
+R4
+R5
+R0
+R7
+R8
+l0
+L28
+V1ZdS<VL>>KM?iL?fG899=2
+!s100 64Ck6JccMUfFKnJTL1l`52
+R9
+31
+Z55 !s110 1522313461
+!i10b 1
+Z56 !s108 1522313461.000000
+R12
+R13
+!i113 1
+R14
+R15
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 22 koder1zn_muser_dekoder 0 22 1ZdS<VL>>KM?iL?fG899=2
+l64
+L38
+V]4DmQ?[0I78_OeU>YP8Gn0
+!s100 ?EKXM<>QIVaSBY^H0F4:g0
+R9
+31
+R55
+!i10b 1
+R56
+R12
+R13
+!i113 1
+R14
+R15
+Ekoderjohnson
+R37
+R2
+R3
+R4
+R5
+R6
+R38
+R39
+l0
+L93
+VElMjgZQkk@VA^h8?4;==Y1
+!s100 ]iee4fnhUD_cG>c>T17U83
+R9
+31
+R40
+!i10b 1
+R41
+R42
+R43
+!i113 1
+R14
+R15
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 12 koderjohnson 0 22 ElMjgZQkk@VA^h8?4;==Y1
+l133
+L103
+VMmMUbd5Wa>I2YS_>8Ba821
+!s100 ze30]eUiXQIaKGB1`Q^I>0
+R9
+31
+R40
+!i10b 1
+R41
+R42
+R43
+!i113 1
+R14
+R15
+Ekoderjohnson_muser_symulacja_johnson
+R23
+R2
+R3
+R4
+R5
+R6
+R24
+R25
+l0
+L233
+Vg5^JT0?HA;<@]1LBXb3B33
+!s100 VMA8:a]8b1M`a[Uc=afcZ0
+R9
+31
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R14
+R15
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 36 koderjohnson_muser_symulacja_johnson 0 22 g5^JT0?HA;<@]1LBXb3B33
+l273
+L243
+V3Ba[:<[EmJ>H7dQ5NOVSg3
+!s100 TN;@W5=gWVVPc5zFIU?d]0
+R9
+31
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R14
+R15
+Ekoderjohnson_muser_symulacjajohsnon
+R44
+R2
+R3
+R4
+R5
+R6
+R31
+R32
+l0
+L233
+VK4;z[S9mLbkbL`H6>l7`F1
+!s100 5F216c:Q1K=U:SRg9^>;e1
+R9
+31
+R45
+!i10b 1
+R46
+R35
+R36
+!i113 1
+R14
+R15
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 35 koderjohnson_muser_symulacjajohsnon 0 22 K4;z[S9mLbkbL`H6>l7`F1
+l273
+L243
+V@lCk?eEX`;UM1`_5Pd;1a0
+!s100 8WN@HF4Hj2mGWLVmE48F10
+R9
+31
+R45
+!i10b 1
+R46
+R35
+R36
+!i113 1
+R14
+R15
+Esymulacja_johnson
+R23
+R2
+R3
+R4
+R5
+R6
+R24
+R25
+l0
+L309
+VX?3nTcYLSGHicY<k?eLC31
+!s100 <LU697V4Jh?CjCigbioRz3
+R9
+31
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R14
+R15
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 17 symulacja_johnson 0 22 X?3nTcYLSGHicY<k?eLC31
+l349
+L323
+VN1^m_ZPa5CJ8c74>VS@2d0
+!s100 3mTn^bko`?6MIJFYmD?1N1
+R9
+31
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R14
+R15
