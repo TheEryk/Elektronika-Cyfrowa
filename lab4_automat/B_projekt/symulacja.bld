@@ -5,8 +5,9 @@ Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
 -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 symulacja.ngc
 symulacja.ngd
 
-Reading NGO file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika
-Cyfrowa/lab4_automat/lab 4/automat_B/symulacja.ngc" ...
+Reading NGO file
+"C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt
+/symulacja.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
@@ -27,10 +28,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 224000 kilobytes
+Total memory usage is 224976 kilobytes
 
 Writing NGD file "symulacja.ngd" ...
-Total REAL time to NGDBUILD completion:  3 sec
-Total CPU time to NGDBUILD completion:   3 sec
+Total REAL time to NGDBUILD completion:  4 sec
+Total CPU time to NGDBUILD completion:   4 sec
 
 Writing NGDBUILD log file "symulacja.bld"...

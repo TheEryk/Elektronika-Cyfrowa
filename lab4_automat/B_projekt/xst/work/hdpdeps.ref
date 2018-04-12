@@ -1,98 +1,119 @@
-V3 58
+V3 72
 FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/automat.vhf" 2018/04/10.20:01:05 P.20131013
-EN work/logika_MUSER_automat 1523383283 \
-      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/automat.vhf" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
-      PH unisim/VCOMPONENTS 1381692182
-AR work/logika_MUSER_automat/BEHAVIORAL 1523383284 \
-      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/automat.vhf" \
-      EN work/logika_MUSER_automat 1523383283 CP AND3B3 CP AND4B1 CP OR3 CP AND4B3 \
-      CP AND3B2 CP OR2
-EN work/FD4CE_MXILINX_automat 1523383285 \
-      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/automat.vhf" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
-      PH unisim/VCOMPONENTS 1381692182
-AR work/FD4CE_MXILINX_automat/BEHAVIORAL 1523383286 \
-      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/automat.vhf" \
-      EN work/FD4CE_MXILINX_automat 1523383285 CP FDCE
-EN work/automat 1523383287 \
-      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/automat.vhf" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
-      PH unisim/VCOMPONENTS 1381692182
-AR work/automat/BEHAVIORAL 1523383288 \
-      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/automat.vhf" \
-      EN work/automat 1523383287 CP FD4CE_MXILINX_automat CP INV CP AND2 CP OR2 \
-      CP logika_MUSER_automat
 FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/clk_gen_50.vhd" 2018/04/08.14:50:14 P.20131013
-EN work/clk_gen_50 1523383269 \
-      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/clk_gen_50.vhd" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
-AR work/clk_gen_50/behav 1523383270 \
-      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/clk_gen_50.vhd" \
-      EN work/clk_gen_50 1523383269
 FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/dekoder.vhf" 2018/04/09.16:26:04 P.20131013
-EN work/dekoder 1523383289 \
-      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/dekoder.vhf" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
-      PH unisim/VCOMPONENTS 1381692182
-AR work/dekoder/BEHAVIORAL 1523383290 \
-      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/dekoder.vhf" \
-      EN work/dekoder 1523383289 CP AND2B2 CP AND3B2 CP AND2B1 CP OR2
 FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/led4_driver.vhd" 2018/04/08.14:50:36 P.20131013
-EN work/led4_driver 1523383271 \
-      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/led4_driver.vhd" \
-      PB ieee/std_logic_1164 1381692176
-AR work/led4_driver/Behavioral 1523383272 \
-      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/led4_driver.vhd" \
-      EN work/led4_driver 1523383271 CP an CP sseg CP with
 FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/logika.vhf" 2018/04/10.20:01:05 P.20131013
-EN work/logika 1523383291 \
-      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/logika.vhf" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
-      PH unisim/VCOMPONENTS 1381692182
-AR work/logika/BEHAVIORAL 1523383292 \
-      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/logika.vhf" \
-      EN work/logika 1523383291 CP AND3B3 CP AND4B1 CP OR3 CP AND4B3 CP AND3B2 CP OR2
 FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/symulacja.vhf" 2018/04/10.20:01:06 P.20131013
-EN work/logika_MUSER_symulacja 1523383273 \
-      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/symulacja.vhf" \
+FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/automat.vhf 2018/04/10.20:01:05 P.20131013
+EN work/logika_MUSER_automat 1523528509 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/automat.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/logika_MUSER_symulacja/BEHAVIORAL 1523383274 \
-      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/symulacja.vhf" \
-      EN work/logika_MUSER_symulacja 1523383273 CP AND3B3 CP AND4B1 CP OR3 CP AND4B3 \
+AR work/logika_MUSER_automat/BEHAVIORAL 1523528510 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/automat.vhf \
+      EN work/logika_MUSER_automat 1523528509 CP AND3B3 CP AND4B1 CP OR3 CP AND4B3 \
       CP AND3B2 CP OR2
-EN work/FD4CE_MXILINX_symulacja 1523383275 \
-      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/symulacja.vhf" \
+EN work/FD4CE_MXILINX_automat 1523528511 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/automat.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/FD4CE_MXILINX_symulacja/BEHAVIORAL 1523383276 \
-      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/symulacja.vhf" \
-      EN work/FD4CE_MXILINX_symulacja 1523383275 CP FDCE
-EN work/automat_MUSER_symulacja 1523383277 \
-      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/symulacja.vhf" \
+AR work/FD4CE_MXILINX_automat/BEHAVIORAL 1523528512 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/automat.vhf \
+      EN work/FD4CE_MXILINX_automat 1523528511 CP FDCE
+EN work/automat 1523528513 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/automat.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/automat_MUSER_symulacja/BEHAVIORAL 1523383278 \
-      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/symulacja.vhf" \
-      EN work/automat_MUSER_symulacja 1523383277 CP FD4CE_MXILINX_symulacja CP INV \
-      CP AND2 CP OR2 CP logika_MUSER_symulacja
-EN work/dekoder_MUSER_symulacja 1523383279 \
-      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/symulacja.vhf" \
+AR work/automat/BEHAVIORAL 1523528514 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/automat.vhf \
+      EN work/automat 1523528513 CP FD4CE_MXILINX_automat CP INV CP AND2 CP OR2 \
+      CP logika_MUSER_automat
+FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/clk_gen_1Hz_v3.vhd 2018/04/05.14:20:07 P.20131013
+EN work/clk_gen_1Hz_v3 1523528495 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/clk_gen_1Hz_v3.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/clk_gen_1Hz_v3/Behavioral 1523528496 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/clk_gen_1Hz_v3.vhd \
+      EN work/clk_gen_1Hz_v3 1523528495
+FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/clk_gen_50.vhd 2018/04/08.14:50:14 P.20131013
+EN work/clk_gen_50 1523528491 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/clk_gen_50.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/clk_gen_50/behav 1523528492 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/clk_gen_50.vhd \
+      EN work/clk_gen_50 1523528491
+FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/dekoder.vhf 2018/04/09.16:26:04 P.20131013
+EN work/dekoder 1523528515 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/dekoder.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/dekoder_MUSER_symulacja/BEHAVIORAL 1523383280 \
-      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/symulacja.vhf" \
-      EN work/dekoder_MUSER_symulacja 1523383279 CP AND2B2 CP AND3B2 CP AND2B1 \
+AR work/dekoder/BEHAVIORAL 1523528516 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/dekoder.vhf \
+      EN work/dekoder 1523528515 CP AND2B2 CP AND3B2 CP AND2B1 CP OR2
+FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/gray2nkb.vhd 2018/04/12.12:16:41 P.20131013
+EN work/gray2nkb 1523528497 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/gray2nkb.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/gray2nkb/Behavioral 1523528498 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/gray2nkb.vhd \
+      EN work/gray2nkb 1523528497
+FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/led4_driver.vhd 2018/04/08.14:50:36 P.20131013
+EN work/led4_driver 1523528493 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/led4_driver.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/led4_driver/Behavioral 1523528494 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/led4_driver.vhd \
+      EN work/led4_driver 1523528493 CP an CP sseg CP with
+FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/logika.vhf 2018/04/10.20:01:05 P.20131013
+EN work/logika 1523528517 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/logika.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/logika/BEHAVIORAL 1523528518 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/logika.vhf \
+      EN work/logika 1523528517 CP AND3B3 CP AND4B1 CP OR3 CP AND4B3 CP AND3B2 CP OR2
+FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/symulacja.vhf 2018/04/12.12:21:27 P.20131013
+EN work/dekoder_MUSER_symulacja 1523528499 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/symulacja.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/dekoder_MUSER_symulacja/BEHAVIORAL 1523528500 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/symulacja.vhf \
+      EN work/dekoder_MUSER_symulacja 1523528499 CP AND2B2 CP AND3B2 CP AND2B1 \
       CP OR2
-EN work/symulacja 1523383281 \
-      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/symulacja.vhf" \
+EN work/logika_MUSER_symulacja 1523528501 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/symulacja.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/symulacja/BEHAVIORAL 1523383282 \
-      FL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/symulacja.vhf" \
-      EN work/symulacja 1523383281 CP clk_gen_50 CP automat_MUSER_symulacja \
-      CP dekoder_MUSER_symulacja CP led4_driver
+AR work/logika_MUSER_symulacja/BEHAVIORAL 1523528502 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/symulacja.vhf \
+      EN work/logika_MUSER_symulacja 1523528501 CP AND3B3 CP AND4B1 CP OR3 CP AND4B3 \
+      CP AND3B2 CP OR2
+EN work/FD4CE_MXILINX_symulacja 1523528503 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/symulacja.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FD4CE_MXILINX_symulacja/BEHAVIORAL 1523528504 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/symulacja.vhf \
+      EN work/FD4CE_MXILINX_symulacja 1523528503 CP FDCE
+EN work/automat_MUSER_symulacja 1523528505 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/symulacja.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/automat_MUSER_symulacja/BEHAVIORAL 1523528506 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/symulacja.vhf \
+      EN work/automat_MUSER_symulacja 1523528505 CP FD4CE_MXILINX_symulacja CP INV \
+      CP AND2 CP OR2 CP logika_MUSER_symulacja
+EN work/symulacja 1523528507 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/symulacja.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/symulacja/BEHAVIORAL 1523528508 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/symulacja.vhf \
+      EN work/symulacja 1523528507 CP clk_gen_50 CP automat_MUSER_symulacja \
+      CP dekoder_MUSER_symulacja CP led4_driver CP clk_gen_1Hz_v3 CP gray2nkb
 FL "C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab 4/lab4B/automat.vhf" 2018/04/09.16:26:01 P.20131013
 FL "C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab 4/lab4B/clk_gen_50.vhd" 2018/04/08.14:50:13 P.20131013
 FL "C:/Users/kasia/Desktop/aktualne/Elektronika cyfrowa/laby/labratoria seria A/lab 4/lab4B/dekoder.vhf" 2018/04/09.16:26:02 P.20131013

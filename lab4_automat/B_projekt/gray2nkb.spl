@@ -1,0 +1,5 @@
+[Inputs]
+=gray[3:0]=
+[Outputs]
+=nkb[3:0]=
+[BiDir]

@@ -5,13 +5,91 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Xilinx/project/lab4_automat/symulacja.vhf</arg>&quot; line <arg fmt="%d" index="2">476</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">f_1</arg>&apos; of component &apos;<arg fmt="%s" index="4">clk_gen_50</arg>&apos;.
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/dekoder_MUSER_symulacja</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Xilinx/project/lab4_automat/symulacja.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/symulacja.vhf</arg>&quot;.
 </msg>
 
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Xilinx/project/lab4_automat/symulacja.vhf</arg>&quot; line <arg fmt="%d" index="2">310</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q3</arg>&apos; of component &apos;<arg fmt="%s" index="4">FD4CE_MXILINX_symulacja</arg>&apos;.
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/dekoder_MUSER_symulacja/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Xilinx/project/lab4_automat/symulacja.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/symulacja.vhf</arg>&quot;.
 </msg>
 
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Xilinx/project/lab4_automat/symulacja.vhf</arg>&quot; line <arg fmt="%d" index="2">346</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q3</arg>&apos; of component &apos;<arg fmt="%s" index="4">FD4CE_MXILINX_symulacja</arg>&apos;.
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/logika_MUSER_symulacja</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Xilinx/project/lab4_automat/symulacja.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/symulacja.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/logika_MUSER_symulacja/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Xilinx/project/lab4_automat/symulacja.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/symulacja.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/FD4CE_MXILINX_symulacja</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Xilinx/project/lab4_automat/symulacja.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/symulacja.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/FD4CE_MXILINX_symulacja/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Xilinx/project/lab4_automat/symulacja.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/symulacja.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/automat_MUSER_symulacja</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Xilinx/project/lab4_automat/symulacja.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/symulacja.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/automat_MUSER_symulacja/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Xilinx/project/lab4_automat/symulacja.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/symulacja.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/symulacja</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Xilinx/project/lab4_automat/symulacja.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/symulacja.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/symulacja/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Xilinx/project/lab4_automat/symulacja.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/symulacja.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/logika_MUSER_automat</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Xilinx/project/lab4_automat/automat.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/automat.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/logika_MUSER_automat/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Xilinx/project/lab4_automat/automat.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/automat.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/FD4CE_MXILINX_automat</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Xilinx/project/lab4_automat/automat.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/automat.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/FD4CE_MXILINX_automat/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Xilinx/project/lab4_automat/automat.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/automat.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/automat</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Xilinx/project/lab4_automat/automat.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/automat.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/automat/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Xilinx/project/lab4_automat/automat.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/automat.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/clk_gen_50</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Xilinx/project/lab4_automat/clk_gen_50.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/clk_gen_50.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/clk_gen_50/behav</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Xilinx/project/lab4_automat/clk_gen_50.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/clk_gen_50.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/dekoder</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Xilinx/project/lab4_automat/dekoder.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/dekoder.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/dekoder/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Xilinx/project/lab4_automat/dekoder.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/dekoder.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/led4_driver</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Xilinx/project/lab4_automat/led4_driver.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/led4_driver.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/led4_driver/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Xilinx/project/lab4_automat/led4_driver.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/led4_driver.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/logika</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Xilinx/project/lab4_automat/logika.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/logika.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/logika/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Xilinx/project/lab4_automat/logika.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/logika.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/symulacja.vhf</arg>&quot; line <arg fmt="%d" index="2">484</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">f_1</arg>&apos; of component &apos;<arg fmt="%s" index="4">clk_gen_50</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/symulacja.vhf</arg>&quot; line <arg fmt="%d" index="2">489</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">f_1kHz</arg>&apos; of component &apos;<arg fmt="%s" index="4">clk_gen_1Hz_v3</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/symulacja.vhf</arg>&quot; line <arg fmt="%d" index="2">489</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">f_1MHz</arg>&apos; of component &apos;<arg fmt="%s" index="4">clk_gen_1Hz_v3</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/symulacja.vhf</arg>&quot; line <arg fmt="%d" index="2">310</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q3</arg>&apos; of component &apos;<arg fmt="%s" index="4">FD4CE_MXILINX_symulacja</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/symulacja.vhf</arg>&quot; line <arg fmt="%d" index="2">346</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q3</arg>&apos; of component &apos;<arg fmt="%s" index="4">FD4CE_MXILINX_symulacja</arg>&apos;.
 </msg>
 
 <msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_33_D3_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
@@ -30,6 +108,12 @@
 </msg>
 
 <msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">A&lt;3&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_6/clk_mhz</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">symulacja</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_6/clk_khz</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">symulacja</arg>&gt;.
 </msg>
 
 <msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_5/counter_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">symulacja</arg>&gt;.

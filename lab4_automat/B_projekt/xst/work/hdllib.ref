@@ -1,24 +1,28 @@
-EN clk_gen_50 NULL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/clk_gen_50.vhd" sub00/vhpl08 1523383269
-AR dekoder behavioral "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/dekoder.vhf" sub00/vhpl05 1523383290
-EN automat NULL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/automat.vhf" sub00/vhpl02 1523383287
-AR clk_gen_50 behav "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/clk_gen_50.vhd" sub00/vhpl09 1523383270
-EN dekoder_muser_symulacja NULL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/symulacja.vhf" sub00/vhpl16 1523383279
-AR logika_muser_automat behavioral "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/automat.vhf" sub00/vhpl21 1523383284
-EN led4_driver NULL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/led4_driver.vhd" sub00/vhpl10 1523383271
-EN automat_muser_symulacja NULL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/symulacja.vhf" sub00/vhpl14 1523383277
-AR automat_muser_symulacja behavioral "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/symulacja.vhf" sub00/vhpl15 1523383278
-EN symulacja NULL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/symulacja.vhf" sub00/vhpl06 1523383281
-AR led4_driver behavioral "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/led4_driver.vhd" sub00/vhpl11 1523383272
-AR fd4ce_mxilinx_symulacja behavioral "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/symulacja.vhf" sub00/vhpl13 1523383276
-AR fd4ce_mxilinx_automat behavioral "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/automat.vhf" sub00/vhpl01 1523383286
-AR logika_muser_symulacja behavioral "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/symulacja.vhf" sub00/vhpl19 1523383274
-AR symulacja behavioral "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/symulacja.vhf" sub00/vhpl07 1523383282
-EN fd4ce_mxilinx_symulacja NULL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/symulacja.vhf" sub00/vhpl12 1523383275
-AR logika behavioral "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/logika.vhf" sub00/vhpl23 1523383292
-EN logika NULL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/logika.vhf" sub00/vhpl22 1523383291
-EN fd4ce_mxilinx_automat NULL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/automat.vhf" sub00/vhpl00 1523383285
-EN logika_muser_automat NULL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/automat.vhf" sub00/vhpl20 1523383283
-EN dekoder NULL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/dekoder.vhf" sub00/vhpl04 1523383289
-AR dekoder_muser_symulacja behavioral "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/symulacja.vhf" sub00/vhpl17 1523383280
-AR automat behavioral "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/automat.vhf" sub00/vhpl03 1523383288
-EN logika_muser_symulacja NULL "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/symulacja.vhf" sub00/vhpl18 1523383273
+EN clk_gen_50 NULL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/clk_gen_50.vhd sub00/vhpl08 1523528491
+AR dekoder behavioral C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/dekoder.vhf sub00/vhpl05 1523528516
+AR clk_gen_1hz_v3 behavioral C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/clk_gen_1Hz_v3.vhd sub00/vhpl25 1523528496
+EN automat NULL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/automat.vhf sub00/vhpl02 1523528513
+AR clk_gen_50 behav C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/clk_gen_50.vhd sub00/vhpl09 1523528492
+EN dekoder_muser_symulacja NULL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/symulacja.vhf sub00/vhpl16 1523528499
+AR logika_muser_automat behavioral C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/automat.vhf sub00/vhpl21 1523528510
+EN led4_driver NULL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/led4_driver.vhd sub00/vhpl10 1523528493
+EN automat_muser_symulacja NULL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/symulacja.vhf sub00/vhpl14 1523528505
+EN gray2nkb NULL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/gray2nkb.vhd sub00/vhpl26 1523528497
+AR gray2nkb behavioral C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/gray2nkb.vhd sub00/vhpl27 1523528498
+AR automat_muser_symulacja behavioral C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/symulacja.vhf sub00/vhpl15 1523528506
+EN symulacja NULL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/symulacja.vhf sub00/vhpl06 1523528507
+AR led4_driver behavioral C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/led4_driver.vhd sub00/vhpl11 1523528494
+AR fd4ce_mxilinx_symulacja behavioral C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/symulacja.vhf sub00/vhpl13 1523528504
+EN clk_gen_1hz_v3 NULL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/clk_gen_1Hz_v3.vhd sub00/vhpl24 1523528495
+AR fd4ce_mxilinx_automat behavioral C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/automat.vhf sub00/vhpl01 1523528512
+AR logika_muser_symulacja behavioral C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/symulacja.vhf sub00/vhpl19 1523528502
+AR symulacja behavioral C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/symulacja.vhf sub00/vhpl07 1523528508
+EN fd4ce_mxilinx_symulacja NULL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/symulacja.vhf sub00/vhpl12 1523528503
+AR logika behavioral C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/logika.vhf sub00/vhpl23 1523528518
+EN logika NULL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/logika.vhf sub00/vhpl22 1523528517
+EN fd4ce_mxilinx_automat NULL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/automat.vhf sub00/vhpl00 1523528511
+EN logika_muser_automat NULL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/automat.vhf sub00/vhpl20 1523528509
+EN dekoder NULL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/dekoder.vhf sub00/vhpl04 1523528515
+AR dekoder_muser_symulacja behavioral C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/symulacja.vhf sub00/vhpl17 1523528500
+AR automat behavioral C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/automat.vhf sub00/vhpl03 1523528514
+EN logika_muser_symulacja NULL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/symulacja.vhf sub00/vhpl18 1523528501

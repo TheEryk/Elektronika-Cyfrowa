@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Tue Apr 10 20:01:24 2018
+// Written by: Map P.20131013 on Thu Apr 12 12:21:49 2018
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -19,6 +19,9 @@ COMP "sseg<4>" LOCATE = SITE "G14" LEVEL 1;
 COMP "sseg<5>" LOCATE = SITE "J17" LEVEL 1;
 COMP "sseg<6>" LOCATE = SITE "H14" LEVEL 1;
 COMP "sel" LOCATE = SITE "G18" LEVEL 1;
+COMP "B0" LOCATE = SITE "J14" LEVEL 1;
+COMP "B1" LOCATE = SITE "J15" LEVEL 1;
+COMP "B2" LOCATE = SITE "K15" LEVEL 1;
 COMP "rst" LOCATE = SITE "H13" LEVEL 1;
 NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
 SCHEMATIC END;

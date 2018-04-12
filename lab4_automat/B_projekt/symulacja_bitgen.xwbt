@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=C:\Users\Eryk\Documents\DokumentyPUT\Elektronika Cyfrowa\lab4_automat\lab 4\automat_B\symulacja.ncd
-OUTFILE=C:\Users\Eryk\Documents\DokumentyPUT\Elektronika Cyfrowa\lab4_automat\lab 4\automat_B\symulacja.bit
+INFILE=C:\Users\Eryk\Documents\DokumentyPUT\Elektronika-Cyfrowa\lab4_automat\B_projekt\symulacja.ncd
+OUTFILE=C:\Users\Eryk\Documents\DokumentyPUT\Elektronika-Cyfrowa\lab4_automat\B_projekt\symulacja.bit
 FAMILY=Spartan3E
 PART=xc3s500e-4fg320
-WORKINGDIR=C:\Users\Eryk\Documents\DokumentyPUT\Elektronika Cyfrowa\lab4_automat\lab 4\automat_B
+WORKINGDIR=C:\Users\Eryk\Documents\DokumentyPUT\Elektronika-Cyfrowa\lab4_automat\B_projekt
 LICENSE=WebPack
 USER_INFO=211492955_0_0_050

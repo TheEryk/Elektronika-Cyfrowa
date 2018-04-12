@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-DESKTOP-869CCQA::  Tue Apr 10 20:01:27 2018
+DESKTOP-869CCQA::  Thu Apr 12 12:21:53 2018
 
 par -w -intstyle ise -ol high -t 1 symulacja_map.ncd symulacja.ncd
 symulacja.pcf 
@@ -25,7 +25,7 @@ Device speed data version:  "PRODUCTION 1.27 2013-10-13".
 
 Design Summary Report:
 
- Number of External IOBs                          17 out of 232     7%
+ Number of External IOBs                          20 out of 232     8%
 
    Number of External Input IOBs                  6
 
@@ -33,17 +33,17 @@ Design Summary Report:
         Number of LOCed External Input IBUFs      6 out of 6     100%
 
 
-   Number of External Output IOBs                11
+   Number of External Output IOBs                14
 
-      Number of External Output IOBs             11
-        Number of LOCed External Output IOBs     11 out of 11    100%
+      Number of External Output IOBs             14
+        Number of LOCed External Output IOBs     14 out of 14    100%
 
 
    Number of External Bidir IOBs                  0
 
 
    Number of BUFGMUXs                        1 out of 24      4%
-   Number of Slices                         20 out of 4656    1%
+   Number of Slices                         45 out of 4656    1%
       Number of SLICEMs                      0 out of 2328    0%
 
 
@@ -53,49 +53,49 @@ Placer effort level (-pl):    High
 Placer cost table entry (-t): 1
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 1 secs 
-Finished initial Timing Analysis.  REAL time: 1 secs 
+Starting initial Timing Analysis.  REAL time: 2 secs 
+Finished initial Timing Analysis.  REAL time: 2 secs 
 
 
 Starting Placer
-Total REAL time at the beginning of Placer: 1 secs 
+Total REAL time at the beginning of Placer: 2 secs 
 Total CPU  time at the beginning of Placer: 1 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:197f79e3) REAL time: 2 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:a731749a) REAL time: 2 secs 
 
 Phase 2.7  Design Feasibility Check
-Phase 2.7  Design Feasibility Check (Checksum:197f79e3) REAL time: 2 secs 
+Phase 2.7  Design Feasibility Check (Checksum:a731749a) REAL time: 2 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:197f79e3) REAL time: 2 secs 
+Phase 3.31  Local Placement Optimization (Checksum:a731749a) REAL time: 2 secs 
 
 Phase 4.2  Initial Clock and IO Placement
 
-Phase 4.2  Initial Clock and IO Placement (Checksum:2ed67323) REAL time: 2 secs 
+Phase 4.2  Initial Clock and IO Placement (Checksum:d8fc64da) REAL time: 2 secs 
 
 Phase 5.30  Global Clock Region Assignment
-Phase 5.30  Global Clock Region Assignment (Checksum:2ed67323) REAL time: 2 secs 
+Phase 5.30  Global Clock Region Assignment (Checksum:d8fc64da) REAL time: 2 secs 
 
 Phase 6.36  Local Placement Optimization
-Phase 6.36  Local Placement Optimization (Checksum:2ed67323) REAL time: 2 secs 
+Phase 6.36  Local Placement Optimization (Checksum:d8fc64da) REAL time: 2 secs 
 
 Phase 7.8  Global Placement
+...
 ..
-..
-Phase 7.8  Global Placement (Checksum:200ed9) REAL time: 4 secs 
+Phase 7.8  Global Placement (Checksum:482d3026) REAL time: 4 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:200ed9) REAL time: 4 secs 
+Phase 8.5  Local Placement Optimization (Checksum:482d3026) REAL time: 4 secs 
 
 Phase 9.18  Placement Optimization
-Phase 9.18  Placement Optimization (Checksum:2911baa1) REAL time: 4 secs 
+Phase 9.18  Placement Optimization (Checksum:69ea6c66) REAL time: 4 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:2911baa1) REAL time: 4 secs 
+Phase 10.5  Local Placement Optimization (Checksum:69ea6c66) REAL time: 4 secs 
 
 Total REAL time to Placer completion: 4 secs 
-Total CPU  time to Placer completion: 3 secs 
+Total CPU  time to Placer completion: 4 secs 
 Writing design to file symulacja.ncd
 
 
@@ -103,40 +103,38 @@ Writing design to file symulacja.ncd
 Starting Router
 
 
-Phase  1  : 125 unrouted;      REAL time: 8 secs 
+Phase  1  : 286 unrouted;      REAL time: 9 secs 
 
-Phase  2  : 120 unrouted;      REAL time: 8 secs 
+Phase  2  : 258 unrouted;      REAL time: 9 secs 
 
-Phase  3  : 12 unrouted;      REAL time: 8 secs 
+Phase  3  : 36 unrouted;      REAL time: 9 secs 
 
-Phase  4  : 18 unrouted; (Par is working to improve performance)     REAL time: 8 secs 
+Phase  4  : 41 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
 
-Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 8 secs 
-
-Updating file: symulacja.ncd with current fully routed design.
-
-Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 8 secs 
-
-Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 9 secs 
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
 
 Updating file: symulacja.ncd with current fully routed design.
 
-Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 9 secs 
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
 
-Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 9 secs 
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 11 secs 
 
-Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 9 secs 
+Updating file: symulacja.ncd with current fully routed design.
 
-Phase 11  : 0 unrouted; (Par is working to improve performance)     REAL time: 9 secs 
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 12 secs 
 
-Phase 12  : 0 unrouted; (Par is working to improve performance)     REAL time: 9 secs 
-WARNING:Route:455 - CLK Net:XLXI_2/XLXN_161 may have excessive skew because 
-      4 CLK pins and 0 NON_CLK pins failed to route using a CLK template.
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 12 secs 
+
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 12 secs 
+
+Phase 11  : 0 unrouted; (Par is working to improve performance)     REAL time: 12 secs 
+
+Phase 12  : 0 unrouted; (Par is working to improve performance)     REAL time: 12 secs 
 WARNING:Route:455 - CLK Net:XLXI_1/counter<7> may have excessive skew because 
-      2 CLK pins and 2 NON_CLK pins failed to route using a CLK template.
+      0 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
 
-Total REAL time to Router completion: 9 secs 
-Total CPU time to Router completion: 8 secs 
+Total REAL time to Router completion: 12 secs 
+Total CPU time to Router completion: 11 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -154,11 +152,11 @@ Generating Clock Report
 +---------------------+--------------+------+------+------------+-------------+
 |        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
 +---------------------+--------------+------+------+------------+-------------+
-|           clk_BUFGP | BUFGMUX_X2Y11| No   |    4 |  0.001     |  0.172      |
+|           clk_BUFGP | BUFGMUX_X2Y11| No   |   21 |  0.041     |  0.174      |
 +---------------------+--------------+------+------+------------+-------------+
-|   XLXI_1/counter<7> |         Local|      |    4 |  0.000     |  1.001      |
+|     XLXI_2/XLXN_161 |         Local|      |    4 |  0.004     |  1.503      |
 +---------------------+--------------+------+------+------------+-------------+
-|     XLXI_2/XLXN_161 |         Local|      |    4 |  0.314     |  0.878      |
+|   XLXI_1/counter<7> |         Local|      |    3 |  0.002     |  1.617      |
 +---------------------+--------------+------+------+------------+-------------+
 
 * Net Skew is the difference between the minimum and maximum routing
@@ -178,14 +176,15 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net clk | SETUP       |         N/A|     3.986ns|     N/A|           0
-  _BUFGP                                    | HOLD        |     1.565ns|            |       0|           0
+  Autotimespec constraint for clock net XLX | SETUP       |         N/A|     2.223ns|     N/A|           0
+  I_2/XLXN_161                              | HOLD        |     1.365ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net XLX | SETUP       |         N/A|     1.832ns|     N/A|           0
-  I_1/counter<7>                            | HOLD        |     1.087ns|            |       0|           0
+  Autotimespec constraint for clock net clk | SETUP       |         N/A|     4.642ns|     N/A|           0
+  _BUFGP                                    | HOLD        |     1.026ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net XLX | SETUP       |         N/A|     2.659ns|     N/A|           0
-  I_2/XLXN_161                              | HOLD        |     0.661ns|            |       0|           0
+  Autotimespec constraint for clock net XLX | SETUP       |         N/A|     1.539ns|     N/A|           0
+  I_1/counter<7>                            | HOLD        |     1.003ns|            |       0|           0
+                                            | MINPERIOD   |         N/A|     1.652ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
 
 
@@ -201,16 +200,16 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 9 secs 
-Total CPU time to PAR completion: 9 secs 
+Total REAL time to PAR completion: 12 secs 
+Total CPU time to PAR completion: 11 secs 
 
-Peak Memory Usage:  394 MB
+Peak Memory Usage:  404 MB
 
 Placement: Completed - No errors found.
 Routing: Completed - No errors found.
 
 Number of error messages: 0
-Number of warning messages: 2
+Number of warning messages: 1
 Number of info messages: 1
 
 Writing design to file symulacja.ncd

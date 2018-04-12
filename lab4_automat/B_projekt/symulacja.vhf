@@ -7,17 +7,96 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : symulacja.vhf
--- /___/   /\     Timestamp : 04/10/2018 20:01:05
+-- /___/   /\     Timestamp : 04/12/2018 12:21:26
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
---Command: sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/symulacja.vhf" -w "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika Cyfrowa/lab4_automat/lab 4/automat_B/symulacja.sch"
+--Command: sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/symulacja.vhf -w C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/symulacja.sch
 --Design Name: symulacja
 --Device: spartan3e
 --Purpose:
 --    This vhdl netlist is translated from an ECS schematic. It can be 
 --    synthesized and simulated, but it should not be modified. 
 --
+
+library ieee;
+use ieee.std_logic_1164.ALL;
+use ieee.numeric_std.ALL;
+library UNISIM;
+use UNISIM.Vcomponents.ALL;
+
+entity dekoder_MUSER_symulacja is
+   port ( Q0 : in    std_logic; 
+          Q1 : in    std_logic; 
+          Q2 : in    std_logic; 
+          B0 : out   std_logic; 
+          B1 : out   std_logic; 
+          B2 : out   std_logic);
+end dekoder_MUSER_symulacja;
+
+architecture BEHAVIORAL of dekoder_MUSER_symulacja is
+   attribute BOX_TYPE   : string ;
+   signal XLXN_33 : std_logic;
+   signal XLXN_34 : std_logic;
+   component AND2B2
+      port ( I0 : in    std_logic; 
+             I1 : in    std_logic; 
+             O  : out   std_logic);
+   end component;
+   attribute BOX_TYPE of AND2B2 : component is "BLACK_BOX";
+   
+   component AND3B2
+      port ( I0 : in    std_logic; 
+             I1 : in    std_logic; 
+             I2 : in    std_logic; 
+             O  : out   std_logic);
+   end component;
+   attribute BOX_TYPE of AND3B2 : component is "BLACK_BOX";
+   
+   component AND2B1
+      port ( I0 : in    std_logic; 
+             I1 : in    std_logic; 
+             O  : out   std_logic);
+   end component;
+   attribute BOX_TYPE of AND2B1 : component is "BLACK_BOX";
+   
+   component OR2
+      port ( I0 : in    std_logic; 
+             I1 : in    std_logic; 
+             O  : out   std_logic);
+   end component;
+   attribute BOX_TYPE of OR2 : component is "BLACK_BOX";
+   
+begin
+   XLXI_2 : AND2B2
+      port map (I0=>Q1,
+                I1=>Q2,
+                O=>B2);
+   
+   XLXI_3 : AND3B2
+      port map (I0=>Q2,
+                I1=>Q1,
+                I2=>Q0,
+                O=>B1);
+   
+   XLXI_4 : AND2B2
+      port map (I0=>Q2,
+                I1=>Q1,
+                O=>XLXN_33);
+   
+   XLXI_5 : AND2B1
+      port map (I0=>Q2,
+                I1=>Q0,
+                O=>XLXN_34);
+   
+   XLXI_6 : OR2
+      port map (I0=>XLXN_34,
+                I1=>XLXN_33,
+                O=>B0);
+   
+end BEHAVIORAL;
+
+
 
 library ieee;
 use ieee.std_logic_1164.ALL;
@@ -291,8 +370,8 @@ architecture BEHAVIORAL of automat_MUSER_symulacja is
              Q2t1 : out   std_logic);
    end component;
    
-   attribute HU_SET of XLXI_1 : label is "XLXI_1_6";
-   attribute HU_SET of XLXI_2 : label is "XLXI_2_7";
+   attribute HU_SET of XLXI_1 : label is "XLXI_1_0";
+   attribute HU_SET of XLXI_2 : label is "XLXI_2_1";
 begin
    Q0 <= Q0_DUMMY;
    Q1 <= Q1_DUMMY;
@@ -365,85 +444,6 @@ use ieee.numeric_std.ALL;
 library UNISIM;
 use UNISIM.Vcomponents.ALL;
 
-entity dekoder_MUSER_symulacja is
-   port ( Q0 : in    std_logic; 
-          Q1 : in    std_logic; 
-          Q2 : in    std_logic; 
-          B0 : out   std_logic; 
-          B1 : out   std_logic; 
-          B2 : out   std_logic);
-end dekoder_MUSER_symulacja;
-
-architecture BEHAVIORAL of dekoder_MUSER_symulacja is
-   attribute BOX_TYPE   : string ;
-   signal XLXN_33 : std_logic;
-   signal XLXN_34 : std_logic;
-   component AND2B2
-      port ( I0 : in    std_logic; 
-             I1 : in    std_logic; 
-             O  : out   std_logic);
-   end component;
-   attribute BOX_TYPE of AND2B2 : component is "BLACK_BOX";
-   
-   component AND3B2
-      port ( I0 : in    std_logic; 
-             I1 : in    std_logic; 
-             I2 : in    std_logic; 
-             O  : out   std_logic);
-   end component;
-   attribute BOX_TYPE of AND3B2 : component is "BLACK_BOX";
-   
-   component AND2B1
-      port ( I0 : in    std_logic; 
-             I1 : in    std_logic; 
-             O  : out   std_logic);
-   end component;
-   attribute BOX_TYPE of AND2B1 : component is "BLACK_BOX";
-   
-   component OR2
-      port ( I0 : in    std_logic; 
-             I1 : in    std_logic; 
-             O  : out   std_logic);
-   end component;
-   attribute BOX_TYPE of OR2 : component is "BLACK_BOX";
-   
-begin
-   XLXI_2 : AND2B2
-      port map (I0=>Q1,
-                I1=>Q2,
-                O=>B2);
-   
-   XLXI_3 : AND3B2
-      port map (I0=>Q2,
-                I1=>Q1,
-                I2=>Q0,
-                O=>B1);
-   
-   XLXI_4 : AND2B2
-      port map (I0=>Q2,
-                I1=>Q1,
-                O=>XLXN_33);
-   
-   XLXI_5 : AND2B1
-      port map (I0=>Q2,
-                I1=>Q0,
-                O=>XLXN_34);
-   
-   XLXI_6 : OR2
-      port map (I0=>XLXN_34,
-                I1=>XLXN_33,
-                O=>B0);
-   
-end BEHAVIORAL;
-
-
-
-library ieee;
-use ieee.std_logic_1164.ALL;
-use ieee.numeric_std.ALL;
-library UNISIM;
-use UNISIM.Vcomponents.ALL;
-
 entity symulacja is
    port ( but  : in    std_logic; 
           clk  : in    std_logic; 
@@ -452,6 +452,9 @@ entity symulacja is
           sel  : in    std_logic; 
           x    : in    std_logic; 
           an   : out   std_logic_vector (3 downto 0); 
+          B0   : out   std_logic; 
+          B1   : out   std_logic; 
+          B2   : out   std_logic; 
           sseg : out   std_logic_vector (6 downto 0));
    attribute LOC : string ;
    attribute LOC of but : signal is "B18";
@@ -461,15 +464,19 @@ entity symulacja is
    attribute LOC of sel : signal is "G18";
    attribute LOC of x : signal is "R17";
    attribute LOC of an : signal is "F15,C18,H17,F17";
+   attribute LOC of B0 : signal is "J14";
+   attribute LOC of B1 : signal is "J15";
+   attribute LOC of B2 : signal is "K15";
    attribute LOC of sseg : signal is "H14,J17,G14,D16,D17,F18,L18";
 end symulacja;
 
 architecture BEHAVIORAL of symulacja is
-   signal A                   : std_logic_vector (3 downto 0);
-   signal C                   : std_logic_vector (3 downto 0);
-   signal clk50               : std_logic;
-   signal D                   : std_logic_vector (3 downto 0);
-   signal XLXI_4_b_openSignal : std_logic_vector (3 downto 0);
+   signal A     : std_logic_vector (3 downto 0);
+   signal B     : std_logic_vector (3 downto 0);
+   signal C     : std_logic_vector (3 downto 0);
+   signal clk1  : std_logic;
+   signal clk50 : std_logic;
+   signal D     : std_logic_vector (3 downto 0);
    component clk_gen_50
       port ( clk_in : in    std_logic; 
              f_1    : out   std_logic; 
@@ -510,6 +517,18 @@ architecture BEHAVIORAL of symulacja is
              an     : out   std_logic_vector (3 downto 0));
    end component;
    
+   component clk_gen_1Hz_v3
+      port ( clk_in : in    std_logic; 
+             f_1Hz  : out   std_logic; 
+             f_1kHz : out   std_logic; 
+             f_1MHz : out   std_logic);
+   end component;
+   
+   component gray2nkb
+      port ( gray : in    std_logic_vector (3 downto 0); 
+             nkb  : out   std_logic_vector (3 downto 0));
+   end component;
+   
 begin
    XLXI_1 : clk_gen_50
       port map (clk_in=>clk,
@@ -518,7 +537,7 @@ begin
    
    XLXI_2 : automat_MUSER_symulacja
       port map (but=>but,
-                clk=>clk50,
+                clk=>clk1,
                 dis=>dis,
                 rst=>rst,
                 sel=>sel,
@@ -534,18 +553,32 @@ begin
       port map (Q0=>D(0),
                 Q1=>D(1),
                 Q2=>D(2),
-                B0=>A(0),
-                B1=>A(1),
-                B2=>A(2));
+                B0=>B0,
+                B1=>B1,
+                B2=>B2);
    
    XLXI_4 : led4_driver
       port map (a(3 downto 0)=>A(3 downto 0),
-                b(3 downto 0)=>XLXI_4_b_openSignal(3 downto 0),
+                b(3 downto 0)=>B(3 downto 0),
                 c(3 downto 0)=>C(3 downto 0),
                 clk_in=>clk50,
                 d(3 downto 0)=>D(3 downto 0),
                 an(3 downto 0)=>an(3 downto 0),
                 sseg(6 downto 0)=>sseg(6 downto 0));
+   
+   XLXI_6 : clk_gen_1Hz_v3
+      port map (clk_in=>clk,
+                f_1Hz=>clk1,
+                f_1kHz=>open,
+                f_1MHz=>open);
+   
+   XLXI_7 : gray2nkb
+      port map (gray(3 downto 0)=>D(3 downto 0),
+                nkb(3 downto 0)=>B(3 downto 0));
+   
+   XLXI_8 : gray2nkb
+      port map (gray(3 downto 0)=>C(3 downto 0),
+                nkb(3 downto 0)=>A(3 downto 0));
    
 end BEHAVIORAL;
 

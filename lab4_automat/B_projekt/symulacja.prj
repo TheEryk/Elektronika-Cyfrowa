@@ -1,6 +1,8 @@
 vhdl work "logika.vhf"
 vhdl work "led4_driver.vhd"
+vhdl work "gray2nkb.vhd"
 vhdl work "dekoder.vhf"
 vhdl work "clk_gen_50.vhd"
+vhdl work "clk_gen_1Hz_v3.vhd"
 vhdl work "automat.vhf"
 vhdl work "symulacja.vhf"

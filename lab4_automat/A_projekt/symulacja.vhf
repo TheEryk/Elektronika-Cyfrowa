@@ -7,11 +7,11 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : symulacja.vhf
--- /___/   /\     Timestamp : 04/10/2018 15:39:04
+-- /___/   /\     Timestamp : 04/12/2018 12:08:17
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
---Command: sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl C:/Xilinx/project/lab4_automat/symulacja.vhf -w C:/Xilinx/project/lab4_automat/symulacja.sch
+--Command: sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/symulacja.vhf -w C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/symulacja.sch
 --Design Name: symulacja
 --Device: spartan3e
 --Purpose:
@@ -301,8 +301,8 @@ architecture BEHAVIORAL of automat_MUSER_symulacja is
              Q1t1 : out   std_logic);
    end component;
    
-   attribute HU_SET of XLXI_1 : label is "XLXI_1_6";
-   attribute HU_SET of XLXI_33 : label is "XLXI_33_7";
+   attribute HU_SET of XLXI_1 : label is "XLXI_1_0";
+   attribute HU_SET of XLXI_33 : label is "XLXI_33_1";
 begin
    Q0 <= Q0_DUMMY;
    Q1 <= Q1_DUMMY;
@@ -398,6 +398,7 @@ end symulacja;
 architecture BEHAVIORAL of symulacja is
    signal A                   : std_logic_vector (3 downto 0);
    signal C                   : std_logic_vector (3 downto 0);
+   signal clk1                : std_logic;
    signal clk50               : std_logic;
    signal D                   : std_logic_vector (3 downto 0);
    signal XLXI_4_b_openSignal : std_logic_vector (3 downto 0);
@@ -441,10 +442,17 @@ architecture BEHAVIORAL of symulacja is
              f_2    : out   std_logic);
    end component;
    
+   component clk_gen_1Hz_v3
+      port ( clk_in : in    std_logic; 
+             f_1Hz  : out   std_logic; 
+             f_1kHz : out   std_logic; 
+             f_1MHz : out   std_logic);
+   end component;
+   
 begin
    XLXI_1 : automat_MUSER_symulacja
       port map (but=>but,
-                clk=>clk50,
+                clk=>clk1,
                 dis=>dis,
                 rst=>rst,
                 sel=>sel,
@@ -477,6 +485,12 @@ begin
       port map (clk_in=>clk,
                 f_1=>open,
                 f_2=>clk50);
+   
+   XLXI_6 : clk_gen_1Hz_v3
+      port map (clk_in=>clk,
+                f_1Hz=>clk1,
+                f_1kHz=>open,
+                f_1MHz=>open);
    
 end BEHAVIORAL;
 

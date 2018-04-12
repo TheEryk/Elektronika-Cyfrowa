@@ -1,0 +1,2 @@
+vhdtdtfi -lib work gray2nkb.vhd -prj lab4B -o gray2nkb.spl -module gray2nkb -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w gray2nkb.spl C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/B_projekt/gray2nkb.sym 

@@ -44,8 +44,8 @@ Setup/Hold to clock but
             |Max Setup to|Max Hold to |                  | Clock  |
 Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
 ------------+------------+------------+------------------+--------+
-dis         |   -0.662(R)|    2.689(R)|XLXI_2/XLXN_161   |   0.000|
-x           |    1.656(R)|    1.020(R)|XLXI_2/XLXN_161   |   0.000|
+dis         |   -1.274(R)|    3.351(R)|XLXI_2/XLXN_161   |   0.000|
+x           |    0.300(R)|    1.935(R)|XLXI_2/XLXN_161   |   0.000|
 ------------+------------+------------+------------------+--------+
 
 Setup/Hold to clock sel
@@ -53,8 +53,8 @@ Setup/Hold to clock sel
             |Max Setup to|Max Hold to |                  | Clock  |
 Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
 ------------+------------+------------+------------------+--------+
-dis         |   -0.356(R)|    2.307(R)|XLXI_2/XLXN_161   |   0.000|
-x           |    1.962(R)|    0.638(R)|XLXI_2/XLXN_161   |   0.000|
+dis         |   -0.613(R)|    2.525(R)|XLXI_2/XLXN_161   |   0.000|
+x           |    0.961(R)|    1.109(R)|XLXI_2/XLXN_161   |   0.000|
 ------------+------------+------------+------------------+--------+
 
 Clock but to Pad
@@ -62,13 +62,16 @@ Clock but to Pad
             | clk (edge) |                  | Clock  |
 Destination |   to PAD   |Internal Clock(s) | Phase  |
 ------------+------------+------------------+--------+
-sseg<0>     |   14.065(R)|XLXI_2/XLXN_161   |   0.000|
-sseg<1>     |   13.178(R)|XLXI_2/XLXN_161   |   0.000|
-sseg<2>     |   13.700(R)|XLXI_2/XLXN_161   |   0.000|
-sseg<3>     |   13.771(R)|XLXI_2/XLXN_161   |   0.000|
-sseg<4>     |   12.766(R)|XLXI_2/XLXN_161   |   0.000|
-sseg<5>     |   13.140(R)|XLXI_2/XLXN_161   |   0.000|
-sseg<6>     |   12.427(R)|XLXI_2/XLXN_161   |   0.000|
+B0          |   11.386(R)|XLXI_2/XLXN_161   |   0.000|
+B1          |   10.815(R)|XLXI_2/XLXN_161   |   0.000|
+B2          |   11.398(R)|XLXI_2/XLXN_161   |   0.000|
+sseg<0>     |   16.310(R)|XLXI_2/XLXN_161   |   0.000|
+sseg<1>     |   16.009(R)|XLXI_2/XLXN_161   |   0.000|
+sseg<2>     |   16.369(R)|XLXI_2/XLXN_161   |   0.000|
+sseg<3>     |   16.041(R)|XLXI_2/XLXN_161   |   0.000|
+sseg<4>     |   15.510(R)|XLXI_2/XLXN_161   |   0.000|
+sseg<5>     |   15.572(R)|XLXI_2/XLXN_161   |   0.000|
+sseg<6>     |   15.546(R)|XLXI_2/XLXN_161   |   0.000|
 ------------+------------+------------------+--------+
 
 Clock sel to Pad
@@ -76,13 +79,16 @@ Clock sel to Pad
             | clk (edge) |                  | Clock  |
 Destination |   to PAD   |Internal Clock(s) | Phase  |
 ------------+------------+------------------+--------+
-sseg<0>     |   13.683(R)|XLXI_2/XLXN_161   |   0.000|
-sseg<1>     |   12.796(R)|XLXI_2/XLXN_161   |   0.000|
-sseg<2>     |   13.318(R)|XLXI_2/XLXN_161   |   0.000|
-sseg<3>     |   13.389(R)|XLXI_2/XLXN_161   |   0.000|
-sseg<4>     |   12.384(R)|XLXI_2/XLXN_161   |   0.000|
-sseg<5>     |   12.758(R)|XLXI_2/XLXN_161   |   0.000|
-sseg<6>     |   12.045(R)|XLXI_2/XLXN_161   |   0.000|
+B0          |   10.560(R)|XLXI_2/XLXN_161   |   0.000|
+B1          |    9.989(R)|XLXI_2/XLXN_161   |   0.000|
+B2          |   10.572(R)|XLXI_2/XLXN_161   |   0.000|
+sseg<0>     |   15.484(R)|XLXI_2/XLXN_161   |   0.000|
+sseg<1>     |   15.183(R)|XLXI_2/XLXN_161   |   0.000|
+sseg<2>     |   15.543(R)|XLXI_2/XLXN_161   |   0.000|
+sseg<3>     |   15.215(R)|XLXI_2/XLXN_161   |   0.000|
+sseg<4>     |   14.684(R)|XLXI_2/XLXN_161   |   0.000|
+sseg<5>     |   14.746(R)|XLXI_2/XLXN_161   |   0.000|
+sseg<6>     |   14.720(R)|XLXI_2/XLXN_161   |   0.000|
 ------------+------------+------------------+--------+
 
 Clock to Setup on destination clock but
@@ -90,8 +96,8 @@ Clock to Setup on destination clock but
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-but            |    2.659|         |         |         |
-sel            |    2.659|         |         |         |
+but            |    2.223|         |         |         |
+sel            |    2.223|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock clk
@@ -99,7 +105,7 @@ Clock to Setup on destination clock clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk            |    3.986|         |         |         |
+clk            |    4.642|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock sel
@@ -107,19 +113,19 @@ Clock to Setup on destination clock sel
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-but            |    2.659|         |         |         |
-sel            |    2.659|         |         |         |
+but            |    2.223|         |         |         |
+sel            |    2.223|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Tue Apr 10 20:01:40 2018 
+Analysis completed Thu Apr 12 12:22:09 2018 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 213 MB
+Peak Memory Usage: 214 MB
 
 
 
