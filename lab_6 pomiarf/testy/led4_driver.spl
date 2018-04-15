@@ -1,0 +1,10 @@
+[Inputs]
+clk_in
+=a[3:0]=
+=b[3:0]=
+=c[3:0]=
+=d[3:0]=
+[Outputs]
+=sseg[6:0]=
+=an[3:0]=
+[BiDir]

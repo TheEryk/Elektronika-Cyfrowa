@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -w -refsym czestotliwosci {C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab_6 pomiarf/testy/czestotliwosci.sch} {C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab_6 pomiarf/testy/czestotliwosci.sym} 
