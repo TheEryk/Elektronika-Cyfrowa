@@ -1,0 +1,3 @@
+vhdtdtfi -lib work C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik_projekt/bin2bcd.v -lang verilog -prj licznik_projekt -o bin2bcd.spl -module bin2bcd -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+sch2sym -intstyle ise -family spartan3e -refsym bin2bcd C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik_projekt/bin2bcd.sch C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik_projekt/bin2bcd.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym bin2bcd C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik_projekt/bin2bcd.sch C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik_projekt/bin2bcd.sym 

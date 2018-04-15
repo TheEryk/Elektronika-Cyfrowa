@@ -1,0 +1,784 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik_projekt
+Ebin2bcd
+Z1 w1523691047
+Z2 DPx6 unisim 11 vcomponents 0 22 2L_N91<XgM:Bh8=P>9OR]0
+Z3 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8bin2bcd.vhf
+Z7 Fbin2bcd.vhf
+l0
+L28
+V>nd:a5;eQnBkG?SBmNfUL1
+!s100 4MOY@TOg^nBleX;<`3dPN1
+Z8 OP;C;10.4a;61
+31
+Z9 !s110 1523699966
+!i10b 1
+Z10 !s108 1523699965.000000
+Z11 !s90 -reportprogress|300|-explicit|-93|bin2bcd.vhf|
+Z12 !s107 bin2bcd.vhf|
+!i113 1
+Z13 o-explicit -93 -O0
+Z14 tExplicit 1
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 7 bin2bcd 0 22 >nd:a5;eQnBkG?SBmNfUL1
+l88
+L37
+V4S?l^8Cdc9nlD[IUbdTj?1
+!s100 8ZHzebBlVHnUQ7A93zZcO0
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Ebin2bcd_muser_symulacja
+Z15 w1523697923
+R2
+R3
+R4
+R5
+R0
+Z16 8symulacja.vhf
+Z17 Fsymulacja.vhf
+l0
+L28
+V[]^YjHIi>EK<bNhhGc6OW2
+!s100 dFlOOH`e[1?fh5YbLA]bi1
+R8
+31
+R9
+!i10b 1
+Z18 !s108 1523699966.000000
+Z19 !s90 -reportprogress|300|-explicit|-93|symulacja.vhf|
+Z20 !s107 symulacja.vhf|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+Z21 DEx4 work 23 bin2bcd_muser_symulacja 0 22 []^YjHIi>EK<bNhhGc6OW2
+l88
+L37
+Z22 VKUL?<L4EJRKT2=`EUoCIP1
+Z23 !s100 OJUXgZ@9H^O5ZTKa4V0`Y0
+R8
+31
+R9
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R13
+R14
+vbinary_to_BCD
+!s110 1523646707
+!i10b 1
+!s100 ?LjV[4USge?5A9QCh>PWL2
+IPP==AiZGeS0ecl:=IZH@c3
+Z24 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1523646666
+8bin2bcd.v
+Fbin2bcd.v
+L0 21
+Z25 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z26 !s108 1523646707.000000
+!s107 bin2bcd.v|
+!s90 -reportprogress|300|bin2bcd.v|
+!s101 -O0
+!i113 1
+Z27 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+nbinary_to_@b@c@d
+Edekoderl1
+Z28 w1523637069
+R2
+R3
+R4
+R5
+R0
+Z29 8dekoderL1.vhf
+Z30 FdekoderL1.vhf
+l0
+L28
+V20]RBN:oVj7je3=EMiaAZ1
+!s100 QKd78`=:9BUbPVj4><X8Y1
+R8
+31
+Z31 !s110 1523699964
+!i10b 1
+Z32 !s108 1523699964.000000
+Z33 !s90 -reportprogress|300|-explicit|-93|dekoderL1.vhf|
+Z34 !s107 dekoderL1.vhf|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 9 dekoderl1 0 22 20]RBN:oVj7je3=EMiaAZ1
+l109
+L38
+VDNgC7ZnMU=SOBT2zGLE6e1
+!s100 ebPm=363QXCk:i=68QSUk0
+R8
+31
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R13
+R14
+Edekoderl1_muser_licznikl1
+Z35 w1523697743
+R2
+R3
+R4
+R5
+R0
+Z36 8licznikL1.vhf
+Z37 FlicznikL1.vhf
+l0
+L191
+V=F<W^61iS^Klm6mA<Q<JD1
+!s100 <f7Q=2nBIELmeMC1o9SeM0
+R8
+31
+Z38 !s110 1523699965
+!i10b 1
+R10
+Z39 !s90 -reportprogress|300|-explicit|-93|licznikL1.vhf|
+Z40 !s107 licznikL1.vhf|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 25 dekoderl1_muser_licznikl1 0 22 =F<W^61iS^Klm6mA<Q<JD1
+l272
+L201
+VR689U4cITQggE1Mn1AmQ32
+!s100 282T44GYHP9fV[94eP?SH0
+R8
+31
+R38
+!i10b 1
+R10
+R39
+R40
+!i113 1
+R13
+R14
+Edekoderl1_muser_symulacja
+R15
+R2
+R3
+R4
+R5
+R0
+R16
+R17
+l0
+L519
+V6dLeA?AM0]fWfEo@WZ1h43
+!s100 d7HPF8Y0DM`PdF6i[=5<Q0
+R8
+31
+R9
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+Z41 DEx4 work 25 dekoderl1_muser_symulacja 0 22 6dLeA?AM0]fWfEo@WZ1h43
+l600
+L529
+Z42 VOJYLn[@3?0fSR5UC<R0:H2
+Z43 !s100 iH5T9CL?cmIWnT65Y4kmg3
+R8
+31
+R9
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R13
+R14
+Edekoderl2
+Z44 w1523644451
+R2
+R3
+R4
+R5
+R0
+Z45 8dekoderL2.vhf
+Z46 FdekoderL2.vhf
+l0
+L28
+VzkNWRLG7Chej5RfX_gPSK2
+!s100 Ha?UJiceHPYk1`J:?P1Ve2
+R8
+31
+Z47 !s110 1523699963
+!i10b 1
+Z48 !s108 1523699963.000000
+Z49 !s90 -reportprogress|300|-explicit|-93|dekoderL2.vhf|
+Z50 !s107 dekoderL2.vhf|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 9 dekoderl2 0 22 zkNWRLG7Chej5RfX_gPSK2
+l91
+L38
+VfeFg;]Wc1knkDf;U^PB;E3
+!s100 Eo673DkWAQQc:gRVo895M2
+R8
+31
+R47
+!i10b 1
+R48
+R49
+R50
+!i113 1
+R13
+R14
+Edekoderl2_muser_licznikl2
+R35
+R2
+R3
+R4
+R5
+R0
+Z51 8licznikL2.vhf
+Z52 FlicznikL2.vhf
+l0
+L28
+VQEK`c_K9>z_TeFM9efhcM1
+!s100 =3`RBgk=WV90ae1iFAY>k1
+R8
+31
+R31
+!i10b 1
+R32
+Z53 !s90 -reportprogress|300|-explicit|-93|licznikL2.vhf|
+Z54 !s107 licznikL2.vhf|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 25 dekoderl2_muser_licznikl2 0 22 QEK`c_K9>z_TeFM9efhcM1
+l91
+L38
+VJI7>6;<Tg[LBG2AkXXB>Z2
+!s100 BiCo@g7zbh0ORj@zS8HfL0
+R8
+31
+R31
+!i10b 1
+R32
+R53
+R54
+!i113 1
+R13
+R14
+Edekoderl2_muser_symulacja
+R15
+R2
+R3
+R4
+R5
+R0
+R16
+R17
+l0
+L155
+VciCHF5oF@]HJX7COmWYAz1
+!s100 6C7l`DE1mb7FkcNo?>ULh3
+R8
+31
+R9
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+Z55 DEx4 work 25 dekoderl2_muser_symulacja 0 22 ciCHF5oF@]HJX7COmWYAz1
+l218
+L165
+Z56 VeiObC4=i1keQ25IHa[z@]1
+Z57 !s100 ]Ogolf7PRoLGCC>;J`UL_2
+R8
+31
+R9
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R13
+R14
+vglbl
+!s110 1523646708
+!i10b 1
+!s100 UlJ]9LUWO:ZWoRO62F9fW3
+ISgEWNV>ceC35XW9L;W8G]1
+R24
+R0
+w1381681120
+8C:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v
+FC:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v
+L0 5
+R25
+r1
+!s85 0
+31
+R26
+!s107 C:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v|
+!s90 -reportprogress|300|C:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v|
+!s101 -O0
+!i113 1
+R27
+Elicznik3bit
+Z58 w1523697741
+R2
+R3
+R4
+R5
+R0
+Z59 8licznik3bit.vhf
+Z60 Flicznik3bit.vhf
+l0
+L28
+VlcoC>GTn=5nMLnJ_UQOX51
+!s100 B`VOAmR>zIbTZ6^g]0cbg2
+R8
+31
+R47
+!i10b 1
+R48
+Z61 !s90 -reportprogress|300|-explicit|-93|licznik3bit.vhf|
+Z62 !s107 licznik3bit.vhf|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 11 licznik3bit 0 22 lcoC>GTn=5nMLnJ_UQOX51
+l111
+L38
+V<DjYYDPI[okWoN^@KSTMj3
+!s100 V1AP[Fg^a_A5<UNVYEbPR0
+R8
+31
+R47
+!i10b 1
+R48
+R61
+R62
+!i113 1
+R13
+R14
+Elicznik3bit_muser_licznikl1
+R35
+R2
+R3
+R4
+R5
+R0
+R36
+R37
+l0
+L28
+VKn@hHaj3g^9J9HiIQ?Vnh2
+!s100 6g[SM7c]0PQb7]YHhKA3Y2
+R8
+31
+R38
+!i10b 1
+R10
+R39
+R40
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 27 licznik3bit_muser_licznikl1 0 22 Kn@hHaj3g^9J9HiIQ?Vnh2
+l111
+L38
+Vn^lSDSB[VD>ZlH5OUdXT41
+!s100 =1Am>MU6mP?GZHdni_UmT3
+R8
+31
+R38
+!i10b 1
+R10
+R39
+R40
+!i113 1
+R13
+R14
+Elicznik3bit_muser_licznikl2
+R35
+R2
+R3
+R4
+R5
+R0
+R51
+R52
+l0
+L159
+VoQIFl[gMh9dR=_f9Ud@I`1
+!s100 nQn1mJfVUChB0HNYFk@4F1
+R8
+31
+R31
+!i10b 1
+R32
+R53
+R54
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 27 licznik3bit_muser_licznikl2 0 22 oQIFl[gMh9dR=_f9Ud@I`1
+l242
+L169
+VVo1gX8CT:^fV8Qb_9<6EF0
+!s100 V4NZaUSM8W4N186YaL[ca0
+R8
+31
+R31
+!i10b 1
+R32
+R53
+R54
+!i113 1
+R13
+R14
+Elicznik3bit_muser_symulacja
+R15
+R2
+R3
+R4
+R5
+R0
+R16
+R17
+l0
+L286
+Vf@5JXJkO;LY2B>PDl5G^?3
+!s100 dEgYL6GkCmV=il^S:MkXa3
+R8
+31
+R9
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+Z63 DEx4 work 27 licznik3bit_muser_symulacja 0 22 f@5JXJkO;LY2B>PDl5G^?3
+l369
+L296
+Z64 V=Kg4k^4Jl^NYDn<AUI=^f1
+Z65 !s100 ;1V36I<mmgo>LK?R2UTgX3
+R8
+31
+R9
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R13
+R14
+Elicznikl1
+R35
+R2
+R3
+R4
+R5
+R0
+R36
+R37
+l0
+L352
+VCBWPV[<A`>1f5WjjCohfG2
+!s100 _8LeW;<odj1zX;RER``G=2
+R8
+31
+R38
+!i10b 1
+R10
+R39
+R40
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 9 licznikl1 0 22 CBWPV[<A`>1f5WjjCohfG2
+l390
+L366
+V1bFE@ISTR4BITD;R93;?>2
+!s100 fYkSA5MH=MGZYmLSooZbf1
+R8
+31
+R38
+!i10b 1
+R10
+R39
+R40
+!i113 1
+R13
+R14
+Elicznikl1_muser_symulacja
+R15
+R2
+R3
+R4
+R5
+R0
+R16
+R17
+l0
+L680
+Vh1b;C<?KOi_Y@n>Uf7iBL2
+!s100 Jz2]HRe_c@k7KgnWAiSh^1
+R8
+31
+R9
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+Z66 DEx4 work 25 licznikl1_muser_symulacja 0 22 h1b;C<?KOi_Y@n>Uf7iBL2
+l718
+L694
+Z67 VCYCL`lK><_FIP;F4lR;I^0
+Z68 !s100 FX>lC6nkcfR:bSFflOk:D1
+R8
+31
+R9
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R13
+R14
+Elicznikl2
+R35
+R2
+R3
+R4
+R5
+R0
+R51
+R52
+l0
+L322
+V[VXl0=@QK98A6lQ?ZgZ4g2
+!s100 dZL<N0j3Fo1`oKc66:eab1
+R8
+31
+R31
+!i10b 1
+R32
+R53
+R54
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 9 licznikl2 0 22 [VXl0=@QK98A6lQ?ZgZ4g2
+l360
+L336
+VnMWh<dJjl<nc8ki1CeSdi3
+!s100 _mfI60W>4mNh0NJN9@^fJ3
+R8
+31
+R31
+!i10b 1
+R32
+R53
+R54
+!i113 1
+R13
+R14
+Elicznikl2_muser_symulacja
+R15
+R2
+R3
+R4
+R5
+R0
+R16
+R17
+l0
+L449
+VMZ^VGi7_@?Y_c0fFCK;HR1
+!s100 Yl3PYA<>Jim^SHZNX@`QZ0
+R8
+31
+R9
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+Z69 DEx4 work 25 licznikl2_muser_symulacja 0 22 MZ^VGi7_@?Y_c0fFCK;HR1
+l487
+L463
+Z70 VZOZRB_alBOM@];?nAUB8P1
+Z71 !s100 g?eOiCI8RMa4Vchok61jz2
+R8
+31
+R9
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R13
+R14
+Esymulacja
+R15
+R2
+R3
+R4
+R5
+R0
+R16
+R17
+l0
+L750
+VP1>T?N0kem1`B52h7BH7M0
+!s100 OYJk=LSHf5MV;mjLjf<Ck1
+R8
+31
+R9
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+Z72 DEx4 work 9 symulacja 0 22 P1>T?N0kem1`B52h7BH7M0
+l813
+L766
+Z73 V2]WF=1kK<LFkdGTbiPlJe2
+Z74 !s100 ^Vi[Og6M_jYYh8baoJEEf2
+R8
+31
+R9
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R13
+R14

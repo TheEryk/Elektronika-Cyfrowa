@@ -1,0 +1,3 @@
+force -freeze sim:/symulacja/CLK 1 0, 0 {5000 ps} -r 10ns
+force -freeze sim:/symulacja/RST 0 0
+force -freeze sim:/symulacja/CE 1 0

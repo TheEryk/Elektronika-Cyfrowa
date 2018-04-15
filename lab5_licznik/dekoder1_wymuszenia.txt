@@ -1,0 +1,3 @@
+force -freeze sim:/dekoderl1/Q0 0 0, 1 {5000 ps} -r 10ns
+force -freeze sim:/dekoderl1/Q1 0 0, 1 {10000 ps} -r 20ns
+force -freeze sim:/dekoderl1/Q2 0 0, 1 {20000 ps} -r 40ns

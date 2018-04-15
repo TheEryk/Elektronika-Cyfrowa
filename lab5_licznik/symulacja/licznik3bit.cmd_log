@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family spartan3e -refsym licznik3bit C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik_projekt/licznik3bit.sch C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik_projekt/licznik3bit.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym licznik3bit C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik_projekt/licznik3bit.sch C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik_projekt/licznik3bit.sym 

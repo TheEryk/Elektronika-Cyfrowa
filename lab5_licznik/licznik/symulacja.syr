@@ -1,0 +1,665 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: symulacja.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "symulacja.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "symulacja"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : symulacja
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/clk_gen_50.vhd" in Library work.
+Architecture behav of Entity clk_gen_50 is up to date.
+Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/led4_driver.vhd" in Library work.
+Architecture behavioral of Entity led4_driver is up to date.
+Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/symulacja.vhf" in Library work.
+Entity <bin2bcd_muser_symulacja> compiled.
+Entity <bin2bcd_muser_symulacja> (Architecture <behavioral>) compiled.
+Entity <dekoderl2_muser_symulacja> compiled.
+Entity <dekoderl2_muser_symulacja> (Architecture <behavioral>) compiled.
+Entity <licznik3bit_muser_symulacja> compiled.
+Entity <licznik3bit_muser_symulacja> (Architecture <behavioral>) compiled.
+Entity <licznikl2_muser_symulacja> compiled.
+Entity <licznikl2_muser_symulacja> (Architecture <behavioral>) compiled.
+Entity <dekoderl1_muser_symulacja> compiled.
+Entity <dekoderl1_muser_symulacja> (Architecture <behavioral>) compiled.
+Entity <licznikl1_muser_symulacja> compiled.
+Entity <licznikl1_muser_symulacja> (Architecture <behavioral>) compiled.
+Entity <symulacja> compiled.
+Entity <symulacja> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/bin2bcd.vhf" in Library work.
+Architecture behavioral of Entity bin2bcd is up to date.
+Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/licznikL1.vhf" in Library work.
+Entity <licznik3bit_muser_licznikl1> compiled.
+Entity <licznik3bit_muser_licznikl1> (Architecture <behavioral>) compiled.
+Entity <dekoderl1_muser_licznikl1> compiled.
+Entity <dekoderl1_muser_licznikl1> (Architecture <behavioral>) compiled.
+Entity <licznikl1> compiled.
+Entity <licznikl1> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/licznikL2.vhf" in Library work.
+Entity <dekoderl2_muser_licznikl2> compiled.
+Entity <dekoderl2_muser_licznikl2> (Architecture <behavioral>) compiled.
+Entity <licznik3bit_muser_licznikl2> compiled.
+Entity <licznik3bit_muser_licznikl2> (Architecture <behavioral>) compiled.
+Entity <licznikl2> compiled.
+Entity <licznikl2> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/dekoderL1.vhf" in Library work.
+Architecture behavioral of Entity dekoderl1 is up to date.
+Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/dekoderL2.vhf" in Library work.
+Architecture behavioral of Entity dekoderl2 is up to date.
+Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/licznik3bit.vhf" in Library work.
+Entity <licznik3bit> compiled.
+Entity <licznik3bit> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <symulacja> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <licznikL1_MUSER_symulacja> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <licznikL2_MUSER_symulacja> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <clk_gen_50> in library <work> (architecture <behav>) with generics.
+	F1 = 24
+	F2 = 7
+
+Analyzing hierarchy for entity <led4_driver> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <bin2bcd_MUSER_symulacja> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <dekoderL1_MUSER_symulacja> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <licznik3bit_MUSER_symulacja> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <dekoderL2_MUSER_symulacja> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <symulacja> in library <work> (Architecture <behavioral>).
+    Set user-defined property "LOC =  G18" for signal <CE> in unit <symulacja>.
+    Set user-defined property "LOC =  B8" for signal <CLK> in unit <symulacja>.
+    Set user-defined property "LOC =  B18" for signal <RST> in unit <symulacja>.
+    Set user-defined property "LOC =  F15 C18 H17 F17" for signal <an> in unit <symulacja>.
+    Set user-defined property "LOC =  H14 J17 G14 D16 D17 F18 L18" for signal <sseg> in unit <symulacja>.
+WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/symulacja.vhf" line 853: Unconnected output port 'TC' of component 'licznikL2_MUSER_symulacja'.
+Entity <symulacja> analyzed. Unit <symulacja> generated.
+
+Analyzing Entity <licznikL1_MUSER_symulacja> in library <work> (Architecture <behavioral>).
+Entity <licznikL1_MUSER_symulacja> analyzed. Unit <licznikL1_MUSER_symulacja> generated.
+
+Analyzing Entity <dekoderL1_MUSER_symulacja> in library <work> (Architecture <behavioral>).
+Entity <dekoderL1_MUSER_symulacja> analyzed. Unit <dekoderL1_MUSER_symulacja> generated.
+
+Analyzing Entity <licznik3bit_MUSER_symulacja> in library <work> (Architecture <behavioral>).
+    Set user-defined property "INIT =  0" for instance <XLXI_6> in unit <licznik3bit_MUSER_symulacja>.
+    Set user-defined property "INIT =  0" for instance <XLXI_9> in unit <licznik3bit_MUSER_symulacja>.
+    Set user-defined property "INIT =  0" for instance <XLXI_10> in unit <licznik3bit_MUSER_symulacja>.
+    Set user-defined property "INIT =  0" for instance <XLXI_18> in unit <licznik3bit_MUSER_symulacja>.
+Entity <licznik3bit_MUSER_symulacja> analyzed. Unit <licznik3bit_MUSER_symulacja> generated.
+
+Analyzing Entity <licznikL2_MUSER_symulacja> in library <work> (Architecture <behavioral>).
+Entity <licznikL2_MUSER_symulacja> analyzed. Unit <licznikL2_MUSER_symulacja> generated.
+
+Analyzing Entity <dekoderL2_MUSER_symulacja> in library <work> (Architecture <behavioral>).
+Entity <dekoderL2_MUSER_symulacja> analyzed. Unit <dekoderL2_MUSER_symulacja> generated.
+
+Analyzing generic Entity <clk_gen_50> in library <work> (Architecture <behav>).
+	F1 = 24
+	F2 = 7
+Entity <clk_gen_50> analyzed. Unit <clk_gen_50> generated.
+
+Analyzing Entity <led4_driver> in library <work> (Architecture <behavioral>).
+Entity <led4_driver> analyzed. Unit <led4_driver> generated.
+
+Analyzing Entity <bin2bcd_MUSER_symulacja> in library <work> (Architecture <behavioral>).
+Entity <bin2bcd_MUSER_symulacja> analyzed. Unit <bin2bcd_MUSER_symulacja> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <clk_gen_50>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/clk_gen_50.vhd".
+    Found 32-bit up counter for signal <counter>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <clk_gen_50> synthesized.
+
+
+Synthesizing Unit <led4_driver>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/led4_driver.vhd".
+    Found 16x7-bit ROM for signal <seg>.
+    Found 4-bit register for signal <one_hot>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   4 D-type flip-flop(s).
+Unit <led4_driver> synthesized.
+
+
+Synthesizing Unit <bin2bcd_MUSER_symulacja>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/symulacja.vhf".
+Unit <bin2bcd_MUSER_symulacja> synthesized.
+
+
+Synthesizing Unit <dekoderL1_MUSER_symulacja>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/symulacja.vhf".
+Unit <dekoderL1_MUSER_symulacja> synthesized.
+
+
+Synthesizing Unit <licznik3bit_MUSER_symulacja>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/symulacja.vhf".
+Unit <licznik3bit_MUSER_symulacja> synthesized.
+
+
+Synthesizing Unit <dekoderL2_MUSER_symulacja>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/symulacja.vhf".
+Unit <dekoderL2_MUSER_symulacja> synthesized.
+
+
+Synthesizing Unit <licznikL1_MUSER_symulacja>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/symulacja.vhf".
+Unit <licznikL1_MUSER_symulacja> synthesized.
+
+
+Synthesizing Unit <licznikL2_MUSER_symulacja>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/symulacja.vhf".
+Unit <licznikL2_MUSER_symulacja> synthesized.
+
+
+Synthesizing Unit <symulacja>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/symulacja.vhf".
+WARNING:Xst:653 - Signal <d<3:1>> is used but never assigned. This sourceless signal will be automatically connected to value 000.
+WARNING:Xst:653 - Signal <b<3:1>> is used but never assigned. This sourceless signal will be automatically connected to value 000.
+Unit <symulacja> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 1
+ 4-bit register                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 12
+ Flip-Flops                                            : 12
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <XLXI_6/counter_25> of sequential type is unconnected in block <symulacja>.
+WARNING:Xst:2677 - Node <XLXI_6/counter_26> of sequential type is unconnected in block <symulacja>.
+WARNING:Xst:2677 - Node <XLXI_6/counter_27> of sequential type is unconnected in block <symulacja>.
+WARNING:Xst:2677 - Node <XLXI_6/counter_28> of sequential type is unconnected in block <symulacja>.
+WARNING:Xst:2677 - Node <XLXI_6/counter_29> of sequential type is unconnected in block <symulacja>.
+WARNING:Xst:2677 - Node <XLXI_6/counter_30> of sequential type is unconnected in block <symulacja>.
+WARNING:Xst:2677 - Node <XLXI_6/counter_31> of sequential type is unconnected in block <symulacja>.
+
+Optimizing unit <symulacja> ...
+
+Optimizing unit <led4_driver> ...
+
+Optimizing unit <bin2bcd_MUSER_symulacja> ...
+
+Optimizing unit <dekoderL1_MUSER_symulacja> ...
+
+Optimizing unit <dekoderL2_MUSER_symulacja> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block symulacja, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 37
+ Flip-Flops                                            : 37
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : symulacja.ngr
+Top Level Output File Name         : symulacja
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 20
+
+Cell Usage :
+# BELS                             : 154
+#      AND2                        : 13
+#      AND2B1                      : 10
+#      AND2B2                      : 2
+#      AND3                        : 3
+#      AND3B1                      : 5
+#      AND3B2                      : 3
+#      AND3B3                      : 1
+#      BUF                         : 2
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 24
+#      LUT4                        : 16
+#      MUXCY                       : 24
+#      OR2                         : 12
+#      OR3                         : 4
+#      VCC                         : 1
+#      XOR2                        : 5
+#      XORCY                       : 25
+# FlipFlops/Latches                : 37
+#      FD                          : 29
+#      FDC                         : 8
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 19
+#      IBUF                        : 2
+#      OBUF                        : 17
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                       22  out of   4656     0%  
+ Number of Slice Flip Flops:             37  out of   9312     0%  
+ Number of 4 input LUTs:                 43  out of   9312     0%  
+ Number of IOs:                          20
+ Number of bonded IOBs:                  20  out of    232     8%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+----------------------------------------------+------------------------------+-------+
+Clock Signal                                  | Clock buffer(FF name)        | Load  |
+----------------------------------------------+------------------------------+-------+
+XLXI_3/XLXI_2/XLXN_27(XLXI_3/XLXI_2/XLXI_17:O)| NONE(*)(XLXI_3/XLXI_2/XLXI_6)| 4     |
+XLXI_4/XLXI_1/XLXN_27(XLXI_4/XLXI_1/XLXI_17:O)| NONE(*)(XLXI_4/XLXI_1/XLXI_6)| 4     |
+CLK                                           | BUFGP                        | 25    |
+XLXI_6/counter_7                              | NONE(XLXI_7/one_hot_3)       | 4     |
+----------------------------------------------+------------------------------+-------+
+(*) These 2 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+RST                                | IBUF                   | 8     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 4.764ns (Maximum Frequency: 209.908MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 14.702ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_3/XLXI_2/XLXN_27'
+  Clock period: 4.130ns (frequency: 242.131MHz)
+  Total number of paths / destination ports: 13 / 4
+-------------------------------------------------------------------------
+Delay:               4.130ns (Levels of Logic = 2)
+  Source:            XLXI_3/XLXI_2/XLXI_10 (FF)
+  Destination:       XLXI_3/XLXI_2/XLXI_10 (FF)
+  Source Clock:      XLXI_3/XLXI_2/XLXN_27 rising
+  Destination Clock: XLXI_3/XLXI_2/XLXN_27 rising
+
+  Data Path: XLXI_3/XLXI_2/XLXI_10 to XLXI_3/XLXI_2/XLXI_10
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             13   0.591   0.983  XLXI_3/XLXI_2/XLXI_10 (l2_OBUF)
+     AND3B1:I0->O          1   0.704   0.420  XLXI_3/XLXI_2/XLXI_13 (XLXI_3/XLXI_2/XLXN_10)
+     OR3:I2->O             1   0.704   0.420  XLXI_3/XLXI_2/XLXI_16 (XLXI_3/XLXI_2/XLXN_31)
+     FDC:D                     0.308          XLXI_3/XLXI_2/XLXI_10
+    ----------------------------------------
+    Total                      4.130ns (2.307ns logic, 1.823ns route)
+                                       (55.9% logic, 44.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_4/XLXI_1/XLXN_27'
+  Clock period: 4.108ns (frequency: 243.427MHz)
+  Total number of paths / destination ports: 13 / 4
+-------------------------------------------------------------------------
+Delay:               4.108ns (Levels of Logic = 2)
+  Source:            XLXI_4/XLXI_1/XLXI_6 (FF)
+  Destination:       XLXI_4/XLXI_1/XLXI_10 (FF)
+  Source Clock:      XLXI_4/XLXI_1/XLXN_27 rising
+  Destination Clock: XLXI_4/XLXI_1/XLXN_27 rising
+
+  Data Path: XLXI_4/XLXI_1/XLXI_6 to XLXI_4/XLXI_1/XLXI_10
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             12   0.591   0.961  XLXI_4/XLXI_1/XLXI_6 (l4_OBUF)
+     AND3B1:I2->O          1   0.704   0.420  XLXI_4/XLXI_1/XLXI_13 (XLXI_4/XLXI_1/XLXN_10)
+     OR3:I2->O             1   0.704   0.420  XLXI_4/XLXI_1/XLXI_16 (XLXI_4/XLXI_1/XLXN_31)
+     FDC:D                     0.308          XLXI_4/XLXI_1/XLXI_10
+    ----------------------------------------
+    Total                      4.108ns (2.307ns logic, 1.801ns route)
+                                       (56.2% logic, 43.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 4.764ns (frequency: 209.908MHz)
+  Total number of paths / destination ports: 325 / 25
+-------------------------------------------------------------------------
+Delay:               4.764ns (Levels of Logic = 25)
+  Source:            XLXI_6/counter_1 (FF)
+  Destination:       XLXI_6/counter_24 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: XLXI_6/counter_1 to XLXI_6/counter_24
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.591   0.595  XLXI_6/counter_1 (XLXI_6/counter_1)
+     LUT1:I0->O            1   0.704   0.000  XLXI_6/Mcount_counter_cy<1>_rt (XLXI_6/Mcount_counter_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  XLXI_6/Mcount_counter_cy<1> (XLXI_6/Mcount_counter_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_counter_cy<2> (XLXI_6/Mcount_counter_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_counter_cy<3> (XLXI_6/Mcount_counter_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_counter_cy<4> (XLXI_6/Mcount_counter_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_counter_cy<5> (XLXI_6/Mcount_counter_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_counter_cy<6> (XLXI_6/Mcount_counter_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_counter_cy<7> (XLXI_6/Mcount_counter_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_counter_cy<8> (XLXI_6/Mcount_counter_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_counter_cy<9> (XLXI_6/Mcount_counter_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_counter_cy<10> (XLXI_6/Mcount_counter_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_counter_cy<11> (XLXI_6/Mcount_counter_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_counter_cy<12> (XLXI_6/Mcount_counter_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_counter_cy<13> (XLXI_6/Mcount_counter_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_counter_cy<14> (XLXI_6/Mcount_counter_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_counter_cy<15> (XLXI_6/Mcount_counter_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_counter_cy<16> (XLXI_6/Mcount_counter_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_counter_cy<17> (XLXI_6/Mcount_counter_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_counter_cy<18> (XLXI_6/Mcount_counter_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_counter_cy<19> (XLXI_6/Mcount_counter_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_counter_cy<20> (XLXI_6/Mcount_counter_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_counter_cy<21> (XLXI_6/Mcount_counter_cy<21>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_counter_cy<22> (XLXI_6/Mcount_counter_cy<22>)
+     MUXCY:CI->O           0   0.059   0.000  XLXI_6/Mcount_counter_cy<23> (XLXI_6/Mcount_counter_cy<23>)
+     XORCY:CI->O           1   0.804   0.000  XLXI_6/Mcount_counter_xor<24> (Result<24>)
+     FD:D                      0.308          XLXI_6/counter_24
+    ----------------------------------------
+    Total                      4.764ns (4.169ns logic, 0.595ns route)
+                                       (87.5% logic, 12.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_6/counter_7'
+  Clock period: 1.568ns (frequency: 637.755MHz)
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Delay:               1.568ns (Levels of Logic = 0)
+  Source:            XLXI_7/one_hot_2 (FF)
+  Destination:       XLXI_7/one_hot_3 (FF)
+  Source Clock:      XLXI_6/counter_7 rising
+  Destination Clock: XLXI_6/counter_7 rising
+
+  Data Path: XLXI_7/one_hot_2 to XLXI_7/one_hot_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               6   0.591   0.669  XLXI_7/one_hot_2 (XLXI_7/one_hot_2)
+     FD:D                      0.308          XLXI_7/one_hot_3
+    ----------------------------------------
+    Total                      1.568ns (0.899ns logic, 0.669ns route)
+                                       (57.3% logic, 42.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_3/XLXI_2/XLXN_27'
+  Total number of paths / destination ports: 591 / 10
+-------------------------------------------------------------------------
+Offset:              14.702ns (Levels of Logic = 9)
+  Source:            XLXI_3/XLXI_2/XLXI_9 (FF)
+  Destination:       sseg<1> (PAD)
+  Source Clock:      XLXI_3/XLXI_2/XLXN_27 rising
+
+  Data Path: XLXI_3/XLXI_2/XLXI_9 to sseg<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             12   0.591   0.961  XLXI_3/XLXI_2/XLXI_9 (l1_OBUF)
+     XOR2:I0->O            1   0.704   0.420  XLXI_3/XLXI_1/XLXI_13 (XLXI_3/XLXI_1/XLXN_12)
+     AND2B1:I1->O          1   0.704   0.420  XLXI_3/XLXI_1/XLXI_8 (XLXI_3/XLXI_1/XLXN_5)
+     OR2:I1->O             5   0.704   0.633  XLXI_3/XLXI_1/XLXI_4 (XLXN_19)
+     AND2:I1->O            1   0.704   0.420  XLXI_8/XLXI_7 (XLXI_8/XLXN_12)
+     OR2:I1->O             1   0.704   0.455  XLXI_8/XLXI_11 (b<0>)
+     LUT4:I2->O            1   0.704   0.595  XLXI_7/digit<0>87 (XLXI_7/digit<0>87)
+     LUT4:I0->O            7   0.704   0.883  XLXI_7/digit<0>99 (XLXI_7/digit<0>)
+     LUT4:I0->O            1   0.704   0.420  XLXI_7/sseg<1>1 (sseg_1_OBUF)
+     OBUF:I->O                 3.272          sseg_1_OBUF (sseg<1>)
+    ----------------------------------------
+    Total                     14.702ns (9.495ns logic, 5.207ns route)
+                                       (64.6% logic, 35.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_4/XLXI_1/XLXN_27'
+  Total number of paths / destination ports: 535 / 10
+-------------------------------------------------------------------------
+Offset:              13.412ns (Levels of Logic = 8)
+  Source:            XLXI_4/XLXI_1/XLXI_6 (FF)
+  Destination:       sseg<1> (PAD)
+  Source Clock:      XLXI_4/XLXI_1/XLXN_27 rising
+
+  Data Path: XLXI_4/XLXI_1/XLXI_6 to sseg<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             12   0.591   0.961  XLXI_4/XLXI_1/XLXI_6 (l4_OBUF)
+     AND2:I1->O            1   0.704   0.420  XLXI_4/XLXI_6/XLXI_31 (XLXI_4/XLXI_6/XLXN_67)
+     OR2:I1->O             6   0.704   0.669  XLXI_4/XLXI_6/XLXI_32 (XLXN_16)
+     AND2:I0->O            1   0.704   0.420  XLXI_9/XLXI_7 (XLXI_9/XLXN_12)
+     OR2:I1->O             1   0.704   0.424  XLXI_9/XLXI_11 (d<0>)
+     LUT4:I3->O            1   0.704   0.424  XLXI_7/digit<0>99_SW0 (N3)
+     LUT4:I3->O            7   0.704   0.883  XLXI_7/digit<0>99 (XLXI_7/digit<0>)
+     LUT4:I0->O            1   0.704   0.420  XLXI_7/sseg<1>1 (sseg_1_OBUF)
+     OBUF:I->O                 3.272          sseg_1_OBUF (sseg<1>)
+    ----------------------------------------
+    Total                     13.412ns (8.791ns logic, 4.621ns route)
+                                       (65.5% logic, 34.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_6/counter_7'
+  Total number of paths / destination ports: 256 / 11
+-------------------------------------------------------------------------
+Offset:              10.012ns (Levels of Logic = 5)
+  Source:            XLXI_7/one_hot_3 (FF)
+  Destination:       sseg<1> (PAD)
+  Source Clock:      XLXI_6/counter_7 rising
+
+  Data Path: XLXI_7/one_hot_3 to sseg<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               6   0.591   0.844  XLXI_7/one_hot_3 (XLXI_7/one_hot_3)
+     LUT4:I0->O            4   0.704   0.762  XLXI_7/digit<0>11 (XLXI_7/N11)
+     LUT4:I0->O            1   0.704   0.424  XLXI_7/digit<0>99_SW0 (N3)
+     LUT4:I3->O            7   0.704   0.883  XLXI_7/digit<0>99 (XLXI_7/digit<0>)
+     LUT4:I0->O            1   0.704   0.420  XLXI_7/sseg<1>1 (sseg_1_OBUF)
+     OBUF:I->O                 3.272          sseg_1_OBUF (sseg<1>)
+    ----------------------------------------
+    Total                     10.012ns (6.679ns logic, 3.333ns route)
+                                       (66.7% logic, 33.3% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.98 secs
+ 
+--> 
+
+Total memory usage is 342136 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   10 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

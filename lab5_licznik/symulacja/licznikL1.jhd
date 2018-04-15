@@ -1,0 +1,5 @@
+MODULE licznikL1
+	SUBMODULE dekoderL1
+		INSTANCE XLXI_1
+	SUBMODULE licznik3bit
+		INSTANCE XLXI_2

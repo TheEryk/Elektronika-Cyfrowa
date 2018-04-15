@@ -1,0 +1,170 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# do {symulacja.fdo}
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 11:59:23 on Apr 14,2018
+# vcom -reportprogress 300 -explicit -93 licznik3bit.vhf 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Compiling entity licznik3bit
+# -- Compiling architecture BEHAVIORAL of licznik3bit
+# End time: 11:59:23 on Apr 14,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 11:59:23 on Apr 14,2018
+# vcom -reportprogress 300 -explicit -93 dekoderL2.vhf 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Compiling entity dekoderL2
+# -- Compiling architecture BEHAVIORAL of dekoderL2
+# End time: 11:59:24 on Apr 14,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 11:59:24 on Apr 14,2018
+# vcom -reportprogress 300 -explicit -93 dekoderL1.vhf 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Compiling entity dekoderL1
+# -- Compiling architecture BEHAVIORAL of dekoderL1
+# End time: 11:59:24 on Apr 14,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 11:59:24 on Apr 14,2018
+# vcom -reportprogress 300 -explicit -93 licznikL2.vhf 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Compiling entity dekoderL2_MUSER_licznikL2
+# -- Compiling architecture BEHAVIORAL of dekoderL2_MUSER_licznikL2
+# -- Compiling entity licznik3bit_MUSER_licznikL2
+# -- Compiling architecture BEHAVIORAL of licznik3bit_MUSER_licznikL2
+# -- Compiling entity licznikL2
+# -- Compiling architecture BEHAVIORAL of licznikL2
+# End time: 11:59:24 on Apr 14,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 11:59:25 on Apr 14,2018
+# vcom -reportprogress 300 -explicit -93 licznikL1.vhf 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Compiling entity licznik3bit_MUSER_licznikL1
+# -- Compiling architecture BEHAVIORAL of licznik3bit_MUSER_licznikL1
+# -- Compiling entity dekoderL1_MUSER_licznikL1
+# -- Compiling architecture BEHAVIORAL of dekoderL1_MUSER_licznikL1
+# -- Compiling entity licznikL1
+# -- Compiling architecture BEHAVIORAL of licznikL1
+# End time: 11:59:25 on Apr 14,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 11:59:25 on Apr 14,2018
+# vcom -reportprogress 300 -explicit -93 bin2bcd.vhf 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Compiling entity bin2bcd
+# -- Compiling architecture BEHAVIORAL of bin2bcd
+# End time: 11:59:26 on Apr 14,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 11:59:26 on Apr 14,2018
+# vcom -reportprogress 300 -explicit -93 symulacja.vhf 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Compiling entity bin2bcd_MUSER_symulacja
+# -- Compiling architecture BEHAVIORAL of bin2bcd_MUSER_symulacja
+# -- Compiling entity dekoderL2_MUSER_symulacja
+# -- Compiling architecture BEHAVIORAL of dekoderL2_MUSER_symulacja
+# -- Compiling entity licznik3bit_MUSER_symulacja
+# -- Compiling architecture BEHAVIORAL of licznik3bit_MUSER_symulacja
+# -- Compiling entity licznikL2_MUSER_symulacja
+# -- Compiling architecture BEHAVIORAL of licznikL2_MUSER_symulacja
+# -- Compiling entity dekoderL1_MUSER_symulacja
+# -- Compiling architecture BEHAVIORAL of dekoderL1_MUSER_symulacja
+# -- Compiling entity licznikL1_MUSER_symulacja
+# -- Compiling architecture BEHAVIORAL of licznikL1_MUSER_symulacja
+# -- Compiling entity symulacja
+# -- Compiling architecture BEHAVIORAL of symulacja
+# End time: 11:59:26 on Apr 14,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui -do "do {symulacja.fdo}" 
+# Start time: 11:59:26 on Apr 14,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading unisim.vcomponents
+# Loading work.symulacja(behavioral)
+# Loading work.licznikl1_muser_symulacja(behavioral)
+# Loading work.dekoderl1_muser_symulacja(behavioral)
+# Loading unisim.or2(or2_v)
+# Loading unisim.and2(and2_v)
+# Loading unisim.and2b1(and2b1_v)
+# Loading unisim.and3b2(and3b2_v)
+# Loading unisim.and3b3(and3b3_v)
+# Loading unisim.and3b1(and3b1_v)
+# Loading unisim.xor2(xor2_v)
+# Loading unisim.or3(or3_v)
+# Loading work.licznik3bit_muser_symulacja(behavioral)
+# Loading unisim.fdc(fdc_v)
+# Loading unisim.inv(inv_v)
+# Loading unisim.and3(and3_v)
+# Loading work.licznikl2_muser_symulacja(behavioral)
+# Loading work.dekoderl2_muser_symulacja(behavioral)
+# Loading unisim.and2b2(and2b2_v)
+# Loading work.bin2bcd_muser_symulacja(behavioral)
+# Loading unisim.buf(buf_v)
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+restart
+force -freeze sim:/symulacja/CLK 1 0, 0 {5000 ps} -r 10ns
+force -freeze sim:/symulacja/RST 0 0
+force -freeze sim:/symulacja/CE 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 12:04:34 on Apr 14,2018, Elapsed time: 0:05:08
+# Errors: 0, Warnings: 0

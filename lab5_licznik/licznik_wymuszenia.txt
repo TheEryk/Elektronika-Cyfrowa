@@ -1,0 +1,3 @@
+force -freeze sim:/licznik3bit/CLK 0 0, 1 {2500 ps} -r 5ns
+force -freeze sim:/licznik3bit/RST 0 0
+force -freeze sim:/licznik3bit/CE 1 0

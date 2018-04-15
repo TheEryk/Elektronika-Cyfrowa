@@ -1,0 +1,2 @@
+vhdtdtfi -lib work led4_driver.vhd -prj licznik_projekt -o led4_driver.spl -module led4_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e led4_driver.spl C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik_projekt/led4_driver.sym 

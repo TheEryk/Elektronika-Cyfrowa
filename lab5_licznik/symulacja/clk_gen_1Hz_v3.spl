@@ -1,0 +1,7 @@
+[Inputs]
+clk_in
+[Outputs]
+f_1Hz
+f_1kHz
+f_1MHz
+[BiDir]

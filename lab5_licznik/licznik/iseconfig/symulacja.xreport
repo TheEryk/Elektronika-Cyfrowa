@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-04-14T10:35:24</DateModified>
+  <DateModified>2018-04-14T11:31:34</DateModified>
   <ModuleName>symulacja</ModuleName>
-  <SummaryTimeStamp>2018-04-09T16:10:56</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt/iseconfig/symulacja.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab4_automat/A_projekt\</ImplementationReportsDirectory>
-  <DateInitialized>2018-04-07T17:10:04</DateInitialized>
+  <SummaryTimeStamp>2018-04-14T11:30:46</SummaryTimeStamp>
+  <SavedFilePath>C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/iseconfig/symulacja.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik</ImplementationReportsDirectory>
+  <DateInitialized>2018-04-14T11:28:42</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
  <body>

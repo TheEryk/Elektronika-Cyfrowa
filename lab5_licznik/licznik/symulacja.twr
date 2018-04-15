@@ -1,0 +1,96 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml symulacja.twx symulacja.ncd -o symulacja.twr symulacja.pcf
+
+Design file:              symulacja.ncd
+Physical constraint file: symulacja.pcf
+Device,package,speed:     xc3s500e,fg320,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock CE to Pad
+------------+------------+---------------------+--------+
+            | clk (edge) |                     | Clock  |
+Destination |   to PAD   |Internal Clock(s)    | Phase  |
+------------+------------+---------------------+--------+
+l0          |    8.310(R)|XLXI_3/XLXI_2/XLXN_27|   0.000|
+l1          |    9.083(R)|XLXI_3/XLXI_2/XLXN_27|   0.000|
+l2          |    8.573(R)|XLXI_3/XLXI_2/XLXN_27|   0.000|
+l4          |    8.762(R)|XLXI_4/XLXI_1/XLXN_27|   0.000|
+l5          |    8.544(R)|XLXI_4/XLXI_1/XLXN_27|   0.000|
+l6          |    9.187(R)|XLXI_4/XLXI_1/XLXN_27|   0.000|
+sseg<0>     |   14.942(R)|XLXI_3/XLXI_2/XLXN_27|   0.000|
+            |   15.833(R)|XLXI_4/XLXI_1/XLXN_27|   0.000|
+sseg<1>     |   14.014(R)|XLXI_3/XLXI_2/XLXN_27|   0.000|
+            |   14.905(R)|XLXI_4/XLXI_1/XLXN_27|   0.000|
+sseg<2>     |   14.012(R)|XLXI_3/XLXI_2/XLXN_27|   0.000|
+            |   14.903(R)|XLXI_4/XLXI_1/XLXN_27|   0.000|
+sseg<3>     |   14.541(R)|XLXI_3/XLXI_2/XLXN_27|   0.000|
+            |   15.432(R)|XLXI_4/XLXI_1/XLXN_27|   0.000|
+sseg<4>     |   14.405(R)|XLXI_3/XLXI_2/XLXN_27|   0.000|
+            |   15.296(R)|XLXI_4/XLXI_1/XLXN_27|   0.000|
+sseg<5>     |   15.249(R)|XLXI_3/XLXI_2/XLXN_27|   0.000|
+            |   16.140(R)|XLXI_4/XLXI_1/XLXN_27|   0.000|
+sseg<6>     |   14.326(R)|XLXI_3/XLXI_2/XLXN_27|   0.000|
+            |   15.217(R)|XLXI_4/XLXI_1/XLXN_27|   0.000|
+------------+------------+---------------------+--------+
+
+Clock to Setup on destination clock CE
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CE             |    2.737|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    4.299|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Sat Apr 14 11:30:37 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 214 MB
+
+
+
