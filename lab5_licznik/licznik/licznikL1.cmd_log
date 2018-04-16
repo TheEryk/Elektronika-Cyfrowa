@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family spartan3e -w -refsym licznikL1 C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/licznikL1.sch C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/licznikL1.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym licznikL1 C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/licznikL1.sch C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/licznikL1.sym 

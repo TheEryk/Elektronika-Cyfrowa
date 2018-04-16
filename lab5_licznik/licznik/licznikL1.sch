@@ -17,9 +17,6 @@
         <signal name="CE" />
         <signal name="CLK" />
         <signal name="RST" />
-        <signal name="XLXN_47" />
-        <signal name="XLXN_48" />
-        <signal name="XLXN_49" />
         <port polarity="Output" name="Q0" />
         <port polarity="Output" name="Q1" />
         <port polarity="Output" name="Q2" />
@@ -43,7 +40,7 @@
             <line x2="384" y1="-32" y2="-32" x1="320" />
         </blockdef>
         <blockdef name="licznik3bit">
-            <timestamp>2018-4-14T9:19:27</timestamp>
+            <timestamp>2018-4-16T10:22:33</timestamp>
             <line x2="384" y1="32" y2="32" x1="320" />
             <line x2="0" y1="-160" y2="-160" x1="64" />
             <line x2="0" y1="-96" y2="-96" x1="64" />

@@ -66,9 +66,9 @@ V20]RBN:oVj7je3=EMiaAZ1
 !s100 QKd78`=:9BUbPVj4><X8Y1
 R8
 31
-Z18 !s110 1523699506
+Z18 !s110 1523876768
 !i10b 1
-Z19 !s108 1523699505.000000
+Z19 !s108 1523876767.000000
 Z20 !s90 -reportprogress|300|-explicit|-93|dekoderL1.vhf|
 Z21 !s107 dekoderL1.vhf|
 !i113 1
@@ -95,7 +95,7 @@ R21
 R13
 R14
 Edekoderl1_muser_licznikl1
-Z22 w1523698195
+Z22 w1523876567
 R2
 R3
 R4
@@ -104,14 +104,14 @@ R0
 Z23 8licznikL1.vhf
 Z24 FlicznikL1.vhf
 l0
-L191
-V=F<W^61iS^Klm6mA<Q<JD1
-!s100 <f7Q=2nBIELmeMC1o9SeM0
+L175
+VPe^Zgz=cdWR^hUDD[m<?G1
+!s100 U?FKHZ[dM<CffOj]^:2:^1
 R8
 31
 R18
 !i10b 1
-Z25 !s108 1523699506.000000
+Z25 !s108 1523876768.000000
 Z26 !s90 -reportprogress|300|-explicit|-93|licznikL1.vhf|
 Z27 !s107 licznikL1.vhf|
 !i113 1
@@ -122,11 +122,11 @@ R2
 R3
 R4
 R5
-DEx4 work 25 dekoderl1_muser_licznikl1 0 22 =F<W^61iS^Klm6mA<Q<JD1
-l272
-L201
-VR689U4cITQggE1Mn1AmQ32
-!s100 282T44GYHP9fV[94eP?SH0
+DEx4 work 25 dekoderl1_muser_licznikl1 0 22 Pe^Zgz=cdWR^hUDD[m<?G1
+l256
+L185
+VnToB]S5>Ja1dCiG_nDS>^0
+!s100 _P`>88jONghO=@6Zh_Z<H3
 R8
 31
 R18
@@ -152,9 +152,9 @@ VzkNWRLG7Chej5RfX_gPSK2
 !s100 Ha?UJiceHPYk1`J:?P1Ve2
 R8
 31
-Z30 !s110 1523699682
+Z30 !s110 1523876891
 !i10b 1
-Z31 !s108 1523699681.000000
+Z31 !s108 1523876891.000000
 Z32 !s90 -reportprogress|300|-explicit|-93|dekoderL2.vhf|
 Z33 !s107 dekoderL2.vhf|
 !i113 1
@@ -197,9 +197,9 @@ R8
 31
 R30
 !i10b 1
-Z36 !s108 1523699682.000000
-Z37 !s90 -reportprogress|300|-explicit|-93|licznikL2.vhf|
-Z38 !s107 licznikL2.vhf|
+R31
+Z36 !s90 -reportprogress|300|-explicit|-93|licznikL2.vhf|
+Z37 !s107 licznikL2.vhf|
 !i113 1
 R13
 R14
@@ -208,18 +208,18 @@ R2
 R3
 R4
 R5
-DEx4 work 25 dekoderl2_muser_licznikl2 0 22 QEK`c_K9>z_TeFM9efhcM1
+Z38 DEx4 work 25 dekoderl2_muser_licznikl2 0 22 QEK`c_K9>z_TeFM9efhcM1
 l91
 L38
-VJI7>6;<Tg[LBG2AkXXB>Z2
-!s100 BiCo@g7zbh0ORj@zS8HfL0
+Z39 VJI7>6;<Tg[LBG2AkXXB>Z2
+Z40 !s100 BiCo@g7zbh0ORj@zS8HfL0
 R8
 31
 R30
 !i10b 1
+R31
 R36
 R37
-R38
 !i113 1
 R13
 R14
@@ -230,19 +230,19 @@ R3
 R4
 R5
 R0
-Z39 8licznik3bit.vhf
-Z40 Flicznik3bit.vhf
+Z41 8licznik3bit.vhf
+Z42 Flicznik3bit.vhf
 l0
 L28
 VlcoC>GTn=5nMLnJ_UQOX51
 !s100 B`VOAmR>zIbTZ6^g]0cbg2
 R8
 31
-Z41 !s110 1523699681
+R30
 !i10b 1
-R31
-Z42 !s90 -reportprogress|300|-explicit|-93|licznik3bit.vhf|
-Z43 !s107 licznik3bit.vhf|
+Z43 !s108 1523876890.000000
+Z44 !s90 -reportprogress|300|-explicit|-93|licznik3bit.vhf|
+Z45 !s107 licznik3bit.vhf|
 !i113 1
 R13
 R14
@@ -252,17 +252,17 @@ R3
 R4
 R5
 DEx4 work 11 licznik3bit 0 22 lcoC>GTn=5nMLnJ_UQOX51
-l111
+l103
 L38
-V<DjYYDPI[okWoN^@KSTMj3
-!s100 V1AP[Fg^a_A5<UNVYEbPR0
+V7lb:g2UJIJe>bh?`VfMmO3
+!s100 EHdXC3S]fSCNl6YAKQ`Lh2
 R8
 31
-R41
+R30
 !i10b 1
-R31
-R42
 R43
+R44
+R45
 !i113 1
 R13
 R14
@@ -295,10 +295,10 @@ R3
 R4
 R5
 DEx4 work 27 licznik3bit_muser_licznikl1 0 22 Kn@hHaj3g^9J9HiIQ?Vnh2
-l111
+l103
 L38
-Vn^lSDSB[VD>ZlH5OUdXT41
-!s100 =1Am>MU6mP?GZHdni_UmT3
+VIa];4YWAl>1ceFVRYkZ`C1
+!s100 cP0gV_Id87ogZmJ[7Sg7o2
 R8
 31
 R18
@@ -326,9 +326,9 @@ R8
 31
 R30
 !i10b 1
+R31
 R36
 R37
-R38
 !i113 1
 R13
 R14
@@ -337,18 +337,18 @@ R2
 R3
 R4
 R5
-DEx4 work 27 licznik3bit_muser_licznikl2 0 22 oQIFl[gMh9dR=_f9Ud@I`1
-l242
+Z46 DEx4 work 27 licznik3bit_muser_licznikl2 0 22 oQIFl[gMh9dR=_f9Ud@I`1
+l234
 L169
-VVo1gX8CT:^fV8Qb_9<6EF0
-!s100 V4NZaUSM8W4N186YaL[ca0
+V_l[_R@ZmU1]6YWaT[9i4U3
+!s100 m:F8D3hB3iNMK7?VmW<1z1
 R8
 31
 R30
 !i10b 1
+R31
 R36
 R37
-R38
 !i113 1
 R13
 R14
@@ -362,9 +362,9 @@ R0
 R23
 R24
 l0
-L352
-VCBWPV[<A`>1f5WjjCohfG2
-!s100 _8LeW;<odj1zX;RER``G=2
+L336
+V@z4F]8d]jez[J:>ooR@hJ3
+!s100 R7l9[U6kk0T6=jliKzlH80
 R8
 31
 R18
@@ -380,11 +380,11 @@ R2
 R3
 R4
 R5
-DEx4 work 9 licznikl1 0 22 CBWPV[<A`>1f5WjjCohfG2
-l390
-L366
-V1bFE@ISTR4BITD;R93;?>2
-!s100 fYkSA5MH=MGZYmLSooZbf1
+DEx4 work 9 licznikl1 0 22 @z4F]8d]jez[J:>ooR@hJ3
+l374
+L350
+V9?XbZaQ>A@aofG`cgN84E0
+!s100 ND7m79B^52il?<X3]Vcna2
 R8
 31
 R18
@@ -405,16 +405,16 @@ R0
 R34
 R35
 l0
-L322
-V[VXl0=@QK98A6lQ?ZgZ4g2
-!s100 dZL<N0j3Fo1`oKc66:eab1
+L306
+V911zJ9S`dTKKaPH71Gh912
+!s100 TPPaiTD6h`^H2YFMkSTiz0
 R8
 31
 R30
 !i10b 1
+R31
 R36
 R37
-R38
 !i113 1
 R13
 R14
@@ -423,18 +423,61 @@ R2
 R3
 R4
 R5
-DEx4 work 9 licznikl2 0 22 [VXl0=@QK98A6lQ?ZgZ4g2
-l360
-L336
-VnMWh<dJjl<nc8ki1CeSdi3
-!s100 _mfI60W>4mNh0NJN9@^fJ3
+DEx4 work 9 licznikl2 0 22 911zJ9S`dTKKaPH71Gh912
+l344
+L320
+VQblZ;USII<M;>0B8a19k53
+!s100 Sj7hRT@O5_1hn>Mzmi8HL3
 R8
 31
 R30
 !i10b 1
+R31
 R36
 R37
-R38
+!i113 1
+R13
+R14
+Em2_1_mxilinx_licznik3bit
+Z47 w1523821300
+R2
+R3
+R4
+R5
+R0
+R41
+R42
+l0
+L28
+V=WjWA1f]C3hULe4S>g^Z12
+!s100 6=TSfo_HbchfjWRU:=Y4o3
+R8
+31
+Z48 !s110 1523821312
+!i10b 1
+Z49 !s108 1523821311.000000
+R44
+R45
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 24 m2_1_mxilinx_licznik3bit 0 22 =WjWA1f]C3hULe4S>g^Z12
+l60
+L35
+V15RFOh]dMT6cnU`Af6hjD0
+!s100 k]TJa5l<aOT^J:O`[;Ok?0
+R8
+31
+R48
+!i10b 1
+R49
+R44
+R45
 !i113 1
 R13
 R14

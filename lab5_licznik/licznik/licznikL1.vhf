@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : licznikL1.vhf
--- /___/   /\     Timestamp : 04/14/2018 11:29:55
+-- /___/   /\     Timestamp : 04/16/2018 13:02:47
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -37,26 +37,15 @@ end licznik3bit_MUSER_licznikL1;
 
 architecture BEHAVIORAL of licznik3bit_MUSER_licznikL1 is
    attribute BOX_TYPE   : string ;
-   signal XLXN_1   : std_logic;
-   signal XLXN_4   : std_logic;
    signal XLXN_7   : std_logic;
    signal XLXN_9   : std_logic;
    signal XLXN_10  : std_logic;
-   signal XLXN_27  : std_logic;
-   signal XLXN_31  : std_logic;
-   signal XLXN_40  : std_logic;
+   signal XLXN_87  : std_logic;
+   signal XLXN_88  : std_logic;
+   signal XLXN_89  : std_logic;
    signal Q0_DUMMY : std_logic;
    signal Q1_DUMMY : std_logic;
    signal Q2_DUMMY : std_logic;
-   component FDC
-      generic( INIT : bit :=  '0');
-      port ( C   : in    std_logic; 
-             CLR : in    std_logic; 
-             D   : in    std_logic; 
-             Q   : out   std_logic);
-   end component;
-   attribute BOX_TYPE of FDC : component is "BLACK_BOX";
-   
    component INV
       port ( I : in    std_logic; 
              O : out   std_logic);
@@ -93,13 +82,6 @@ architecture BEHAVIORAL of licznik3bit_MUSER_licznikL1 is
    end component;
    attribute BOX_TYPE of OR3 : component is "BLACK_BOX";
    
-   component AND2
-      port ( I0 : in    std_logic; 
-             I1 : in    std_logic; 
-             O  : out   std_logic);
-   end component;
-   attribute BOX_TYPE of AND2 : component is "BLACK_BOX";
-   
    component AND3
       port ( I0 : in    std_logic; 
              I1 : in    std_logic; 
@@ -108,36 +90,28 @@ architecture BEHAVIORAL of licznik3bit_MUSER_licznikL1 is
    end component;
    attribute BOX_TYPE of AND3 : component is "BLACK_BOX";
    
+   component FDCE
+      generic( INIT : bit :=  '0');
+      port ( C   : in    std_logic; 
+             CE  : in    std_logic; 
+             CLR : in    std_logic; 
+             D   : in    std_logic; 
+             Q   : out   std_logic);
+   end component;
+   attribute BOX_TYPE of FDCE : component is "BLACK_BOX";
+   
 begin
    Q0 <= Q0_DUMMY;
    Q1 <= Q1_DUMMY;
    Q2 <= Q2_DUMMY;
-   XLXI_6 : FDC
-      port map (C=>XLXN_27,
-                CLR=>RST,
-                D=>XLXN_1,
-                Q=>Q0_DUMMY);
-   
-   XLXI_9 : FDC
-      port map (C=>XLXN_27,
-                CLR=>RST,
-                D=>XLXN_4,
-                Q=>Q1_DUMMY);
-   
-   XLXI_10 : FDC
-      port map (C=>XLXN_27,
-                CLR=>RST,
-                D=>XLXN_31,
-                Q=>Q2_DUMMY);
-   
    XLXI_11 : INV
       port map (I=>Q0_DUMMY,
-                O=>XLXN_1);
+                O=>XLXN_89);
    
    XLXI_12 : XOR2
       port map (I0=>Q1_DUMMY,
                 I1=>Q0_DUMMY,
-                O=>XLXN_4);
+                O=>XLXN_88);
    
    XLXI_13 : AND3B1
       port map (I0=>Q2_DUMMY,
@@ -159,24 +133,34 @@ begin
       port map (I0=>XLXN_7,
                 I1=>XLXN_9,
                 I2=>XLXN_10,
-                O=>XLXN_31);
-   
-   XLXI_17 : AND2
-      port map (I0=>CLK,
-                I1=>CE,
-                O=>XLXN_27);
-   
-   XLXI_18 : FDC
-      port map (C=>XLXN_27,
-                CLR=>RST,
-                D=>XLXN_40,
-                Q=>TC);
+                O=>XLXN_87);
    
    XLXI_19 : AND3
       port map (I0=>Q2_DUMMY,
                 I1=>Q1_DUMMY,
                 I2=>Q0_DUMMY,
-                O=>XLXN_40);
+                O=>TC);
+   
+   XLXI_38 : FDCE
+      port map (C=>CLK,
+                CE=>CE,
+                CLR=>RST,
+                D=>XLXN_89,
+                Q=>Q0_DUMMY);
+   
+   XLXI_39 : FDCE
+      port map (C=>CLK,
+                CE=>CE,
+                CLR=>RST,
+                D=>XLXN_88,
+                Q=>Q1_DUMMY);
+   
+   XLXI_40 : FDCE
+      port map (C=>CLK,
+                CE=>CE,
+                CLR=>RST,
+                D=>XLXN_87,
+                Q=>Q2_DUMMY);
    
 end BEHAVIORAL;
 

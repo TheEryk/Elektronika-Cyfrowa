@@ -17,8 +17,6 @@
         <signal name="CLK" />
         <signal name="RST" />
         <signal name="TC" />
-        <signal name="XLXN_2" />
-        <signal name="XLXN_3" />
         <port polarity="Output" name="B1" />
         <port polarity="Output" name="B0" />
         <port polarity="Output" name="B2" />
@@ -31,7 +29,7 @@
         <port polarity="Input" name="RST" />
         <port polarity="Output" name="TC" />
         <blockdef name="licznik3bit">
-            <timestamp>2018-4-14T9:19:27</timestamp>
+            <timestamp>2018-4-16T10:22:33</timestamp>
             <line x2="384" y1="32" y2="32" x1="320" />
             <line x2="0" y1="-160" y2="-160" x1="64" />
             <line x2="0" y1="-96" y2="-96" x1="64" />

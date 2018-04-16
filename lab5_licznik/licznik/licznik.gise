@@ -45,16 +45,19 @@
       <branch xil_pn:name="BehavioralSim"/>
     </file>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_CMD" xil_pn:name="licznik3bit.fdo"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="licznik3bit.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_VHDL" xil_pn:name="licznik3bit.vhf">
       <branch xil_pn:name="Implementation"/>
       <branch xil_pn:name="BehavioralSim"/>
     </file>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_CMD" xil_pn:name="licznikL1.fdo"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="licznikL1.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_VHDL" xil_pn:name="licznikL1.vhf">
       <branch xil_pn:name="Implementation"/>
       <branch xil_pn:name="BehavioralSim"/>
     </file>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_CMD" xil_pn:name="licznikL2.fdo"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="licznikL2.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_VHDL" xil_pn:name="licznikL2.vhf">
       <branch xil_pn:name="Implementation"/>
       <branch xil_pn:name="BehavioralSim"/>
@@ -121,11 +124,11 @@
       <outfile xil_pn:name="clk_gen_50.vhd"/>
       <outfile xil_pn:name="led4_driver.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1523699669" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-1148325684001269224" xil_pn:start_ts="1523699669">
+    <transform xil_pn:end_ts="1523876877" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-1148325684001269224" xil_pn:start_ts="1523876877">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1523699672" xil_pn:in_ck="1121845900748270698" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="5416650834346484570" xil_pn:start_ts="1523699669">
+    <transform xil_pn:end_ts="1523876879" xil_pn:in_ck="1121845900748270698" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="5416650834346484570" xil_pn:start_ts="1523876877">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="bin2bcd.vhf"/>
@@ -139,7 +142,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1523699672" xil_pn:in_ck="1948503657430479624" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1523699672">
+    <transform xil_pn:end_ts="1523876569" xil_pn:in_ck="1948503657430479624" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1523876569">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="bin2bcd.vhf"/>
@@ -152,7 +155,7 @@
       <outfile xil_pn:name="licznikL1.vhf"/>
       <outfile xil_pn:name="licznikL2.vhf"/>
     </transform>
-    <transform xil_pn:end_ts="1523699675" xil_pn:in_ck="1948503657430479624" xil_pn:name="TRAN_MSimulateBehavioralModel" xil_pn:prop_ck="7256766304810292024" xil_pn:start_ts="1523699672">
+    <transform xil_pn:end_ts="1523876884" xil_pn:in_ck="1948503657430479624" xil_pn:name="TRAN_MSimulateBehavioralModel" xil_pn:prop_ck="7256766304810292024" xil_pn:start_ts="1523876879">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -168,6 +171,10 @@
     <transform xil_pn:end_ts="1523698198" xil_pn:in_ck="1121845900748270698" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="2930966866496230129" xil_pn:start_ts="1523698193">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="bin2bcd.vhf"/>
       <outfile xil_pn:name="dekoderL1.vhf"/>
       <outfile xil_pn:name="dekoderL2.vhf"/>
@@ -191,16 +198,21 @@
     <transform xil_pn:end_ts="1523695786" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1523695786">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
     <transform xil_pn:end_ts="1523695786" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-1990021811942764600" xil_pn:start_ts="1523695786">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
     <transform xil_pn:end_ts="1523698209" xil_pn:in_ck="4075442760544171427" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-839090445220242476" xil_pn:start_ts="1523698198">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="symulacja.jhd"/>
@@ -219,11 +231,13 @@
     <transform xil_pn:end_ts="1523695797" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-8119187978662898261" xil_pn:start_ts="1523695797">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
     <transform xil_pn:end_ts="1523698215" xil_pn:in_ck="-4818767291741768849" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="8073582747312575787" xil_pn:start_ts="1523698209">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
       <outfile xil_pn:name="symulacja.bld"/>
@@ -234,6 +248,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
@@ -250,6 +265,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
       <outfile xil_pn:name="symulacja.ncd"/>
       <outfile xil_pn:name="symulacja.pad"/>
@@ -265,6 +281,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
       <outfile xil_pn:name="symulacja.bgn"/>
       <outfile xil_pn:name="symulacja.bit"/>
@@ -277,6 +294,7 @@
     <transform xil_pn:end_ts="1523698238" xil_pn:in_ck="-4818767291741768980" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1523698235">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
       <outfile xil_pn:name="symulacja.twr"/>
       <outfile xil_pn:name="symulacja.twx"/>

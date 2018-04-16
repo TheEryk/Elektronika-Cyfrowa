@@ -67,7 +67,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1523697924" xil_pn:in_ck="1121845900748270698" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-1269673398413802575" xil_pn:start_ts="1523697921">
+    <transform xil_pn:end_ts="1523874212" xil_pn:in_ck="1121845900748270698" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-1269673398413802575" xil_pn:start_ts="1523874207">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="bin2bcd.vhf"/>
@@ -82,7 +82,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1523697924" xil_pn:in_ck="6106725345631522854" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1523697924">
+    <transform xil_pn:end_ts="1523874212" xil_pn:in_ck="6106725345631522854" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1523874212">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="bin2bcd.vhf"/>
@@ -95,7 +95,7 @@
       <outfile xil_pn:name="licznikL2.vhf"/>
       <outfile xil_pn:name="symulacja.vhf"/>
     </transform>
-    <transform xil_pn:end_ts="1523699956" xil_pn:in_ck="6106725345631522854" xil_pn:name="TRAN_MSimulateBehavioralModel" xil_pn:prop_ck="7256766304810292024" xil_pn:start_ts="1523699951">
+    <transform xil_pn:end_ts="1523874217" xil_pn:in_ck="6106725345631522854" xil_pn:name="TRAN_MSimulateBehavioralModel" xil_pn:prop_ck="7256766304810292024" xil_pn:start_ts="1523874212">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
