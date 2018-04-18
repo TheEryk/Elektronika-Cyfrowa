@@ -16,8 +16,6 @@ Checking Constraint Associations...
 Done...
 
 Checking expanded design ...
-WARNING:NgdBuild:440 - FF primitive 'XLXI_4/XLXI_1/XLXI_18' has unconnected
-   output pin
 
 Partition Implementation Status
 -------------------------------
@@ -28,12 +26,12 @@ Partition Implementation Status
 
 NGDBUILD Design Results Summary:
   Number of errors:     0
-  Number of warnings:   1
+  Number of warnings:   0
 
-Total memory usage is 225004 kilobytes
+Total memory usage is 224980 kilobytes
 
 Writing NGD file "symulacja.ngd" ...
-Total REAL time to NGDBUILD completion:  3 sec
-Total CPU time to NGDBUILD completion:   3 sec
+Total REAL time to NGDBUILD completion:  4 sec
+Total CPU time to NGDBUILD completion:   4 sec
 
 Writing NGDBUILD log file "symulacja.bld"...

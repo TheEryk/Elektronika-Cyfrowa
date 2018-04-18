@@ -1,157 +1,157 @@
-V3 76
+V3 77
 FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/bin2bcd.vhf 2018/04/14.10:47:58 P.20131013
-EN work/bin2bcd 1523698219 \
+EN work/bin2bcd 1523974941 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/bin2bcd.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/bin2bcd/BEHAVIORAL 1523698220 \
+AR work/bin2bcd/BEHAVIORAL 1523974942 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/bin2bcd.vhf \
-      EN work/bin2bcd 1523698219 CP AND2B1 CP AND3B1 CP AND2 CP AND3B2 CP OR2 CP BUF
+      EN work/bin2bcd 1523974941 CP AND2B1 CP AND3B1 CP AND2 CP AND3B2 CP OR2 CP BUF
 FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/clk_gen_50.vhd 2018/03/26.17:42:46 P.20131013
-EN work/clk_gen_50 1523698201 \
+EN work/clk_gen_50 1523974923 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/clk_gen_50.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
-AR work/clk_gen_50/behav 1523698202 \
+AR work/clk_gen_50/behav 1523974924 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/clk_gen_50.vhd \
-      EN work/clk_gen_50 1523698201
+      EN work/clk_gen_50 1523974923
 FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/dekoderL1.vhf 2018/04/14.10:47:59 P.20131013
-EN work/dekoderL1 1523698233 \
+EN work/dekoderL1 1523974955 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/dekoderL1.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/dekoderL1/BEHAVIORAL 1523698234 \
+AR work/dekoderL1/BEHAVIORAL 1523974956 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/dekoderL1.vhf \
-      EN work/dekoderL1 1523698233 CP OR2 CP AND2 CP AND2B1 CP AND3B2 CP AND3B3 \
+      EN work/dekoderL1 1523974955 CP OR2 CP AND2 CP AND2B1 CP AND3B2 CP AND3B3 \
       CP AND3B1 CP XOR2 CP OR3
 FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/dekoderL2.vhf 2018/04/14.10:47:58 P.20131013
-EN work/dekoderL2 1523698235 \
+EN work/dekoderL2 1523974957 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/dekoderL2.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/dekoderL2/BEHAVIORAL 1523698236 \
+AR work/dekoderL2/BEHAVIORAL 1523974958 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/dekoderL2.vhf \
-      EN work/dekoderL2 1523698235 CP XOR2 CP OR2 CP AND2B2 CP AND3 CP AND2 CP OR3
+      EN work/dekoderL2 1523974957 CP XOR2 CP OR2 CP AND2B2 CP AND3 CP AND2 CP OR3
 FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/led4_driver.vhd 2018/04/05.14:20:12 P.20131013
-EN work/led4_driver 1523698203 \
+EN work/led4_driver 1523974925 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/led4_driver.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/led4_driver/Behavioral 1523698204 \
+AR work/led4_driver/Behavioral 1523974926 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/led4_driver.vhd \
-      EN work/led4_driver 1523698203 CP an CP sseg CP with
-FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/licznik3bit.vhf 2018/04/14.11:29:55 P.20131013
-EN work/licznik3bit 1523698237 \
+      EN work/led4_driver 1523974925 CP an CP sseg CP with
+FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/licznik3bit.vhf 2018/04/16.13:02:47 P.20131013
+EN work/licznik3bit 1523974959 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/licznik3bit.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/licznik3bit/BEHAVIORAL 1523698238 \
+AR work/licznik3bit/BEHAVIORAL 1523974960 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/licznik3bit.vhf \
-      EN work/licznik3bit 1523698237 CP FDC CP INV CP XOR2 CP AND3B1 CP AND2B1 CP OR3 \
-      CP AND2 CP AND3
-FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/licznikL1.vhf 2018/04/14.11:29:55 P.20131013
-EN work/licznik3bit_MUSER_licznikL1 1523698221 \
+      EN work/licznik3bit 1523974959 CP INV CP XOR2 CP AND3B1 CP AND2B1 CP OR3 CP AND3 \
+      CP FDCE
+FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/licznikL1.vhf 2018/04/16.13:02:47 P.20131013
+EN work/licznik3bit_MUSER_licznikL1 1523974943 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/licznikL1.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/licznik3bit_MUSER_licznikL1/BEHAVIORAL 1523698222 \
+AR work/licznik3bit_MUSER_licznikL1/BEHAVIORAL 1523974944 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/licznikL1.vhf \
-      EN work/licznik3bit_MUSER_licznikL1 1523698221 CP FDC CP INV CP XOR2 CP AND3B1 \
-      CP AND2B1 CP OR3 CP AND2 CP AND3
-EN work/dekoderL1_MUSER_licznikL1 1523698223 \
+      EN work/licznik3bit_MUSER_licznikL1 1523974943 CP INV CP XOR2 CP AND3B1 \
+      CP AND2B1 CP OR3 CP AND3 CP FDCE
+EN work/dekoderL1_MUSER_licznikL1 1523974945 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/licznikL1.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/dekoderL1_MUSER_licznikL1/BEHAVIORAL 1523698224 \
+AR work/dekoderL1_MUSER_licznikL1/BEHAVIORAL 1523974946 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/licznikL1.vhf \
-      EN work/dekoderL1_MUSER_licznikL1 1523698223 CP OR2 CP AND2 CP AND2B1 \
+      EN work/dekoderL1_MUSER_licznikL1 1523974945 CP OR2 CP AND2 CP AND2B1 \
       CP AND3B2 CP AND3B3 CP AND3B1 CP XOR2 CP OR3
-EN work/licznikL1 1523698225 \
+EN work/licznikL1 1523974947 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/licznikL1.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/licznikL1/BEHAVIORAL 1523698226 \
+AR work/licznikL1/BEHAVIORAL 1523974948 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/licznikL1.vhf \
-      EN work/licznikL1 1523698225 CP dekoderL1_MUSER_licznikL1 \
+      EN work/licznikL1 1523974947 CP dekoderL1_MUSER_licznikL1 \
       CP licznik3bit_MUSER_licznikL1
-FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/licznikL2.vhf 2018/04/14.11:29:55 P.20131013
-EN work/dekoderL2_MUSER_licznikL2 1523698227 \
+FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/licznikL2.vhf 2018/04/16.13:02:47 P.20131013
+EN work/dekoderL2_MUSER_licznikL2 1523974949 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/licznikL2.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/dekoderL2_MUSER_licznikL2/BEHAVIORAL 1523698228 \
+AR work/dekoderL2_MUSER_licznikL2/BEHAVIORAL 1523974950 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/licznikL2.vhf \
-      EN work/dekoderL2_MUSER_licznikL2 1523698227 CP XOR2 CP OR2 CP AND2B2 CP AND3 \
+      EN work/dekoderL2_MUSER_licznikL2 1523974949 CP XOR2 CP OR2 CP AND2B2 CP AND3 \
       CP AND2 CP OR3
-EN work/licznik3bit_MUSER_licznikL2 1523698229 \
+EN work/licznik3bit_MUSER_licznikL2 1523974951 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/licznikL2.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/licznik3bit_MUSER_licznikL2/BEHAVIORAL 1523698230 \
+AR work/licznik3bit_MUSER_licznikL2/BEHAVIORAL 1523974952 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/licznikL2.vhf \
-      EN work/licznik3bit_MUSER_licznikL2 1523698229 CP FDC CP INV CP XOR2 CP AND3B1 \
-      CP AND2B1 CP OR3 CP AND2 CP AND3
-EN work/licznikL2 1523698231 \
+      EN work/licznik3bit_MUSER_licznikL2 1523974951 CP INV CP XOR2 CP AND3B1 \
+      CP AND2B1 CP OR3 CP AND3 CP FDCE
+EN work/licznikL2 1523974953 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/licznikL2.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/licznikL2/BEHAVIORAL 1523698232 \
+AR work/licznikL2/BEHAVIORAL 1523974954 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/licznikL2.vhf \
-      EN work/licznikL2 1523698231 CP licznik3bit_MUSER_licznikL2 \
+      EN work/licznikL2 1523974953 CP licznik3bit_MUSER_licznikL2 \
       CP dekoderL2_MUSER_licznikL2
-FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/symulacja.vhf 2018/04/14.11:29:56 P.20131013
-EN work/bin2bcd_MUSER_symulacja 1523698205 \
+FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/symulacja.vhf 2018/04/17.16:21:57 P.20131013
+EN work/bin2bcd_MUSER_symulacja 1523974927 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/symulacja.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/bin2bcd_MUSER_symulacja/BEHAVIORAL 1523698206 \
+AR work/bin2bcd_MUSER_symulacja/BEHAVIORAL 1523974928 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/symulacja.vhf \
-      EN work/bin2bcd_MUSER_symulacja 1523698205 CP AND2B1 CP AND3B1 CP AND2 \
+      EN work/bin2bcd_MUSER_symulacja 1523974927 CP AND2B1 CP AND3B1 CP AND2 \
       CP AND3B2 CP OR2 CP BUF
-EN work/dekoderL2_MUSER_symulacja 1523698207 \
+EN work/dekoderL2_MUSER_symulacja 1523974929 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/symulacja.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/dekoderL2_MUSER_symulacja/BEHAVIORAL 1523698208 \
+AR work/dekoderL2_MUSER_symulacja/BEHAVIORAL 1523974930 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/symulacja.vhf \
-      EN work/dekoderL2_MUSER_symulacja 1523698207 CP XOR2 CP OR2 CP AND2B2 CP AND3 \
+      EN work/dekoderL2_MUSER_symulacja 1523974929 CP XOR2 CP OR2 CP AND2B2 CP AND3 \
       CP AND2 CP OR3
-EN work/licznik3bit_MUSER_symulacja 1523698209 \
+EN work/licznik3bit_MUSER_symulacja 1523974931 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/symulacja.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/licznik3bit_MUSER_symulacja/BEHAVIORAL 1523698210 \
+AR work/licznik3bit_MUSER_symulacja/BEHAVIORAL 1523974932 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/symulacja.vhf \
-      EN work/licznik3bit_MUSER_symulacja 1523698209 CP FDC CP INV CP XOR2 CP AND3B1 \
-      CP AND2B1 CP OR3 CP AND2 CP AND3
-EN work/licznikL2_MUSER_symulacja 1523698211 \
+      EN work/licznik3bit_MUSER_symulacja 1523974931 CP INV CP XOR2 CP AND3B1 \
+      CP AND2B1 CP OR3 CP AND3 CP FDCE
+EN work/licznikL2_MUSER_symulacja 1523974933 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/symulacja.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/licznikL2_MUSER_symulacja/BEHAVIORAL 1523698212 \
+AR work/licznikL2_MUSER_symulacja/BEHAVIORAL 1523974934 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/symulacja.vhf \
-      EN work/licznikL2_MUSER_symulacja 1523698211 CP licznik3bit_MUSER_symulacja \
+      EN work/licznikL2_MUSER_symulacja 1523974933 CP licznik3bit_MUSER_symulacja \
       CP dekoderL2_MUSER_symulacja
-EN work/dekoderL1_MUSER_symulacja 1523698213 \
+EN work/dekoderL1_MUSER_symulacja 1523974935 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/symulacja.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/dekoderL1_MUSER_symulacja/BEHAVIORAL 1523698214 \
+AR work/dekoderL1_MUSER_symulacja/BEHAVIORAL 1523974936 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/symulacja.vhf \
-      EN work/dekoderL1_MUSER_symulacja 1523698213 CP OR2 CP AND2 CP AND2B1 \
+      EN work/dekoderL1_MUSER_symulacja 1523974935 CP OR2 CP AND2 CP AND2B1 \
       CP AND3B2 CP AND3B3 CP AND3B1 CP XOR2 CP OR3
-EN work/licznikL1_MUSER_symulacja 1523698215 \
+EN work/licznikL1_MUSER_symulacja 1523974937 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/symulacja.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/licznikL1_MUSER_symulacja/BEHAVIORAL 1523698216 \
+AR work/licznikL1_MUSER_symulacja/BEHAVIORAL 1523974938 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/symulacja.vhf \
-      EN work/licznikL1_MUSER_symulacja 1523698215 CP dekoderL1_MUSER_symulacja \
+      EN work/licznikL1_MUSER_symulacja 1523974937 CP dekoderL1_MUSER_symulacja \
       CP licznik3bit_MUSER_symulacja
-EN work/symulacja 1523698217 \
+EN work/symulacja 1523974939 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/symulacja.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/symulacja/BEHAVIORAL 1523698218 \
+AR work/symulacja/BEHAVIORAL 1523974940 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/symulacja.vhf \
-      EN work/symulacja 1523698217 CP licznikL1_MUSER_symulacja \
+      EN work/symulacja 1523974939 CP licznikL1_MUSER_symulacja \
       CP licznikL2_MUSER_symulacja CP clk_gen_50 CP led4_driver \
-      CP bin2bcd_MUSER_symulacja
+      CP bin2bcd_MUSER_symulacja CP AND2

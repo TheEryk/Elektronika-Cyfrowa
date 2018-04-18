@@ -15,13 +15,13 @@
          <ClosedNode>/czestotliwosci C:|Users|Eryk|Documents|DokumentyPUT|Elektronika-Cyfrowa|lab_6 pomiarf|testy|czestotliwosci.sch/XLXI_54 - bin2bcd_16</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>czestotliwosci (C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.sch)</SelectedItem>
+         <SelectedItem>test (C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/test.sch)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000018d000000020000000000000000000000000200000064ffffffff0000008100000003000000020000018d0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001ab000000020000000000000000000000000200000064ffffffff000000810000000300000002000001ab0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>czestotliwosci (C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.sch)</CurrentItem>
+      <CurrentItem>test (C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/test.sch)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -29,13 +29,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000135000000010000000100000000000000000000000064ffffffff000000810000000000000001000001350000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -83,28 +83,30 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem>Create Schematic Symbol</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000135000000010000000100000000000000000000000064ffffffff000000810000000000000001000001350000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem>Create Schematic Symbol</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/bin2bcd_16 C:|Users|Eryk|Documents|DokumentyPUT|Elektronika-Cyfrowa|lab_6 pomiarf|testy|bin2bcd_16.sch</ClosedNode>
+         <ClosedNode>/bin2bcd_8 C:|Users|Eryk|Documents|DokumentyPUT|Elektronika-Cyfrowa|lab6_pomiarf|testy|bin2bcd_8.sch</ClosedNode>
          <ClosedNode>/bin2bcd_8 C:|Users|Eryk|Documents|DokumentyPUT|Elektronika-Cyfrowa|lab_6 pomiarf|testy|bin2bcd_8.sch</ClosedNode>
+         <ClosedNode>/czestotliwosci C:|Users|Eryk|Documents|DokumentyPUT|Elektronika-Cyfrowa|lab6_pomiarf|testy|czestotliwosci.sch/XLXI_54 - bin2bcd_16</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>bin2bcd_16 (C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab_6 pomiarf/testy/bin2bcd_16.sch)</SelectedItem>
+         <SelectedItem>XLXI_54 - bin2bcd_16 (C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/bin2bcd_16.sch)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000018d000000020000000000000000000000000200000064ffffffff0000008100000003000000020000018d0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>bin2bcd_16 (C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab_6 pomiarf/testy/bin2bcd_16.sch)</CurrentItem>
+      <CurrentItem>XLXI_54 - bin2bcd_16 (C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/bin2bcd_16.sch)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -125,13 +127,13 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000135000000010000000100000000000000000000000064ffffffff000000810000000000000001000001350000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
    <CurrentView>Implementation</CurrentView>

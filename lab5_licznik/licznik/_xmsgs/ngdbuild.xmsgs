@@ -5,8 +5,5 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="NgdBuild" num="440" delta="new" >FF primitive &apos;<arg fmt="%s" index="1">XLXI_4/XLXI_1/XLXI_18</arg>&apos; has unconnected output pin
-</msg>
-
 </messages>
 

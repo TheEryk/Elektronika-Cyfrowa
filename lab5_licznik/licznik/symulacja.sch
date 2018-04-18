@@ -108,12 +108,42 @@
                 <trait vhdl="all:0 wa:1 wd:1" />
             </attr>
         </signal>
-        <signal name="l0" />
-        <signal name="l1" />
-        <signal name="l2" />
-        <signal name="l4" />
-        <signal name="l5" />
-        <signal name="l6" />
+        <signal name="l0">
+            <attr value="R4" name="LOC">
+                <trait verilog="all:0 wsynth:1" />
+                <trait vhdl="all:0 wa:1 wd:1" />
+            </attr>
+        </signal>
+        <signal name="l1">
+            <attr value="F4" name="LOC">
+                <trait verilog="all:0 wsynth:1" />
+                <trait vhdl="all:0 wa:1 wd:1" />
+            </attr>
+        </signal>
+        <signal name="l2">
+            <attr value="P15" name="LOC">
+                <trait verilog="all:0 wsynth:1" />
+                <trait vhdl="all:0 wa:1 wd:1" />
+            </attr>
+        </signal>
+        <signal name="l4">
+            <attr value="K14" name="LOC">
+                <trait verilog="all:0 wsynth:1" />
+                <trait vhdl="all:0 wa:1 wd:1" />
+            </attr>
+        </signal>
+        <signal name="l5">
+            <attr value="K15" name="LOC">
+                <trait verilog="all:0 wsynth:1" />
+                <trait vhdl="all:0 wa:1 wd:1" />
+            </attr>
+        </signal>
+        <signal name="l6">
+            <attr value="J15" name="LOC">
+                <trait verilog="all:0 wsynth:1" />
+                <trait vhdl="all:0 wa:1 wd:1" />
+            </attr>
+        </signal>
         <signal name="XLXN_21" />
         <signal name="XLXN_23" />
         <port polarity="Input" name="CE" />

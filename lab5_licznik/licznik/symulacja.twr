@@ -39,51 +39,16 @@ Data Sheet report:
 -----------------
 All values displayed in nanoseconds (ns)
 
-Clock CE to Pad
-------------+------------+---------------------+--------+
-            | clk (edge) |                     | Clock  |
-Destination |   to PAD   |Internal Clock(s)    | Phase  |
-------------+------------+---------------------+--------+
-l0          |    8.310(R)|XLXI_3/XLXI_2/XLXN_27|   0.000|
-l1          |    9.083(R)|XLXI_3/XLXI_2/XLXN_27|   0.000|
-l2          |    8.573(R)|XLXI_3/XLXI_2/XLXN_27|   0.000|
-l4          |    8.762(R)|XLXI_4/XLXI_1/XLXN_27|   0.000|
-l5          |    8.544(R)|XLXI_4/XLXI_1/XLXN_27|   0.000|
-l6          |    9.187(R)|XLXI_4/XLXI_1/XLXN_27|   0.000|
-sseg<0>     |   14.942(R)|XLXI_3/XLXI_2/XLXN_27|   0.000|
-            |   15.833(R)|XLXI_4/XLXI_1/XLXN_27|   0.000|
-sseg<1>     |   14.014(R)|XLXI_3/XLXI_2/XLXN_27|   0.000|
-            |   14.905(R)|XLXI_4/XLXI_1/XLXN_27|   0.000|
-sseg<2>     |   14.012(R)|XLXI_3/XLXI_2/XLXN_27|   0.000|
-            |   14.903(R)|XLXI_4/XLXI_1/XLXN_27|   0.000|
-sseg<3>     |   14.541(R)|XLXI_3/XLXI_2/XLXN_27|   0.000|
-            |   15.432(R)|XLXI_4/XLXI_1/XLXN_27|   0.000|
-sseg<4>     |   14.405(R)|XLXI_3/XLXI_2/XLXN_27|   0.000|
-            |   15.296(R)|XLXI_4/XLXI_1/XLXN_27|   0.000|
-sseg<5>     |   15.249(R)|XLXI_3/XLXI_2/XLXN_27|   0.000|
-            |   16.140(R)|XLXI_4/XLXI_1/XLXN_27|   0.000|
-sseg<6>     |   14.326(R)|XLXI_3/XLXI_2/XLXN_27|   0.000|
-            |   15.217(R)|XLXI_4/XLXI_1/XLXN_27|   0.000|
-------------+------------+---------------------+--------+
-
-Clock to Setup on destination clock CE
----------------+---------+---------+---------+---------+
-               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
-Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
----------------+---------+---------+---------+---------+
-CE             |    2.737|         |         |         |
----------------+---------+---------+---------+---------+
-
 Clock to Setup on destination clock CLK
 ---------------+---------+---------+---------+---------+
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-CLK            |    4.299|         |         |         |
+CLK            |    4.303|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Sat Apr 14 11:30:37 2018 
+Analysis completed Tue Apr 17 16:22:43 2018 
 --------------------------------------------------------------------------------
 
 Trace Settings:

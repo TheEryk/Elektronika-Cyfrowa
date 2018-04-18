@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.14 secs
+Total CPU time to Xst completion: 0.25 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.14 secs
+Total CPU time to Xst completion: 0.26 secs
  
 --> Reading design: symulacja.prj
 
@@ -179,8 +179,14 @@ Analyzing Entity <symulacja> in library <work> (Architecture <behavioral>).
     Set user-defined property "LOC =  B8" for signal <CLK> in unit <symulacja>.
     Set user-defined property "LOC =  B18" for signal <RST> in unit <symulacja>.
     Set user-defined property "LOC =  F15 C18 H17 F17" for signal <an> in unit <symulacja>.
+    Set user-defined property "LOC =  R4" for signal <l0> in unit <symulacja>.
+    Set user-defined property "LOC =  F4" for signal <l1> in unit <symulacja>.
+    Set user-defined property "LOC =  P15" for signal <l2> in unit <symulacja>.
+    Set user-defined property "LOC =  K14" for signal <l4> in unit <symulacja>.
+    Set user-defined property "LOC =  K15" for signal <l5> in unit <symulacja>.
+    Set user-defined property "LOC =  J15" for signal <l6> in unit <symulacja>.
     Set user-defined property "LOC =  H14 J17 G14 D16 D17 F18 L18" for signal <sseg> in unit <symulacja>.
-WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/symulacja.vhf" line 853: Unconnected output port 'TC' of component 'licznikL2_MUSER_symulacja'.
+WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab5_licznik/licznik/symulacja.vhf" line 852: Unconnected output port 'TC' of component 'licznikL2_MUSER_symulacja'.
 Entity <symulacja> analyzed. Unit <symulacja> generated.
 
 Analyzing Entity <licznikL1_MUSER_symulacja> in library <work> (Architecture <behavioral>).
@@ -190,10 +196,9 @@ Analyzing Entity <dekoderL1_MUSER_symulacja> in library <work> (Architecture <be
 Entity <dekoderL1_MUSER_symulacja> analyzed. Unit <dekoderL1_MUSER_symulacja> generated.
 
 Analyzing Entity <licznik3bit_MUSER_symulacja> in library <work> (Architecture <behavioral>).
-    Set user-defined property "INIT =  0" for instance <XLXI_6> in unit <licznik3bit_MUSER_symulacja>.
-    Set user-defined property "INIT =  0" for instance <XLXI_9> in unit <licznik3bit_MUSER_symulacja>.
-    Set user-defined property "INIT =  0" for instance <XLXI_10> in unit <licznik3bit_MUSER_symulacja>.
-    Set user-defined property "INIT =  0" for instance <XLXI_18> in unit <licznik3bit_MUSER_symulacja>.
+    Set user-defined property "INIT =  0" for instance <XLXI_38> in unit <licznik3bit_MUSER_symulacja>.
+    Set user-defined property "INIT =  0" for instance <XLXI_39> in unit <licznik3bit_MUSER_symulacja>.
+    Set user-defined property "INIT =  0" for instance <XLXI_40> in unit <licznik3bit_MUSER_symulacja>.
 Entity <licznik3bit_MUSER_symulacja> analyzed. Unit <licznik3bit_MUSER_symulacja> generated.
 
 Analyzing Entity <licznikL2_MUSER_symulacja> in library <work> (Architecture <behavioral>).
@@ -301,8 +306,8 @@ Macro Statistics
  16x7-bit ROM                                          : 1
 # Counters                                             : 1
  32-bit up counter                                     : 1
-# Registers                                            : 12
- Flip-Flops                                            : 12
+# Registers                                            : 10
+ Flip-Flops                                            : 10
 
 =========================================================================
 
@@ -337,8 +342,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 37
- Flip-Flops                                            : 37
+# Registers                                            : 35
+ Flip-Flops                                            : 35
 
 =========================================================================
 
@@ -367,8 +372,8 @@ Design Statistics
 # IOs                              : 20
 
 Cell Usage :
-# BELS                             : 154
-#      AND2                        : 13
+# BELS                             : 153
+#      AND2                        : 12
 #      AND2B1                      : 10
 #      AND2B2                      : 2
 #      AND3                        : 3
@@ -386,9 +391,9 @@ Cell Usage :
 #      VCC                         : 1
 #      XOR2                        : 5
 #      XORCY                       : 25
-# FlipFlops/Latches                : 37
+# FlipFlops/Latches                : 35
 #      FD                          : 29
-#      FDC                         : 8
+#      FDCE                        : 6
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
 # IO Buffers                       : 19
@@ -402,7 +407,7 @@ Device utilization summary:
 Selected Device : 3s500efg320-4 
 
  Number of Slices:                       22  out of   4656     0%  
- Number of Slice Flip Flops:             37  out of   9312     0%  
+ Number of Slice Flip Flops:             35  out of   9312     0%  
  Number of 4 input LUTs:                 43  out of   9312     0%  
  Number of IOs:                          20
  Number of bonded IOBs:                  20  out of    232     8%  
@@ -426,17 +431,13 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
-----------------------------------------------+------------------------------+-------+
-Clock Signal                                  | Clock buffer(FF name)        | Load  |
-----------------------------------------------+------------------------------+-------+
-XLXI_3/XLXI_2/XLXN_27(XLXI_3/XLXI_2/XLXI_17:O)| NONE(*)(XLXI_3/XLXI_2/XLXI_6)| 4     |
-XLXI_4/XLXI_1/XLXN_27(XLXI_4/XLXI_1/XLXI_17:O)| NONE(*)(XLXI_4/XLXI_1/XLXI_6)| 4     |
-CLK                                           | BUFGP                        | 25    |
-XLXI_6/counter_7                              | NONE(XLXI_7/one_hot_3)       | 4     |
-----------------------------------------------+------------------------------+-------+
-(*) These 2 clock signal(s) are generated by combinatorial logic,
-and XST is not able to identify which are the primary clock signals.
-Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+-----------------------------------+----------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)      | Load  |
+-----------------------------------+----------------------------+-------+
+XLXI_6/counter_24                  | NONE(XLXI_3/XLXI_2/XLXI_38)| 6     |
+CLK                                | BUFGP                      | 25    |
+XLXI_6/counter_7                   | NONE(XLXI_7/one_hot_3)     | 4     |
+-----------------------------------+----------------------------+-------+
 INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 
 Asynchronous Control Signals Information:
@@ -444,7 +445,7 @@ Asynchronous Control Signals Information:
 -----------------------------------+------------------------+-------+
 Control Signal                     | Buffer(FF name)        | Load  |
 -----------------------------------+------------------------+-------+
-RST                                | IBUF                   | 8     |
+RST                                | IBUF                   | 6     |
 -----------------------------------+------------------------+-------+
 
 Timing Summary:
@@ -452,7 +453,7 @@ Timing Summary:
 Speed Grade: -4
 
    Minimum period: 4.764ns (Maximum Frequency: 209.908MHz)
-   Minimum input arrival time before clock: No path found
+   Minimum input arrival time before clock: 3.595ns
    Maximum output required time after clock: 14.702ns
    Maximum combinational path delay: No path found
 
@@ -461,50 +462,27 @@ Timing Detail:
 All values displayed in nanoseconds (ns)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'XLXI_3/XLXI_2/XLXN_27'
-  Clock period: 4.130ns (frequency: 242.131MHz)
-  Total number of paths / destination ports: 13 / 4
+Timing constraint: Default period analysis for Clock 'XLXI_6/counter_24'
+  Clock period: 4.488ns (frequency: 222.816MHz)
+  Total number of paths / destination ports: 29 / 9
 -------------------------------------------------------------------------
-Delay:               4.130ns (Levels of Logic = 2)
-  Source:            XLXI_3/XLXI_2/XLXI_10 (FF)
-  Destination:       XLXI_3/XLXI_2/XLXI_10 (FF)
-  Source Clock:      XLXI_3/XLXI_2/XLXN_27 rising
-  Destination Clock: XLXI_3/XLXI_2/XLXN_27 rising
+Delay:               4.488ns (Levels of Logic = 2)
+  Source:            XLXI_3/XLXI_2/XLXI_40 (FF)
+  Destination:       XLXI_4/XLXI_1/XLXI_38 (FF)
+  Source Clock:      XLXI_6/counter_24 rising
+  Destination Clock: XLXI_6/counter_24 rising
 
-  Data Path: XLXI_3/XLXI_2/XLXI_10 to XLXI_3/XLXI_2/XLXI_10
+  Data Path: XLXI_3/XLXI_2/XLXI_40 to XLXI_4/XLXI_1/XLXI_38
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q             13   0.591   0.983  XLXI_3/XLXI_2/XLXI_10 (l2_OBUF)
-     AND3B1:I0->O          1   0.704   0.420  XLXI_3/XLXI_2/XLXI_13 (XLXI_3/XLXI_2/XLXN_10)
-     OR3:I2->O             1   0.704   0.420  XLXI_3/XLXI_2/XLXI_16 (XLXI_3/XLXI_2/XLXN_31)
-     FDC:D                     0.308          XLXI_3/XLXI_2/XLXI_10
+     FDCE:C->Q            13   0.591   0.983  XLXI_3/XLXI_2/XLXI_40 (l2_OBUF)
+     AND3:I0->O            1   0.704   0.420  XLXI_3/XLXI_2/XLXI_19 (XLXN_5)
+     AND2:I1->O            3   0.704   0.531  XLXI_10 (XLXN_23)
+     FDCE:CE                   0.555          XLXI_4/XLXI_1/XLXI_38
     ----------------------------------------
-    Total                      4.130ns (2.307ns logic, 1.823ns route)
-                                       (55.9% logic, 44.1% route)
-
-=========================================================================
-Timing constraint: Default period analysis for Clock 'XLXI_4/XLXI_1/XLXN_27'
-  Clock period: 4.108ns (frequency: 243.427MHz)
-  Total number of paths / destination ports: 13 / 4
--------------------------------------------------------------------------
-Delay:               4.108ns (Levels of Logic = 2)
-  Source:            XLXI_4/XLXI_1/XLXI_6 (FF)
-  Destination:       XLXI_4/XLXI_1/XLXI_10 (FF)
-  Source Clock:      XLXI_4/XLXI_1/XLXN_27 rising
-  Destination Clock: XLXI_4/XLXI_1/XLXN_27 rising
-
-  Data Path: XLXI_4/XLXI_1/XLXI_6 to XLXI_4/XLXI_1/XLXI_10
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FDC:C->Q             12   0.591   0.961  XLXI_4/XLXI_1/XLXI_6 (l4_OBUF)
-     AND3B1:I2->O          1   0.704   0.420  XLXI_4/XLXI_1/XLXI_13 (XLXI_4/XLXI_1/XLXN_10)
-     OR3:I2->O             1   0.704   0.420  XLXI_4/XLXI_1/XLXI_16 (XLXI_4/XLXI_1/XLXN_31)
-     FDC:D                     0.308          XLXI_4/XLXI_1/XLXI_10
-    ----------------------------------------
-    Total                      4.108ns (2.307ns logic, 1.801ns route)
-                                       (56.2% logic, 43.8% route)
+    Total                      4.488ns (2.554ns logic, 1.934ns route)
+                                       (56.9% logic, 43.1% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'CLK'
@@ -574,19 +552,39 @@ Delay:               1.568ns (Levels of Logic = 0)
                                        (57.3% logic, 42.7% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_3/XLXI_2/XLXN_27'
-  Total number of paths / destination ports: 591 / 10
+Timing constraint: Default OFFSET IN BEFORE for Clock 'XLXI_6/counter_24'
+  Total number of paths / destination ports: 6 / 6
 -------------------------------------------------------------------------
-Offset:              14.702ns (Levels of Logic = 9)
-  Source:            XLXI_3/XLXI_2/XLXI_9 (FF)
-  Destination:       sseg<1> (PAD)
-  Source Clock:      XLXI_3/XLXI_2/XLXN_27 rising
+Offset:              3.595ns (Levels of Logic = 2)
+  Source:            CE (PAD)
+  Destination:       XLXI_4/XLXI_1/XLXI_38 (FF)
+  Destination Clock: XLXI_6/counter_24 rising
 
-  Data Path: XLXI_3/XLXI_2/XLXI_9 to sseg<1>
+  Data Path: CE to XLXI_4/XLXI_1/XLXI_38
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q             12   0.591   0.961  XLXI_3/XLXI_2/XLXI_9 (l1_OBUF)
+     IBUF:I->O             4   1.218   0.587  CE_IBUF (CE_IBUF)
+     AND2:I0->O            3   0.704   0.531  XLXI_10 (XLXN_23)
+     FDCE:CE                   0.555          XLXI_4/XLXI_1/XLXI_38
+    ----------------------------------------
+    Total                      3.595ns (2.477ns logic, 1.118ns route)
+                                       (68.9% logic, 31.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_6/counter_24'
+  Total number of paths / destination ports: 1126 / 13
+-------------------------------------------------------------------------
+Offset:              14.702ns (Levels of Logic = 9)
+  Source:            XLXI_3/XLXI_2/XLXI_39 (FF)
+  Destination:       sseg<1> (PAD)
+  Source Clock:      XLXI_6/counter_24 rising
+
+  Data Path: XLXI_3/XLXI_2/XLXI_39 to sseg<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            12   0.591   0.961  XLXI_3/XLXI_2/XLXI_39 (l1_OBUF)
      XOR2:I0->O            1   0.704   0.420  XLXI_3/XLXI_1/XLXI_13 (XLXI_3/XLXI_1/XLXN_12)
      AND2B1:I1->O          1   0.704   0.420  XLXI_3/XLXI_1/XLXI_8 (XLXI_3/XLXI_1/XLXN_5)
      OR2:I1->O             5   0.704   0.633  XLXI_3/XLXI_1/XLXI_4 (XLXN_19)
@@ -599,32 +597,6 @@ Offset:              14.702ns (Levels of Logic = 9)
     ----------------------------------------
     Total                     14.702ns (9.495ns logic, 5.207ns route)
                                        (64.6% logic, 35.4% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_4/XLXI_1/XLXN_27'
-  Total number of paths / destination ports: 535 / 10
--------------------------------------------------------------------------
-Offset:              13.412ns (Levels of Logic = 8)
-  Source:            XLXI_4/XLXI_1/XLXI_6 (FF)
-  Destination:       sseg<1> (PAD)
-  Source Clock:      XLXI_4/XLXI_1/XLXN_27 rising
-
-  Data Path: XLXI_4/XLXI_1/XLXI_6 to sseg<1>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FDC:C->Q             12   0.591   0.961  XLXI_4/XLXI_1/XLXI_6 (l4_OBUF)
-     AND2:I1->O            1   0.704   0.420  XLXI_4/XLXI_6/XLXI_31 (XLXI_4/XLXI_6/XLXN_67)
-     OR2:I1->O             6   0.704   0.669  XLXI_4/XLXI_6/XLXI_32 (XLXN_16)
-     AND2:I0->O            1   0.704   0.420  XLXI_9/XLXI_7 (XLXI_9/XLXN_12)
-     OR2:I1->O             1   0.704   0.424  XLXI_9/XLXI_11 (d<0>)
-     LUT4:I3->O            1   0.704   0.424  XLXI_7/digit<0>99_SW0 (N3)
-     LUT4:I3->O            7   0.704   0.883  XLXI_7/digit<0>99 (XLXI_7/digit<0>)
-     LUT4:I0->O            1   0.704   0.420  XLXI_7/sseg<1>1 (sseg_1_OBUF)
-     OBUF:I->O                 3.272          sseg_1_OBUF (sseg<1>)
-    ----------------------------------------
-    Total                     13.412ns (8.791ns logic, 4.621ns route)
-                                       (65.5% logic, 34.5% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_6/counter_7'
@@ -653,11 +625,11 @@ Offset:              10.012ns (Levels of Logic = 5)
 
 
 Total REAL time to Xst completion: 8.00 secs
-Total CPU time to Xst completion: 7.98 secs
+Total CPU time to Xst completion: 8.32 secs
  
 --> 
 
-Total memory usage is 342136 kilobytes
+Total memory usage is 342160 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   10 (   0 filtered)

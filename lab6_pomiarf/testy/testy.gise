@@ -24,7 +24,11 @@
   <files xmlns="http://www.xilinx.com/XMLSchema">
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="C3.sym" xil_pn:origination="imported"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VHDL" xil_pn:name="C3.vhf"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="Nx2_BT.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Nx2_BT.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_CMD" xil_pn:name="bin2bcd_16.fdo"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="bin2bcd_16.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VHDL" xil_pn:name="bin2bcd_16.vhf"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_CMD" xil_pn:name="bin2bcd_8.fdo"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VHDL" xil_pn:name="bin2bcd_8.vhf"/>
     <file xil_pn:fileType="FILE_SPL" xil_pn:name="clk_gen_1Hz_v3.spl"/>
@@ -49,7 +53,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1523819309" xil_pn:in_ck="-5973645693687245603" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1523819309">
+    <transform xil_pn:end_ts="1523888580" xil_pn:in_ck="8805215429465106440" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1523888580">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
@@ -58,18 +62,20 @@
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="clk_gen_1Hz_v3.vhd"/>
+      <outfile xil_pn:name="clk_gen_50.vhd"/>
+      <outfile xil_pn:name="led4_driver.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1523819309" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="4652227652704153681" xil_pn:start_ts="1523819309">
+    <transform xil_pn:end_ts="1523888580" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-5515855504839165088" xil_pn:start_ts="1523888580">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1523819313" xil_pn:in_ck="-6177558538018841713" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3886459244511133139" xil_pn:start_ts="1523819309">
+    <transform xil_pn:end_ts="1523888585" xil_pn:in_ck="8272862227942933909" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-173419317500655966" xil_pn:start_ts="1523888580">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="C3.vhf"/>
+      <outfile xil_pn:name="bin2bcd_16.vhf"/>
       <outfile xil_pn:name="bin2bcd_8.vhf"/>
       <outfile xil_pn:name="czestotliwosci.vhf"/>
       <outfile xil_pn:name="maxF.vhf"/>
@@ -79,7 +85,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1523819313" xil_pn:in_ck="-3895768354712605526" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1523819313">
+    <transform xil_pn:end_ts="1523888585" xil_pn:in_ck="-6586495850780803999" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1523888585">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
@@ -88,13 +94,16 @@
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="C3.vhf"/>
+      <outfile xil_pn:name="bin2bcd_16.vhf"/>
       <outfile xil_pn:name="bin2bcd_8.vhf"/>
       <outfile xil_pn:name="clk_gen_1Hz_v3.vhd"/>
+      <outfile xil_pn:name="clk_gen_50.vhd"/>
       <outfile xil_pn:name="czestotliwosci.vhf"/>
+      <outfile xil_pn:name="led4_driver.vhd"/>
       <outfile xil_pn:name="maxF.vhf"/>
       <outfile xil_pn:name="test.vhf"/>
     </transform>
-    <transform xil_pn:end_ts="1523819316" xil_pn:in_ck="-3895768354712605526" xil_pn:name="TRAN_MSimulateBehavioralModel" xil_pn:prop_ck="7256766304810292024" xil_pn:start_ts="1523819313">
+    <transform xil_pn:end_ts="1523888588" xil_pn:in_ck="-6586495850780803999" xil_pn:name="TRAN_MSimulateBehavioralModel" xil_pn:prop_ck="7256766304810292024" xil_pn:start_ts="1523888585">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
@@ -102,7 +111,7 @@
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="bin2bcd_8.fdo"/>
+      <outfile xil_pn:name="bin2bcd_16.fdo"/>
       <outfile xil_pn:name="vsim.wlf"/>
       <outfile xil_pn:name="work"/>
     </transform>
