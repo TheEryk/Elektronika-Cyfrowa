@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : czestotliwosci.vhf
--- /___/   /\     Timestamp : 04/16/2018 16:23:03
+-- /___/   /\     Timestamp : 04/19/2018 13:12:18
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -1205,37 +1205,52 @@ library UNISIM;
 use UNISIM.Vcomponents.ALL;
 
 entity czestotliwosci is
-   port ( B8   : in    std_logic; 
-          clk  : in    std_logic; 
-          an   : out   std_logic_vector (3 downto 0); 
-          sseg : out   std_logic_vector (6 downto 0));
+   port ( B8       : in    std_logic; 
+          an       : out   std_logic_vector (3 downto 0); 
+          f_out    : out   std_logic; 
+          port1Hz  : out   std_logic; 
+          sseg     : out   std_logic_vector (6 downto 0); 
+          XLXN_124 : out   std_logic; 
+          XLXN_125 : out   std_logic; 
+          XLXN_126 : out   std_logic; 
+          XLXN_117 : inout std_logic_vector (5 downto 0));
+   attribute LOC : string ;
+   attribute LOC of B8 : signal is "B8";
+   attribute LOC of an : signal is "F15,C18,H17,F17";
+   attribute LOC of f_out : signal is "F4";
+   attribute LOC of port1Hz : signal is "R4";
+   attribute LOC of sseg : signal is "H14,J17,G14,D16,D17,F18,L18";
+   attribute LOC of XLXN_124 : signal is "K15";
+   attribute LOC of XLXN_125 : signal is "J15";
+   attribute LOC of XLXN_126 : signal is "J14";
 end czestotliwosci;
 
 architecture BEHAVIORAL of czestotliwosci is
    attribute HU_SET     : string ;
    attribute BOX_TYPE   : string ;
-   signal clk50                  : std_logic;
-   signal Q                      : std_logic_vector (15 downto 0);
-   signal XLXN_4                 : std_logic;
-   signal XLXN_5                 : std_logic;
-   signal XLXN_11                : std_logic;
-   signal XLXN_12                : std_logic;
-   signal XLXN_15                : std_logic;
-   signal XLXN_32                : std_logic;
-   signal XLXN_33                : std_logic;
-   signal XLXN_37                : std_logic;
-   signal XLXN_38                : std_logic;
-   signal XLXN_85                : std_logic_vector (15 downto 0);
-   signal XLXN_92                : std_logic;
-   signal XLXN_93                : std_logic;
-   signal XLXN_95                : std_logic;
-   signal XLXN_96                : std_logic_vector (15 downto 0);
-   signal XLXN_97                : std_logic_vector (3 downto 0);
-   signal XLXN_98                : std_logic_vector (3 downto 0);
-   signal XLXN_99                : std_logic_vector (3 downto 0);
-   signal XLXN_100               : std_logic_vector (3 downto 0);
-   signal XLXI_7_CLR_openSignal  : std_logic;
-   signal XLXI_27_CLR_openSignal : std_logic;
+   attribute pmodName   : string ;
+   signal clk50                 : std_logic;
+   signal Q                     : std_logic_vector (15 downto 0);
+   signal XLXN_4                : std_logic;
+   signal XLXN_5                : std_logic;
+   signal XLXN_12               : std_logic;
+   signal XLXN_32               : std_logic;
+   signal XLXN_33               : std_logic;
+   signal XLXN_37               : std_logic;
+   signal XLXN_38               : std_logic;
+   signal XLXN_85               : std_logic_vector (15 downto 0);
+   signal XLXN_92               : std_logic;
+   signal XLXN_93               : std_logic;
+   signal XLXN_95               : std_logic;
+   signal XLXN_98               : std_logic_vector (3 downto 0);
+   signal XLXN_99               : std_logic_vector (3 downto 0);
+   signal XLXN_100              : std_logic_vector (3 downto 0);
+   signal XLXN_114              : std_logic;
+   signal XLXN_130              : std_logic;
+   signal XLXN_132              : std_logic_vector (3 downto 0);
+   signal port1Hz_DUMMY         : std_logic;
+   signal f_out_DUMMY           : std_logic;
+   signal XLXI_7_CLR_openSignal : std_logic;
    component clk_gen_1Hz_v3
       port ( clk_in : in    std_logic; 
              f_1Hz  : out   std_logic; 
@@ -1284,15 +1299,6 @@ architecture BEHAVIORAL of czestotliwosci is
    end component;
    attribute BOX_TYPE of AND2B1 : component is "BLACK_BOX";
    
-   component bin2bcd_16_MUSER_czestotliwosci
-      port ( B  : in    std_logic_vector (15 downto 0); 
-             D2 : out   std_logic_vector (3 downto 0); 
-             D3 : out   std_logic_vector (3 downto 0); 
-             D4 : out   std_logic_vector (3 downto 0); 
-             D1 : out   std_logic_vector (3 downto 0); 
-             D0 : out   std_logic_vector (3 downto 0));
-   end component;
-   
    component led4_driver
       port ( clk_in : in    std_logic; 
              a      : in    std_logic_vector (3 downto 0); 
@@ -1309,21 +1315,44 @@ architecture BEHAVIORAL of czestotliwosci is
              f_2    : out   std_logic);
    end component;
    
+   component gen66_BT
+      port ( clk_50MHz : in    std_logic; 
+             sys_bus   : inout std_logic_vector (5 downto 0); 
+             f_out     : out   std_logic);
+   end component;
+   
+   component BUF
+      port ( I : in    std_logic; 
+             O : out   std_logic);
+   end component;
+   attribute BOX_TYPE of BUF : component is "BLACK_BOX";
+   
+   component bin2bcd_16_MUSER_czestotliwosci
+      port ( B  : in    std_logic_vector (15 downto 0); 
+             D2 : out   std_logic_vector (3 downto 0); 
+             D3 : out   std_logic_vector (3 downto 0); 
+             D4 : out   std_logic_vector (3 downto 0); 
+             D1 : out   std_logic_vector (3 downto 0); 
+             D0 : out   std_logic_vector (3 downto 0));
+   end component;
+   
    attribute HU_SET of XLXI_2 : label is "XLXI_2_16";
    attribute HU_SET of XLXI_7 : label is "XLXI_7_17";
-   attribute HU_SET of XLXI_27 : label is "XLXI_27_18";
+   attribute pmodName of XLXI_59 : label is "JC";
 begin
    XLXN_12 <= '1';
+   f_out <= f_out_DUMMY;
+   port1Hz <= port1Hz_DUMMY;
    XLXI_1 : clk_gen_1Hz_v3
       port map (clk_in=>B8,
-                f_1Hz=>XLXN_11,
+                f_1Hz=>port1Hz_DUMMY,
                 f_1kHz=>XLXN_4,
                 f_1MHz=>XLXN_5);
    
    XLXI_2 : CB16CE_MXILINX_czestotliwosci
-      port map (C=>clk,
+      port map (C=>f_out_DUMMY,
                 CE=>XLXN_12,
-                CLR=>XLXN_15,
+                CLR=>XLXN_32,
                 CEO=>open,
                 Q(15 downto 0)=>Q(15 downto 0),
                 TC=>open);
@@ -1336,20 +1365,20 @@ begin
                 Q(15 downto 0)=>XLXN_85(15 downto 0));
    
    XLXI_19 : FDC
-      port map (C=>XLXN_11,
-                CLR=>XLXN_15,
+      port map (C=>port1Hz_DUMMY,
+                CLR=>XLXN_32,
                 D=>XLXN_12,
-                Q=>XLXN_15);
+                Q=>XLXN_32);
    
    XLXI_20 : FDC
       port map (C=>XLXN_4,
-                CLR=>XLXN_15,
+                CLR=>XLXN_32,
                 D=>XLXN_12,
                 Q=>XLXN_38);
    
    XLXI_21 : FDC
       port map (C=>XLXN_5,
-                CLR=>XLXN_15,
+                CLR=>XLXN_32,
                 D=>XLXN_12,
                 Q=>XLXN_37);
    
@@ -1357,7 +1386,7 @@ begin
       port map (I0=>XLXN_33,
                 I1=>XLXN_92,
                 I2=>XLXN_93,
-                O=>XLXN_32);
+                O=>XLXN_130);
    
    XLXI_25 : AND2B1
       port map (I0=>XLXN_37,
@@ -1369,33 +1398,18 @@ begin
                 I1=>XLXN_4,
                 O=>XLXN_95);
    
-   XLXI_27 : FD16CE_MXILINX_czestotliwosci
-      port map (C=>XLXN_15,
-                CE=>XLXN_12,
-                CLR=>XLXI_27_CLR_openSignal,
-                D(15 downto 0)=>XLXN_85(15 downto 0),
-                Q(15 downto 0)=>XLXN_96(15 downto 0));
-   
    XLXI_52 : AND2B1
-      port map (I0=>Q(13),
-                I1=>XLXN_15,
+      port map (I0=>XLXN_114,
+                I1=>XLXN_32,
                 O=>XLXN_93);
    
    XLXI_53 : AND2B1
-      port map (I0=>Q(13),
+      port map (I0=>XLXN_114,
                 I1=>XLXN_95,
                 O=>XLXN_92);
    
-   XLXI_54 : bin2bcd_16_MUSER_czestotliwosci
-      port map (B(15 downto 0)=>XLXN_96(15 downto 0),
-                D0(3 downto 0)=>XLXN_97(3 downto 0),
-                D1(3 downto 0)=>XLXN_98(3 downto 0),
-                D2(3 downto 0)=>XLXN_99(3 downto 0),
-                D3(3 downto 0)=>XLXN_100(3 downto 0),
-                D4=>open);
-   
    XLXI_55 : led4_driver
-      port map (a(3 downto 0)=>XLXN_97(3 downto 0),
+      port map (a(3 downto 0)=>XLXN_132(3 downto 0),
                 b(3 downto 0)=>XLXN_98(3 downto 0),
                 c(3 downto 0)=>XLXN_99(3 downto 0),
                 clk_in=>clk50,
@@ -1407,6 +1421,37 @@ begin
       port map (clk_in=>B8,
                 f_1=>open,
                 f_2=>clk50);
+   
+   XLXI_59 : gen66_BT
+      port map (clk_50MHz=>B8,
+                f_out=>f_out_DUMMY,
+                sys_bus(5 downto 0)=>XLXN_117(5 downto 0));
+   
+   XLXI_61 : FDC
+      port map (C=>Q(13),
+                CLR=>XLXN_32,
+                D=>XLXN_12,
+                Q=>XLXN_114);
+   
+   XLXI_62 : BUF
+      port map (I=>Q(2),
+                O=>XLXN_124);
+   
+   XLXI_63 : BUF
+      port map (I=>Q(1),
+                O=>XLXN_125);
+   
+   XLXI_64 : BUF
+      port map (I=>Q(0),
+                O=>XLXN_126);
+   
+   XLXI_65 : bin2bcd_16_MUSER_czestotliwosci
+      port map (B(15 downto 0)=>XLXN_85(15 downto 0),
+                D0(3 downto 0)=>XLXN_132(3 downto 0),
+                D1(3 downto 0)=>XLXN_98(3 downto 0),
+                D2(3 downto 0)=>XLXN_99(3 downto 0),
+                D3(3 downto 0)=>XLXN_100(3 downto 0),
+                D4=>open);
    
 end BEHAVIORAL;
 

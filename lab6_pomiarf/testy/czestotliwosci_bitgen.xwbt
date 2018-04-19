@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Eryk\Documents\DokumentyPUT\Elektronika-Cyfrowa\lab6_pomiarf\testy\czestotliwosci.ncd
+OUTFILE=C:\Users\Eryk\Documents\DokumentyPUT\Elektronika-Cyfrowa\lab6_pomiarf\testy\czestotliwosci.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Users\Eryk\Documents\DokumentyPUT\Elektronika-Cyfrowa\lab6_pomiarf\testy
+LICENSE=WebPack
+USER_INFO=211492955_0_0_050

@@ -1,0 +1,271 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Mapping Report File for Design 'czestotliwosci'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off
+-c 100 -o czestotliwosci_map.ncd czestotliwosci.ngd czestotliwosci.pcf 
+Target Device  : xc3s500e
+Target Package : fg320
+Target Speed   : -4
+Mapper Version : spartan3e -- $Revision: 1.55 $
+Mapped Date    : Thu Apr 19 13:12:46 2018
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:           274 out of   9,312    2%
+  Number of 4 input LUTs:               448 out of   9,312    4%
+Logic Distribution:
+  Number of occupied Slices:            307 out of   4,656    6%
+    Number of Slices containing only related logic:     307 out of     307 100%
+    Number of Slices containing unrelated logic:          0 out of     307   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:         505 out of   9,312    5%
+    Number used as logic:               429
+    Number used as a route-thru:         57
+    Number used as Shift registers:      19
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                 23 out of     232    9%
+  Number of BUFGMUXs:                     3 out of      24   12%
+  Number of DCMs:                         1 out of       4   25%
+  Number of MULT18X18SIOs:                4 out of      20   20%
+
+  Number of RPM macros:           16
+Average Fanout of Non-Clock Nets:                2.30
+
+Peak Memory Usage:  404 MB
+Total REAL time to MAP completion:  3 secs 
+Total CPU time to MAP completion:   2 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+
+Section 3 - Informational
+-------------------------
+INFO:LIT:243 - Logical network XLXI_2/CEO has no load.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+INFO:PhysDesignRules:772 - To achieve optimal frequency synthesis performance
+   with the CLKFX and CLKFX180 outputs of the DCM comp XLXI_59/mul4/DCM_SP_INST,
+   consult the device Interactive Data Sheet.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+  26 block(s) removed
+  15 block(s) optimized away
+  21 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+Loadless block "XLXI_24" (OR) removed.
+ The signal "XLXN_33" is loadless and has been removed.
+  Loadless block "XLXI_25" (AND) removed.
+   The signal "XLXN_37" is loadless and has been removed.
+    Loadless block "XLXI_21" (FF) removed.
+     The signal "XLXI_1/clk_mhz" is loadless and has been removed.
+      Loadless block "XLXI_1/clk_mhz" (FF) removed.
+       The signal "XLXI_1/clk_mhz_not0001" is loadless and has been removed.
+        Loadless block "XLXI_1/clk_mhz_not00011_INV_0" (BUF) removed.
+ The signal "XLXN_92" is loadless and has been removed.
+  Loadless block "XLXI_53" (AND) removed.
+   The signal "XLXN_114" is loadless and has been removed.
+    Loadless block "XLXI_61" (FF) removed.
+   The signal "XLXN_95" is loadless and has been removed.
+    Loadless block "XLXI_26" (AND) removed.
+     The signal "XLXN_38" is loadless and has been removed.
+      Loadless block "XLXI_20" (FF) removed.
+       The signal "XLXI_1/clk_khz" is loadless and has been removed.
+        Loadless block "XLXI_1/clk_khz" (FF) removed.
+         The signal "XLXI_1/clk_khz_not0001" is loadless and has been removed.
+          Loadless block "XLXI_1/clk_khz_not00011_INV_0" (BUF) removed.
+ The signal "XLXN_93" is loadless and has been removed.
+  Loadless block "XLXI_52" (AND) removed.
+Loadless block "XLXI_65/XLXI_82/XLXI_11" (OR) removed.
+ The signal "XLXI_65/XLXI_82/XLXN_25" is loadless and has been removed.
+  Loadless block "XLXI_65/XLXI_82/XLXI_2" (AND) removed.
+ The signal "XLXI_65/XLXI_82/XLXN_24" is loadless and has been removed.
+  Loadless block "XLXI_65/XLXI_82/XLXI_1" (AND) removed.
+Loadless block "XLXI_65/XLXI_83/XLXI_11" (OR) removed.
+ The signal "XLXI_65/XLXI_83/XLXN_25" is loadless and has been removed.
+  Loadless block "XLXI_65/XLXI_83/XLXI_2" (AND) removed.
+ The signal "XLXI_65/XLXI_83/XLXN_24" is loadless and has been removed.
+  Loadless block "XLXI_65/XLXI_83/XLXI_1" (AND) removed.
+Loadless block "XLXI_65/XLXI_84/XLXI_11" (OR) removed.
+ The signal "XLXI_65/XLXI_84/XLXN_25" is loadless and has been removed.
+  Loadless block "XLXI_65/XLXI_84/XLXI_2" (AND) removed.
+ The signal "XLXI_65/XLXI_84/XLXN_24" is loadless and has been removed.
+  Loadless block "XLXI_65/XLXI_84/XLXI_1" (AND) removed.
+Loadless block "XLXI_65/XLXI_85/XLXI_11" (OR) removed.
+ The signal "XLXI_65/XLXI_85/XLXN_25" is loadless and has been removed.
+  Loadless block "XLXI_65/XLXI_85/XLXI_2" (AND) removed.
+ The signal "XLXI_65/XLXI_85/XLXN_24" is loadless and has been removed.
+  Loadless block "XLXI_65/XLXI_85/XLXI_1" (AND) removed.
+The signal "XLXI_2/CEO" is sourceless and has been removed.
+The signal "XLXI_2/TC" is sourceless and has been removed.
+ Sourceless block "XLXI_2/I_36_54" (AND) removed.
+Unused block "XLXI_2/I_36_22" (AND) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+VCC 		XLXI_2/I_36_9
+AND2 		XLXI_65/XLXI_60/XLXI_3
+AND2B1 		XLXI_65/XLXI_60/XLXI_5
+AND2B1 		XLXI_65/XLXI_60/XLXI_8
+AND2 		XLXI_65/XLXI_70/XLXI_3
+AND2B1 		XLXI_65/XLXI_70/XLXI_5
+AND2B1 		XLXI_65/XLXI_70/XLXI_8
+AND2 		XLXI_65/XLXI_80/XLXI_3
+AND2B1 		XLXI_65/XLXI_80/XLXI_5
+AND2B1 		XLXI_65/XLXI_80/XLXI_8
+AND2 		XLXI_65/XLXI_85/XLXI_3
+AND2B1 		XLXI_65/XLXI_85/XLXI_5
+AND2B1 		XLXI_65/XLXI_85/XLXI_8
+GND 		XST_GND
+VCC 		XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| B8                                 | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| XLXN_124                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| XLXN_125                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| XLXN_126                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| XLXN_117<0>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| XLXN_117<1>                        | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| XLXN_117<2>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| XLXN_117<3>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| XLXN_117<4>                        | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| XLXN_117<5>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| an<0>                              | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| an<1>                              | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| an<2>                              | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| an<3>                              | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| f_out                              | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| port1Hz                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| sseg<0>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| sseg<1>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| sseg<2>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| sseg<3>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| sseg<4>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| sseg<5>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| sseg<6>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+XLXI_2/XLXI_2_I_Q0_1                    
+XLXI_2/XLXI_2_I_Q10_10                  
+XLXI_2/XLXI_2_I_Q11_11                  
+XLXI_2/XLXI_2_I_Q12_12                  
+XLXI_2/XLXI_2_I_Q13_13                  
+XLXI_2/XLXI_2_I_Q14_14                  
+XLXI_2/XLXI_2_I_Q15_15                  
+XLXI_2/XLXI_2_I_Q1_0                    
+XLXI_2/XLXI_2_I_Q2_3                    
+XLXI_2/XLXI_2_I_Q3_2                    
+XLXI_2/XLXI_2_I_Q4_7                    
+XLXI_2/XLXI_2_I_Q5_6                    
+XLXI_2/XLXI_2_I_Q6_5                    
+XLXI_2/XLXI_2_I_Q7_4                    
+XLXI_2/XLXI_2_I_Q8_8                    
+XLXI_2/XLXI_2_I_Q9_9                    
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+No control set information for this architecture.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : bin2bcd_16.vhf
--- /___/   /\     Timestamp : 04/16/2018 16:23:02
+-- /___/   /\     Timestamp : 04/19/2018 12:24:53
 -- \   \  /  \ 
 --  \___\/\___\ 
 --

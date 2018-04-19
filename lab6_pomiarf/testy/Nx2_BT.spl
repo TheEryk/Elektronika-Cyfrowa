@@ -1,6 +1,0 @@
-[Inputs]
-rx_bt
-[Outputs]
-tx_bt
-[BiDir]
-=sys_bus[5:0]=
