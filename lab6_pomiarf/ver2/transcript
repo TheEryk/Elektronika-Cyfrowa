@@ -1,0 +1,106 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# do {countermodule.fdo}
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 17:07:29 on May 03,2018
+# vcom -reportprogress 300 -explicit -93 counterlogic.vhf 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Compiling entity FTCE_MXILINX_counterlogic
+# -- Compiling architecture BEHAVIORAL of FTCE_MXILINX_counterlogic
+# -- Compiling entity CB2CE_MXILINX_counterlogic
+# -- Compiling architecture BEHAVIORAL of CB2CE_MXILINX_counterlogic
+# -- Compiling entity counterlogic
+# -- Compiling architecture BEHAVIORAL of counterlogic
+# End time: 17:07:30 on May 03,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 17:07:30 on May 03,2018
+# vcom -reportprogress 300 -explicit -93 countermodule.vhf 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Compiling entity FTCE_MXILINX_countermodule
+# -- Compiling architecture BEHAVIORAL of FTCE_MXILINX_countermodule
+# -- Compiling entity CB16CE_MXILINX_countermodule
+# -- Compiling architecture BEHAVIORAL of CB16CE_MXILINX_countermodule
+# -- Compiling entity FD16RE_MXILINX_countermodule
+# -- Compiling architecture BEHAVIORAL of FD16RE_MXILINX_countermodule
+# -- Compiling entity CB2CE_MXILINX_countermodule
+# -- Compiling architecture BEHAVIORAL of CB2CE_MXILINX_countermodule
+# -- Compiling entity counterlogic_MUSER_countermodule
+# -- Compiling architecture BEHAVIORAL of counterlogic_MUSER_countermodule
+# -- Compiling entity countermodule
+# -- Compiling architecture BEHAVIORAL of countermodule
+# End time: 17:07:30 on May 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui -do "do {countermodule.fdo}" 
+# Start time: 17:07:30 on May 03,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading unisim.vcomponents
+# Loading work.countermodule(behavioral)
+# Loading work.counterlogic_muser_countermodule(behavioral)
+# Loading unisim.inv(inv_v)
+# Loading unisim.fde(fde_v)
+# Loading work.cb2ce_mxilinx_countermodule(behavioral)
+# Loading work.ftce_mxilinx_countermodule(behavioral)
+# Loading unisim.xor2(xor2_v)
+# Loading unisim.fdce(fdce_v)
+# Loading unisim.and2(and2_v)
+# Loading unisim.vcc(vcc_v)
+# Loading unisim.and2b1(and2b1_v)
+# Loading work.fd16re_mxilinx_countermodule(behavioral)
+# Loading unisim.fdre(fdre_v)
+# Loading work.cb16ce_mxilinx_countermodule(behavioral)
+# Loading unisim.and3(and3_v)
+# Loading unisim.and4(and4_v)
+# Loading unisim.and5(and5_v)
+# ** Warning: Design size of 10722 statements or 100 leaf instances exceeds ModelSim PE Student Edition recommended capacity.
+# Expect performance to be quite adversely affected.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+restart
+force -freeze sim:/countermodule/c 1 0, 0 {1000 ps} -r 2ns
+force -freeze sim:/countermodule/ce 1 0
+force -freeze sim:/countermodule/cl 1 0, 0 {25000 ps} -r 50ns
+force -freeze sim:/countermodule/clk 1 0, 0 {2 ps} -r 5ps
+run
+run
+force -freeze sim:/countermodule/c 1 0, 0 {2500 ps} -r 5ns
+run
+force -freeze sim:/countermodule/c 0 0
+run
+run
+force -freeze sim:/countermodule/c 0 0
+run
+run
+# End time: 17:10:25 on May 03,2018, Elapsed time: 0:02:55
+# Errors: 0, Warnings: 1

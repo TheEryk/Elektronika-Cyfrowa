@@ -1,0 +1,2 @@
+vhdtdtfi -lib work led4_driver.vhd -prj testy -o led4_driver.spl -module led4_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w led4_driver.spl {C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab_6 pomiarf/testy/led4_driver.sym} 

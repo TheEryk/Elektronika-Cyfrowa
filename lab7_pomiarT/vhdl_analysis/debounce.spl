@@ -1,0 +1,7 @@
+[Inputs]
+clk
+rst
+button
+[Outputs]
+trigger
+[BiDir]

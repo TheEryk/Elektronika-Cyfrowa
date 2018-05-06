@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="led4_driver">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2014-4-7T18:49:43</timestamp>
+    <pin polarity="Input" x="0" y="-288" name="clk_in" />
+    <pin polarity="Input" x="0" y="-160" name="b(3:0)" />
+    <pin polarity="Input" x="0" y="-96" name="c(3:0)" />
+    <pin polarity="Input" x="0" y="-32" name="d(3:0)" />
+    <pin polarity="Input" x="0" y="-224" name="a(3:0)" />
+    <pin polarity="Output" x="656" y="-288" name="sseg(6:0)" />
+    <pin polarity="Output" x="656" y="-32" name="an(3:0)" />
+    <graph>
+        <rect width="528" x="64" y="-320" height="320" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-288" type="pin clk_in" />
+        <line x2="0" y1="-288" y2="-288" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-224" type="pin a(3:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-160" type="pin b(3:0)" />
+        <rect width="64" x="0" y="-172" height="24" />
+        <line x2="0" y1="-160" y2="-160" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-96" type="pin c(3:0)" />
+        <rect width="64" x="0" y="-108" height="24" />
+        <line x2="0" y1="-96" y2="-96" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin d(3:0)" />
+        <rect width="64" x="0" y="-44" height="24" />
+        <line x2="0" y1="-32" y2="-32" x1="64" />
+        <rect width="64" x="0" y="-236" height="24" />
+        <line x2="0" y1="-224" y2="-224" x1="64" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="584" y="-288" type="pin sseg(6:0)" />
+        <rect width="64" x="592" y="-300" height="24" />
+        <line x2="656" y1="-288" y2="-288" x1="592" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="584" y="-32" type="pin an(3:0)" />
+        <rect width="64" x="592" y="-44" height="24" />
+        <line x2="656" y1="-32" y2="-32" x1="592" />
+        <text style="fontsize:16;fontname:Courier New" x="144" y="-288">~ kHz</text>
+        <line x2="208" y1="-208" y2="-164" style="linewidth:W" x1="208" />
+        <line x2="256" y1="-208" y2="-164" style="linewidth:W" x1="256" />
+        <line x2="208" y1="-144" y2="-100" style="linewidth:W" x1="208" />
+        <line x2="256" y1="-144" y2="-100" style="linewidth:W" x1="256" />
+        <line x2="248" y1="-216" y2="-216" style="linewidth:W" x1="216" />
+        <line x2="248" y1="-152" y2="-152" style="linewidth:W" x1="216" />
+        <line x2="248" y1="-88" y2="-88" style="linewidth:W" x1="216" />
+        <line x2="288" y1="-208" y2="-164" style="linewidth:W" x1="288" />
+        <line x2="336" y1="-208" y2="-164" style="linewidth:W" x1="336" />
+        <line x2="288" y1="-144" y2="-100" style="linewidth:W" x1="288" />
+        <line x2="336" y1="-144" y2="-100" style="linewidth:W" x1="336" />
+        <line x2="328" y1="-216" y2="-216" style="linewidth:W" x1="296" />
+        <line x2="328" y1="-152" y2="-152" style="linewidth:W" x1="296" />
+        <line x2="328" y1="-88" y2="-88" style="linewidth:W" x1="296" />
+        <line x2="448" y1="-208" y2="-164" style="linewidth:W" x1="448" />
+        <line x2="496" y1="-208" y2="-164" style="linewidth:W" x1="496" />
+        <line x2="448" y1="-144" y2="-100" style="linewidth:W" x1="448" />
+        <line x2="496" y1="-144" y2="-100" style="linewidth:W" x1="496" />
+        <line x2="488" y1="-216" y2="-216" style="linewidth:W" x1="456" />
+        <line x2="488" y1="-152" y2="-152" style="linewidth:W" x1="456" />
+        <line x2="488" y1="-88" y2="-88" style="linewidth:W" x1="456" />
+        <line x2="368" y1="-208" y2="-164" style="linewidth:W" x1="368" />
+        <line x2="416" y1="-208" y2="-164" style="linewidth:W" x1="416" />
+        <line x2="368" y1="-144" y2="-100" style="linewidth:W" x1="368" />
+        <line x2="416" y1="-144" y2="-100" style="linewidth:W" x1="416" />
+        <line x2="408" y1="-216" y2="-216" style="linewidth:W" x1="376" />
+        <line x2="408" y1="-152" y2="-152" style="linewidth:W" x1="376" />
+        <line x2="408" y1="-88" y2="-88" style="linewidth:W" x1="376" />
+        <text style="fontsize:16;fontname:Courier New" x="228" y="-68">a</text>
+        <text style="fontsize:16;fontname:Courier New" x="308" y="-68">b</text>
+        <text style="fontsize:16;fontname:Courier New" x="388" y="-68">c</text>
+        <text style="fontsize:16;fontname:Courier New" x="468" y="-68">d</text>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="332" y="-324" type="symbol" />
+    </graph>
+</symbol>

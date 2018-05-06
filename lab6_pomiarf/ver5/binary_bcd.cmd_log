@@ -1,0 +1,2 @@
+vhdtdtfi -lib work vhdl1.vhd -prj ver5 -o binary_bcd.spl -module binary_bcd -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e binary_bcd.spl C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5/binary_bcd.sym 

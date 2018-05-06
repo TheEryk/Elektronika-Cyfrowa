@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Thu Apr 19 13:12:50 2018
+// Written by: Map P.20131013 on Thu Apr 26 14:24:48 2018
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -10,9 +10,11 @@ COMP "XLXN_117<2>" LOCATE = SITE "H15" LEVEL 1;
 COMP "XLXN_117<3>" LOCATE = SITE "F14" LEVEL 1;
 COMP "XLXN_117<4>" LOCATE = SITE "G13" LEVEL 1;
 COMP "XLXN_117<5>" LOCATE = SITE "H16" LEVEL 1;
-COMP "XLXN_124" LOCATE = SITE "K15" LEVEL 1;
-COMP "XLXN_125" LOCATE = SITE "J15" LEVEL 1;
-COMP "XLXN_126" LOCATE = SITE "J14" LEVEL 1;
+COMP "CMP0" LOCATE = SITE "J14" LEVEL 1;
+COMP "CMP1" LOCATE = SITE "J15" LEVEL 1;
+COMP "XLXN_201" LOCATE = SITE "K15" LEVEL 1;
+COMP "XLXN_202" LOCATE = SITE "K14" LEVEL 1;
+COMP "XLXN_203" LOCATE = SITE "E17" LEVEL 1;
 COMP "an<0>" LOCATE = SITE "F17" LEVEL 1;
 COMP "an<1>" LOCATE = SITE "H17" LEVEL 1;
 COMP "an<2>" LOCATE = SITE "C18" LEVEL 1;

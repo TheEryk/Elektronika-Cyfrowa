@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -w -refsym bin2bcd_16 {C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab_6 pomiarf/testy/bin2bcd_16.sch} {C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab_6 pomiarf/testy/bin2bcd_16.sym} 

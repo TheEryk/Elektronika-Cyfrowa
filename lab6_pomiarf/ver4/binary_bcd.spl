@@ -1,0 +1,16 @@
+[Inputs]
+clk
+reset
+=binary_in[31:0]=
+[Outputs]
+=bcd0[3:0]=
+=bcd1[3:0]=
+=bcd2[3:0]=
+=bcd3[3:0]=
+=bcd4[3:0]=
+=bcd5[3:0]=
+=bcd6[3:0]=
+=bcd7[3:0]=
+=bcd8[3:0]=
+=bcd9[3:0]=
+[BiDir]

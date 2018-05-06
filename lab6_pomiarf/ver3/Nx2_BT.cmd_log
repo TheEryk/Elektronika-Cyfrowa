@@ -1,0 +1,2 @@
+vhdtdtfi -lib work Nx2_BT.vhd -prj testy -o Nx2_BT.spl -module Nx2_BT -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w Nx2_BT.spl C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/Nx2_BT.sym 

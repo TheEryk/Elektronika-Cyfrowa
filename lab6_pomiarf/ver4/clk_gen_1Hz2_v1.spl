@@ -1,0 +1,5 @@
+[Inputs]
+clk_in
+[Outputs]
+f_1Hz2
+[BiDir]

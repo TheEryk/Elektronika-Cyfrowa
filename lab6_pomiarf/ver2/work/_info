@@ -1,0 +1,612 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver2
+Ecb16ce_mxilinx_countermodule
+Z1 w1525360038
+Z2 DPx6 unisim 11 vcomponents 0 22 2L_N91<XgM:Bh8=P>9OR]0
+Z3 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8countermodule.vhf
+Z7 Fcountermodule.vhf
+l0
+L85
+VURL3UdI?J078=PiWgOYC11
+!s100 IcBKmSkBC?=>DnPN68oPZ2
+Z8 OP;C;10.4a;61
+31
+Z9 !s110 1525360050
+!i10b 1
+Z10 !s108 1525360050.000000
+Z11 !s90 -reportprogress|300|-explicit|-93|countermodule.vhf|
+Z12 !s107 countermodule.vhf|
+!i113 1
+Z13 o-explicit -93 -O0
+Z14 tExplicit 1
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 28 cb16ce_mxilinx_countermodule 0 22 URL3UdI?J078=PiWgOYC11
+l178
+L94
+VWC0K1ZN8E[Uh=cSBMgbRK3
+!s100 ML6^fQ[a2_gAe]>kJEL9U1
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Ecb16re_mxilinx_countermodule
+Z15 w1525359656
+R2
+R3
+R4
+R5
+R0
+R6
+R7
+l0
+L483
+VS?aciVVW`:Z2kAABl6RVV2
+!s100 S:aSXhNV7cLJeQ`KRdz9R1
+R8
+31
+Z16 !s110 1525359667
+!i10b 1
+Z17 !s108 1525359667.000000
+R11
+R12
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 28 cb16re_mxilinx_countermodule 0 22 S?aciVVW`:Z2kAABl6RVV2
+l584
+L492
+Vi4W1TbgYelWh2CK;B=G]z1
+!s100 IjL@mB<I>e8_1YFQZNT=J1
+R8
+31
+R16
+!i10b 1
+R17
+R11
+R12
+!i113 1
+R13
+R14
+Ecb2ce_mxilinx_counter10
+Z18 w1525358660
+R2
+R3
+R4
+R5
+R0
+Z19 8counter10.vhf
+Z20 Fcounter10.vhf
+l0
+L85
+V7Z[O8d=n2JS6N7:2g@4i;1
+!s100 DoXgeSIGXoJ9L8N?JQ_Th0
+R8
+31
+Z21 !s110 1525358671
+!i10b 1
+Z22 !s108 1525358671.000000
+Z23 !s90 -reportprogress|300|-explicit|-93|counter10.vhf|
+Z24 !s107 counter10.vhf|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 23 cb2ce_mxilinx_counter10 0 22 7Z[O8d=n2JS6N7:2g@4i;1
+l125
+L95
+VF>=`io4fGCK`>3;:K3m8V3
+!s100 iZ]fRX62h<?`A_N:0mIiz0
+R8
+31
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R13
+R14
+Ecb2ce_mxilinx_counterlogic
+Z25 w1525359528
+R2
+R3
+R4
+R5
+R0
+Z26 8counterlogic.vhf
+Z27 Fcounterlogic.vhf
+l0
+L85
+VjhQfgb?9AG62;AeEmo3[D2
+!s100 RGLB]JZNe`26H8R[0glQd1
+R8
+31
+R9
+!i10b 1
+Z28 !s108 1525360049.000000
+Z29 !s90 -reportprogress|300|-explicit|-93|counterlogic.vhf|
+Z30 !s107 counterlogic.vhf|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 26 cb2ce_mxilinx_counterlogic 0 22 jhQfgb?9AG62;AeEmo3[D2
+l125
+L95
+V]E3?]7<NOTl3DjZBQkGnh3
+!s100 X4fHQWJXnF>2RmNc`I0mn0
+R8
+31
+R9
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R13
+R14
+Ecb2ce_mxilinx_countermodule
+R1
+R2
+R3
+R4
+R5
+R0
+R6
+R7
+l0
+L550
+VHCV:VZPdd7A8[YdGm9die2
+!s100 41X3<c2d15NMTlA1dkgoW3
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 27 cb2ce_mxilinx_countermodule 0 22 HCV:VZPdd7A8[YdGm9die2
+l590
+L560
+V]lE6TFhR0@Gbm2DJ?C^So2
+!s100 XR0IWfV_8>E:WRNQB0C^e0
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Ecounter10
+R18
+R2
+R3
+R4
+R5
+R0
+R19
+R20
+l0
+L166
+V<H0;8Y@K2hj`PLGZVg6S@3
+!s100 b9lJX>cED?bRN9Nz;3]Tl2
+R8
+31
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 9 counter10 0 22 <H0;8Y@K2hj`PLGZVg6S@3
+l217
+L175
+V_Pa]PK:K?l5JHa^nH:47_1
+!s100 ^Z9F_Ge]Vfm;zma9Kb=eH0
+R8
+31
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R13
+R14
+Ecounterlogic
+R25
+R2
+R3
+R4
+R5
+R0
+R26
+R27
+l0
+L166
+VzH8m6c=2UD2CUl8D]gl6W3
+!s100 1=@mdhGJNLERg@:2m=8KD2
+R8
+31
+R9
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 12 counterlogic 0 22 zH8m6c=2UD2CUl8D]gl6W3
+l217
+L175
+Va<Tc=iZjkYjfU0@l9dV4a0
+!s100 YS@m_K<Nfam4VLYP2dDM73
+R8
+31
+R9
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R13
+R14
+Ecounterlogic_muser_countermodule
+R1
+R2
+R3
+R4
+R5
+R0
+R6
+R7
+l0
+L631
+VQT@=E<Ck3BM[Rm9ZzY9`j1
+!s100 MTmoUTg37`O7N:W:okSFe2
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 32 counterlogic_muser_countermodule 0 22 QT@=E<Ck3BM[Rm9ZzY9`j1
+l682
+L640
+VRfEoMzL_j9BY7ePiM:2YW0
+!s100 <CUTH7lzdEMJJO5hINTBa0
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Ecountermodule
+R1
+R2
+R3
+R4
+R5
+R0
+R6
+R7
+l0
+L728
+VOR20Ldi3;6I81Qn4HLMOV2
+!s100 A>?4JZi:Dc5YU_0OMd?<[1
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 13 countermodule 0 22 OR20Ldi3;6I81Qn4HLMOV2
+l772
+L736
+VUM9_9gAm1NFXjlA]JGTH[1
+!s100 TYb2mhXgNlQ^OdDDe7ii21
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Efd16re_mxilinx_countermodule
+R1
+R2
+R3
+R4
+R5
+R0
+R6
+R7
+l0
+L407
+VZ<cJ]4C4lPXPZbjT^E9=91
+!s100 =^3BVL]Dem4UG;6a>zV9F1
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 28 fd16re_mxilinx_countermodule 0 22 Z<cJ]4C4lPXPZbjT^E9=91
+l427
+L415
+V<6Bf@IcV`6IOAl^Z>WP7:1
+!s100 `e9DKH1Jb87Q>LaTEK1Ae1
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Eftce_mxilinx_counter10
+R18
+R2
+R3
+R4
+R5
+R0
+R19
+R20
+l0
+L28
+V9Vg1VQacGE^0Pm=>E`bAn0
+!s100 JU0P=PnNo0T;D5nljF]hF1
+R8
+31
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 22 ftce_mxilinx_counter10 0 22 9Vg1VQacGE^0Pm=>E`bAn0
+l60
+L37
+VFUe?ne7`GjSYdVBa9j<f51
+!s100 0Cd;0FU?JbF;dVfG:>ZBR2
+R8
+31
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R13
+R14
+Eftce_mxilinx_counterlogic
+R25
+R2
+R3
+R4
+R5
+R0
+R26
+R27
+l0
+L28
+Vd7M5_n:K^8He<0iPE:I0a3
+!s100 ;N@HZL?E@GGdoM3RTCXJK1
+R8
+31
+R9
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 25 ftce_mxilinx_counterlogic 0 22 d7M5_n:K^8He<0iPE:I0a3
+l60
+L37
+V7FEfb`^4E`lNeU;@G^5j63
+!s100 Y[FIge^G;7?_0FFe19;[@1
+R8
+31
+R9
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R13
+R14
+Eftce_mxilinx_countermodule
+R1
+R2
+R3
+R4
+R5
+R0
+R6
+R7
+l0
+L28
+Va`AN7[E4zXM;l5>El0TGO2
+!s100 OKS0X_POha[z=e<]oHQlR0
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 26 ftce_mxilinx_countermodule 0 22 a`AN7[E4zXM;l5>El0TGO2
+l60
+L37
+VodJ9lEm9`YcnoJK=dJ8]f2
+!s100 f]J44mZgel:@HmNSimIV]3
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Eftrse_mxilinx_countermodule
+R15
+R2
+R3
+R4
+R5
+R0
+R6
+R7
+l0
+L406
+VGT?YM@n`XeCo0dd[Z_`Rc0
+!s100 Z9C8GkBmg;?8im`l]T]2M2
+R8
+31
+R16
+!i10b 1
+R17
+R11
+R12
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 27 ftrse_mxilinx_countermodule 0 22 GT?YM@n`XeCo0dd[Z_`Rc0
+l448
+L416
+V[W^bBeAKQ:WA9;ZFEKSk52
+!s100 CzN>@Io`I`az4EQ7^TbI_3
+R8
+31
+R16
+!i10b 1
+R17
+R11
+R12
+!i113 1
+R13
+R14

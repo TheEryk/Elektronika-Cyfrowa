@@ -1,0 +1,8 @@
+vhdl work "vhdl1.vhd"
+vhdl work "sel10_4.vhd"
+vhdl work "led4_driver.vhd"
+vhdl work "gen66_BT.vhd"
+vhdl work "counterlogic.vhf"
+vhdl work "clk_gen_50.vhd"
+vhdl work "clk_gen_1Hz2_v1.vhd"
+vhdl work "czestotliwosci.vhf"

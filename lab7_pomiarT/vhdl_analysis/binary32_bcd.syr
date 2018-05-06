@@ -1,0 +1,429 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: binary32_bcd.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "binary32_bcd.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "binary32_bcd"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : binary32_bcd
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/vhdl_analysis/bin2bcd_32bit.vhd" in Library work.
+Entity <binary32_bcd> compiled.
+Entity <binary32_bcd> (Architecture <behaviour>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <binary32_bcd> in library <work> (architecture <behaviour>) with generics.
+	N = 32
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <binary32_bcd> in library <work> (Architecture <behaviour>).
+	N = 32
+Entity <binary32_bcd> analyzed. Unit <binary32_bcd> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <binary32_bcd>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/vhdl_analysis/bin2bcd_32bit.vhd".
+WARNING:Xst:646 - Signal <bcds_reg<39>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 4                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk                       (falling_edge)       |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | start                                          |
+    | Power Up State     | start                                          |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 40-bit register for signal <bcds>.
+    Found 40-bit register for signal <bcds_out_reg>.
+    Found 4-bit adder for signal <bcds_reg_11_8$add0000> created at line 84.
+    Found 5-bit comparator greater for signal <bcds_reg_15$cmp_gt0000> created at line 82.
+    Found 4-bit adder for signal <bcds_reg_15_12$add0000> created at line 82.
+    Found 5-bit comparator greater for signal <bcds_reg_19$cmp_gt0000> created at line 80.
+    Found 4-bit adder for signal <bcds_reg_19_16$add0000> created at line 80.
+    Found 5-bit comparator greater for signal <bcds_reg_23$cmp_gt0000> created at line 78.
+    Found 4-bit adder for signal <bcds_reg_23_20$add0000> created at line 78.
+    Found 5-bit comparator greater for signal <bcds_reg_27$cmp_gt0000> created at line 76.
+    Found 4-bit adder for signal <bcds_reg_27_24$add0000> created at line 76.
+    Found 5-bit comparator greater for signal <bcds_reg_29$cmp_gt0000> created at line 74.
+    Found 5-bit comparator greater for signal <bcds_reg_3$cmp_gt0000> created at line 88.
+    Found 4-bit adder for signal <bcds_reg_31_28$add0000> created at line 74.
+    Found 5-bit comparator greater for signal <bcds_reg_35$cmp_gt0000> created at line 72.
+    Found 4-bit adder for signal <bcds_reg_35_32$add0000> created at line 72.
+    Found 5-bit comparator greater for signal <bcds_reg_38$cmp_gt0000> created at line 70.
+    Found 4-bit adder for signal <bcds_reg_39_36$add0000> created at line 70.
+    Found 4-bit adder for signal <bcds_reg_3_0$add0000> created at line 88.
+    Found 5-bit comparator greater for signal <bcds_reg_7$cmp_gt0000> created at line 86.
+    Found 4-bit adder for signal <bcds_reg_7_4$add0000> created at line 86.
+    Found 5-bit comparator greater for signal <bcds_reg_9$cmp_gt0000> created at line 84.
+    Found 32-bit register for signal <binary>.
+    Found 6-bit register for signal <shift_counter>.
+    Found 6-bit adder for signal <shift_counter$addsub0000> created at line 63.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred 118 D-type flip-flop(s).
+	inferred  11 Adder/Subtractor(s).
+	inferred  10 Comparator(s).
+Unit <binary32_bcd> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 11
+ 4-bit adder                                           : 10
+ 6-bit adder                                           : 1
+# Registers                                            : 4
+ 32-bit register                                       : 1
+ 40-bit register                                       : 2
+ 6-bit register                                        : 1
+# Comparators                                          : 10
+ 5-bit comparator greater                              : 10
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <state/FSM> on signal <state[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ start | 00
+ shift | 01
+ done  | 11
+-------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Adders/Subtractors                                   : 11
+ 3-bit adder                                           : 1
+ 4-bit adder                                           : 9
+ 6-bit adder                                           : 1
+# Registers                                            : 118
+ Flip-Flops                                            : 118
+# Comparators                                          : 10
+ 5-bit comparator greater                              : 10
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <binary32_bcd> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block binary32_bcd, actual ratio is 2.
+FlipFlop state_FSM_FFd2 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 121
+ Flip-Flops                                            : 121
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : binary32_bcd.ngr
+Top Level Output File Name         : binary32_bcd
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 74
+
+Cell Usage :
+# BELS                             : 200
+#      LUT2                        : 3
+#      LUT2_L                      : 1
+#      LUT3                        : 37
+#      LUT3_D                      : 1
+#      LUT4                        : 90
+#      LUT4_D                      : 6
+#      LUT4_L                      : 61
+#      MUXF5                       : 1
+# FlipFlops/Latches                : 121
+#      FDC_1                       : 81
+#      FDCE_1                      : 40
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 73
+#      IBUF                        : 33
+#      OBUF                        : 40
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                      107  out of   4656     2%  
+ Number of Slice Flip Flops:            121  out of   9312     1%  
+ Number of 4 input LUTs:                199  out of   9312     2%  
+ Number of IOs:                          74
+ Number of bonded IOBs:                  74  out of    232    31%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 121   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset                              | IBUF                   | 121   |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.888ns (Maximum Frequency: 145.171MHz)
+   Minimum input arrival time before clock: 3.984ns
+   Maximum output required time after clock: 4.283ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 6.888ns (frequency: 145.171MHz)
+  Total number of paths / destination ports: 1904 / 161
+-------------------------------------------------------------------------
+Delay:               6.888ns (Levels of Logic = 4)
+  Source:            shift_counter_2 (FF)
+  Destination:       bcds_1 (FF)
+  Source Clock:      clk falling
+  Destination Clock: clk falling
+
+  Data Path: shift_counter_2 to bcds_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            5   0.591   0.808  shift_counter_2 (shift_counter_2)
+     LUT3_D:I0->O          6   0.704   0.673  state_cmp_eq0000_SW0 (N213)
+     LUT4_D:I3->O         39   0.704   1.268  N121_2 (N1212)
+     LUT4:I3->O            1   0.704   0.424  bcds_mux0000<2>_SW1 (N98)
+     LUT4:I3->O            1   0.704   0.000  bcds_mux0000<2> (bcds_mux0000<2>)
+     FDC_1:D                   0.308          bcds_37
+    ----------------------------------------
+    Total                      6.888ns (3.715ns logic, 3.173ns route)
+                                       (53.9% logic, 46.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 32 / 32
+-------------------------------------------------------------------------
+Offset:              3.984ns (Levels of Logic = 3)
+  Source:            binary_in<8> (PAD)
+  Destination:       binary_8 (FF)
+  Destination Clock: clk falling
+
+  Data Path: binary_in<8> to binary_8
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.218   0.595  binary_in_8_IBUF (binary_in_8_IBUF)
+     LUT4:I0->O            1   0.704   0.455  binary_mux0000<8>_SW0 (N153)
+     LUT3:I2->O            1   0.704   0.000  binary_mux0000<8> (binary_mux0000<8>)
+     FDC_1:D                   0.308          binary_8
+    ----------------------------------------
+    Total                      3.984ns (2.934ns logic, 1.050ns route)
+                                       (73.6% logic, 26.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 40 / 40
+-------------------------------------------------------------------------
+Offset:              4.283ns (Levels of Logic = 1)
+  Source:            bcds_out_reg_3 (FF)
+  Destination:       bcd0<3> (PAD)
+  Source Clock:      clk falling
+
+  Data Path: bcds_out_reg_3 to bcd0<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE_1:C->Q           1   0.591   0.420  bcds_out_reg_3 (bcds_out_reg_3)
+     OBUF:I->O                 3.272          bcd0_3_OBUF (bcd0<3>)
+    ----------------------------------------
+    Total                      4.283ns (3.863ns logic, 0.420ns route)
+                                       (90.2% logic, 9.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 8.15 secs
+ 
+--> 
+
+Total memory usage is 341096 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

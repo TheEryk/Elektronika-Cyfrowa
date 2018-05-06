@@ -1,0 +1,1 @@
+force -freeze sim:/clk_gen_hz_v2/clk_in 1 0, 0 {10 ps} -r 20ps

@@ -1,0 +1,26 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sun May 06 12:18:32 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "an<0>" LOCATE = SITE "F17" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "H17" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "C18" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "F15" LEVEL 1;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "XLXN_117<0>" LOCATE = SITE "J12" LEVEL 1;
+COMP "XLXN_117<1>" LOCATE = SITE "G16" LEVEL 1;
+COMP "XLXN_117<2>" LOCATE = SITE "H15" LEVEL 1;
+COMP "XLXN_117<3>" LOCATE = SITE "F14" LEVEL 1;
+COMP "XLXN_117<4>" LOCATE = SITE "G13" LEVEL 1;
+COMP "XLXN_117<5>" LOCATE = SITE "H16" LEVEL 1;
+COMP "sseg<0>" LOCATE = SITE "L18" LEVEL 1;
+COMP "sseg<1>" LOCATE = SITE "F18" LEVEL 1;
+COMP "sseg<2>" LOCATE = SITE "D17" LEVEL 1;
+COMP "sseg<3>" LOCATE = SITE "D16" LEVEL 1;
+COMP "sseg<4>" LOCATE = SITE "G14" LEVEL 1;
+COMP "sseg<5>" LOCATE = SITE "J17" LEVEL 1;
+COMP "sseg<6>" LOCATE = SITE "H14" LEVEL 1;
+NET "clk_IBUFG1" BEL "clk_IBUFG_BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

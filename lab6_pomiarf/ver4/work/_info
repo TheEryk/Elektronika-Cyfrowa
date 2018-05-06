@@ -1,0 +1,182 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4
+Ecb2ce_mxilinx_counterlogic
+Z1 w1525593070
+Z2 DPx6 unisim 11 vcomponents 0 22 2L_N91<XgM:Bh8=P>9OR]0
+Z3 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8counterlogic.vhf
+Z7 Fcounterlogic.vhf
+l0
+L85
+VjhQfgb?9AG62;AeEmo3[D2
+!s100 RGLB]JZNe`26H8R[0glQd1
+Z8 OP;C;10.4a;61
+31
+Z9 !s110 1525593082
+!i10b 1
+Z10 !s108 1525593082.000000
+Z11 !s90 -reportprogress|300|-explicit|-93|counterlogic.vhf|
+Z12 !s107 counterlogic.vhf|
+!i113 1
+Z13 o-explicit -93 -O0
+Z14 tExplicit 1
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 26 cb2ce_mxilinx_counterlogic 0 22 jhQfgb?9AG62;AeEmo3[D2
+l125
+L95
+V]E3?]7<NOTl3DjZBQkGnh3
+!s100 X4fHQWJXnF>2RmNc`I0mn0
+R8
+31
+Z15 !s110 1525593083
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Eclk_gen_hz_v2
+Z16 w1525596839
+Z17 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z18 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R4
+R5
+R0
+Z19 8clk_gen_1Hz2_v1.vhd
+Z20 Fclk_gen_1Hz2_v1.vhd
+l0
+L7
+VDaZ39zA:7o8i4b8BG@ciU3
+!s100 eEfYIPc^[HIWL^QABS1;<2
+R8
+31
+Z21 !s110 1525596860
+!i10b 1
+Z22 !s108 1525596859.000000
+Z23 !s90 -reportprogress|300|-explicit|-93|clk_gen_1Hz2_v1.vhd|
+Z24 !s107 clk_gen_1Hz2_v1.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R17
+R18
+R4
+R5
+Z25 DEx4 work 13 clk_gen_hz_v2 0 22 DaZ39zA:7o8i4b8BG@ciU3
+l21
+L13
+VgVR95zZeUd7Ka=olbli;N0
+!s100 f@ET99D?2]DW;J2=[c<P61
+R8
+31
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R13
+R14
+Ecounterlogic
+R1
+R2
+R3
+R4
+R5
+R0
+R6
+R7
+l0
+L166
+VO`fJb;<7M>GllEH54LB@73
+!s100 [o@XcPeHh9^1NM<h;ohG32
+R8
+31
+R15
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 12 counterlogic 0 22 O`fJb;<7M>GllEH54LB@73
+l205
+L173
+V7[]0`iB>:1L`zP:EoTig00
+!s100 PK`YFagO<LCnKb2Q0dMW:3
+R8
+31
+R15
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Eftce_mxilinx_counterlogic
+R1
+R2
+R3
+R4
+R5
+R0
+R6
+R7
+l0
+L28
+Vd7M5_n:K^8He<0iPE:I0a3
+!s100 ;N@HZL?E@GGdoM3RTCXJK1
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 25 ftce_mxilinx_counterlogic 0 22 d7M5_n:K^8He<0iPE:I0a3
+l60
+L37
+V7FEfb`^4E`lNeU;@G^5j63
+!s100 Y[FIge^G;7?_0FFe19;[@1
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14

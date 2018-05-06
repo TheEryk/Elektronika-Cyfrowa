@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.14 secs
+Total CPU time to Xst completion: 0.16 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.14 secs
+Total CPU time to Xst completion: 0.16 secs
  
 --> Reading design: czestotliwosci.prj
 
@@ -104,9 +104,11 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-WARNING:HDLParsers:3607 - Unit work/Nx2_BT is now defined in a different file.  It was defined in "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/gen66_BT.vhd", and is now defined in "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/Nx2_BT.vhd".
-WARNING:HDLParsers:3607 - Unit work/Nx2_BT is now defined in a different file.  It was defined in "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/Nx2_BT.vhd", and is now defined in "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/gen66_BT.vhd".
 WARNING:HDLParsers:3607 - Unit work/Nx2_BT/simple is now defined in a different file.  It was defined in "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/Nx2_BT.vhd", and is now defined in "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/gen66_BT.vhd".
+WARNING:HDLParsers:3607 - Unit work/Nx2_BT is now defined in a different file.  It was defined in "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/gen66_BT.vhd", and is now defined in "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/Nx2_BT.vhd".
+WARNING:HDLParsers:3607 - Unit work/Nx2_BT/simple is now defined in a different file.  It was defined in "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/gen66_BT.vhd", and is now defined in "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/Nx2_BT.vhd".
+Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/Nx2_BT.vhd" in Library work.
+Architecture simple of Entity nx2_bt is up to date.
 Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/clk_gen_1Hz_v3.vhd" in Library work.
 Architecture behavioral of Entity clk_gen_1hz_v3 is up to date.
 Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/led4_driver.vhd" in Library work.
@@ -122,26 +124,43 @@ Architecture low_level_definition of Entity kcuart_rx is up to date.
 Architecture mixed of Entity uart_rx is up to date.
 Architecture fsm of Entity gen_ctrl is up to date.
 Architecture mix of Entity gen66_bt is up to date.
-Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/bin2bcd_16.vhf" in Library work.
-Architecture behavioral of Entity c3_muser_bin2bcd_16 is up to date.
-Architecture behavioral of Entity bin2bcd_16 is up to date.
-Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/C3.vhf" in Library work.
-Architecture behavioral of Entity c3 is up to date.
 Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf" in Library work.
-Entity <c3_muser_czestotliwosci> compiled.
-Entity <c3_muser_czestotliwosci> (Architecture <behavioral>) compiled.
-Entity <bin2bcd_16_muser_czestotliwosci> compiled.
-Entity <bin2bcd_16_muser_czestotliwosci> (Architecture <behavioral>) compiled.
+Entity <m2_1e_mxilinx_czestotliwosci> compiled.
+Entity <m2_1e_mxilinx_czestotliwosci> (Architecture <behavioral>) compiled.
+Entity <m4_1e_mxilinx_czestotliwosci> compiled.
+Entity <m4_1e_mxilinx_czestotliwosci> (Architecture <behavioral>) compiled.
+Entity <mux4_2_muser_czestotliwosci> compiled.
+Entity <mux4_2_muser_czestotliwosci> (Architecture <behavioral>) compiled.
+Entity <mux16_2_muser_czestotliwosci> compiled.
+Entity <mux16_2_muser_czestotliwosci> (Architecture <behavioral>) compiled.
+Entity <compmc16_mxilinx_czestotliwosci> compiled.
+Entity <compmc16_mxilinx_czestotliwosci> (Architecture <behavioral>) compiled.
 Entity <fd16ce_mxilinx_czestotliwosci> compiled.
 Entity <fd16ce_mxilinx_czestotliwosci> (Architecture <behavioral>) compiled.
 Entity <ftce_mxilinx_czestotliwosci> compiled.
 Entity <ftce_mxilinx_czestotliwosci> (Architecture <behavioral>) compiled.
 Entity <cb16ce_mxilinx_czestotliwosci> compiled.
 Entity <cb16ce_mxilinx_czestotliwosci> (Architecture <behavioral>) compiled.
+Entity <c3_muser_czestotliwosci> compiled.
+Entity <c3_muser_czestotliwosci> (Architecture <behavioral>) compiled.
+Entity <bin2bcd_16_muser_czestotliwosci> compiled.
+Entity <bin2bcd_16_muser_czestotliwosci> (Architecture <behavioral>) compiled.
 Entity <czestotliwosci> compiled.
 Entity <czestotliwosci> (Architecture <behavioral>) compiled.
-Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/Nx2_BT.vhd" in Library work.
-Architecture simple of Entity nx2_bt is up to date.
+Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/bin2bcd_16.vhf" in Library work.
+Architecture behavioral of Entity c3_muser_bin2bcd_16 is up to date.
+Architecture behavioral of Entity bin2bcd_16 is up to date.
+Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/mux16_2.vhf" in Library work.
+Architecture behavioral of Entity m2_1e_mxilinx_mux16_2 is up to date.
+Architecture behavioral of Entity m4_1e_mxilinx_mux16_2 is up to date.
+Architecture behavioral of Entity mux4_2_muser_mux16_2 is up to date.
+Architecture behavioral of Entity mux16_2 is up to date.
+Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/C3.vhf" in Library work.
+Architecture behavioral of Entity c3 is up to date.
+Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/mux4_2.vhf" in Library work.
+Architecture behavioral of Entity m2_1e_mxilinx_mux4_2 is up to date.
+Architecture behavioral of Entity m4_1e_mxilinx_mux4_2 is up to date.
+Architecture behavioral of Entity mux4_2 is up to date.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
@@ -166,6 +185,12 @@ Analyzing hierarchy for entity <gen66_BT> in library <work> (architecture <mix>)
 
 Analyzing hierarchy for entity <bin2bcd_16_MUSER_czestotliwosci> in library <work> (architecture <behavioral>).
 
+Analyzing hierarchy for entity <COMPMC16_MXILINX_czestotliwosci> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <mux16_2_MUSER_czestotliwosci> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <mux4_2_MUSER_czestotliwosci> in library <work> (architecture <behavioral>).
+
 Analyzing hierarchy for entity <FTCE_MXILINX_czestotliwosci> in library <work> (architecture <behavioral>) with generics.
 	INIT = '0'
 
@@ -186,9 +211,13 @@ Analyzing hierarchy for entity <gen_ctrl> in library <work> (architecture <fsm>)
 
 Analyzing hierarchy for entity <C3_MUSER_czestotliwosci> in library <work> (architecture <behavioral>).
 
+Analyzing hierarchy for entity <M4_1E_MXILINX_czestotliwosci> in library <work> (architecture <behavioral>).
+
 Analyzing hierarchy for entity <kcuart_rx> in library <work> (architecture <low_level_definition>).
 
-WARNING:Xst:2591 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf" line 1425: attribute on instance <pmodName> overrides generic/parameter on entity. It is possible that simulator will not take this attribute into account.
+Analyzing hierarchy for entity <M2_1E_MXILINX_czestotliwosci> in library <work> (architecture <behavioral>).
+
+WARNING:Xst:2591 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf" line 2241: attribute on instance <pmodName> overrides generic/parameter on entity. It is possible that simulator will not take this attribute into account.
 WARNING:Xst:2591 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/gen66_BT.vhd" line 666: attribute on instance <INIT> overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
 WARNING:Xst:2591 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/gen66_BT.vhd" line 589: attribute on instance <INIT> overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
 WARNING:Xst:2591 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/gen66_BT.vhd" line 571: attribute on instance <INIT> overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
@@ -200,22 +229,41 @@ WARNING:Xst:2591 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab
 Analyzing Entity <czestotliwosci> in library <work> (Architecture <behavioral>).
     Set user-defined property "LOC =  B8" for signal <B8> in unit <czestotliwosci>.
     Set user-defined property "LOC =  F15 C18 H17 F17" for signal <an> in unit <czestotliwosci>.
+    Set user-defined property "LOC =  J14" for signal <CMP0> in unit <czestotliwosci>.
+    Set user-defined property "LOC =  J15" for signal <CMP1> in unit <czestotliwosci>.
     Set user-defined property "LOC =  F4" for signal <f_out> in unit <czestotliwosci>.
     Set user-defined property "LOC =  R4" for signal <port1Hz> in unit <czestotliwosci>.
     Set user-defined property "LOC =  H14 J17 G14 D16 D17 F18 L18" for signal <sseg> in unit <czestotliwosci>.
-    Set user-defined property "LOC =  K15" for signal <XLXN_124> in unit <czestotliwosci>.
-    Set user-defined property "LOC =  J15" for signal <XLXN_125> in unit <czestotliwosci>.
-    Set user-defined property "LOC =  J14" for signal <XLXN_126> in unit <czestotliwosci>.
-WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf" line 1352: Unconnected output port 'CEO' of component 'CB16CE_MXILINX_czestotliwosci'.
-WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf" line 1352: Unconnected output port 'TC' of component 'CB16CE_MXILINX_czestotliwosci'.
-    Set user-defined property "HU_SET =  XLXI_2_16" for instance <XLXI_2> in unit <czestotliwosci>.
-    Set user-defined property "HU_SET =  XLXI_7_17" for instance <XLXI_7> in unit <czestotliwosci>.
-    Set user-defined property "INIT =  0" for instance <XLXI_19> in unit <czestotliwosci>.
-    Set user-defined property "INIT =  0" for instance <XLXI_20> in unit <czestotliwosci>.
-    Set user-defined property "INIT =  0" for instance <XLXI_21> in unit <czestotliwosci>.
-WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf" line 1420: Unconnected output port 'f_1' of component 'clk_gen_50'.
-    Set user-defined property "INIT =  0" for instance <XLXI_61> in unit <czestotliwosci>.
-WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf" line 1448: Unconnected output port 'D4' of component 'bin2bcd_16_MUSER_czestotliwosci'.
+    Set user-defined property "LOC =  K15" for signal <XLXN_201> in unit <czestotliwosci>.
+    Set user-defined property "LOC =  K14" for signal <XLXN_202> in unit <czestotliwosci>.
+    Set user-defined property "LOC =  E17" for signal <XLXN_203> in unit <czestotliwosci>.
+    Set user-defined property "LOC =  R4" for signal <c1const>.
+    Set user-defined property "LOC =  R4" for signal <t2k>.
+WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf" line 2212: Unconnected output port 'CEO' of component 'CB16CE_MXILINX_czestotliwosci'.
+WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf" line 2212: Unconnected output port 'TC' of component 'CB16CE_MXILINX_czestotliwosci'.
+    Set user-defined property "HU_SET =  XLXI_2_22" for instance <XLXI_2> in unit <czestotliwosci>.
+    Set user-defined property "HU_SET =  XLXI_7_23" for instance <XLXI_7> in unit <czestotliwosci>.
+WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf" line 2236: Unconnected output port 'f_1' of component 'clk_gen_50'.
+WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf" line 2246: Unconnected output port 'D3' of component 'bin2bcd_16_MUSER_czestotliwosci'.
+WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf" line 2246: Unconnected output port 'D4' of component 'bin2bcd_16_MUSER_czestotliwosci'.
+WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf" line 2254: Unconnected output port 'LT' of component 'COMPMC16_MXILINX_czestotliwosci'.
+    Set user-defined property "HU_SET =  XLXI_68_24" for instance <XLXI_68> in unit <czestotliwosci>.
+WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf" line 2260: Unconnected output port 'CEO' of component 'CB16CE_MXILINX_czestotliwosci'.
+WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf" line 2260: Unconnected output port 'TC' of component 'CB16CE_MXILINX_czestotliwosci'.
+    Set user-defined property "HU_SET =  XLXI_72_25" for instance <XLXI_72> in unit <czestotliwosci>.
+WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf" line 2268: Unconnected output port 'CEO' of component 'CB16CE_MXILINX_czestotliwosci'.
+WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf" line 2268: Unconnected output port 'TC' of component 'CB16CE_MXILINX_czestotliwosci'.
+    Set user-defined property "HU_SET =  XLXI_73_26" for instance <XLXI_73> in unit <czestotliwosci>.
+    Set user-defined property "HU_SET =  XLXI_74_27" for instance <XLXI_74> in unit <czestotliwosci>.
+    Set user-defined property "HU_SET =  XLXI_75_28" for instance <XLXI_75> in unit <czestotliwosci>.
+WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf" line 2290: Unconnected output port 'LT' of component 'COMPMC16_MXILINX_czestotliwosci'.
+    Set user-defined property "HU_SET =  XLXI_76_29" for instance <XLXI_76> in unit <czestotliwosci>.
+    Set user-defined property "INIT =  0" for instance <XLXI_92> in unit <czestotliwosci>.
+    Set user-defined property "INIT =  0" for instance <XLXI_93> in unit <czestotliwosci>.
+    Set user-defined property "INIT =  0" for instance <XLXI_109> in unit <czestotliwosci>.
+    Set user-defined property "INIT =  0" for instance <XLXI_110> in unit <czestotliwosci>.
+    Set user-defined property "INIT =  0" for instance <XLXI_114> in unit <czestotliwosci>.
+    Set user-defined property "INIT =  0" for instance <XLXI_115> in unit <czestotliwosci>.
 Entity <czestotliwosci> analyzed. Unit <czestotliwosci> generated.
 
 Analyzing generic Entity <clk_gen_1Hz_v3> in library <work> (Architecture <behavioral>).
@@ -223,22 +271,22 @@ Analyzing generic Entity <clk_gen_1Hz_v3> in library <work> (Architecture <behav
 Entity <clk_gen_1Hz_v3> analyzed. Unit <clk_gen_1Hz_v3> generated.
 
 Analyzing Entity <CB16CE_MXILINX_czestotliwosci> in library <work> (Architecture <behavioral>).
-    Set user-defined property "HU_SET =  I_Q0_1" for instance <I_Q0> in unit <CB16CE_MXILINX_czestotliwosci>.
-    Set user-defined property "HU_SET =  I_Q1_0" for instance <I_Q1> in unit <CB16CE_MXILINX_czestotliwosci>.
-    Set user-defined property "HU_SET =  I_Q2_3" for instance <I_Q2> in unit <CB16CE_MXILINX_czestotliwosci>.
-    Set user-defined property "HU_SET =  I_Q3_2" for instance <I_Q3> in unit <CB16CE_MXILINX_czestotliwosci>.
-    Set user-defined property "HU_SET =  I_Q4_7" for instance <I_Q4> in unit <CB16CE_MXILINX_czestotliwosci>.
-    Set user-defined property "HU_SET =  I_Q5_6" for instance <I_Q5> in unit <CB16CE_MXILINX_czestotliwosci>.
-    Set user-defined property "HU_SET =  I_Q6_5" for instance <I_Q6> in unit <CB16CE_MXILINX_czestotliwosci>.
-    Set user-defined property "HU_SET =  I_Q7_4" for instance <I_Q7> in unit <CB16CE_MXILINX_czestotliwosci>.
-    Set user-defined property "HU_SET =  I_Q8_8" for instance <I_Q8> in unit <CB16CE_MXILINX_czestotliwosci>.
-    Set user-defined property "HU_SET =  I_Q9_9" for instance <I_Q9> in unit <CB16CE_MXILINX_czestotliwosci>.
-    Set user-defined property "HU_SET =  I_Q10_10" for instance <I_Q10> in unit <CB16CE_MXILINX_czestotliwosci>.
-    Set user-defined property "HU_SET =  I_Q11_11" for instance <I_Q11> in unit <CB16CE_MXILINX_czestotliwosci>.
-    Set user-defined property "HU_SET =  I_Q12_12" for instance <I_Q12> in unit <CB16CE_MXILINX_czestotliwosci>.
-    Set user-defined property "HU_SET =  I_Q13_13" for instance <I_Q13> in unit <CB16CE_MXILINX_czestotliwosci>.
-    Set user-defined property "HU_SET =  I_Q14_14" for instance <I_Q14> in unit <CB16CE_MXILINX_czestotliwosci>.
-    Set user-defined property "HU_SET =  I_Q15_15" for instance <I_Q15> in unit <CB16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q0_7" for instance <I_Q0> in unit <CB16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q1_6" for instance <I_Q1> in unit <CB16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q2_9" for instance <I_Q2> in unit <CB16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q3_8" for instance <I_Q3> in unit <CB16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q4_13" for instance <I_Q4> in unit <CB16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q5_12" for instance <I_Q5> in unit <CB16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q6_11" for instance <I_Q6> in unit <CB16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q7_10" for instance <I_Q7> in unit <CB16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q8_14" for instance <I_Q8> in unit <CB16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q9_15" for instance <I_Q9> in unit <CB16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q10_16" for instance <I_Q10> in unit <CB16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q11_17" for instance <I_Q11> in unit <CB16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q12_18" for instance <I_Q12> in unit <CB16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q13_19" for instance <I_Q13> in unit <CB16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q14_20" for instance <I_Q14> in unit <CB16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q15_21" for instance <I_Q15> in unit <CB16CE_MXILINX_czestotliwosci>.
 Entity <CB16CE_MXILINX_czestotliwosci> analyzed. Unit <CB16CE_MXILINX_czestotliwosci> generated.
 
 Analyzing generic Entity <FTCE_MXILINX_czestotliwosci> in library <work> (Architecture <behavioral>).
@@ -407,6 +455,59 @@ Entity <bin2bcd_16_MUSER_czestotliwosci> analyzed. Unit <bin2bcd_16_MUSER_czesto
 Analyzing Entity <C3_MUSER_czestotliwosci> in library <work> (Architecture <behavioral>).
 Entity <C3_MUSER_czestotliwosci> analyzed. Unit <C3_MUSER_czestotliwosci> generated.
 
+Analyzing Entity <COMPMC16_MXILINX_czestotliwosci> in library <work> (Architecture <behavioral>).
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_3> in unit <COMPMC16_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_1710> in unit <COMPMC16_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X0Y1" for instance <I_36_1719> in unit <COMPMC16_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X0Y1" for instance <I_36_1728> in unit <COMPMC16_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X0Y2" for instance <I_36_1735> in unit <COMPMC16_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X0Y2" for instance <I_36_1744> in unit <COMPMC16_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X0Y3" for instance <I_36_1751> in unit <COMPMC16_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X0Y3" for instance <I_36_1760> in unit <COMPMC16_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X0Y6" for instance <I_36_1918> in unit <COMPMC16_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X0Y6" for instance <I_36_1923> in unit <COMPMC16_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X0Y7" for instance <I_36_1926> in unit <COMPMC16_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X0Y7" for instance <I_36_1931> in unit <COMPMC16_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X0Y5" for instance <I_36_1934> in unit <COMPMC16_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X0Y5" for instance <I_36_1939> in unit <COMPMC16_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X0Y4" for instance <I_36_1942> in unit <COMPMC16_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X0Y4" for instance <I_36_1945> in unit <COMPMC16_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X1Y0" for instance <I_36_2125> in unit <COMPMC16_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X1Y0" for instance <I_36_2126> in unit <COMPMC16_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X1Y1" for instance <I_36_2127> in unit <COMPMC16_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X1Y1" for instance <I_36_2128> in unit <COMPMC16_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X1Y2" for instance <I_36_2129> in unit <COMPMC16_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X1Y2" for instance <I_36_2130> in unit <COMPMC16_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X1Y3" for instance <I_36_2131> in unit <COMPMC16_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X1Y3" for instance <I_36_2132> in unit <COMPMC16_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X1Y4" for instance <I_36_2133> in unit <COMPMC16_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X1Y4" for instance <I_36_2134> in unit <COMPMC16_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X1Y5" for instance <I_36_2135> in unit <COMPMC16_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X1Y5" for instance <I_36_2136> in unit <COMPMC16_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X1Y6" for instance <I_36_2137> in unit <COMPMC16_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X1Y6" for instance <I_36_2138> in unit <COMPMC16_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X1Y7" for instance <I_36_2139> in unit <COMPMC16_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X1Y7" for instance <I_36_2140> in unit <COMPMC16_MXILINX_czestotliwosci>.
+Entity <COMPMC16_MXILINX_czestotliwosci> analyzed. Unit <COMPMC16_MXILINX_czestotliwosci> generated.
+
+Analyzing Entity <mux16_2_MUSER_czestotliwosci> in library <work> (Architecture <behavioral>).
+Entity <mux16_2_MUSER_czestotliwosci> analyzed. Unit <mux16_2_MUSER_czestotliwosci> generated.
+
+Analyzing Entity <mux4_2_MUSER_czestotliwosci> in library <work> (Architecture <behavioral>).
+    Set user-defined property "HU_SET =  XLXI_1_2" for instance <XLXI_1> in unit <mux4_2_MUSER_czestotliwosci>.
+    Set user-defined property "HU_SET =  XLXI_5_3" for instance <XLXI_5> in unit <mux4_2_MUSER_czestotliwosci>.
+    Set user-defined property "HU_SET =  XLXI_7_4" for instance <XLXI_7> in unit <mux4_2_MUSER_czestotliwosci>.
+    Set user-defined property "HU_SET =  XLXI_8_5" for instance <XLXI_8> in unit <mux4_2_MUSER_czestotliwosci>.
+Entity <mux4_2_MUSER_czestotliwosci> analyzed. Unit <mux4_2_MUSER_czestotliwosci> generated.
+
+Analyzing Entity <M4_1E_MXILINX_czestotliwosci> in library <work> (Architecture <behavioral>).
+    Set user-defined property "HU_SET =  I_M01_1" for instance <I_M01> in unit <M4_1E_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_M23_0" for instance <I_M23> in unit <M4_1E_MXILINX_czestotliwosci>.
+Entity <M4_1E_MXILINX_czestotliwosci> analyzed. Unit <M4_1E_MXILINX_czestotliwosci> generated.
+
+Analyzing Entity <M2_1E_MXILINX_czestotliwosci> in library <work> (Architecture <behavioral>).
+Entity <M2_1E_MXILINX_czestotliwosci> analyzed. Unit <M2_1E_MXILINX_czestotliwosci> generated.
+
 
 =========================================================================
 *                           HDL Synthesis                               *
@@ -504,6 +605,11 @@ Synthesizing Unit <FD16CE_MXILINX_czestotliwosci>.
 Unit <FD16CE_MXILINX_czestotliwosci> synthesized.
 
 
+Synthesizing Unit <COMPMC16_MXILINX_czestotliwosci>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf".
+Unit <COMPMC16_MXILINX_czestotliwosci> synthesized.
+
+
 Synthesizing Unit <FTCE_MXILINX_czestotliwosci>.
     Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf".
 Unit <FTCE_MXILINX_czestotliwosci> synthesized.
@@ -516,7 +622,7 @@ Unit <dcm_4x> synthesized.
 
 
 Synthesizing Unit <Nx2_BT>.
-    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/Nx2_BT.vhd".
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/gen66_BT.vhd".
 Unit <Nx2_BT> synthesized.
 
 
@@ -528,6 +634,11 @@ Unit <kcuart_rx> synthesized.
 Synthesizing Unit <C3_MUSER_czestotliwosci>.
     Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf".
 Unit <C3_MUSER_czestotliwosci> synthesized.
+
+
+Synthesizing Unit <M2_1E_MXILINX_czestotliwosci>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf".
+Unit <M2_1E_MXILINX_czestotliwosci> synthesized.
 
 
 Synthesizing Unit <CB16CE_MXILINX_czestotliwosci>.
@@ -550,6 +661,11 @@ Synthesizing Unit <uart_rx>.
 Unit <uart_rx> synthesized.
 
 
+Synthesizing Unit <M4_1E_MXILINX_czestotliwosci>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf".
+Unit <M4_1E_MXILINX_czestotliwosci> synthesized.
+
+
 Synthesizing Unit <gen66_BT>.
     Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/gen66_BT.vhd".
 WARNING:Xst:646 - Signal <done> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
@@ -561,10 +677,26 @@ WARNING:Xst:646 - Signal <bin_freq<31:26>> is assigned but never used. This unco
 Unit <gen66_BT> synthesized.
 
 
+Synthesizing Unit <mux4_2_MUSER_czestotliwosci>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf".
+Unit <mux4_2_MUSER_czestotliwosci> synthesized.
+
+
+Synthesizing Unit <mux16_2_MUSER_czestotliwosci>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf".
+Unit <mux16_2_MUSER_czestotliwosci> synthesized.
+
+
 Synthesizing Unit <czestotliwosci>.
     Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf".
-WARNING:Xst:646 - Signal <XLXN_130> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <XLXN_223> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_83_D1_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0000.
+WARNING:Xst:653 - Signal <XLXI_82_D2_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0000000000000000.
 WARNING:Xst:653 - Signal <XLXI_7_CLR_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_75_CLR_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_74_CLR_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_103_I1_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_102_I1_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
 Unit <czestotliwosci> synthesized.
 
 
@@ -641,8 +773,8 @@ Macro Statistics
  9-bit up counter                                      : 1
 # Accumulators                                         : 1
  58-bit up accumulator                                 : 1
-# Registers                                            : 172
- Flip-Flops                                            : 172
+# Registers                                            : 238
+ Flip-Flops                                            : 238
 
 =========================================================================
 
@@ -683,21 +815,27 @@ Optimizing unit <gen_ctrl> ...
 
 Optimizing unit <FD16CE_MXILINX_czestotliwosci> ...
 
+Optimizing unit <COMPMC16_MXILINX_czestotliwosci> ...
+
 Optimizing unit <FTCE_MXILINX_czestotliwosci> ...
 
 Optimizing unit <kcuart_rx> ...
 
 Optimizing unit <C3_MUSER_czestotliwosci> ...
 
+Optimizing unit <M2_1E_MXILINX_czestotliwosci> ...
+
 Optimizing unit <CB16CE_MXILINX_czestotliwosci> ...
 
 Optimizing unit <bin2bcd_16_MUSER_czestotliwosci> ...
+
+Optimizing unit <M4_1E_MXILINX_czestotliwosci> ...
 
 Optimizing unit <gen66_BT> ...
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block czestotliwosci, actual ratio is 4.
+Found area constraint ratio of 100 (+ 5) on block czestotliwosci, actual ratio is 6.
 
 Final Macro Processing ...
 
@@ -705,8 +843,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 279
- Flip-Flops                                            : 279
+# Registers                                            : 345
+ Flip-Flops                                            : 345
 
 =========================================================================
 
@@ -732,35 +870,36 @@ Optimization Goal                  : Speed
 Keep Hierarchy                     : No
 
 Design Statistics
-# IOs                              : 23
+# IOs                              : 25
 
 Cell Usage :
-# BELS                             : 1226
-#      AND2                        : 141
-#      AND2B1                      : 106
-#      AND3                        : 4
-#      AND3B1                      : 34
-#      AND3B2                      : 68
-#      AND4                        : 4
-#      AND5                        : 3
+# BELS                             : 1566
+#      AND2                        : 154
+#      AND2B1                      : 102
+#      AND3                        : 52
+#      AND3B1                      : 74
+#      AND3B2                      : 71
+#      AND4                        : 12
+#      AND5                        : 9
 #      BUF                         : 4
-#      GND                         : 1
+#      GND                         : 3
 #      INV                         : 9
 #      LUT1                        : 57
 #      LUT2                        : 141
 #      LUT3                        : 43
 #      LUT4                        : 84
-#      MUXCY                       : 181
-#      MUXF5                       : 2
-#      OR2                         : 34
-#      OR3                         : 103
-#      VCC                         : 2
-#      XOR2                        : 16
+#      MUXCY                       : 183
+#      MUXCY_L                     : 62
+#      MUXF5                       : 22
+#      OR2                         : 77
+#      OR3                         : 102
+#      VCC                         : 4
+#      XNOR2                       : 64
+#      XOR2                        : 48
 #      XORCY                       : 189
-# FlipFlops/Latches                : 279
-#      FD                          : 73
-#      FDC                         : 4
-#      FDCE                        : 32
+# FlipFlops/Latches                : 345
+#      FD                          : 79
+#      FDCE                        : 96
 #      FDE                         : 88
 #      FDR                         : 16
 #      FDRE                        : 64
@@ -768,12 +907,12 @@ Cell Usage :
 #      FDS                         : 1
 # Shift Registers                  : 19
 #      SRL16E                      : 19
-# Clock Buffers                    : 3
-#      BUFG                        : 3
-# IO Buffers                       : 23
+# Clock Buffers                    : 4
+#      BUFG                        : 4
+# IO Buffers                       : 25
 #      IBUF                        : 2
 #      IBUFG                       : 1
-#      OBUF                        : 20
+#      OBUF                        : 22
 # DCMs                             : 1
 #      DCM_SP                      : 1
 # MULTs                            : 4
@@ -785,15 +924,15 @@ Device utilization summary:
 
 Selected Device : 3s500efg320-4 
 
- Number of Slices:                      221  out of   4656     4%  
- Number of Slice Flip Flops:            279  out of   9312     2%  
+ Number of Slices:                      177  out of   4656     3%  
+ Number of Slice Flip Flops:            345  out of   9312     3%  
  Number of 4 input LUTs:                353  out of   9312     3%  
     Number used as logic:               334
     Number used as Shift registers:      19
- Number of IOs:                          23
- Number of bonded IOBs:                  23  out of    232     9%  
+ Number of IOs:                          25
+ Number of bonded IOBs:                  25  out of    232    10%  
  Number of MULT18X18SIOs:                 4  out of     20    20%  
- Number of GCLKs:                         3  out of     24    12%  
+ Number of GCLKs:                         4  out of     24    16%  
  Number of DCMs:                          1  out of      4    25%  
 
 ---------------------------
@@ -817,26 +956,26 @@ Clock Information:
 -----------------------------------+-------------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)         | Load  |
 -----------------------------------+-------------------------------+-------+
-XLXI_1/clk_hz                      | NONE(XLXI_19)                 | 1     |
-XLXI_1/clk_khz                     | NONE(XLXI_20)                 | 1     |
-XLXI_1/clk_mhz                     | NONE(XLXI_21)                 | 1     |
-XLXI_2/I_Q13/Q                     | NONE(XLXI_61)                 | 1     |
-B8                                 | XLXI_59/mul4/DCM_SP_INST:CLK0 | 204   |
+B8                                 | XLXI_59/mul4/DCM_SP_INST:CLK0 | 210   |
 XLXI_56/counter_7                  | NONE(XLXI_55/one_hot_3)       | 4     |
-XLXN_32                            | NONE(XLXI_7/I_Q0)             | 16    |
-XLXI_59/dds/phase_next_57          | NONE(XLXI_2/I_Q15/I_36_35)    | 16    |
+t2k                                | NONE(XLXI_75/I_Q0)            | 16    |
+t1k                                | NONE(XLXI_74/I_Q0)            | 16    |
+XLXI_1/clk_hz                      | NONE(XLXI_7/I_Q0)             | 16    |
+XLXI_59/dds/phase_next_571         | BUFG                          | 48    |
 B8                                 | XLXI_59/mul4/DCM_SP_INST:CLKFX| 58    |
 -----------------------------------+-------------------------------+-------+
 INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 
 Asynchronous Control Signals Information:
 ----------------------------------------
------------------------------------+------------------------+-------+
-Control Signal                     | Buffer(FF name)        | Load  |
------------------------------------+------------------------+-------+
-XLXN_32(XLXI_19:Q)                 | NONE(XLXI_19)          | 20    |
-N0(XST_GND:G)                      | NONE(XLXI_7/I_Q0)      | 16    |
------------------------------------+------------------------+-------+
+-----------------------------------+---------------------------+-------+
+Control Signal                     | Buffer(FF name)           | Load  |
+-----------------------------------+---------------------------+-------+
+N0(XST_GND:G)                      | NONE(XLXI_7/I_Q0)         | 48    |
+XLXI_1/clk_hz(XLXI_1/clk_hz:Q)     | NONE(XLXI_2/I_Q0/I_36_35) | 16    |
+t1k(XLXI_110:Q)                    | NONE(XLXI_72/I_Q0/I_36_35)| 16    |
+t2k(XLXI_115:Q)                    | NONE(XLXI_73/I_Q0/I_36_35)| 16    |
+-----------------------------------+---------------------------+-------+
 
 Timing Summary:
 ---------------
@@ -844,7 +983,7 @@ Speed Grade: -4
 
    Minimum period: 59.464ns (Maximum Frequency: 16.817MHz)
    Minimum input arrival time before clock: 1.973ns
-   Maximum output required time after clock: 41.185ns
+   Maximum output required time after clock: 47.424ns
    Maximum combinational path delay: 4.937ns
 
 Timing Detail:
@@ -854,7 +993,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'B8'
   Clock period: 59.464ns (frequency: 16.817MHz)
-  Total number of paths / destination ports: 643775 / 565
+  Total number of paths / destination ports: 643789 / 571
 -------------------------------------------------------------------------
 Delay:               14.866ns (Levels of Logic = 46)
   Source:            XLXI_59/dds/Mmult_M_submult_0 (MULT)
@@ -940,15 +1079,15 @@ Delay:               1.568ns (Levels of Logic = 0)
                                        (57.3% logic, 42.7% route)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'XLXI_59/dds/phase_next_57'
+Timing constraint: Default period analysis for Clock 'XLXI_59/dds/phase_next_571'
   Clock period: 7.866ns (frequency: 127.129MHz)
-  Total number of paths / destination ports: 136 / 16
+  Total number of paths / destination ports: 408 / 48
 -------------------------------------------------------------------------
 Delay:               7.866ns (Levels of Logic = 6)
   Source:            XLXI_2/I_Q0/I_36_35 (FF)
   Destination:       XLXI_2/I_Q15/I_36_35 (FF)
-  Source Clock:      XLXI_59/dds/phase_next_57 rising
-  Destination Clock: XLXI_59/dds/phase_next_57 rising
+  Source Clock:      XLXI_59/dds/phase_next_571 rising
+  Destination Clock: XLXI_59/dds/phase_next_571 rising
 
   Data Path: XLXI_2/I_Q0/I_36_35 to XLXI_2/I_Q15/I_36_35
                                 Gate     Net
@@ -990,42 +1129,188 @@ Offset:              1.973ns (Levels of Logic = 1)
 Timing constraint: Default OFFSET OUT AFTER for Clock 'B8'
   Total number of paths / destination ports: 2 / 2
 -------------------------------------------------------------------------
-Offset:              4.931ns (Levels of Logic = 1)
-  Source:            XLXI_59/dds/phase_next_57 (FF)
-  Destination:       f_out (PAD)
-  Source Clock:      B8 rising 4.0X
+Offset:              5.126ns (Levels of Logic = 1)
+  Source:            XLXI_1/clk_hz (FF)
+  Destination:       port1Hz (PAD)
+  Source Clock:      B8 rising
 
-  Data Path: XLXI_59/dds/phase_next_57 to f_out
+  Data Path: XLXI_1/clk_hz to port1Hz
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q              18   0.591   1.068  XLXI_59/dds/phase_next_57 (XLXI_59/dds/phase_next_57)
-     OBUF:I->O                 3.272          f_out_OBUF (f_out)
+     FDE:C->Q             34   0.591   1.263  XLXI_1/clk_hz (XLXI_1/clk_hz)
+     OBUF:I->O                 3.272          port1Hz_OBUF (port1Hz)
     ----------------------------------------
-    Total                      4.931ns (3.863ns logic, 1.068ns route)
-                                       (78.3% logic, 21.7% route)
+    Total                      5.126ns (3.863ns logic, 1.263ns route)
+                                       (75.4% logic, 24.6% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_59/dds/phase_next_57'
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_59/dds/phase_next_571'
   Total number of paths / destination ports: 3 / 3
 -------------------------------------------------------------------------
 Offset:              5.695ns (Levels of Logic = 3)
   Source:            XLXI_2/I_Q0/I_36_35 (FF)
-  Destination:       XLXN_126 (PAD)
-  Source Clock:      XLXI_59/dds/phase_next_57 rising
+  Destination:       XLXN_201 (PAD)
+  Source Clock:      XLXI_59/dds/phase_next_571 rising
 
-  Data Path: XLXI_2/I_Q0/I_36_35 to XLXN_126
+  Data Path: XLXI_2/I_Q0/I_36_35 to XLXN_201
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FDCE:C->Q             7   0.591   0.708  I_36_35 (Q)
      end scope: 'I_Q0'
      end scope: 'XLXI_2'
-     BUF:I->O              1   0.704   0.420  XLXI_64 (XLXN_126_OBUF)
-     OBUF:I->O                 3.272          XLXN_126_OBUF (XLXN_126)
+     BUF:I->O              1   0.704   0.420  XLXI_87 (XLXN_201_OBUF)
+     OBUF:I->O                 3.272          XLXN_201_OBUF (XLXN_201)
     ----------------------------------------
     Total                      5.695ns (4.567ns logic, 1.128ns route)
                                        (80.2% logic, 19.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_1/clk_hz'
+  Total number of paths / destination ports: 5963104354246 / 8
+-------------------------------------------------------------------------
+Offset:              47.424ns (Levels of Logic = 54)
+  Source:            XLXI_7/I_Q0 (FF)
+  Destination:       sseg<6> (PAD)
+  Source Clock:      XLXI_1/clk_hz rising
+
+  Data Path: XLXI_7/I_Q0 to sseg<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             3   0.591   0.531  I_Q0 (Q<0>)
+     end scope: 'XLXI_7'
+     begin scope: 'XLXI_68'
+     XNOR2:I0->O           1   0.704   0.000  I_36_2150 (I0G)
+     MUXCY_L:S->LO         1   0.464   0.000  I_36_2125 (C1G)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_2126 (C2G)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_2127 (C3G)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_2128 (C4G)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_2129 (C5G)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_2130 (C6G)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_2131 (C7G)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_2132 (C8G)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_2133 (C9G)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_2134 (C10G)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_2135 (C11G)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_2136 (C12G)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_2137 (C13G)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_2138 (C14G)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_2139 (C15G)
+     MUXCY:CI->O          69   0.459   1.274  I_36_2140 (GT)
+     end scope: 'XLXI_68'
+     begin scope: 'XLXI_82/XLXI_19/XLXI_5'
+     begin scope: 'I_M23'
+     AND3:I2->O            1   0.704   0.420  I_36_30 (M1)
+     OR2:I0->O             1   0.704   0.000  I_36_38 (O)
+     end scope: 'I_M23'
+     MUXF5:I1->O           8   0.321   0.757  I_O (O)
+     end scope: 'XLXI_82/XLXI_19/XLXI_5'
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_60/XLXI_5 (XLXI_65/XLXI_60/XLXN_28)
+     OR3:I2->O             6   0.704   0.669  XLXI_65/XLXI_60/XLXI_13 (XLXI_65/XLXN_135)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_59/XLXI_6 (XLXI_65/XLXI_59/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_59/XLXI_13 (XLXI_65/XLXN_138)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_54/XLXI_6 (XLXI_65/XLXI_54/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_54/XLXI_13 (XLXI_65/XLXN_141)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_53/XLXI_6 (XLXI_65/XLXI_53/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_53/XLXI_13 (XLXI_65/XLXN_144)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_27/XLXI_6 (XLXI_65/XLXI_27/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_27/XLXI_13 (XLXI_65/XLXN_147)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_26/XLXI_6 (XLXI_65/XLXI_26/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_26/XLXI_13 (XLXI_65/XLXN_150)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_25/XLXI_6 (XLXI_65/XLXI_25/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_25/XLXI_13 (XLXI_65/XLXN_153)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_24/XLXI_6 (XLXI_65/XLXI_24/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_24/XLXI_13 (XLXI_65/XLXN_156)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_1/XLXI_6 (XLXI_65/XLXI_1/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_1/XLXI_13 (XLXI_65/XLXN_23)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_4/XLXI_6 (XLXI_65/XLXI_4/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_4/XLXI_13 (XLXI_65/XLXN_26)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_5/XLXI_6 (XLXI_65/XLXI_5/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_5/XLXI_13 (XLXI_65/XLXN_29)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_6/XLXI_6 (XLXI_65/XLXI_6/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_6/XLXI_13 (XLXI_65/XLXN_32)
+     AND3B2:I2->O          1   0.704   0.420  XLXI_65/XLXI_7/XLXI_4 (XLXI_65/XLXI_7/XLXN_27)
+     OR2:I0->O             1   0.704   0.595  XLXI_65/XLXI_7/XLXI_12 (XLXN_132<3>)
+     LUT4:I0->O            1   0.704   0.595  XLXI_55/digit<3>4 (XLXI_55/digit<3>4)
+     LUT2:I0->O            7   0.704   0.883  XLXI_55/digit<3>10 (XLXI_55/digit<3>)
+     LUT4:I0->O            1   0.704   0.420  XLXI_55/sseg<4>1 (sseg_4_OBUF)
+     OBUF:I->O                 3.272          sseg_4_OBUF (sseg<4>)
+    ----------------------------------------
+    Total                     47.424ns (28.461ns logic, 18.963ns route)
+                                       (60.0% logic, 40.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 't1k'
+  Total number of paths / destination ports: 1525445303302 / 8
+-------------------------------------------------------------------------
+Offset:              46.003ns (Levels of Logic = 51)
+  Source:            XLXI_74/I_Q0 (FF)
+  Destination:       sseg<6> (PAD)
+  Source Clock:      t1k rising
+
+  Data Path: XLXI_74/I_Q0 to sseg<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             3   0.591   0.531  I_Q0 (Q<0>)
+     end scope: 'XLXI_74'
+     begin scope: 'XLXI_76'
+     XNOR2:I0->O           1   0.704   0.000  I_36_2150 (I0G)
+     MUXCY_L:S->LO         1   0.464   0.000  I_36_2125 (C1G)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_2126 (C2G)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_2127 (C3G)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_2128 (C4G)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_2129 (C5G)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_2130 (C6G)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_2131 (C7G)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_2132 (C8G)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_2133 (C9G)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_2134 (C10G)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_2135 (C11G)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_2136 (C12G)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_2137 (C13G)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_2138 (C14G)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_2139 (C15G)
+     MUXCY:CI->O          33   0.459   1.263  I_36_2140 (GT)
+     end scope: 'XLXI_76'
+     begin scope: 'XLXI_82/XLXI_19/XLXI_5'
+     MUXF5:S->O            8   0.739   0.757  I_O (O)
+     end scope: 'XLXI_82/XLXI_19/XLXI_5'
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_60/XLXI_5 (XLXI_65/XLXI_60/XLXN_28)
+     OR3:I2->O             6   0.704   0.669  XLXI_65/XLXI_60/XLXI_13 (XLXI_65/XLXN_135)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_59/XLXI_6 (XLXI_65/XLXI_59/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_59/XLXI_13 (XLXI_65/XLXN_138)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_54/XLXI_6 (XLXI_65/XLXI_54/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_54/XLXI_13 (XLXI_65/XLXN_141)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_53/XLXI_6 (XLXI_65/XLXI_53/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_53/XLXI_13 (XLXI_65/XLXN_144)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_27/XLXI_6 (XLXI_65/XLXI_27/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_27/XLXI_13 (XLXI_65/XLXN_147)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_26/XLXI_6 (XLXI_65/XLXI_26/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_26/XLXI_13 (XLXI_65/XLXN_150)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_25/XLXI_6 (XLXI_65/XLXI_25/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_25/XLXI_13 (XLXI_65/XLXN_153)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_24/XLXI_6 (XLXI_65/XLXI_24/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_24/XLXI_13 (XLXI_65/XLXN_156)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_1/XLXI_6 (XLXI_65/XLXI_1/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_1/XLXI_13 (XLXI_65/XLXN_23)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_4/XLXI_6 (XLXI_65/XLXI_4/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_4/XLXI_13 (XLXI_65/XLXN_26)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_5/XLXI_6 (XLXI_65/XLXI_5/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_5/XLXI_13 (XLXI_65/XLXN_29)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_6/XLXI_6 (XLXI_65/XLXI_6/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_6/XLXI_13 (XLXI_65/XLXN_32)
+     AND3B2:I2->O          1   0.704   0.420  XLXI_65/XLXI_7/XLXI_4 (XLXI_65/XLXI_7/XLXN_27)
+     OR2:I0->O             1   0.704   0.595  XLXI_65/XLXI_7/XLXI_12 (XLXN_132<3>)
+     LUT4:I0->O            1   0.704   0.595  XLXI_55/digit<3>4 (XLXI_55/digit<3>4)
+     LUT2:I0->O            7   0.704   0.883  XLXI_55/digit<3>10 (XLXI_55/digit<3>)
+     LUT4:I0->O            1   0.704   0.420  XLXI_55/sseg<4>1 (sseg_4_OBUF)
+     OBUF:I->O                 3.272          sseg_4_OBUF (sseg<4>)
+    ----------------------------------------
+    Total                     46.003ns (27.471ns logic, 18.532ns route)
+                                       (59.7% logic, 40.3% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_56/counter_7'
@@ -1051,53 +1336,60 @@ Offset:              10.087ns (Levels of Logic = 5)
                                        (66.2% logic, 33.8% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXN_32'
-  Total number of paths / destination ports: 81841891733 / 7
+Timing constraint: Default OFFSET OUT AFTER for Clock 't2k'
+  Total number of paths / destination ports: 46225615142 / 7
 -------------------------------------------------------------------------
-Offset:              41.185ns (Levels of Logic = 31)
-  Source:            XLXI_7/I_Q13 (FF)
+Offset:              43.586ns (Levels of Logic = 36)
+  Source:            XLXI_75/I_Q13 (FF)
   Destination:       sseg<6> (PAD)
-  Source Clock:      XLXN_32 rising
+  Source Clock:      t2k rising
 
-  Data Path: XLXI_7/I_Q13 to sseg<6>
+  Data Path: XLXI_75/I_Q13 to sseg<6>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q             8   0.591   0.757  I_Q13 (Q<13>)
-     end scope: 'XLXI_7'
+     FDCE:C->Q             1   0.591   0.420  I_Q13 (Q<13>)
+     end scope: 'XLXI_75'
+     begin scope: 'XLXI_82/XLXI_19/XLXI_5'
+     begin scope: 'I_M23'
+     AND3:I0->O            1   0.704   0.420  I_36_30 (M1)
+     OR2:I0->O             1   0.704   0.000  I_36_38 (O)
+     end scope: 'I_M23'
+     MUXF5:I1->O           8   0.321   0.757  I_O (O)
+     end scope: 'XLXI_82/XLXI_19/XLXI_5'
      AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_60/XLXI_5 (XLXI_65/XLXI_60/XLXN_28)
      OR3:I2->O             6   0.704   0.669  XLXI_65/XLXI_60/XLXI_13 (XLXI_65/XLXN_135)
      AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_59/XLXI_6 (XLXI_65/XLXI_59/XLXN_29)
      OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_59/XLXI_13 (XLXI_65/XLXN_138)
-     AND2:I0->O            1   0.704   0.420  XLXI_65/XLXI_54/XLXI_1 (XLXI_65/XLXI_54/XLXN_24)
-     OR3:I1->O             8   0.704   0.757  XLXI_65/XLXI_54/XLXI_11 (XLXI_65/XLXN_311)
-     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_70/XLXI_5 (XLXI_65/XLXI_70/XLXN_28)
-     OR3:I2->O             6   0.704   0.669  XLXI_65/XLXI_70/XLXI_13 (XLXI_65/XLXN_187)
-     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_69/XLXI_6 (XLXI_65/XLXI_69/XLXN_29)
-     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_69/XLXI_13 (XLXI_65/XLXN_190)
-     AND2:I0->O            1   0.704   0.420  XLXI_65/XLXI_68/XLXI_1 (XLXI_65/XLXI_68/XLXN_24)
-     OR3:I1->O             8   0.704   0.757  XLXI_65/XLXI_68/XLXI_11 (XLXI_65/XLXN_314)
-     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_80/XLXI_5 (XLXI_65/XLXI_80/XLXN_28)
-     OR3:I2->O             6   0.704   0.669  XLXI_65/XLXI_80/XLXI_13 (XLXI_65/XLXN_230)
-     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_79/XLXI_6 (XLXI_65/XLXI_79/XLXN_29)
-     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_79/XLXI_13 (XLXI_65/XLXN_233)
-     AND2:I0->O            1   0.704   0.420  XLXI_65/XLXI_78/XLXI_1 (XLXI_65/XLXI_78/XLXN_24)
-     OR3:I1->O             8   0.704   0.757  XLXI_65/XLXI_78/XLXI_11 (XLXI_65/XLXN_337)
-     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_85/XLXI_5 (XLXI_65/XLXI_85/XLXN_28)
-     OR3:I2->O             6   0.704   0.669  XLXI_65/XLXI_85/XLXI_13 (XLXI_65/XLXN_250)
-     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_84/XLXI_6 (XLXI_65/XLXI_84/XLXN_29)
-     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_84/XLXI_13 (XLXI_65/XLXN_253)
-     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_83/XLXI_6 (XLXI_65/XLXI_83/XLXN_29)
-     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_83/XLXI_13 (XLXI_65/XLXN_256)
-     AND3B2:I2->O          1   0.704   0.420  XLXI_65/XLXI_82/XLXI_4 (XLXI_65/XLXI_82/XLXN_27)
-     OR2:I0->O             1   0.704   0.595  XLXI_65/XLXI_82/XLXI_12 (XLXN_100<3>)
-     LUT4:I0->O            1   0.704   0.499  XLXI_55/digit<3>9 (XLXI_55/digit<3>9)
-     LUT2:I1->O            7   0.704   0.883  XLXI_55/digit<3>10 (XLXI_55/digit<3>)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_54/XLXI_6 (XLXI_65/XLXI_54/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_54/XLXI_13 (XLXI_65/XLXN_141)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_53/XLXI_6 (XLXI_65/XLXI_53/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_53/XLXI_13 (XLXI_65/XLXN_144)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_27/XLXI_6 (XLXI_65/XLXI_27/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_27/XLXI_13 (XLXI_65/XLXN_147)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_26/XLXI_6 (XLXI_65/XLXI_26/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_26/XLXI_13 (XLXI_65/XLXN_150)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_25/XLXI_6 (XLXI_65/XLXI_25/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_25/XLXI_13 (XLXI_65/XLXN_153)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_24/XLXI_6 (XLXI_65/XLXI_24/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_24/XLXI_13 (XLXI_65/XLXN_156)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_1/XLXI_6 (XLXI_65/XLXI_1/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_1/XLXI_13 (XLXI_65/XLXN_23)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_4/XLXI_6 (XLXI_65/XLXI_4/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_4/XLXI_13 (XLXI_65/XLXN_26)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_5/XLXI_6 (XLXI_65/XLXI_5/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_5/XLXI_13 (XLXI_65/XLXN_29)
+     AND2B1:I0->O          1   0.704   0.420  XLXI_65/XLXI_6/XLXI_6 (XLXI_65/XLXI_6/XLXN_29)
+     OR3:I1->O             6   0.704   0.669  XLXI_65/XLXI_6/XLXI_13 (XLXI_65/XLXN_32)
+     AND3B2:I2->O          1   0.704   0.420  XLXI_65/XLXI_7/XLXI_4 (XLXI_65/XLXI_7/XLXN_27)
+     OR2:I0->O             1   0.704   0.595  XLXI_65/XLXI_7/XLXI_12 (XLXN_132<3>)
+     LUT4:I0->O            1   0.704   0.595  XLXI_55/digit<3>4 (XLXI_55/digit<3>4)
+     LUT2:I0->O            7   0.704   0.883  XLXI_55/digit<3>10 (XLXI_55/digit<3>)
      LUT4:I0->O            1   0.704   0.420  XLXI_55/sseg<4>1 (sseg_4_OBUF)
      OBUF:I->O                 3.272          sseg_4_OBUF (sseg<4>)
     ----------------------------------------
-    Total                     41.185ns (24.279ns logic, 16.906ns route)
-                                       (59.0% logic, 41.0% route)
+    Total                     43.586ns (26.008ns logic, 17.578ns route)
+                                       (59.7% logic, 40.3% route)
 
 =========================================================================
 Timing constraint: Default path analysis
@@ -1120,14 +1412,14 @@ Delay:               4.937ns (Levels of Logic = 2)
 =========================================================================
 
 
-Total REAL time to Xst completion: 13.00 secs
-Total CPU time to Xst completion: 13.20 secs
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 10.86 secs
  
 --> 
 
-Total memory usage is 374588 kilobytes
+Total memory usage is 374520 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   50 (   0 filtered)
+Number of warnings :   63 (   0 filtered)
 Number of infos    :   18 (   0 filtered)
 

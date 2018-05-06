@@ -1,0 +1,8 @@
+V3 3
+FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/vhdl_analysis/bin2bcd_32bit.vhd 2018/05/05.14:33:18 P.20131013
+EN work/binary32_bcd 1525593766 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/vhdl_analysis/bin2bcd_32bit.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/binary32_bcd/behaviour 1525593767 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/vhdl_analysis/bin2bcd_32bit.vhd \
+      EN work/binary32_bcd 1525593766

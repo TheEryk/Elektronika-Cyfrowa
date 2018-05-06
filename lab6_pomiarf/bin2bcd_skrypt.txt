@@ -1,0 +1,3 @@
+force -freeze sim:/binary_bcd/clk 1 0, 0 {10 ps} -r 20ps
+force -freeze sim:/binary_bcd/reset 0 0
+force -freeze sim:/binary_bcd/binary_in 32'h25F1D0A4 0

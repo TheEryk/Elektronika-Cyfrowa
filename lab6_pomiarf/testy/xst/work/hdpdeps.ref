@@ -1,155 +1,246 @@
-V3 95
+V3 135
 FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/bin2bcd_16.vhf 2018/04/19.12:24:54 P.20131013
-EN work/C3_MUSER_bin2bcd_16 1524136366 \
+EN work/C3_MUSER_bin2bcd_16 1524745513 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/bin2bcd_16.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/C3_MUSER_bin2bcd_16/BEHAVIORAL 1524136367 \
+AR work/C3_MUSER_bin2bcd_16/BEHAVIORAL 1524745514 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/bin2bcd_16.vhf \
-      EN work/C3_MUSER_bin2bcd_16 1524136366 CP AND2 CP AND3B2 CP AND2B1 CP AND3B1 \
+      EN work/C3_MUSER_bin2bcd_16 1524745513 CP AND2 CP AND3B2 CP AND2B1 CP AND3B1 \
       CP OR3 CP OR2
-EN work/bin2bcd_16 1524136368 \
+EN work/bin2bcd_16 1524745515 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/bin2bcd_16.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/bin2bcd_16/BEHAVIORAL 1524136369 \
+AR work/bin2bcd_16/BEHAVIORAL 1524745516 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/bin2bcd_16.vhf \
-      EN work/bin2bcd_16 1524136368 CP C3_MUSER_bin2bcd_16 CP BUF
+      EN work/bin2bcd_16 1524745515 CP C3_MUSER_bin2bcd_16 CP BUF
 FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/C3.vhf 2018/04/19.12:24:53 P.20131013
-EN work/C3 1524136370 \
+EN work/C3 1524745525 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/C3.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/C3/BEHAVIORAL 1524136371 \
+AR work/C3/BEHAVIORAL 1524745526 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/C3.vhf \
-      EN work/C3 1524136370 CP AND2 CP AND3B2 CP AND2B1 CP AND3B1 CP OR3 CP OR2
+      EN work/C3 1524745525 CP AND2 CP AND3B2 CP AND2B1 CP AND3B1 CP OR3 CP OR2
 FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/clk_gen_1Hz_v3.vhd 2018/04/05.14:20:07 P.20131013
-EN work/clk_gen_1Hz_v3 1524136344 \
+EN work/clk_gen_1Hz_v3 1524745469 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/clk_gen_1Hz_v3.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
       PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/clk_gen_1Hz_v3/Behavioral 1524136345 \
+AR work/clk_gen_1Hz_v3/Behavioral 1524745470 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/clk_gen_1Hz_v3.vhd \
-      EN work/clk_gen_1Hz_v3 1524136344
+      EN work/clk_gen_1Hz_v3 1524745469
 FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/clk_gen_50.vhd 2018/03/26.17:42:46 P.20131013
-EN work/clk_gen_50 1524136348 \
+EN work/clk_gen_50 1524745473 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/clk_gen_50.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
-AR work/clk_gen_50/behav 1524136349 \
+AR work/clk_gen_50/behav 1524745474 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/clk_gen_50.vhd \
-      EN work/clk_gen_50 1524136348
-FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf 2018/04/19.13:12:19 P.20131013
-EN work/C3_MUSER_czestotliwosci 1524136372 \
+      EN work/clk_gen_50 1524745473
+FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf 2018/04/26.14:24:22 P.20131013
+EN work/M2_1E_MXILINX_czestotliwosci 1524745491 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/C3_MUSER_czestotliwosci/BEHAVIORAL 1524136373 \
+AR work/M2_1E_MXILINX_czestotliwosci/BEHAVIORAL 1524745492 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf \
-      EN work/C3_MUSER_czestotliwosci 1524136372 CP AND2 CP AND3B2 CP AND2B1 \
-      CP AND3B1 CP OR3 CP OR2
-EN work/bin2bcd_16_MUSER_czestotliwosci 1524136374 \
-      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
-      PH unisim/VCOMPONENTS 1381692182
-AR work/bin2bcd_16_MUSER_czestotliwosci/BEHAVIORAL 1524136375 \
-      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf \
-      EN work/bin2bcd_16_MUSER_czestotliwosci 1524136374 \
-      CP C3_MUSER_czestotliwosci CP BUF
-EN work/FD16CE_MXILINX_czestotliwosci 1524136376 \
+      EN work/M2_1E_MXILINX_czestotliwosci 1524745491 CP AND3 CP AND3B1 CP OR2
+EN work/M4_1E_MXILINX_czestotliwosci 1524745493 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/FD16CE_MXILINX_czestotliwosci/BEHAVIORAL 1524136377 \
+AR work/M4_1E_MXILINX_czestotliwosci/BEHAVIORAL 1524745494 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf \
-      EN work/FD16CE_MXILINX_czestotliwosci 1524136376 CP FDCE
-EN work/FTCE_MXILINX_czestotliwosci 1524136378 \
-      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
-      PH unisim/VCOMPONENTS 1381692182
-AR work/FTCE_MXILINX_czestotliwosci/BEHAVIORAL 1524136379 \
-      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf \
-      EN work/FTCE_MXILINX_czestotliwosci 1524136378 CP XOR2 CP FDCE
-EN work/CB16CE_MXILINX_czestotliwosci 1524136380 \
+      EN work/M4_1E_MXILINX_czestotliwosci 1524745493 \
+      CP M2_1E_MXILINX_czestotliwosci CP MUXF5
+EN work/mux4_2_MUSER_czestotliwosci 1524745495 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/CB16CE_MXILINX_czestotliwosci/BEHAVIORAL 1524136381 \
+AR work/mux4_2_MUSER_czestotliwosci/BEHAVIORAL 1524745496 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf \
-      EN work/CB16CE_MXILINX_czestotliwosci 1524136380 \
+      EN work/mux4_2_MUSER_czestotliwosci 1524745495 \
+      CP M4_1E_MXILINX_czestotliwosci
+EN work/mux16_2_MUSER_czestotliwosci 1524745497 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/mux16_2_MUSER_czestotliwosci/BEHAVIORAL 1524745498 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf \
+      EN work/mux16_2_MUSER_czestotliwosci 1524745497 \
+      CP mux4_2_MUSER_czestotliwosci
+EN work/COMPMC16_MXILINX_czestotliwosci 1524745499 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/COMPMC16_MXILINX_czestotliwosci/BEHAVIORAL 1524745500 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf \
+      EN work/COMPMC16_MXILINX_czestotliwosci 1524745499 CP XNOR2 CP MUXCY_L \
+      CP MUXCY CP GND
+EN work/FD16CE_MXILINX_czestotliwosci 1524745501 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FD16CE_MXILINX_czestotliwosci/BEHAVIORAL 1524745502 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf \
+      EN work/FD16CE_MXILINX_czestotliwosci 1524745501 CP FDCE
+EN work/FTCE_MXILINX_czestotliwosci 1524745503 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FTCE_MXILINX_czestotliwosci/BEHAVIORAL 1524745504 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf \
+      EN work/FTCE_MXILINX_czestotliwosci 1524745503 CP XOR2 CP FDCE
+EN work/CB16CE_MXILINX_czestotliwosci 1524745505 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CB16CE_MXILINX_czestotliwosci/BEHAVIORAL 1524745506 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf \
+      EN work/CB16CE_MXILINX_czestotliwosci 1524745505 \
       CP FTCE_MXILINX_czestotliwosci CP AND3 CP AND2 CP VCC CP AND4 CP AND5
-EN work/czestotliwosci 1524136382 \
+EN work/C3_MUSER_czestotliwosci 1524745507 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/czestotliwosci/BEHAVIORAL 1524136383 \
+AR work/C3_MUSER_czestotliwosci/BEHAVIORAL 1524745508 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf \
-      EN work/czestotliwosci 1524136382 CP clk_gen_1Hz_v3 \
-      CP CB16CE_MXILINX_czestotliwosci CP FD16CE_MXILINX_czestotliwosci CP FDC \
-      CP OR3 CP AND2B1 CP led4_driver CP clk_gen_50 CP gen66_BT CP BUF \
-      CP bin2bcd_16_MUSER_czestotliwosci
+      EN work/C3_MUSER_czestotliwosci 1524745507 CP AND2 CP AND3B2 CP AND2B1 \
+      CP AND3B1 CP OR3 CP OR2
+EN work/bin2bcd_16_MUSER_czestotliwosci 1524745509 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/bin2bcd_16_MUSER_czestotliwosci/BEHAVIORAL 1524745510 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf \
+      EN work/bin2bcd_16_MUSER_czestotliwosci 1524745509 \
+      CP C3_MUSER_czestotliwosci CP BUF
+EN work/czestotliwosci 1524745511 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/czestotliwosci/BEHAVIORAL 1524745512 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/czestotliwosci.vhf \
+      EN work/czestotliwosci 1524745511 CP clk_gen_1Hz_v3 \
+      CP CB16CE_MXILINX_czestotliwosci CP FD16CE_MXILINX_czestotliwosci \
+      CP led4_driver CP clk_gen_50 CP gen66_BT CP bin2bcd_16_MUSER_czestotliwosci \
+      CP COMPMC16_MXILINX_czestotliwosci CP mux16_2_MUSER_czestotliwosci \
+      CP mux4_2_MUSER_czestotliwosci CP BUF CP FD CP AND3B2 CP OR2 CP AND2
 FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/gen66_BT.vhd 2018/04/17.15:47:31 P.20131013
-EN work/gen66_BT 1524136350 \
+EN work/gen66_BT 1524745475 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/gen66_BT.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
       PB ieee/STD_LOGIC_UNSIGNED 1381692179
-EN work/dds_gen_v2 1524136351 \
+EN work/dds_gen_v2 1524745476 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/gen66_BT.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
       PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/dds_gen_v2/Behavioral 1524136352 \
+AR work/dds_gen_v2/Behavioral 1524745477 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/gen66_BT.vhd \
-      EN work/dds_gen_v2 1524136351
-EN work/dcm_4x 1524136353 \
+      EN work/dds_gen_v2 1524745476
+EN work/dcm_4x 1524745478 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/gen66_BT.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/dcm_4x/BEHAVIORAL 1524136354 \
+AR work/dcm_4x/BEHAVIORAL 1524745479 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/gen66_BT.vhd \
-      EN work/dcm_4x 1524136353 CP BUFG CP DCM_SP
-EN work/Nx2_BT 1524136384 \
-      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/gen66_BT.vhd \
-      PB ieee/std_logic_1164 1381692176 LB UNISIM PH unisim/VCOMPONENTS 1381692182
-AR work/Nx2_BT/simple 1524136385 \
-      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/gen66_BT.vhd \
-      EN work/Nx2_BT 1524136384 CP OBUF CP IBUF
-EN work/bcd2bin 1524136357 \
+      EN work/dcm_4x 1524745478 CP BUFG CP DCM_SP
+EN work/bcd2bin 1524745482 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/gen66_BT.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
       PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/bcd2bin/behav 1524136358 \
+AR work/bcd2bin/behav 1524745483 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/gen66_BT.vhd \
-      EN work/bcd2bin 1524136357
-EN work/uart_rx 1524136359 \
+      EN work/bcd2bin 1524745482
+EN work/uart_rx 1524745484 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/gen66_BT.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
       PB ieee/STD_LOGIC_UNSIGNED 1381692179
-EN work/kcuart_rx 1524136360 \
+EN work/kcuart_rx 1524745485 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/gen66_BT.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
       PB ieee/STD_LOGIC_UNSIGNED 1381692179 LB UNISIM PH unisim/VCOMPONENTS 1381692182
-AR work/kcuart_rx/low_level_definition 1524136361 \
+AR work/kcuart_rx/low_level_definition 1524745486 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/gen66_BT.vhd \
-      EN work/kcuart_rx 1524136360 CP FD CP string CP label CP SRL16E CP FDE CP LUT4 \
+      EN work/kcuart_rx 1524745485 CP FD CP string CP label CP SRL16E CP FDE CP LUT4 \
       CP LUT3 CP LUT2
-AR work/uart_rx/mixed 1524136362 \
+AR work/uart_rx/mixed 1524745487 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/gen66_BT.vhd \
-      EN work/uart_rx 1524136359 CP kcuart_rx
-EN work/gen_ctrl 1524136363 \
+      EN work/uart_rx 1524745484 CP kcuart_rx
+EN work/gen_ctrl 1524745488 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/gen66_BT.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
       PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/gen_ctrl/fsm 1524136364 \
+AR work/gen_ctrl/fsm 1524745489 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/gen66_BT.vhd \
-      EN work/gen_ctrl 1524136363
-AR work/gen66_BT/mix 1524136365 \
+      EN work/gen_ctrl 1524745488
+AR work/gen66_BT/mix 1524745490 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/gen66_BT.vhd \
-      EN work/gen66_BT 1524136350 CP work/dds_gen_v2 CP work/dcm_4x CP work/Nx2_BT \
+      EN work/gen66_BT 1524745475 CP work/dds_gen_v2 CP work/dcm_4x CP work/Nx2_BT \
       CP work/uart_rx CP work/bcd2bin CP work/gen_ctrl
 FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/led4_driver.vhd 2018/04/05.14:20:12 P.20131013
-EN work/led4_driver 1524136346 \
+EN work/led4_driver 1524745471 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/led4_driver.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/led4_driver/Behavioral 1524136347 \
+AR work/led4_driver/Behavioral 1524745472 \
       FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/led4_driver.vhd \
-      EN work/led4_driver 1524136346 CP an CP sseg CP with
+      EN work/led4_driver 1524745471 CP an CP sseg CP with
+FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/mux16_2.vhf 2018/04/26.10:56:14 P.20131013
+EN work/M2_1E_MXILINX_mux16_2 1524745517 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/mux16_2.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1E_MXILINX_mux16_2/BEHAVIORAL 1524745518 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/mux16_2.vhf \
+      EN work/M2_1E_MXILINX_mux16_2 1524745517 CP AND3 CP AND3B1 CP OR2
+EN work/M4_1E_MXILINX_mux16_2 1524745519 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/mux16_2.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/M4_1E_MXILINX_mux16_2/BEHAVIORAL 1524745520 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/mux16_2.vhf \
+      EN work/M4_1E_MXILINX_mux16_2 1524745519 CP M2_1E_MXILINX_mux16_2 CP MUXF5
+EN work/mux4_2_MUSER_mux16_2 1524745521 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/mux16_2.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/mux4_2_MUSER_mux16_2/BEHAVIORAL 1524745522 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/mux16_2.vhf \
+      EN work/mux4_2_MUSER_mux16_2 1524745521 CP M4_1E_MXILINX_mux16_2
+EN work/mux16_2 1524745523 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/mux16_2.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/mux16_2/BEHAVIORAL 1524745524 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/mux16_2.vhf \
+      EN work/mux16_2 1524745523 CP mux4_2_MUSER_mux16_2
+FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/mux4_2.vhf 2018/04/26.10:56:15 P.20131013
+EN work/M2_1E_MXILINX_mux4_2 1524745527 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/mux4_2.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1E_MXILINX_mux4_2/BEHAVIORAL 1524745528 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/mux4_2.vhf \
+      EN work/M2_1E_MXILINX_mux4_2 1524745527 CP AND3 CP AND3B1 CP OR2
+EN work/M4_1E_MXILINX_mux4_2 1524745529 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/mux4_2.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/M4_1E_MXILINX_mux4_2/BEHAVIORAL 1524745530 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/mux4_2.vhf \
+      EN work/M4_1E_MXILINX_mux4_2 1524745529 CP M2_1E_MXILINX_mux4_2 CP MUXF5
+EN work/mux4_2 1524745531 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/mux4_2.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/mux4_2/BEHAVIORAL 1524745532 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/mux4_2.vhf \
+      EN work/mux4_2 1524745531 CP M4_1E_MXILINX_mux4_2
 FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/Nx2_BT.vhd 2018/04/17.15:42:41 P.20131013
+EN work/Nx2_BT 1524745480 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/Nx2_BT.vhd \
+      PB ieee/std_logic_1164 1381692176 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/Nx2_BT/simple 1524745481 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/testy/Nx2_BT.vhd \
+      EN work/Nx2_BT 1524745480 CP OBUF CP IBUF

@@ -1,0 +1,6 @@
+[Inputs]
+clk_in
+[Outputs]
+f_50Hz
+f_500mHz
+[BiDir]

@@ -45,7 +45,7 @@ Setup/Hold to clock B8
             |Max Setup to|Max Hold to |                     | Clock  |
 Source      | clk (edge) | clk (edge) |Internal Clock(s)    | Phase  |
 ------------+------------+------------+---------------------+--------+
-XLXN_117<1> |    3.611(R)|   -1.820(R)|XLXI_59/clk_50MHz_dcm|   0.000|
+XLXN_117<1> |    3.620(R)|   -1.826(R)|XLXI_59/clk_50MHz_dcm|   0.000|
 ------------+------------+------------+---------------------+--------+
 
 Clock B8 to Pad
@@ -53,8 +53,8 @@ Clock B8 to Pad
             | clk (edge) |                  | Clock  |
 Destination |   to PAD   |Internal Clock(s) | Phase  |
 ------------+------------+------------------+--------+
-f_out       |    6.609(R)|XLXI_59/clk_4x    |   0.000|
-port1Hz     |   11.329(R)|B8_IBUFG          |   0.000|
+f_out       |    6.849(R)|XLXI_59/clk_4x    |   0.000|
+port1Hz     |   10.867(R)|B8_IBUFG          |   0.000|
 ------------+------------+------------------+--------+
 
 Clock to Setup on destination clock B8
@@ -62,7 +62,7 @@ Clock to Setup on destination clock B8
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-B8             |   15.860|         |         |         |
+B8             |   15.711|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Pad to Pad
@@ -74,7 +74,7 @@ XLXN_117<4>    |XLXN_117<5>    |    5.186|
 ---------------+---------------+---------+
 
 
-Analysis completed Thu Apr 19 13:13:26 2018 
+Analysis completed Thu Apr 26 14:25:15 2018 
 --------------------------------------------------------------------------------
 
 Trace Settings:

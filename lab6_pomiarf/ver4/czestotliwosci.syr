@@ -1,0 +1,1166 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: czestotliwosci.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "czestotliwosci.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "czestotliwosci"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : czestotliwosci
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/led4_driver.vhd" in Library work.
+Architecture behavioral of Entity led4_driver is up to date.
+Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/clk_gen_50.vhd" in Library work.
+Architecture behav of Entity clk_gen_50 is up to date.
+Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/gen66_BT.vhd" in Library work.
+Architecture behavioral of Entity dds_gen_v2 is up to date.
+Architecture behavioral of Entity dcm_4x is up to date.
+Architecture simple of Entity nx2_bt is up to date.
+Architecture behav of Entity bcd2bin is up to date.
+Architecture low_level_definition of Entity kcuart_rx is up to date.
+Architecture mixed of Entity uart_rx is up to date.
+Architecture fsm of Entity gen_ctrl is up to date.
+Architecture mix of Entity gen66_bt is up to date.
+Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/sel10_4.vhd" in Library work.
+Architecture behavi of Entity sel10_4 is up to date.
+Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/vhdl1.vhd" in Library work.
+Architecture behaviour of Entity binary_bcd is up to date.
+Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/clk_gen_1Hz2_v1.vhd" in Library work.
+Entity <clk_gen_1Hz2_v1> compiled.
+Entity <clk_gen_1Hz2_v1> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/czestotliwosci.vhf" in Library work.
+Entity <ftce_mxilinx_czestotliwosci> compiled.
+Entity <ftce_mxilinx_czestotliwosci> (Architecture <behavioral>) compiled.
+Entity <cb2ce_mxilinx_czestotliwosci> compiled.
+Entity <cb2ce_mxilinx_czestotliwosci> (Architecture <behavioral>) compiled.
+Entity <counterlogic_muser_czestotliwosci> compiled.
+Entity <counterlogic_muser_czestotliwosci> (Architecture <behavioral>) compiled.
+Entity <fd16ce_mxilinx_czestotliwosci> compiled.
+Entity <fd16ce_mxilinx_czestotliwosci> (Architecture <behavioral>) compiled.
+Entity <cb16ce_mxilinx_czestotliwosci> compiled.
+Entity <cb16ce_mxilinx_czestotliwosci> (Architecture <behavioral>) compiled.
+Entity <czestotliwosci> compiled.
+Entity <czestotliwosci> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/counterlogic.vhf" in Library work.
+Architecture behavioral of Entity ftce_mxilinx_counterlogic is up to date.
+Architecture behavioral of Entity cb2ce_mxilinx_counterlogic is up to date.
+Architecture behavioral of Entity counterlogic is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <czestotliwosci> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <led4_driver> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <clk_gen_50> in library <work> (architecture <behav>) with generics.
+	F1 = 24
+	F2 = 7
+
+Analyzing hierarchy for entity <gen66_BT> in library <work> (architecture <mix>) with generics.
+	pmodName = "JC"
+
+Analyzing hierarchy for entity <sel10_4> in library <work> (architecture <behavi>).
+
+Analyzing hierarchy for entity <CB16CE_MXILINX_czestotliwosci> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <FD16CE_MXILINX_czestotliwosci> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <counterlogic_MUSER_czestotliwosci> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <binary_bcd> in library <work> (architecture <behaviour>) with generics.
+	N = 32
+
+Analyzing hierarchy for entity <clk_gen_1Hz2_v1> in library <work> (architecture <Behavioral>) with generics.
+	Fclk = 50000000
+
+Analyzing hierarchy for entity <dds_gen_v2> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <dcm_4x> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <Nx2_BT> in library <work> (architecture <simple>) with generics.
+	pmodName = "JC"
+
+Analyzing hierarchy for entity <uart_rx> in library <work> (architecture <mixed>) with generics.
+	BaudRate = 19200
+
+Analyzing hierarchy for entity <bcd2bin> in library <work> (architecture <behav>) with generics.
+	N_digit = 8
+
+Analyzing hierarchy for entity <gen_ctrl> in library <work> (architecture <fsm>).
+
+Analyzing hierarchy for entity <FTCE_MXILINX_czestotliwosci> in library <work> (architecture <behavioral>) with generics.
+	INIT = '0'
+
+Analyzing hierarchy for entity <CB2CE_MXILINX_czestotliwosci> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <kcuart_rx> in library <work> (architecture <low_level_definition>).
+
+Analyzing hierarchy for entity <FTCE_MXILINX_czestotliwosci> in library <work> (architecture <behavioral>) with generics.
+	INIT = '0'
+
+WARNING:Xst:2591 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/czestotliwosci.vhf" line 837: attribute on instance <pmodName> overrides generic/parameter on entity. It is possible that simulator will not take this attribute into account.
+WARNING:Xst:2591 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/gen66_BT.vhd" line 666: attribute on instance <INIT> overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+WARNING:Xst:2591 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/gen66_BT.vhd" line 589: attribute on instance <INIT> overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+WARNING:Xst:2591 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/gen66_BT.vhd" line 571: attribute on instance <INIT> overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+WARNING:Xst:2591 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/gen66_BT.vhd" line 476: attribute on instance <INIT> overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <czestotliwosci> in library <work> (Architecture <behavioral>).
+    Set user-defined property "LOC =  B8" for signal <clk> in unit <czestotliwosci>.
+    Set user-defined property "LOC =  F15 C18 H17 F17" for signal <an> in unit <czestotliwosci>.
+    Set user-defined property "LOC =  H14 J17 G14 D16 D17 F18 L18" for signal <sseg> in unit <czestotliwosci>.
+WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/czestotliwosci.vhf" line 832: Unconnected output port 'f_1' of component 'clk_gen_50'.
+WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/czestotliwosci.vhf" line 846: Unconnected output port 'CEO' of component 'CB16CE_MXILINX_czestotliwosci'.
+    Set user-defined property "HU_SET =  XLXI_127_19" for instance <XLXI_127> in unit <czestotliwosci>.
+WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/czestotliwosci.vhf" line 854: Unconnected output port 'CEO' of component 'CB16CE_MXILINX_czestotliwosci'.
+WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/czestotliwosci.vhf" line 854: Unconnected output port 'TC' of component 'CB16CE_MXILINX_czestotliwosci'.
+    Set user-defined property "HU_SET =  XLXI_128_20" for instance <XLXI_128> in unit <czestotliwosci>.
+    Set user-defined property "HU_SET =  XLXI_129_21" for instance <XLXI_129> in unit <czestotliwosci>.
+    Set user-defined property "HU_SET =  XLXI_130_22" for instance <XLXI_130> in unit <czestotliwosci>.
+Entity <czestotliwosci> analyzed. Unit <czestotliwosci> generated.
+
+Analyzing Entity <led4_driver> in library <work> (Architecture <behavioral>).
+Entity <led4_driver> analyzed. Unit <led4_driver> generated.
+
+Analyzing generic Entity <clk_gen_50> in library <work> (Architecture <behav>).
+	F1 = 24
+	F2 = 7
+Entity <clk_gen_50> analyzed. Unit <clk_gen_50> generated.
+
+Analyzing generic Entity <gen66_BT> in library <work> (Architecture <mix>).
+	pmodName = "JC"
+WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/gen66_BT.vhd" line 798: Unconnected output port 'CLKIN_IBUFG_OUT' of component 'dcm_4x'.
+WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/gen66_BT.vhd" line 798: Unconnected output port 'LOCKED_OUT' of component 'dcm_4x'.
+    Set user-defined property "KEEP =  TRUE" for signal <sys_bus> in unit <Nx2_BT>.
+    Set user-defined property "LOC =  h16 g13 f14 h15 g16 j12" for signal <sys_bus> in unit <Nx2_BT>.
+Entity <gen66_BT> analyzed. Unit <gen66_BT> generated.
+
+Analyzing Entity <dds_gen_v2> in library <work> (Architecture <Behavioral>).
+Entity <dds_gen_v2> analyzed. Unit <dds_gen_v2> generated.
+
+Analyzing Entity <dcm_4x> in library <work> (Architecture <BEHAVIORAL>).
+    Set user-defined property "CLKDV_DIVIDE =  2.0000000000000000" for instance <DCM_SP_INST> in unit <dcm_4x>.
+    Set user-defined property "CLKFX_DIVIDE =  1" for instance <DCM_SP_INST> in unit <dcm_4x>.
+    Set user-defined property "CLKFX_MULTIPLY =  4" for instance <DCM_SP_INST> in unit <dcm_4x>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <DCM_SP_INST> in unit <dcm_4x>.
+    Set user-defined property "CLKIN_PERIOD =  20.0000000000000000" for instance <DCM_SP_INST> in unit <dcm_4x>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <DCM_SP_INST> in unit <dcm_4x>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <DCM_SP_INST> in unit <dcm_4x>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <DCM_SP_INST> in unit <dcm_4x>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <dcm_4x>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <dcm_4x>.
+    Set user-defined property "DSS_MODE =  NONE" for instance <DCM_SP_INST> in unit <dcm_4x>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <DCM_SP_INST> in unit <dcm_4x>.
+    Set user-defined property "FACTORY_JF =  C080" for instance <DCM_SP_INST> in unit <dcm_4x>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <DCM_SP_INST> in unit <dcm_4x>.
+    Set user-defined property "STARTUP_WAIT =  FALSE" for instance <DCM_SP_INST> in unit <dcm_4x>.
+Entity <dcm_4x> analyzed. Unit <dcm_4x> generated.
+
+Analyzing generic Entity <Nx2_BT> in library <work> (Architecture <simple>).
+	pmodName = "JC"
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <obufcts> in unit <Nx2_BT>.
+    Set user-defined property "DRIVE =  12" for instance <obufcts> in unit <Nx2_BT>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <obufcts> in unit <Nx2_BT>.
+    Set user-defined property "SLEW =  SLOW" for instance <obufcts> in unit <Nx2_BT>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <ibufrts> in unit <Nx2_BT>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <ibufrts> in unit <Nx2_BT>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <ibufrts> in unit <Nx2_BT>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <ibufrts> in unit <Nx2_BT>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <ibufrts> in unit <Nx2_BT>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <obufrst> in unit <Nx2_BT>.
+    Set user-defined property "DRIVE =  12" for instance <obufrst> in unit <Nx2_BT>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <obufrst> in unit <Nx2_BT>.
+    Set user-defined property "SLEW =  SLOW" for instance <obufrst> in unit <Nx2_BT>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <obufpair> in unit <Nx2_BT>.
+    Set user-defined property "DRIVE =  12" for instance <obufpair> in unit <Nx2_BT>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <obufpair> in unit <Nx2_BT>.
+    Set user-defined property "SLEW =  SLOW" for instance <obufpair> in unit <Nx2_BT>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <obufrx> in unit <Nx2_BT>.
+    Set user-defined property "DRIVE =  12" for instance <obufrx> in unit <Nx2_BT>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <obufrx> in unit <Nx2_BT>.
+    Set user-defined property "SLEW =  SLOW" for instance <obufrx> in unit <Nx2_BT>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <ibuftx> in unit <Nx2_BT>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <ibuftx> in unit <Nx2_BT>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <ibuftx> in unit <Nx2_BT>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <ibuftx> in unit <Nx2_BT>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <ibuftx> in unit <Nx2_BT>.
+Entity <Nx2_BT> analyzed. Unit <Nx2_BT> generated.
+
+Analyzing generic Entity <uart_rx> in library <work> (Architecture <mixed>).
+	BaudRate = 19200
+Entity <uart_rx> analyzed. Unit <uart_rx> generated.
+
+Analyzing Entity <kcuart_rx> in library <work> (Architecture <low_level_definition>).
+    Set user-defined property "INIT =  0" for instance <sync_reg> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0" for instance <stop_reg> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0000" for instance <data_loop[0].lsbs.delay15_srl> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0" for instance <data_loop[0].data_reg> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0000" for instance <data_loop[1].lsbs.delay15_srl> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0" for instance <data_loop[1].data_reg> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0000" for instance <data_loop[2].lsbs.delay15_srl> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0" for instance <data_loop[2].data_reg> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0000" for instance <data_loop[3].lsbs.delay15_srl> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0" for instance <data_loop[3].data_reg> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0000" for instance <data_loop[4].lsbs.delay15_srl> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0" for instance <data_loop[4].data_reg> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0000" for instance <data_loop[5].lsbs.delay15_srl> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0" for instance <data_loop[5].data_reg> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0000" for instance <data_loop[6].lsbs.delay15_srl> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0" for instance <data_loop[6].data_reg> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0000" for instance <data_loop[7].msb.delay15_srl> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0" for instance <data_loop[7].data_reg> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0000" for instance <start_srl> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0" for instance <start_reg> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0000" for instance <edge_srl> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0" for instance <edge_reg> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0040" for instance <valid_lut> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0" for instance <valid_reg> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  54" for instance <purge_lut> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0" for instance <purge_reg> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0000" for instance <valid_loop[0].lsb.delay15_srl> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0" for instance <valid_loop[0].data_reg> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0000" for instance <valid_loop[1].msbs.delay16_srl> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0" for instance <valid_loop[1].data_reg> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0000" for instance <valid_loop[2].msbs.delay16_srl> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0" for instance <valid_loop[2].data_reg> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0000" for instance <valid_loop[3].msbs.delay16_srl> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0" for instance <valid_loop[3].data_reg> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0000" for instance <valid_loop[4].msbs.delay16_srl> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0" for instance <valid_loop[4].data_reg> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0000" for instance <valid_loop[5].msbs.delay16_srl> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0" for instance <valid_loop[5].data_reg> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0000" for instance <valid_loop[6].msbs.delay16_srl> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0" for instance <valid_loop[6].data_reg> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0000" for instance <valid_loop[7].msbs.delay16_srl> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0" for instance <valid_loop[7].data_reg> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0000" for instance <valid_loop[8].msbs.delay16_srl> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0" for instance <valid_loop[8].data_reg> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  8" for instance <strobe_lut> in unit <kcuart_rx>.
+    Set user-defined property "INIT =  0" for instance <strobe_reg> in unit <kcuart_rx>.
+Entity <kcuart_rx> analyzed. Unit <kcuart_rx> generated.
+
+Analyzing generic Entity <bcd2bin> in library <work> (Architecture <behav>).
+	N_digit = 8
+INFO:Xst:1561 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/gen66_BT.vhd" line 275: Mux is complete : default of case is discarded
+INFO:Xst:1561 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/gen66_BT.vhd" line 275: Mux is complete : default of case is discarded
+INFO:Xst:1561 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/gen66_BT.vhd" line 275: Mux is complete : default of case is discarded
+INFO:Xst:1561 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/gen66_BT.vhd" line 275: Mux is complete : default of case is discarded
+INFO:Xst:1561 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/gen66_BT.vhd" line 275: Mux is complete : default of case is discarded
+INFO:Xst:1561 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/gen66_BT.vhd" line 275: Mux is complete : default of case is discarded
+INFO:Xst:1561 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/gen66_BT.vhd" line 275: Mux is complete : default of case is discarded
+INFO:Xst:1561 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/gen66_BT.vhd" line 275: Mux is complete : default of case is discarded
+Entity <bcd2bin> analyzed. Unit <bcd2bin> generated.
+
+Analyzing Entity <gen_ctrl> in library <work> (Architecture <fsm>).
+Entity <gen_ctrl> analyzed. Unit <gen_ctrl> generated.
+
+Analyzing Entity <sel10_4> in library <work> (Architecture <behavi>).
+Entity <sel10_4> analyzed. Unit <sel10_4> generated.
+
+Analyzing Entity <CB16CE_MXILINX_czestotliwosci> in library <work> (Architecture <behavioral>).
+    Set user-defined property "HU_SET =  I_Q0_4" for instance <I_Q0> in unit <CB16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q1_3" for instance <I_Q1> in unit <CB16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q2_6" for instance <I_Q2> in unit <CB16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q3_5" for instance <I_Q3> in unit <CB16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q4_10" for instance <I_Q4> in unit <CB16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q5_9" for instance <I_Q5> in unit <CB16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q6_8" for instance <I_Q6> in unit <CB16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q7_7" for instance <I_Q7> in unit <CB16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q8_11" for instance <I_Q8> in unit <CB16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q9_12" for instance <I_Q9> in unit <CB16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q10_13" for instance <I_Q10> in unit <CB16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q11_14" for instance <I_Q11> in unit <CB16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q12_15" for instance <I_Q12> in unit <CB16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q13_16" for instance <I_Q13> in unit <CB16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q14_17" for instance <I_Q14> in unit <CB16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q15_18" for instance <I_Q15> in unit <CB16CE_MXILINX_czestotliwosci>.
+Entity <CB16CE_MXILINX_czestotliwosci> analyzed. Unit <CB16CE_MXILINX_czestotliwosci> generated.
+
+Analyzing generic Entity <FTCE_MXILINX_czestotliwosci> in library <work> (Architecture <behavioral>).
+	INIT = '0'
+    Set user-defined property "INIT =  0" for instance <I_36_35> in unit <FTCE_MXILINX_czestotliwosci>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_35> in unit <FTCE_MXILINX_czestotliwosci>.
+Entity <FTCE_MXILINX_czestotliwosci> analyzed. Unit <FTCE_MXILINX_czestotliwosci> generated.
+
+Analyzing Entity <FD16CE_MXILINX_czestotliwosci> in library <work> (Architecture <behavioral>).
+    Set user-defined property "INIT =  0" for instance <I_Q0> in unit <FD16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "INIT =  0" for instance <I_Q1> in unit <FD16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "INIT =  0" for instance <I_Q2> in unit <FD16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "INIT =  0" for instance <I_Q3> in unit <FD16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "INIT =  0" for instance <I_Q4> in unit <FD16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "INIT =  0" for instance <I_Q5> in unit <FD16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "INIT =  0" for instance <I_Q6> in unit <FD16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "INIT =  0" for instance <I_Q7> in unit <FD16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "INIT =  0" for instance <I_Q8> in unit <FD16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "INIT =  0" for instance <I_Q9> in unit <FD16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "INIT =  0" for instance <I_Q10> in unit <FD16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "INIT =  0" for instance <I_Q11> in unit <FD16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "INIT =  0" for instance <I_Q12> in unit <FD16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "INIT =  0" for instance <I_Q13> in unit <FD16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "INIT =  0" for instance <I_Q14> in unit <FD16CE_MXILINX_czestotliwosci>.
+    Set user-defined property "INIT =  0" for instance <I_Q15> in unit <FD16CE_MXILINX_czestotliwosci>.
+Entity <FD16CE_MXILINX_czestotliwosci> analyzed. Unit <FD16CE_MXILINX_czestotliwosci> generated.
+
+Analyzing Entity <counterlogic_MUSER_czestotliwosci> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/czestotliwosci.vhf" line 206: Unconnected output port 'CEO' of component 'CB2CE_MXILINX_czestotliwosci'.
+    Set user-defined property "HU_SET =  XLXI_3_2" for instance <XLXI_3> in unit <counterlogic_MUSER_czestotliwosci>.
+Entity <counterlogic_MUSER_czestotliwosci> analyzed. Unit <counterlogic_MUSER_czestotliwosci> generated.
+
+Analyzing Entity <CB2CE_MXILINX_czestotliwosci> in library <work> (Architecture <behavioral>).
+    Set user-defined property "HU_SET =  I_Q0_0" for instance <I_Q0> in unit <CB2CE_MXILINX_czestotliwosci>.
+    Set user-defined property "HU_SET =  I_Q1_1" for instance <I_Q1> in unit <CB2CE_MXILINX_czestotliwosci>.
+Entity <CB2CE_MXILINX_czestotliwosci> analyzed. Unit <CB2CE_MXILINX_czestotliwosci> generated.
+
+Analyzing generic Entity <binary_bcd> in library <work> (Architecture <behaviour>).
+	N = 32
+Entity <binary_bcd> analyzed. Unit <binary_bcd> generated.
+
+Analyzing generic Entity <clk_gen_1Hz2_v1> in library <work> (Architecture <Behavioral>).
+	Fclk = 50000000
+Entity <clk_gen_1Hz2_v1> analyzed. Unit <clk_gen_1Hz2_v1> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <led4_driver>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/led4_driver.vhd".
+    Found 16x7-bit ROM for signal <seg>.
+    Found 4-bit register for signal <one_hot>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   4 D-type flip-flop(s).
+Unit <led4_driver> synthesized.
+
+
+Synthesizing Unit <clk_gen_50>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/clk_gen_50.vhd".
+    Found 32-bit up counter for signal <counter>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <clk_gen_50> synthesized.
+
+
+Synthesizing Unit <sel10_4>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/sel10_4.vhd".
+    Found 1-bit 1-of-8 priority encoder for signal <led<5>>.
+    Found 1-bit 1-of-8 priority encoder for signal <led<6>>.
+    Found 1-bit 1-of-8 priority encoder for signal <led<7>>.
+    Found 1-bit 1-of-8 priority encoder for signal <led<8>>.
+    Found 1-bit 1-of-8 priority encoder for signal <led<9>>.
+    Found 1-bit 1-of-8 priority encoder for signal <led<10>>.
+    Found 1-bit 1-of-8 priority encoder for signal <led<11>>.
+    Found 1-bit 1-of-8 priority encoder for signal <led<0>>.
+    Found 1-bit 1-of-8 priority encoder for signal <led<1>>.
+    Found 1-bit 1-of-8 priority encoder for signal <led<2>>.
+    Found 1-bit 1-of-8 priority encoder for signal <led<3>>.
+    Found 1-bit 1-of-8 priority encoder for signal <led<4>>.
+    Summary:
+	inferred  12 Priority encoder(s).
+Unit <sel10_4> synthesized.
+
+
+Synthesizing Unit <binary_bcd>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/vhdl1.vhd".
+WARNING:Xst:646 - Signal <bcds_reg<39>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 4                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk                       (falling_edge)       |
+    | Power Up State     | start                                          |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 40-bit register for signal <bcds>.
+    Found 40-bit register for signal <bcds_out_reg>.
+    Found 4-bit adder for signal <bcds_reg_11_8$add0000> created at line 84.
+    Found 5-bit comparator greater for signal <bcds_reg_15$cmp_gt0000> created at line 82.
+    Found 4-bit adder for signal <bcds_reg_15_12$add0000> created at line 82.
+    Found 5-bit comparator greater for signal <bcds_reg_19$cmp_gt0000> created at line 80.
+    Found 4-bit adder for signal <bcds_reg_19_16$add0000> created at line 80.
+    Found 5-bit comparator greater for signal <bcds_reg_23$cmp_gt0000> created at line 78.
+    Found 4-bit adder for signal <bcds_reg_23_20$add0000> created at line 78.
+    Found 5-bit comparator greater for signal <bcds_reg_27$cmp_gt0000> created at line 76.
+    Found 4-bit adder for signal <bcds_reg_27_24$add0000> created at line 76.
+    Found 5-bit comparator greater for signal <bcds_reg_29$cmp_gt0000> created at line 74.
+    Found 5-bit comparator greater for signal <bcds_reg_3$cmp_gt0000> created at line 88.
+    Found 4-bit adder for signal <bcds_reg_31_28$add0000> created at line 74.
+    Found 5-bit comparator greater for signal <bcds_reg_35$cmp_gt0000> created at line 72.
+    Found 4-bit adder for signal <bcds_reg_35_32$add0000> created at line 72.
+    Found 5-bit comparator greater for signal <bcds_reg_38$cmp_gt0000> created at line 70.
+    Found 4-bit adder for signal <bcds_reg_39_36$add0000> created at line 70.
+    Found 4-bit adder for signal <bcds_reg_3_0$add0000> created at line 88.
+    Found 5-bit comparator greater for signal <bcds_reg_7$cmp_gt0000> created at line 86.
+    Found 4-bit adder for signal <bcds_reg_7_4$add0000> created at line 86.
+    Found 5-bit comparator greater for signal <bcds_reg_9$cmp_gt0000> created at line 84.
+    Found 32-bit register for signal <binary>.
+    Found 6-bit register for signal <shift_counter>.
+    Found 6-bit adder for signal <shift_counter$addsub0000> created at line 63.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred 118 D-type flip-flop(s).
+	inferred  11 Adder/Subtractor(s).
+	inferred  10 Comparator(s).
+Unit <binary_bcd> synthesized.
+
+
+Synthesizing Unit <clk_gen_1Hz2_v1>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/clk_gen_1Hz2_v1.vhd".
+    Found 1-bit register for signal <clk_hz2>.
+    Found 26-bit up counter for signal <hz2_count>.
+    Found 1-bit register for signal <hz2_en>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   2 D-type flip-flop(s).
+Unit <clk_gen_1Hz2_v1> synthesized.
+
+
+Synthesizing Unit <dds_gen_v2>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/gen66_BT.vhd".
+    Found 26x32-bit multiplier for signal <M>.
+    Found 58-bit up accumulator for signal <phase_next>.
+    Summary:
+	inferred   1 Accumulator(s).
+	inferred   1 Multiplier(s).
+Unit <dds_gen_v2> synthesized.
+
+
+Synthesizing Unit <bcd2bin>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/gen66_BT.vhd".
+    Found 16x4-bit ROM for signal <slv6$mux0000> created at line 259.
+    Found 16x4-bit ROM for signal <slv5$mux0000> created at line 259.
+    Found 16x4-bit ROM for signal <slv4$mux0000> created at line 259.
+    Found 16x4-bit ROM for signal <slv$mux0000> created at line 259.
+    Found 16x4-bit ROM for signal <slv3$mux0000> created at line 259.
+    Found 16x4-bit ROM for signal <slv2$mux0000> created at line 259.
+    Found 16x4-bit ROM for signal <slv1$mux0000> created at line 259.
+    Found 16x4-bit ROM for signal <slv0$mux0000> created at line 259.
+    Found 32-bit register for signal <out_reg>.
+    Found 8-bit up counter for signal <shift_cntr>.
+    Found 32-bit register for signal <shift_reg>.
+    Summary:
+	inferred   8 ROM(s).
+	inferred   1 Counter(s).
+	inferred  64 D-type flip-flop(s).
+Unit <bcd2bin> synthesized.
+
+
+Synthesizing Unit <gen_ctrl>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/gen66_BT.vhd".
+    Found finite state machine <FSM_1> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 2                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Power Up State     | idle                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 36-bit register for signal <bcd_reg>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  36 D-type flip-flop(s).
+Unit <gen_ctrl> synthesized.
+
+
+Synthesizing Unit <FD16CE_MXILINX_czestotliwosci>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/czestotliwosci.vhf".
+Unit <FD16CE_MXILINX_czestotliwosci> synthesized.
+
+
+Synthesizing Unit <dcm_4x>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/gen66_BT.vhd".
+WARNING:Xst:653 - Signal <CLKIN_IBUFG> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <dcm_4x> synthesized.
+
+
+Synthesizing Unit <Nx2_BT>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/gen66_BT.vhd".
+Unit <Nx2_BT> synthesized.
+
+
+Synthesizing Unit <kcuart_rx>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/gen66_BT.vhd".
+Unit <kcuart_rx> synthesized.
+
+
+Synthesizing Unit <FTCE_MXILINX_czestotliwosci>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/czestotliwosci.vhf".
+Unit <FTCE_MXILINX_czestotliwosci> synthesized.
+
+
+Synthesizing Unit <CB16CE_MXILINX_czestotliwosci>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/czestotliwosci.vhf".
+Unit <CB16CE_MXILINX_czestotliwosci> synthesized.
+
+
+Synthesizing Unit <uart_rx>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/gen66_BT.vhd".
+    Found 9-bit up counter for signal <baud_count>.
+    Found 1-bit register for signal <en_16_x_baud>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <uart_rx> synthesized.
+
+
+Synthesizing Unit <CB2CE_MXILINX_czestotliwosci>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/czestotliwosci.vhf".
+Unit <CB2CE_MXILINX_czestotliwosci> synthesized.
+
+
+Synthesizing Unit <gen66_BT>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/gen66_BT.vhd".
+WARNING:Xst:646 - Signal <done> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <clk_slow_en> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <btn_up_en> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <btn_shift_en> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <btn_down_en> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <bin_freq<31:26>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <gen66_BT> synthesized.
+
+
+Synthesizing Unit <counterlogic_MUSER_czestotliwosci>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/czestotliwosci.vhf".
+Unit <counterlogic_MUSER_czestotliwosci> synthesized.
+
+
+Synthesizing Unit <czestotliwosci>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/czestotliwosci.vhf".
+Unit <czestotliwosci> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 9
+ 16x4-bit ROM                                          : 8
+ 16x7-bit ROM                                          : 1
+# Multipliers                                          : 1
+ 26x32-bit multiplier                                  : 1
+# Adders/Subtractors                                   : 11
+ 4-bit adder                                           : 10
+ 6-bit adder                                           : 1
+# Counters                                             : 4
+ 26-bit up counter                                     : 1
+ 32-bit up counter                                     : 1
+ 8-bit up counter                                      : 1
+ 9-bit up counter                                      : 1
+# Accumulators                                         : 1
+ 58-bit up accumulator                                 : 1
+# Registers                                            : 19
+ 1-bit register                                        : 3
+ 32-bit register                                       : 3
+ 4-bit register                                        : 10
+ 40-bit register                                       : 2
+ 6-bit register                                        : 1
+# Comparators                                          : 10
+ 5-bit comparator greater                              : 10
+# Priority Encoders                                    : 12
+ 1-bit 1-of-8 priority encoder                         : 12
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <XLXI_59/ctrl/state/FSM> on signal <state[1:2]> with sequential encoding.
+-----------------------
+ State     | Encoding
+-----------------------
+ idle      | 00
+ reg_reset | 11
+ get_char  | 01
+ set_out   | 10
+-----------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <XLXI_138/state/FSM> on signal <state[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ start | 00
+ shift | 01
+ done  | 11
+-------------------
+WARNING:Xst:1293 - FF/Latch <shift_reg_31> has a constant value of 0 in block <bcd_conv>. This FF/Latch will be trimmed during the optimization process.
+
+Synthesizing (advanced) Unit <gen66_BT>.
+	Found pipelined multiplier on signal <dds/M>:
+		- 1 pipeline level(s) found in a register on signal <bin_freq>.
+		Pushing register(s) into the multiplier macro.
+INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <bcd_conv/Mrom_slv0_mux0000> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <bcd_conv/Mrom_slv1_mux0000> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <bcd_conv/Mrom_slv2_mux0000> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <bcd_conv/Mrom_slv3_mux0000> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <bcd_conv/Mrom_slv_mux0000> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <bcd_conv/Mrom_slv4_mux0000> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <bcd_conv/Mrom_slv5_mux0000> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <bcd_conv/Mrom_slv6_mux0000> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:2385 - HDL ADVISOR - You can improve the performance of the multiplier dds/Mmult_M by adding 3 register level(s).
+Unit <gen66_BT> synthesized (advanced).
+WARNING:Xst:2677 - Node <bcd_conv/out_reg_0> of sequential type is unconnected in block <gen66_BT>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 9
+ 16x4-bit ROM                                          : 8
+ 16x7-bit ROM                                          : 1
+# Multipliers                                          : 1
+ 26x32-bit registered multiplier                       : 1
+# Adders/Subtractors                                   : 11
+ 3-bit adder                                           : 1
+ 4-bit adder                                           : 9
+ 6-bit adder                                           : 1
+# Counters                                             : 4
+ 26-bit up counter                                     : 1
+ 32-bit up counter                                     : 1
+ 8-bit up counter                                      : 1
+ 9-bit up counter                                      : 1
+# Accumulators                                         : 1
+ 58-bit up accumulator                                 : 1
+# Registers                                            : 318
+ Flip-Flops                                            : 318
+# Comparators                                          : 10
+ 5-bit comparator greater                              : 10
+# Priority Encoders                                    : 12
+ 1-bit 1-of-8 priority encoder                         : 12
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1293 - FF/Latch <bcd_conv/shift_reg_31> has a constant value of 0 in block <gen66_BT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <XLXI_56/counter_8> of sequential type is unconnected in block <czestotliwosci>.
+WARNING:Xst:2677 - Node <XLXI_56/counter_9> of sequential type is unconnected in block <czestotliwosci>.
+WARNING:Xst:2677 - Node <XLXI_56/counter_10> of sequential type is unconnected in block <czestotliwosci>.
+WARNING:Xst:2677 - Node <XLXI_56/counter_11> of sequential type is unconnected in block <czestotliwosci>.
+WARNING:Xst:2677 - Node <XLXI_56/counter_12> of sequential type is unconnected in block <czestotliwosci>.
+WARNING:Xst:2677 - Node <XLXI_56/counter_13> of sequential type is unconnected in block <czestotliwosci>.
+WARNING:Xst:2677 - Node <XLXI_56/counter_14> of sequential type is unconnected in block <czestotliwosci>.
+WARNING:Xst:2677 - Node <XLXI_56/counter_15> of sequential type is unconnected in block <czestotliwosci>.
+WARNING:Xst:2677 - Node <XLXI_56/counter_16> of sequential type is unconnected in block <czestotliwosci>.
+WARNING:Xst:2677 - Node <XLXI_56/counter_17> of sequential type is unconnected in block <czestotliwosci>.
+WARNING:Xst:2677 - Node <XLXI_56/counter_18> of sequential type is unconnected in block <czestotliwosci>.
+WARNING:Xst:2677 - Node <XLXI_56/counter_19> of sequential type is unconnected in block <czestotliwosci>.
+WARNING:Xst:2677 - Node <XLXI_56/counter_20> of sequential type is unconnected in block <czestotliwosci>.
+WARNING:Xst:2677 - Node <XLXI_56/counter_21> of sequential type is unconnected in block <czestotliwosci>.
+WARNING:Xst:2677 - Node <XLXI_56/counter_22> of sequential type is unconnected in block <czestotliwosci>.
+WARNING:Xst:2677 - Node <XLXI_56/counter_23> of sequential type is unconnected in block <czestotliwosci>.
+WARNING:Xst:2677 - Node <XLXI_56/counter_24> of sequential type is unconnected in block <czestotliwosci>.
+WARNING:Xst:2677 - Node <XLXI_56/counter_25> of sequential type is unconnected in block <czestotliwosci>.
+WARNING:Xst:2677 - Node <XLXI_56/counter_26> of sequential type is unconnected in block <czestotliwosci>.
+WARNING:Xst:2677 - Node <XLXI_56/counter_27> of sequential type is unconnected in block <czestotliwosci>.
+WARNING:Xst:2677 - Node <XLXI_56/counter_28> of sequential type is unconnected in block <czestotliwosci>.
+WARNING:Xst:2677 - Node <XLXI_56/counter_29> of sequential type is unconnected in block <czestotliwosci>.
+WARNING:Xst:2677 - Node <XLXI_56/counter_30> of sequential type is unconnected in block <czestotliwosci>.
+WARNING:Xst:2677 - Node <XLXI_56/counter_31> of sequential type is unconnected in block <czestotliwosci>.
+
+Optimizing unit <czestotliwosci> ...
+
+Optimizing unit <led4_driver> ...
+
+Optimizing unit <sel10_4> ...
+
+Optimizing unit <binary_bcd> ...
+
+Optimizing unit <gen_ctrl> ...
+
+Optimizing unit <FD16CE_MXILINX_czestotliwosci> ...
+
+Optimizing unit <kcuart_rx> ...
+
+Optimizing unit <FTCE_MXILINX_czestotliwosci> ...
+
+Optimizing unit <CB16CE_MXILINX_czestotliwosci> ...
+
+Optimizing unit <CB2CE_MXILINX_czestotliwosci> ...
+
+Optimizing unit <gen66_BT> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block czestotliwosci, actual ratio is 9.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 426
+ Flip-Flops                                            : 426
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : czestotliwosci.ngr
+Top Level Output File Name         : czestotliwosci
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 18
+
+Cell Usage :
+# BELS                             : 1092
+#      AND2                        : 13
+#      AND2B1                      : 2
+#      AND2B2                      : 1
+#      AND3                        : 8
+#      AND4                        : 8
+#      AND5                        : 6
+#      GND                         : 1
+#      INV                         : 6
+#      LUT1                        : 64
+#      LUT2                        : 153
+#      LUT3                        : 46
+#      LUT4                        : 331
+#      MUXCY                       : 195
+#      MUXF5                       : 25
+#      VCC                         : 4
+#      XOR2                        : 34
+#      XORCY                       : 195
+# FlipFlops/Latches                : 426
+#      FD                          : 73
+#      FD_1                        : 46
+#      FDCE                        : 66
+#      FDE                         : 84
+#      FDE_1                       : 40
+#      FDR                         : 37
+#      FDR_1                       : 1
+#      FDRE                        : 44
+#      FDRS                        : 1
+#      FDS                         : 1
+#      FDS_1                       : 33
+# Shift Registers                  : 19
+#      SRL16E                      : 19
+# Clock Buffers                    : 5
+#      BUFG                        : 5
+# IO Buffers                       : 18
+#      IBUF                        : 2
+#      IBUFG                       : 1
+#      OBUF                        : 15
+# DCMs                             : 1
+#      DCM_SP                      : 1
+# MULTs                            : 4
+#      MULT18X18SIO                : 4
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                      390  out of   4656     8%  
+ Number of Slice Flip Flops:            426  out of   9312     4%  
+ Number of 4 input LUTs:                619  out of   9312     6%  
+    Number used as logic:               600
+    Number used as Shift registers:      19
+ Number of IOs:                          18
+ Number of bonded IOBs:                  18  out of    232     7%  
+ Number of MULT18X18SIOs:                 4  out of     20    20%  
+ Number of GCLKs:                         5  out of     24    20%  
+ Number of DCMs:                          1  out of      4    25%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)         | Load  |
+-----------------------------------+-------------------------------+-------+
+clk                                | XLXI_59/mul4/DCM_SP_INST:CLK0 | 323   |
+XLXI_56/counter_7                  | NONE(XLXI_55/one_hot_3)       | 4     |
+XLXN_3491(XLXI_137/XLXI_8:O)       | BUFG(*)(XLXI_130/I_Q0)        | 32    |
+XLXI_59/dds/phase_next_571         | BUFG                          | 32    |
+clk                                | XLXI_59/mul4/DCM_SP_INST:CLKFX| 58    |
+-----------------------------------+-------------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+------------------------------------+-----------------------------------+-------+
+Control Signal                      | Buffer(FF name)                   | Load  |
+------------------------------------+-----------------------------------+-------+
+N0(XST_GND:G)                       | NONE(XLXI_129/I_Q0)               | 32    |
+XLXN_355(XLXI_137/XLXI_9:O)         | NONE(XLXI_127/I_Q0/I_36_35)       | 32    |
+XLXI_139/clk_hz2(XLXI_139/clk_hz2:Q)| NONE(XLXI_137/XLXI_3/I_Q0/I_36_35)| 2     |
+------------------------------------+-----------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 59.464ns (Maximum Frequency: 16.817MHz)
+   Minimum input arrival time before clock: 1.973ns
+   Maximum output required time after clock: 15.221ns
+   Maximum combinational path delay: 4.937ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 59.464ns (frequency: 16.817MHz)
+  Total number of paths / destination ports: 646362 / 737
+-------------------------------------------------------------------------
+Delay:               14.866ns (Levels of Logic = 46)
+  Source:            XLXI_59/dds/Mmult_M_submult_0 (MULT)
+  Destination:       XLXI_59/dds/phase_next_57 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising 4.0X
+
+  Data Path: XLXI_59/dds/Mmult_M_submult_0 to XLXI_59/dds/phase_next_57
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     MULT18X18SIO:CLK->P17    1   4.962   0.499  XLXI_59/dds/Mmult_M_submult_0 (XLXI_59/dds/Mmult_M_submult_0_P_to_Adder_A_17)
+     LUT2:I1->O            1   0.704   0.000  XLXI_59/dds/Mmult_M_submult_00_Madd_lut<17> (XLXI_59/dds/Mmult_M_submult_00_Madd_lut<17>)
+     MUXCY:S->O            1   0.464   0.000  XLXI_59/dds/Mmult_M_submult_00_Madd_cy<17> (XLXI_59/dds/Mmult_M_submult_00_Madd_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_submult_00_Madd_cy<18> (XLXI_59/dds/Mmult_M_submult_00_Madd_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_submult_00_Madd_cy<19> (XLXI_59/dds/Mmult_M_submult_00_Madd_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_submult_00_Madd_cy<20> (XLXI_59/dds/Mmult_M_submult_00_Madd_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_submult_00_Madd_cy<21> (XLXI_59/dds/Mmult_M_submult_00_Madd_cy<21>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_submult_00_Madd_cy<22> (XLXI_59/dds/Mmult_M_submult_00_Madd_cy<22>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_submult_00_Madd_cy<23> (XLXI_59/dds/Mmult_M_submult_00_Madd_cy<23>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_submult_00_Madd_cy<24> (XLXI_59/dds/Mmult_M_submult_00_Madd_cy<24>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_submult_00_Madd_cy<25> (XLXI_59/dds/Mmult_M_submult_00_Madd_cy<25>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_submult_00_Madd_cy<26> (XLXI_59/dds/Mmult_M_submult_00_Madd_cy<26>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_submult_00_Madd_cy<27> (XLXI_59/dds/Mmult_M_submult_00_Madd_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_submult_00_Madd_cy<28> (XLXI_59/dds/Mmult_M_submult_00_Madd_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_submult_00_Madd_cy<29> (XLXI_59/dds/Mmult_M_submult_00_Madd_cy<29>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_submult_00_Madd_cy<30> (XLXI_59/dds/Mmult_M_submult_00_Madd_cy<30>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_submult_00_Madd_cy<31> (XLXI_59/dds/Mmult_M_submult_00_Madd_cy<31>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_submult_00_Madd_cy<32> (XLXI_59/dds/Mmult_M_submult_00_Madd_cy<32>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_submult_00_Madd_cy<33> (XLXI_59/dds/Mmult_M_submult_00_Madd_cy<33>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_submult_00_Madd_cy<34> (XLXI_59/dds/Mmult_M_submult_00_Madd_cy<34>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_submult_00_Madd_cy<35> (XLXI_59/dds/Mmult_M_submult_00_Madd_cy<35>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_submult_00_Madd_cy<36> (XLXI_59/dds/Mmult_M_submult_00_Madd_cy<36>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_submult_00_Madd_cy<37> (XLXI_59/dds/Mmult_M_submult_00_Madd_cy<37>)
+     MUXCY:CI->O           0   0.059   0.000  XLXI_59/dds/Mmult_M_submult_00_Madd_cy<38> (XLXI_59/dds/Mmult_M_submult_00_Madd_cy<38>)
+     XORCY:CI->O           1   0.804   0.499  XLXI_59/dds/Mmult_M_submult_00_Madd_xor<39> (XLXI_59/dds/Mmult_M_submult_0_39)
+     LUT2:I1->O            1   0.704   0.000  XLXI_59/dds/Mmult_M_Madd_lut<39> (XLXI_59/dds/Mmult_M_Madd_lut<39>)
+     MUXCY:S->O            1   0.464   0.000  XLXI_59/dds/Mmult_M_Madd_cy<39> (XLXI_59/dds/Mmult_M_Madd_cy<39>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_Madd_cy<40> (XLXI_59/dds/Mmult_M_Madd_cy<40>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_Madd_cy<41> (XLXI_59/dds/Mmult_M_Madd_cy<41>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_Madd_cy<42> (XLXI_59/dds/Mmult_M_Madd_cy<42>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_Madd_cy<43> (XLXI_59/dds/Mmult_M_Madd_cy<43>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_Madd_cy<44> (XLXI_59/dds/Mmult_M_Madd_cy<44>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_Madd_cy<45> (XLXI_59/dds/Mmult_M_Madd_cy<45>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_Madd_cy<46> (XLXI_59/dds/Mmult_M_Madd_cy<46>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_Madd_cy<47> (XLXI_59/dds/Mmult_M_Madd_cy<47>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_Madd_cy<48> (XLXI_59/dds/Mmult_M_Madd_cy<48>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_Madd_cy<49> (XLXI_59/dds/Mmult_M_Madd_cy<49>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_Madd_cy<50> (XLXI_59/dds/Mmult_M_Madd_cy<50>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_Madd_cy<51> (XLXI_59/dds/Mmult_M_Madd_cy<51>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_Madd_cy<52> (XLXI_59/dds/Mmult_M_Madd_cy<52>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_Madd_cy<53> (XLXI_59/dds/Mmult_M_Madd_cy<53>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_Madd_cy<54> (XLXI_59/dds/Mmult_M_Madd_cy<54>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_59/dds/Mmult_M_Madd_cy<55> (XLXI_59/dds/Mmult_M_Madd_cy<55>)
+     XORCY:CI->O           1   0.804   0.499  XLXI_59/dds/Mmult_M_Madd_xor<56> (XLXI_59/dds/M<56>)
+     LUT2:I1->O            1   0.704   0.000  XLXI_59/dds/Maccum_phase_next_lut<56> (XLXI_59/dds/Maccum_phase_next_lut<56>)
+     MUXCY:S->O            0   0.464   0.000  XLXI_59/dds/Maccum_phase_next_cy<56> (XLXI_59/dds/Maccum_phase_next_cy<56>)
+     XORCY:CI->O           1   0.804   0.000  XLXI_59/dds/Maccum_phase_next_xor<57> (XLXI_59/Result<57>)
+     FD:D                      0.308          XLXI_59/dds/phase_next_57
+    ----------------------------------------
+    Total                     14.866ns (13.369ns logic, 1.497ns route)
+                                       (89.9% logic, 10.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_56/counter_7'
+  Clock period: 1.568ns (frequency: 637.755MHz)
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Delay:               1.568ns (Levels of Logic = 0)
+  Source:            XLXI_55/one_hot_2 (FF)
+  Destination:       XLXI_55/one_hot_3 (FF)
+  Source Clock:      XLXI_56/counter_7 rising
+  Destination Clock: XLXI_56/counter_7 rising
+
+  Data Path: XLXI_55/one_hot_2 to XLXI_55/one_hot_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               6   0.591   0.669  XLXI_55/one_hot_2 (XLXI_55/one_hot_2)
+     FD:D                      0.308          XLXI_55/one_hot_3
+    ----------------------------------------
+    Total                      1.568ns (0.899ns logic, 0.669ns route)
+                                       (57.3% logic, 42.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_59/dds/phase_next_571'
+  Clock period: 8.732ns (frequency: 114.521MHz)
+  Total number of paths / destination ports: 528 / 48
+-------------------------------------------------------------------------
+Delay:               8.732ns (Levels of Logic = 7)
+  Source:            XLXI_127/I_Q0/I_36_35 (FF)
+  Destination:       XLXI_128/I_Q15/I_36_35 (FF)
+  Source Clock:      XLXI_59/dds/phase_next_571 rising
+  Destination Clock: XLXI_59/dds/phase_next_571 rising
+
+  Data Path: XLXI_127/I_Q0/I_36_35 to XLXI_128/I_Q15/I_36_35
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             6   0.591   0.669  I_36_35 (Q)
+     end scope: 'I_Q0'
+     AND4:I3->O            5   0.704   0.633  I_36_10 (T4)
+     AND5:I4->O            5   0.704   0.633  I_36_14 (T8)
+     AND5:I4->O            5   0.704   0.633  I_36_29 (T12)
+     AND5:I4->O            2   0.704   0.447  I_36_22 (TC)
+     end scope: 'XLXI_127'
+     AND2:I1->O           17   0.704   1.051  XLXI_131 (XLXN_323)
+     begin scope: 'XLXI_128'
+     begin scope: 'I_Q15'
+     FDCE:CE                   0.555          I_36_35
+    ----------------------------------------
+    Total                      8.732ns (4.666ns logic, 4.066ns route)
+                                       (53.4% logic, 46.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              1.973ns (Levels of Logic = 1)
+  Source:            XLXN_117<1> (PAD)
+  Destination:       XLXI_59/uart/receiver/sync_reg (FF)
+  Destination Clock: clk rising
+
+  Data Path: XLXN_117<1> to XLXI_59/uart/receiver/sync_reg
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.218   0.447  XLXI_59/BT/ibuftx (XLXI_59/serial_data)
+     FD:D                      0.308          XLXI_59/uart/receiver/sync_reg
+    ----------------------------------------
+    Total                      1.973ns (1.526ns logic, 0.447ns route)
+                                       (77.3% logic, 22.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_56/counter_7'
+  Total number of paths / destination ports: 424 / 11
+-------------------------------------------------------------------------
+Offset:              10.183ns (Levels of Logic = 5)
+  Source:            XLXI_55/one_hot_2 (FF)
+  Destination:       sseg<4> (PAD)
+  Source Clock:      XLXI_56/counter_7 rising
+
+  Data Path: XLXI_55/one_hot_2 to sseg<4>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               6   0.591   0.844  XLXI_55/one_hot_2 (XLXI_55/one_hot_2)
+     LUT4:I0->O            4   0.704   0.762  XLXI_55/digit<0>31 (XLXI_55/N3)
+     LUT4:I0->O            1   0.704   0.595  XLXI_55/digit<3>158 (XLXI_55/digit<3>158)
+     LUT3:I0->O            7   0.704   0.883  XLXI_55/digit<3>513 (XLXI_55/digit<3>)
+     LUT4:I0->O            1   0.704   0.420  XLXI_55/sseg<4>1 (sseg_4_OBUF)
+     OBUF:I->O                 3.272          sseg_4_OBUF (sseg<4>)
+    ----------------------------------------
+    Total                     10.183ns (6.679ns logic, 3.504ns route)
+                                       (65.6% logic, 34.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 3948 / 7
+-------------------------------------------------------------------------
+Offset:              15.221ns (Levels of Logic = 9)
+  Source:            XLXI_138/bcds_out_reg_16 (FF)
+  Destination:       sseg<4> (PAD)
+  Source Clock:      clk falling
+
+  Data Path: XLXI_138/bcds_out_reg_16 to sseg<4>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE_1:C->Q            4   0.591   0.762  XLXI_138/bcds_out_reg_16 (XLXI_138/bcds_out_reg_16)
+     LUT4:I0->O           22   0.704   1.339  XLXI_125/led_12_cmp_eq00051 (XLXI_125/I0_lut<1>)
+     LUT4:I0->O            1   0.704   0.424  XLXI_55/digit<3>38_SW0 (N229)
+     LUT4:I3->O            1   0.704   0.424  XLXI_55/digit<3>38 (XLXI_55/digit<3>38)
+     LUT4:I3->O            1   0.704   0.455  XLXI_55/digit<3>80 (XLXI_55/digit<3>80)
+     LUT4:I2->O            1   0.704   0.424  XLXI_55/digit<3>122 (XLXI_55/digit<3>122)
+     LUT4:I3->O            1   0.704   0.595  XLXI_55/digit<3>158 (XLXI_55/digit<3>158)
+     LUT3:I0->O            7   0.704   0.883  XLXI_55/digit<3>513 (XLXI_55/digit<3>)
+     LUT4:I0->O            1   0.704   0.420  XLXI_55/sseg<4>1 (sseg_4_OBUF)
+     OBUF:I->O                 3.272          sseg_4_OBUF (sseg<4>)
+    ----------------------------------------
+    Total                     15.221ns (9.495ns logic, 5.726ns route)
+                                       (62.4% logic, 37.6% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Delay:               4.937ns (Levels of Logic = 2)
+  Source:            XLXN_117<1> (PAD)
+  Destination:       XLXN_117<0> (PAD)
+
+  Data Path: XLXN_117<1> to XLXN_117<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.218   0.447  XLXI_59/BT/ibuftx (XLXI_59/serial_data)
+     OBUF:I->O                 3.272          XLXI_59/BT/obufrx (XLXN_117<0>)
+    ----------------------------------------
+    Total                      4.937ns (4.490ns logic, 0.447ns route)
+                                       (90.9% logic, 9.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 12.78 secs
+ 
+--> 
+
+Total memory usage is 374496 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   47 (   0 filtered)
+Number of infos    :   18 (   0 filtered)
+

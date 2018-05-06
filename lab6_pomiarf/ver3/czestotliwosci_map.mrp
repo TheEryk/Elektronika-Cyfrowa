@@ -1,0 +1,804 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Mapping Report File for Design 'czestotliwosci'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off
+-c 100 -o czestotliwosci_map.ncd czestotliwosci.ngd czestotliwosci.pcf 
+Target Device  : xc3s500e
+Target Package : fg320
+Target Speed   : -4
+Mapper Version : spartan3e -- $Revision: 1.55 $
+Mapped Date    : Thu May 03 17:30:46 2018
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    2
+Logic Utilization:
+  Number of Slice Flip Flops:           319 out of   9,312    3%
+  Number of 4 input LUTs:               537 out of   9,312    5%
+Logic Distribution:
+  Number of occupied Slices:            374 out of   4,656    8%
+    Number of Slices containing only related logic:     374 out of     374 100%
+    Number of Slices containing unrelated logic:          0 out of     374   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:         594 out of   9,312    6%
+    Number used as logic:               518
+    Number used as a route-thru:         57
+    Number used as Shift registers:      19
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                 24 out of     232   10%
+  Number of BUFGMUXs:                     4 out of      24   16%
+  Number of DCMs:                         1 out of       4   25%
+  Number of MULT18X18SIOs:                4 out of      20   20%
+
+  Number of RPM macros:           43
+Average Fanout of Non-Clock Nets:                2.34
+
+Peak Memory Usage:  404 MB
+Total REAL time to MAP completion:  3 secs 
+Total CPU time to MAP completion:   2 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:PhysDesignRules:372 - Gated clock. Clock net XLXN_268 is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net XLXN_258 is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+
+Section 3 - Informational
+-------------------------
+INFO:LIT:243 - Logical network XLXI_76/LT has no load.
+INFO:LIT:395 - The above info message is repeated 7 more times for the following
+   (max. 5 shown):
+   XLXI_68/LT,
+   XLXI_73/CEO,
+   XLXI_72/CEO,
+   XLXI_2/CEO,
+   XLXI_119/XLXI_3/CEO
+   To see the details of these info messages, please use the -detail switch.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+INFO:PhysDesignRules:772 - To achieve optimal frequency synthesis performance
+   with the CLKFX and CLKFX180 outputs of the DCM comp XLXI_59/mul4/DCM_SP_INST,
+   consult the device Interactive Data Sheet.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+ 208 block(s) removed
+ 139 block(s) optimized away
+ 200 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+Loadless block "XLXI_65/XLXI_82/XLXI_11" (OR) removed.
+ The signal "XLXI_65/XLXI_82/XLXN_25" is loadless and has been removed.
+  Loadless block "XLXI_65/XLXI_82/XLXI_2" (AND) removed.
+   The signal "XLXI_65/XLXN_256" is loadless and has been removed.
+    Loadless block "XLXI_65/XLXI_83/XLXI_13" (OR) removed.
+     The signal "XLXI_65/XLXI_83/XLXN_30" is loadless and has been removed.
+      Loadless block "XLXI_65/XLXI_83/XLXI_7" (AND) removed.
+       The signal "XLXI_65/XLXN_252" is loadless and has been removed.
+        Loadless block "XLXI_65/XLXI_84/XLXI_14" (OR) removed.
+         The signal "XLXI_65/XLXI_84/XLXN_33" is loadless and has been removed.
+          Loadless block "XLXI_65/XLXI_84/XLXI_10" (AND) removed.
+           The signal "XLXI_65/XLXN_336" is loadless and has been removed.
+            Loadless block "XLXI_65/XLXI_77/XLXI_11" (OR) removed.
+             The signal "XLXI_65/XLXI_77/XLXN_25" is loadless and has been removed.
+              Loadless block "XLXI_65/XLXI_77/XLXI_2" (AND) removed.
+             The signal "XLXI_65/XLXI_77/XLXN_24" is loadless and has been removed.
+              Loadless block "XLXI_65/XLXI_77/XLXI_1" (AND) removed.
+           The signal "XLXI_65/XLXN_250" is loadless and has been removed.
+            Loadless block "XLXI_65/XLXI_85/XLXI_13" (OR) removed.
+             The signal "XLXI_65/XLXI_85/XLXN_30" is loadless and has been removed.
+              Loadless block "XLXI_65/XLXI_85/XLXI_7" (AND) removed.
+               The signal "XLXI_65/XLXN_338" is loadless and has been removed.
+                Loadless block "XLXI_65/XLXI_79/XLXI_11" (OR) removed.
+                 The signal "XLXI_65/XLXI_79/XLXN_25" is loadless and has been removed.
+                  Loadless block "XLXI_65/XLXI_79/XLXI_2" (AND) removed.
+                 The signal "XLXI_65/XLXI_79/XLXN_24" is loadless and has been removed.
+                  Loadless block "XLXI_65/XLXI_79/XLXI_1" (AND) removed.
+               The signal "XLXI_65/XLXN_337" is loadless and has been removed.
+                Loadless block "XLXI_65/XLXI_78/XLXI_11" (OR) removed.
+                 The signal "XLXI_65/XLXI_78/XLXN_25" is loadless and has been removed.
+                  Loadless block "XLXI_65/XLXI_78/XLXI_2" (AND) removed.
+                 The signal "XLXI_65/XLXI_78/XLXN_24" is loadless and has been removed.
+                  Loadless block "XLXI_65/XLXI_78/XLXI_1" (AND) removed.
+             The signal "XLXI_65/XLXI_85/XLXN_29" is loadless and has been removed.
+              Loadless block "XLXI_65/XLXI_85/XLXI_6" (AND) removed.
+               The signal "XLXI_65/XLXN_339" is loadless and has been removed.
+                Loadless block "XLXI_65/XLXI_80/XLXI_11" (OR) removed.
+                 The signal "XLXI_65/XLXI_80/XLXN_25" is loadless and has been removed.
+                  Loadless block "XLXI_65/XLXI_80/XLXI_2" (AND) removed.
+                 The signal "XLXI_65/XLXI_80/XLXN_24" is loadless and has been removed.
+                  Loadless block "XLXI_65/XLXI_80/XLXI_1" (AND) removed.
+             The signal "XLXI_65/XLXI_85/XLXN_28" is loadless and has been removed.
+              Loadless block "XLXI_65/XLXI_85/XLXI_5" (AND) removed.
+           The signal "XLXI_65/XLXN_249" is loadless and has been removed.
+            Loadless block "XLXI_65/XLXI_85/XLXI_14" (OR) removed.
+             The signal "XLXI_65/XLXI_85/XLXN_33" is loadless and has been removed.
+              Loadless block "XLXI_65/XLXI_85/XLXI_10" (AND) removed.
+             The signal "XLXI_65/XLXI_85/XLXN_32" is loadless and has been removed.
+              Loadless block "XLXI_65/XLXI_85/XLXI_9" (AND) removed.
+             The signal "XLXI_65/XLXI_85/XLXN_31" is loadless and has been removed.
+              Loadless block "XLXI_65/XLXI_85/XLXI_8" (AND) removed.
+         The signal "XLXI_65/XLXI_84/XLXN_32" is loadless and has been removed.
+          Loadless block "XLXI_65/XLXI_84/XLXI_9" (AND) removed.
+           The signal "XLXI_65/XLXN_251" is loadless and has been removed.
+            Loadless block "XLXI_65/XLXI_85/XLXI_12" (OR) removed.
+             The signal "XLXI_65/XLXI_85/XLXN_27" is loadless and has been removed.
+              Loadless block "XLXI_65/XLXI_85/XLXI_4" (AND) removed.
+             The signal "XLXI_65/XLXI_85/XLXN_26" is loadless and has been removed.
+              Loadless block "XLXI_65/XLXI_85/XLXI_3" (AND) removed.
+         The signal "XLXI_65/XLXI_84/XLXN_31" is loadless and has been removed.
+          Loadless block "XLXI_65/XLXI_84/XLXI_8" (AND) removed.
+       The signal "XLXI_65/XLXN_335" is loadless and has been removed.
+        Loadless block "XLXI_65/XLXI_76/XLXI_11" (OR) removed.
+         The signal "XLXI_65/XLXI_76/XLXN_25" is loadless and has been removed.
+          Loadless block "XLXI_65/XLXI_76/XLXI_2" (AND) removed.
+         The signal "XLXI_65/XLXI_76/XLXN_24" is loadless and has been removed.
+          Loadless block "XLXI_65/XLXI_76/XLXI_1" (AND) removed.
+     The signal "XLXI_65/XLXI_83/XLXN_29" is loadless and has been removed.
+      Loadless block "XLXI_65/XLXI_83/XLXI_6" (AND) removed.
+       The signal "XLXI_65/XLXN_253" is loadless and has been removed.
+        Loadless block "XLXI_65/XLXI_84/XLXI_13" (OR) removed.
+         The signal "XLXI_65/XLXI_84/XLXN_30" is loadless and has been removed.
+          Loadless block "XLXI_65/XLXI_84/XLXI_7" (AND) removed.
+         The signal "XLXI_65/XLXI_84/XLXN_29" is loadless and has been removed.
+          Loadless block "XLXI_65/XLXI_84/XLXI_6" (AND) removed.
+         The signal "XLXI_65/XLXI_84/XLXN_28" is loadless and has been removed.
+          Loadless block "XLXI_65/XLXI_84/XLXI_5" (AND) removed.
+     The signal "XLXI_65/XLXI_83/XLXN_28" is loadless and has been removed.
+      Loadless block "XLXI_65/XLXI_83/XLXI_5" (AND) removed.
+       The signal "XLXI_65/XLXN_254" is loadless and has been removed.
+        Loadless block "XLXI_65/XLXI_84/XLXI_12" (OR) removed.
+         The signal "XLXI_65/XLXI_84/XLXN_27" is loadless and has been removed.
+          Loadless block "XLXI_65/XLXI_84/XLXI_4" (AND) removed.
+         The signal "XLXI_65/XLXI_84/XLXN_26" is loadless and has been removed.
+          Loadless block "XLXI_65/XLXI_84/XLXI_3" (AND) removed.
+   The signal "XLXI_65/XLXN_255" is loadless and has been removed.
+    Loadless block "XLXI_65/XLXI_83/XLXI_14" (OR) removed.
+     The signal "XLXI_65/XLXI_83/XLXN_33" is loadless and has been removed.
+      Loadless block "XLXI_65/XLXI_83/XLXI_10" (AND) removed.
+     The signal "XLXI_65/XLXI_83/XLXN_32" is loadless and has been removed.
+      Loadless block "XLXI_65/XLXI_83/XLXI_9" (AND) removed.
+     The signal "XLXI_65/XLXI_83/XLXN_31" is loadless and has been removed.
+      Loadless block "XLXI_65/XLXI_83/XLXI_8" (AND) removed.
+ The signal "XLXI_65/XLXI_82/XLXN_24" is loadless and has been removed.
+  Loadless block "XLXI_65/XLXI_82/XLXI_1" (AND) removed.
+   The signal "XLXI_65/XLXN_323" is loadless and has been removed.
+    Loadless block "XLXI_65/XLXI_88/XLXI_11" (OR) removed.
+     The signal "XLXI_65/XLXI_88/XLXN_25" is loadless and has been removed.
+      Loadless block "XLXI_65/XLXI_88/XLXI_2" (AND) removed.
+     The signal "XLXI_65/XLXI_88/XLXN_24" is loadless and has been removed.
+      Loadless block "XLXI_65/XLXI_88/XLXI_1" (AND) removed.
+ The signal "XLXI_65/XLXN_257" is loadless and has been removed.
+  Loadless block "XLXI_65/XLXI_83/XLXI_12" (OR) removed.
+   The signal "XLXI_65/XLXI_83/XLXN_27" is loadless and has been removed.
+    Loadless block "XLXI_65/XLXI_83/XLXI_4" (AND) removed.
+   The signal "XLXI_65/XLXI_83/XLXN_26" is loadless and has been removed.
+    Loadless block "XLXI_65/XLXI_83/XLXI_3" (AND) removed.
+Loadless block "XLXI_65/XLXI_82/XLXI_12" (OR) removed.
+ The signal "XLXI_65/XLXI_82/XLXN_27" is loadless and has been removed.
+  Loadless block "XLXI_65/XLXI_82/XLXI_4" (AND) removed.
+ The signal "XLXI_65/XLXI_82/XLXN_26" is loadless and has been removed.
+  Loadless block "XLXI_65/XLXI_82/XLXI_3" (AND) removed.
+Loadless block "XLXI_65/XLXI_82/XLXI_13" (OR) removed.
+ The signal "XLXI_65/XLXI_82/XLXN_30" is loadless and has been removed.
+  Loadless block "XLXI_65/XLXI_82/XLXI_7" (AND) removed.
+ The signal "XLXI_65/XLXI_82/XLXN_29" is loadless and has been removed.
+  Loadless block "XLXI_65/XLXI_82/XLXI_6" (AND) removed.
+ The signal "XLXI_65/XLXI_82/XLXN_28" is loadless and has been removed.
+  Loadless block "XLXI_65/XLXI_82/XLXI_5" (AND) removed.
+Loadless block "XLXI_65/XLXI_82/XLXI_14" (OR) removed.
+ The signal "XLXI_65/XLXI_82/XLXN_33" is loadless and has been removed.
+  Loadless block "XLXI_65/XLXI_82/XLXI_10" (AND) removed.
+ The signal "XLXI_65/XLXI_82/XLXN_32" is loadless and has been removed.
+  Loadless block "XLXI_65/XLXI_82/XLXI_9" (AND) removed.
+ The signal "XLXI_65/XLXI_82/XLXN_31" is loadless and has been removed.
+  Loadless block "XLXI_65/XLXI_82/XLXI_8" (AND) removed.
+Loadless block "XLXI_65/XLXI_83/XLXI_11" (OR) removed.
+ The signal "XLXI_65/XLXI_83/XLXN_25" is loadless and has been removed.
+  Loadless block "XLXI_65/XLXI_83/XLXI_2" (AND) removed.
+ The signal "XLXI_65/XLXI_83/XLXN_24" is loadless and has been removed.
+  Loadless block "XLXI_65/XLXI_83/XLXI_1" (AND) removed.
+Loadless block "XLXI_65/XLXI_84/XLXI_11" (OR) removed.
+ The signal "XLXI_65/XLXI_84/XLXN_25" is loadless and has been removed.
+  Loadless block "XLXI_65/XLXI_84/XLXI_2" (AND) removed.
+ The signal "XLXI_65/XLXI_84/XLXN_24" is loadless and has been removed.
+  Loadless block "XLXI_65/XLXI_84/XLXI_1" (AND) removed.
+Loadless block "XLXI_65/XLXI_85/XLXI_11" (OR) removed.
+ The signal "XLXI_65/XLXI_85/XLXN_25" is loadless and has been removed.
+  Loadless block "XLXI_65/XLXI_85/XLXI_2" (AND) removed.
+ The signal "XLXI_65/XLXI_85/XLXN_24" is loadless and has been removed.
+  Loadless block "XLXI_65/XLXI_85/XLXI_1" (AND) removed.
+Loadless block "XLXI_65/XLXI_87/XLXI_11" (OR) removed.
+ The signal "XLXI_65/XLXI_87/XLXN_25" is loadless and has been removed.
+  Loadless block "XLXI_65/XLXI_87/XLXI_2" (AND) removed.
+ The signal "XLXI_65/XLXI_87/XLXN_24" is loadless and has been removed.
+  Loadless block "XLXI_65/XLXI_87/XLXI_1" (AND) removed.
+The signal "XLXI_76/I0" is sourceless and has been removed.
+ Sourceless block "XLXI_76/I_36_3" (MUX) removed.
+  The signal "XLXI_76/I_36_3/O" is sourceless and has been removed.
+The signal "XLXI_76/I1" is sourceless and has been removed.
+ Sourceless block "XLXI_76/I_36_1710" (MUX) removed.
+  The signal "XLXI_76/I_36_1710/O" is sourceless and has been removed.
+The signal "XLXI_76/I10" is sourceless and has been removed.
+ Sourceless block "XLXI_76/I_36_1934" (MUX) removed.
+  The signal "XLXI_76/I_36_1934/O" is sourceless and has been removed.
+The signal "XLXI_76/I11" is sourceless and has been removed.
+ Sourceless block "XLXI_76/I_36_1939" (MUX) removed.
+  The signal "XLXI_76/I_36_1939/O" is sourceless and has been removed.
+The signal "XLXI_76/I12" is sourceless and has been removed.
+ Sourceless block "XLXI_76/I_36_1918" (MUX) removed.
+  The signal "XLXI_76/I_36_1918/O" is sourceless and has been removed.
+The signal "XLXI_76/I13" is sourceless and has been removed.
+ Sourceless block "XLXI_76/I_36_1923" (MUX) removed.
+  The signal "XLXI_76/I_36_1923/O" is sourceless and has been removed.
+The signal "XLXI_76/I14" is sourceless and has been removed.
+ Sourceless block "XLXI_76/I_36_1931" (MUX) removed.
+  The signal "XLXI_76/I_36_1931/O" is sourceless and has been removed.
+The signal "XLXI_76/I15" is sourceless and has been removed.
+ Sourceless block "XLXI_76/I_36_1926" (MUX) removed.
+  The signal "XLXI_76/I_36_1926/O" is sourceless and has been removed.
+   Sourceless block "XLXI_76/I_36_1926/MUXCY_L_BUF" (BUF) removed.
+    The signal "XLXI_76/LT" is sourceless and has been removed.
+The signal "XLXI_76/I2" is sourceless and has been removed.
+ Sourceless block "XLXI_76/I_36_1719" (MUX) removed.
+  The signal "XLXI_76/I_36_1719/O" is sourceless and has been removed.
+The signal "XLXI_76/I3" is sourceless and has been removed.
+ Sourceless block "XLXI_76/I_36_1728" (MUX) removed.
+  The signal "XLXI_76/I_36_1728/O" is sourceless and has been removed.
+The signal "XLXI_76/I4" is sourceless and has been removed.
+ Sourceless block "XLXI_76/I_36_1735" (MUX) removed.
+  The signal "XLXI_76/I_36_1735/O" is sourceless and has been removed.
+The signal "XLXI_76/I5" is sourceless and has been removed.
+ Sourceless block "XLXI_76/I_36_1744" (MUX) removed.
+  The signal "XLXI_76/I_36_1744/O" is sourceless and has been removed.
+The signal "XLXI_76/I6" is sourceless and has been removed.
+ Sourceless block "XLXI_76/I_36_1760" (MUX) removed.
+  The signal "XLXI_76/I_36_1760/O" is sourceless and has been removed.
+The signal "XLXI_76/I7" is sourceless and has been removed.
+ Sourceless block "XLXI_76/I_36_1751" (MUX) removed.
+  The signal "XLXI_76/I_36_1751/O" is sourceless and has been removed.
+The signal "XLXI_76/I8" is sourceless and has been removed.
+ Sourceless block "XLXI_76/I_36_1945" (MUX) removed.
+  The signal "XLXI_76/I_36_1945/O" is sourceless and has been removed.
+The signal "XLXI_76/I9" is sourceless and has been removed.
+ Sourceless block "XLXI_76/I_36_1942" (MUX) removed.
+  The signal "XLXI_76/I_36_1942/O" is sourceless and has been removed.
+The signal "XLXI_68/I0" is sourceless and has been removed.
+ Sourceless block "XLXI_68/I_36_3" (MUX) removed.
+  The signal "XLXI_68/I_36_3/O" is sourceless and has been removed.
+The signal "XLXI_68/I1" is sourceless and has been removed.
+ Sourceless block "XLXI_68/I_36_1710" (MUX) removed.
+  The signal "XLXI_68/I_36_1710/O" is sourceless and has been removed.
+The signal "XLXI_68/I10" is sourceless and has been removed.
+ Sourceless block "XLXI_68/I_36_1934" (MUX) removed.
+  The signal "XLXI_68/I_36_1934/O" is sourceless and has been removed.
+The signal "XLXI_68/I11" is sourceless and has been removed.
+ Sourceless block "XLXI_68/I_36_1939" (MUX) removed.
+  The signal "XLXI_68/I_36_1939/O" is sourceless and has been removed.
+The signal "XLXI_68/I12" is sourceless and has been removed.
+ Sourceless block "XLXI_68/I_36_1918" (MUX) removed.
+  The signal "XLXI_68/I_36_1918/O" is sourceless and has been removed.
+The signal "XLXI_68/I13" is sourceless and has been removed.
+ Sourceless block "XLXI_68/I_36_1923" (MUX) removed.
+  The signal "XLXI_68/I_36_1923/O" is sourceless and has been removed.
+The signal "XLXI_68/I14" is sourceless and has been removed.
+ Sourceless block "XLXI_68/I_36_1931" (MUX) removed.
+  The signal "XLXI_68/I_36_1931/O" is sourceless and has been removed.
+The signal "XLXI_68/I15" is sourceless and has been removed.
+ Sourceless block "XLXI_68/I_36_1926" (MUX) removed.
+  The signal "XLXI_68/I_36_1926/O" is sourceless and has been removed.
+   Sourceless block "XLXI_68/I_36_1926/MUXCY_L_BUF" (BUF) removed.
+    The signal "XLXI_68/LT" is sourceless and has been removed.
+The signal "XLXI_68/I2" is sourceless and has been removed.
+ Sourceless block "XLXI_68/I_36_1719" (MUX) removed.
+  The signal "XLXI_68/I_36_1719/O" is sourceless and has been removed.
+The signal "XLXI_68/I3" is sourceless and has been removed.
+ Sourceless block "XLXI_68/I_36_1728" (MUX) removed.
+  The signal "XLXI_68/I_36_1728/O" is sourceless and has been removed.
+The signal "XLXI_68/I4" is sourceless and has been removed.
+ Sourceless block "XLXI_68/I_36_1735" (MUX) removed.
+  The signal "XLXI_68/I_36_1735/O" is sourceless and has been removed.
+The signal "XLXI_68/I5" is sourceless and has been removed.
+ Sourceless block "XLXI_68/I_36_1744" (MUX) removed.
+  The signal "XLXI_68/I_36_1744/O" is sourceless and has been removed.
+The signal "XLXI_68/I6" is sourceless and has been removed.
+ Sourceless block "XLXI_68/I_36_1760" (MUX) removed.
+  The signal "XLXI_68/I_36_1760/O" is sourceless and has been removed.
+The signal "XLXI_68/I7" is sourceless and has been removed.
+ Sourceless block "XLXI_68/I_36_1751" (MUX) removed.
+  The signal "XLXI_68/I_36_1751/O" is sourceless and has been removed.
+The signal "XLXI_68/I8" is sourceless and has been removed.
+ Sourceless block "XLXI_68/I_36_1945" (MUX) removed.
+  The signal "XLXI_68/I_36_1945/O" is sourceless and has been removed.
+The signal "XLXI_68/I9" is sourceless and has been removed.
+ Sourceless block "XLXI_68/I_36_1942" (MUX) removed.
+  The signal "XLXI_68/I_36_1942/O" is sourceless and has been removed.
+The signal "XLXI_73/CEO" is sourceless and has been removed.
+The signal "XLXI_73/TC" is sourceless and has been removed.
+ Sourceless block "XLXI_73/I_36_54" (AND) removed.
+The signal "XLXI_72/CEO" is sourceless and has been removed.
+The signal "XLXI_72/TC" is sourceless and has been removed.
+ Sourceless block "XLXI_72/I_36_54" (AND) removed.
+The signal "XLXI_2/CEO" is sourceless and has been removed.
+The signal "XLXI_2/T10" is sourceless and has been removed.
+ Sourceless block "XLXI_2/I_Q10/I_36_32" (XOR) removed.
+  The signal "XLXI_2/I_Q10/TQ" is sourceless and has been removed.
+   Sourceless block "XLXI_2/I_Q10/I_36_35" (FF) removed.
+    The signal "Q<10>" is sourceless and has been removed.
+     Sourceless block "XLXI_7/I_Q10" (FF) removed.
+      The signal "XLXN_290<10>" is sourceless and has been removed.
+     Sourceless block "XLXI_2/I_36_26" (AND) removed.
+      The signal "XLXI_2/T11" is sourceless and has been removed.
+       Sourceless block "XLXI_2/I_Q11/I_36_32" (XOR) removed.
+        The signal "XLXI_2/I_Q11/TQ" is sourceless and has been removed.
+         Sourceless block "XLXI_2/I_Q11/I_36_35" (FF) removed.
+          The signal "Q<11>" is sourceless and has been removed.
+           Sourceless block "XLXI_7/I_Q11" (FF) removed.
+            The signal "XLXN_290<11>" is sourceless and has been removed.
+           Sourceless block "XLXI_2/I_36_29" (AND) removed.
+            The signal "XLXI_2/T12" is sourceless and has been removed.
+             Sourceless block "XLXI_2/I_36_22" (AND) removed.
+              The signal "XLXI_2/TC" is sourceless and has been removed.
+               Sourceless block "XLXI_2/I_36_54" (AND) removed.
+             Sourceless block "XLXI_2/I_36_23" (AND) removed.
+              The signal "XLXI_2/T13" is sourceless and has been removed.
+               Sourceless block "XLXI_2/I_Q13/I_36_32" (XOR) removed.
+                The signal "XLXI_2/I_Q13/TQ" is sourceless and has been removed.
+                 Sourceless block "XLXI_2/I_Q13/I_36_35" (FF) removed.
+                  The signal "Q<13>" is sourceless and has been removed.
+                   Sourceless block "XLXI_7/I_Q13" (FF) removed.
+                    The signal "XLXN_290<13>" is sourceless and has been removed.
+                   Sourceless block "XLXI_2/I_36_24" (AND) removed.
+                    The signal "XLXI_2/T14" is sourceless and has been removed.
+                     Sourceless block "XLXI_2/I_Q14/I_36_32" (XOR) removed.
+                      The signal "XLXI_2/I_Q14/TQ" is sourceless and has been removed.
+                       Sourceless block "XLXI_2/I_Q14/I_36_35" (FF) removed.
+                        The signal "Q<14>" is sourceless and has been removed.
+                         Sourceless block "XLXI_7/I_Q14" (FF) removed.
+                          The signal "XLXN_290<14>" is sourceless and has been removed.
+                         Sourceless block "XLXI_2/I_36_25" (AND) removed.
+                          The signal "XLXI_2/T15" is sourceless and has been removed.
+                           Sourceless block "XLXI_2/I_Q15/I_36_32" (XOR) removed.
+                            The signal "XLXI_2/I_Q15/TQ" is sourceless and has been removed.
+                             Sourceless block "XLXI_2/I_Q15/I_36_35" (FF) removed.
+                              The signal "Q<15>" is sourceless and has been removed.
+                               Sourceless block "XLXI_7/I_Q15" (FF) removed.
+                                The signal "XLXN_290<15>" is sourceless and has been removed.
+             Sourceless block "XLXI_2/I_Q12/I_36_32" (XOR) removed.
+              The signal "XLXI_2/I_Q12/TQ" is sourceless and has been removed.
+               Sourceless block "XLXI_2/I_Q12/I_36_35" (FF) removed.
+                The signal "Q<12>" is sourceless and has been removed.
+                 Sourceless block "XLXI_7/I_Q12" (FF) removed.
+                  The signal "XLXN_290<12>" is sourceless and has been removed.
+The signal "XLXI_2/T3" is sourceless and has been removed.
+ Sourceless block "XLXI_2/I_Q3/I_36_32" (XOR) removed.
+  The signal "XLXI_2/I_Q3/TQ" is sourceless and has been removed.
+   Sourceless block "XLXI_2/I_Q3/I_36_35" (FF) removed.
+    The signal "Q<3>" is sourceless and has been removed.
+     Sourceless block "XLXI_7/I_Q3" (FF) removed.
+      The signal "XLXN_290<3>" is sourceless and has been removed.
+     Sourceless block "XLXI_2/I_36_10" (AND) removed.
+      The signal "XLXI_2/T4" is sourceless and has been removed.
+       Sourceless block "XLXI_2/I_36_14" (AND) removed.
+        The signal "XLXI_2/T8" is sourceless and has been removed.
+         Sourceless block "XLXI_2/I_36_27" (AND) removed.
+         Sourceless block "XLXI_2/I_36_28" (AND) removed.
+          The signal "XLXI_2/T9" is sourceless and has been removed.
+           Sourceless block "XLXI_2/I_Q9/I_36_32" (XOR) removed.
+            The signal "XLXI_2/I_Q9/TQ" is sourceless and has been removed.
+             Sourceless block "XLXI_2/I_Q9/I_36_35" (FF) removed.
+              The signal "Q<9>" is sourceless and has been removed.
+               Sourceless block "XLXI_7/I_Q9" (FF) removed.
+                The signal "XLXN_290<9>" is sourceless and has been removed.
+         Sourceless block "XLXI_2/I_Q8/I_36_32" (XOR) removed.
+          The signal "XLXI_2/I_Q8/TQ" is sourceless and has been removed.
+           Sourceless block "XLXI_2/I_Q8/I_36_35" (FF) removed.
+            The signal "Q<8>" is sourceless and has been removed.
+             Sourceless block "XLXI_7/I_Q8" (FF) removed.
+              The signal "XLXN_290<8>" is sourceless and has been removed.
+       Sourceless block "XLXI_2/I_36_15" (AND) removed.
+        The signal "XLXI_2/T5" is sourceless and has been removed.
+         Sourceless block "XLXI_2/I_Q5/I_36_32" (XOR) removed.
+          The signal "XLXI_2/I_Q5/TQ" is sourceless and has been removed.
+           Sourceless block "XLXI_2/I_Q5/I_36_35" (FF) removed.
+            The signal "Q<5>" is sourceless and has been removed.
+             Sourceless block "XLXI_7/I_Q5" (FF) removed.
+              The signal "XLXN_290<5>" is sourceless and has been removed.
+             Sourceless block "XLXI_2/I_36_19" (AND) removed.
+              The signal "XLXI_2/T6" is sourceless and has been removed.
+               Sourceless block "XLXI_2/I_Q6/I_36_32" (XOR) removed.
+                The signal "XLXI_2/I_Q6/TQ" is sourceless and has been removed.
+                 Sourceless block "XLXI_2/I_Q6/I_36_35" (FF) removed.
+                  The signal "Q<6>" is sourceless and has been removed.
+                   Sourceless block "XLXI_7/I_Q6" (FF) removed.
+                    The signal "XLXN_290<6>" is sourceless and has been removed.
+                   Sourceless block "XLXI_2/I_36_21" (AND) removed.
+                    The signal "XLXI_2/T7" is sourceless and has been removed.
+                     Sourceless block "XLXI_2/I_Q7/I_36_32" (XOR) removed.
+                      The signal "XLXI_2/I_Q7/TQ" is sourceless and has been removed.
+                       Sourceless block "XLXI_2/I_Q7/I_36_35" (FF) removed.
+                        The signal "Q<7>" is sourceless and has been removed.
+                         Sourceless block "XLXI_7/I_Q7" (FF) removed.
+                          The signal "XLXN_290<7>" is sourceless and has been removed.
+       Sourceless block "XLXI_2/I_Q4/I_36_32" (XOR) removed.
+        The signal "XLXI_2/I_Q4/TQ" is sourceless and has been removed.
+         Sourceless block "XLXI_2/I_Q4/I_36_35" (FF) removed.
+          The signal "Q<4>" is sourceless and has been removed.
+           Sourceless block "XLXI_7/I_Q4" (FF) removed.
+            The signal "XLXN_290<4>" is sourceless and has been removed.
+The signal "XLXI_119/XLXI_3/CEO" is sourceless and has been removed.
+The signal "XLXI_120/XLXI_3/CEO" is sourceless and has been removed.
+The signal "XLXI_121/XLXI_3/CEO" is sourceless and has been removed.
+
+The trimmed logic reported below is either:
+   1. part of a cycle
+   2. part of disabled logic
+   3. a side-effect of other trimmed logic
+
+The signal "XLXN_272" is unused and has been removed.
+ Unused block "XLXI_119/XLXI_8" (AND) removed.
+The signal "XLXN_290<0>" is unused and has been removed.
+ Unused block "XLXI_7/I_Q0" (FF) removed.
+The signal "XLXN_290<1>" is unused and has been removed.
+ Unused block "XLXI_7/I_Q1" (FF) removed.
+The signal "XLXN_290<2>" is unused and has been removed.
+ Unused block "XLXI_7/I_Q2" (FF) removed.
+Unused block "XLXI_119/XLXI_3/I_36_52" (AND) removed.
+Unused block "XLXI_120/XLXI_3/I_36_52" (AND) removed.
+Unused block "XLXI_121/XLXI_3/I_36_52" (AND) removed.
+Unused block "XLXI_2/I_36_3" (AND) removed.
+Unused block "XLXI_68/I_36_1" (XOR) removed.
+Unused block "XLXI_68/I_36_1708" (XOR) removed.
+Unused block "XLXI_68/I_36_1717" (XOR) removed.
+Unused block "XLXI_68/I_36_1730" (XOR) removed.
+Unused block "XLXI_68/I_36_1733" (XOR) removed.
+Unused block "XLXI_68/I_36_1746" (XOR) removed.
+Unused block "XLXI_68/I_36_1749" (XOR) removed.
+Unused block "XLXI_68/I_36_1762" (XOR) removed.
+Unused block "XLXI_68/I_36_1917" (XOR) removed.
+Unused block "XLXI_68/I_36_1924" (XOR) removed.
+Unused block "XLXI_68/I_36_1925" (XOR) removed.
+Unused block "XLXI_68/I_36_1932" (XOR) removed.
+Unused block "XLXI_68/I_36_1933" (XOR) removed.
+Unused block "XLXI_68/I_36_1940" (XOR) removed.
+Unused block "XLXI_68/I_36_1941" (XOR) removed.
+Unused block "XLXI_68/I_36_1949" (XOR) removed.
+Unused block "XLXI_72/I_36_22" (AND) removed.
+Unused block "XLXI_73/I_36_22" (AND) removed.
+Unused block "XLXI_76/I_36_1" (XOR) removed.
+Unused block "XLXI_76/I_36_1708" (XOR) removed.
+Unused block "XLXI_76/I_36_1717" (XOR) removed.
+Unused block "XLXI_76/I_36_1730" (XOR) removed.
+Unused block "XLXI_76/I_36_1733" (XOR) removed.
+Unused block "XLXI_76/I_36_1746" (XOR) removed.
+Unused block "XLXI_76/I_36_1749" (XOR) removed.
+Unused block "XLXI_76/I_36_1762" (XOR) removed.
+Unused block "XLXI_76/I_36_1917" (XOR) removed.
+Unused block "XLXI_76/I_36_1924" (XOR) removed.
+Unused block "XLXI_76/I_36_1925" (XOR) removed.
+Unused block "XLXI_76/I_36_1932" (XOR) removed.
+Unused block "XLXI_76/I_36_1933" (XOR) removed.
+Unused block "XLXI_76/I_36_1940" (XOR) removed.
+Unused block "XLXI_76/I_36_1941" (XOR) removed.
+Unused block "XLXI_76/I_36_1949" (XOR) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+VCC 		XLXI_119/XLXI_3/I_36_47
+VCC 		XLXI_120/XLXI_3/I_36_47
+VCC 		XLXI_121/XLXI_3/I_36_47
+VCC 		XLXI_2/I_36_9
+AND2 		XLXI_65/XLXI_60/XLXI_3
+AND2B1 		XLXI_65/XLXI_60/XLXI_5
+AND2B1 		XLXI_65/XLXI_60/XLXI_8
+AND2 		XLXI_65/XLXI_70/XLXI_3
+AND2B1 		XLXI_65/XLXI_70/XLXI_5
+AND2B1 		XLXI_65/XLXI_70/XLXI_8
+AND2 		XLXI_65/XLXI_80/XLXI_3
+AND2B1 		XLXI_65/XLXI_80/XLXI_5
+AND2B1 		XLXI_65/XLXI_80/XLXI_8
+GND 		XLXI_68/I_36_2226
+VCC 		XLXI_72/I_36_9
+VCC 		XLXI_73/I_36_9
+GND 		XLXI_76/I_36_2226
+AND3 		XLXI_82/XLXI_13/XLXI_1/I_M01/I_36_30
+AND3B1 		XLXI_82/XLXI_13/XLXI_1/I_M01/I_36_31
+OR2 		XLXI_82/XLXI_13/XLXI_1/I_M01/I_36_38
+AND3 		XLXI_82/XLXI_13/XLXI_1/I_M23/I_36_30
+AND3B1 		XLXI_82/XLXI_13/XLXI_1/I_M23/I_36_31
+OR2 		XLXI_82/XLXI_13/XLXI_1/I_M23/I_36_38
+AND3 		XLXI_82/XLXI_13/XLXI_5/I_M01/I_36_30
+AND3B1 		XLXI_82/XLXI_13/XLXI_5/I_M01/I_36_31
+OR2 		XLXI_82/XLXI_13/XLXI_5/I_M01/I_36_38
+AND3 		XLXI_82/XLXI_13/XLXI_5/I_M23/I_36_30
+AND3B1 		XLXI_82/XLXI_13/XLXI_5/I_M23/I_36_31
+OR2 		XLXI_82/XLXI_13/XLXI_5/I_M23/I_36_38
+AND3 		XLXI_82/XLXI_13/XLXI_7/I_M01/I_36_30
+AND3B1 		XLXI_82/XLXI_13/XLXI_7/I_M01/I_36_31
+OR2 		XLXI_82/XLXI_13/XLXI_7/I_M01/I_36_38
+AND3 		XLXI_82/XLXI_13/XLXI_7/I_M23/I_36_30
+AND3B1 		XLXI_82/XLXI_13/XLXI_7/I_M23/I_36_31
+OR2 		XLXI_82/XLXI_13/XLXI_7/I_M23/I_36_38
+AND3 		XLXI_82/XLXI_13/XLXI_8/I_M01/I_36_30
+AND3B1 		XLXI_82/XLXI_13/XLXI_8/I_M01/I_36_31
+OR2 		XLXI_82/XLXI_13/XLXI_8/I_M01/I_36_38
+AND3 		XLXI_82/XLXI_13/XLXI_8/I_M23/I_36_30
+AND3B1 		XLXI_82/XLXI_13/XLXI_8/I_M23/I_36_31
+OR2 		XLXI_82/XLXI_13/XLXI_8/I_M23/I_36_38
+AND3 		XLXI_82/XLXI_17/XLXI_1/I_M01/I_36_30
+AND3B1 		XLXI_82/XLXI_17/XLXI_1/I_M01/I_36_31
+OR2 		XLXI_82/XLXI_17/XLXI_1/I_M01/I_36_38
+AND3 		XLXI_82/XLXI_17/XLXI_1/I_M23/I_36_30
+AND3B1 		XLXI_82/XLXI_17/XLXI_1/I_M23/I_36_31
+OR2 		XLXI_82/XLXI_17/XLXI_1/I_M23/I_36_38
+AND3 		XLXI_82/XLXI_17/XLXI_5/I_M01/I_36_30
+AND3B1 		XLXI_82/XLXI_17/XLXI_5/I_M01/I_36_31
+OR2 		XLXI_82/XLXI_17/XLXI_5/I_M01/I_36_38
+AND3 		XLXI_82/XLXI_17/XLXI_5/I_M23/I_36_30
+AND3B1 		XLXI_82/XLXI_17/XLXI_5/I_M23/I_36_31
+OR2 		XLXI_82/XLXI_17/XLXI_5/I_M23/I_36_38
+AND3 		XLXI_82/XLXI_17/XLXI_7/I_M01/I_36_30
+AND3B1 		XLXI_82/XLXI_17/XLXI_7/I_M01/I_36_31
+OR2 		XLXI_82/XLXI_17/XLXI_7/I_M01/I_36_38
+AND3 		XLXI_82/XLXI_17/XLXI_7/I_M23/I_36_30
+AND3B1 		XLXI_82/XLXI_17/XLXI_7/I_M23/I_36_31
+OR2 		XLXI_82/XLXI_17/XLXI_7/I_M23/I_36_38
+AND3 		XLXI_82/XLXI_17/XLXI_8/I_M01/I_36_30
+AND3B1 		XLXI_82/XLXI_17/XLXI_8/I_M01/I_36_31
+OR2 		XLXI_82/XLXI_17/XLXI_8/I_M01/I_36_38
+AND3 		XLXI_82/XLXI_17/XLXI_8/I_M23/I_36_30
+AND3B1 		XLXI_82/XLXI_17/XLXI_8/I_M23/I_36_31
+OR2 		XLXI_82/XLXI_17/XLXI_8/I_M23/I_36_38
+AND3 		XLXI_82/XLXI_18/XLXI_1/I_M01/I_36_30
+AND3B1 		XLXI_82/XLXI_18/XLXI_1/I_M01/I_36_31
+OR2 		XLXI_82/XLXI_18/XLXI_1/I_M01/I_36_38
+AND3 		XLXI_82/XLXI_18/XLXI_1/I_M23/I_36_30
+AND3B1 		XLXI_82/XLXI_18/XLXI_1/I_M23/I_36_31
+OR2 		XLXI_82/XLXI_18/XLXI_1/I_M23/I_36_38
+AND3 		XLXI_82/XLXI_18/XLXI_5/I_M01/I_36_30
+AND3B1 		XLXI_82/XLXI_18/XLXI_5/I_M01/I_36_31
+OR2 		XLXI_82/XLXI_18/XLXI_5/I_M01/I_36_38
+AND3 		XLXI_82/XLXI_18/XLXI_5/I_M23/I_36_30
+AND3B1 		XLXI_82/XLXI_18/XLXI_5/I_M23/I_36_31
+OR2 		XLXI_82/XLXI_18/XLXI_5/I_M23/I_36_38
+AND3 		XLXI_82/XLXI_18/XLXI_7/I_M01/I_36_30
+AND3B1 		XLXI_82/XLXI_18/XLXI_7/I_M01/I_36_31
+OR2 		XLXI_82/XLXI_18/XLXI_7/I_M01/I_36_38
+AND3 		XLXI_82/XLXI_18/XLXI_7/I_M23/I_36_30
+AND3B1 		XLXI_82/XLXI_18/XLXI_7/I_M23/I_36_31
+OR2 		XLXI_82/XLXI_18/XLXI_7/I_M23/I_36_38
+AND3 		XLXI_82/XLXI_18/XLXI_8/I_M01/I_36_30
+AND3B1 		XLXI_82/XLXI_18/XLXI_8/I_M01/I_36_31
+OR2 		XLXI_82/XLXI_18/XLXI_8/I_M01/I_36_38
+AND3 		XLXI_82/XLXI_18/XLXI_8/I_M23/I_36_30
+AND3B1 		XLXI_82/XLXI_18/XLXI_8/I_M23/I_36_31
+OR2 		XLXI_82/XLXI_18/XLXI_8/I_M23/I_36_38
+AND3 		XLXI_82/XLXI_19/XLXI_1/I_M01/I_36_30
+AND3B1 		XLXI_82/XLXI_19/XLXI_1/I_M01/I_36_31
+OR2 		XLXI_82/XLXI_19/XLXI_1/I_M01/I_36_38
+AND3 		XLXI_82/XLXI_19/XLXI_1/I_M23/I_36_30
+AND3B1 		XLXI_82/XLXI_19/XLXI_1/I_M23/I_36_31
+OR2 		XLXI_82/XLXI_19/XLXI_1/I_M23/I_36_38
+AND3 		XLXI_82/XLXI_19/XLXI_5/I_M01/I_36_30
+AND3B1 		XLXI_82/XLXI_19/XLXI_5/I_M01/I_36_31
+OR2 		XLXI_82/XLXI_19/XLXI_5/I_M01/I_36_38
+AND3 		XLXI_82/XLXI_19/XLXI_5/I_M23/I_36_30
+AND3B1 		XLXI_82/XLXI_19/XLXI_5/I_M23/I_36_31
+OR2 		XLXI_82/XLXI_19/XLXI_5/I_M23/I_36_38
+AND3 		XLXI_82/XLXI_19/XLXI_7/I_M01/I_36_30
+AND3B1 		XLXI_82/XLXI_19/XLXI_7/I_M01/I_36_31
+OR2 		XLXI_82/XLXI_19/XLXI_7/I_M01/I_36_38
+AND3 		XLXI_82/XLXI_19/XLXI_7/I_M23/I_36_30
+AND3B1 		XLXI_82/XLXI_19/XLXI_7/I_M23/I_36_31
+OR2 		XLXI_82/XLXI_19/XLXI_7/I_M23/I_36_38
+AND3 		XLXI_82/XLXI_19/XLXI_8/I_M01/I_36_30
+AND3B1 		XLXI_82/XLXI_19/XLXI_8/I_M01/I_36_31
+OR2 		XLXI_82/XLXI_19/XLXI_8/I_M01/I_36_38
+AND3 		XLXI_82/XLXI_19/XLXI_8/I_M23/I_36_30
+AND3B1 		XLXI_82/XLXI_19/XLXI_8/I_M23/I_36_31
+OR2 		XLXI_82/XLXI_19/XLXI_8/I_M23/I_36_38
+AND3 		XLXI_83/XLXI_1/I_M01/I_36_30
+AND3B1 		XLXI_83/XLXI_1/I_M01/I_36_31
+OR2 		XLXI_83/XLXI_1/I_M01/I_36_38
+AND3 		XLXI_83/XLXI_1/I_M23/I_36_30
+AND3B1 		XLXI_83/XLXI_1/I_M23/I_36_31
+OR2 		XLXI_83/XLXI_1/I_M23/I_36_38
+AND3 		XLXI_83/XLXI_5/I_M01/I_36_30
+AND3B1 		XLXI_83/XLXI_5/I_M01/I_36_31
+OR2 		XLXI_83/XLXI_5/I_M01/I_36_38
+AND3 		XLXI_83/XLXI_5/I_M23/I_36_30
+AND3B1 		XLXI_83/XLXI_5/I_M23/I_36_31
+OR2 		XLXI_83/XLXI_5/I_M23/I_36_38
+AND3 		XLXI_83/XLXI_7/I_M01/I_36_30
+AND3B1 		XLXI_83/XLXI_7/I_M01/I_36_31
+OR2 		XLXI_83/XLXI_7/I_M01/I_36_38
+AND3 		XLXI_83/XLXI_7/I_M23/I_36_30
+AND3B1 		XLXI_83/XLXI_7/I_M23/I_36_31
+OR2 		XLXI_83/XLXI_7/I_M23/I_36_38
+AND3 		XLXI_83/XLXI_8/I_M01/I_36_30
+AND3B1 		XLXI_83/XLXI_8/I_M01/I_36_31
+OR2 		XLXI_83/XLXI_8/I_M01/I_36_38
+AND3 		XLXI_83/XLXI_8/I_M23/I_36_30
+AND3B1 		XLXI_83/XLXI_8/I_M23/I_36_31
+OR2 		XLXI_83/XLXI_8/I_M23/I_36_38
+GND 		XST_GND
+VCC 		XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| B8                                 | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| CMP0                               | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| CMP1                               | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| XLXN_201                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| XLXN_202                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| XLXN_203                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| XLXN_117<0>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| XLXN_117<1>                        | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| XLXN_117<2>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| XLXN_117<3>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| XLXN_117<4>                        | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| XLXN_117<5>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| an<0>                              | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| an<1>                              | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| an<2>                              | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| an<3>                              | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| ce                                 | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| sseg<0>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| sseg<1>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| sseg<2>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| sseg<3>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| sseg<4>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| sseg<5>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| sseg<6>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+XLXI_119/XLXI_3/XLXI_119/XLXI_3_I_Q0_0  
+XLXI_119/XLXI_3/XLXI_119/XLXI_3_I_Q1_1  
+XLXI_120/XLXI_3/XLXI_120/XLXI_3_I_Q0_0  
+XLXI_120/XLXI_3/XLXI_120/XLXI_3_I_Q1_1  
+XLXI_121/XLXI_3/XLXI_121/XLXI_3_I_Q0_0  
+XLXI_121/XLXI_3/XLXI_121/XLXI_3_I_Q1_1  
+XLXI_2/XLXI_2_I_Q0_10                   
+XLXI_2/XLXI_2_I_Q1_9                    
+XLXI_2/XLXI_2_I_Q2_12                   
+XLXI_68_27                              
+XLXI_72/XLXI_72_I_Q0_10                 
+XLXI_72/XLXI_72_I_Q10_19                
+XLXI_72/XLXI_72_I_Q11_20                
+XLXI_72/XLXI_72_I_Q12_21                
+XLXI_72/XLXI_72_I_Q13_22                
+XLXI_72/XLXI_72_I_Q14_23                
+XLXI_72/XLXI_72_I_Q15_24                
+XLXI_72/XLXI_72_I_Q1_9                  
+XLXI_72/XLXI_72_I_Q2_12                 
+XLXI_72/XLXI_72_I_Q3_11                 
+XLXI_72/XLXI_72_I_Q4_16                 
+XLXI_72/XLXI_72_I_Q5_15                 
+XLXI_72/XLXI_72_I_Q6_14                 
+XLXI_72/XLXI_72_I_Q7_13                 
+XLXI_72/XLXI_72_I_Q8_17                 
+XLXI_72/XLXI_72_I_Q9_18                 
+XLXI_73/XLXI_73_I_Q0_10                 
+XLXI_73/XLXI_73_I_Q10_19                
+XLXI_73/XLXI_73_I_Q11_20                
+XLXI_73/XLXI_73_I_Q12_21                
+XLXI_73/XLXI_73_I_Q13_22                
+XLXI_73/XLXI_73_I_Q14_23                
+XLXI_73/XLXI_73_I_Q15_24                
+XLXI_73/XLXI_73_I_Q1_9                  
+XLXI_73/XLXI_73_I_Q2_12                 
+XLXI_73/XLXI_73_I_Q3_11                 
+XLXI_73/XLXI_73_I_Q4_16                 
+XLXI_73/XLXI_73_I_Q5_15                 
+XLXI_73/XLXI_73_I_Q6_14                 
+XLXI_73/XLXI_73_I_Q7_13                 
+XLXI_73/XLXI_73_I_Q8_17                 
+XLXI_73/XLXI_73_I_Q9_18                 
+XLXI_76_32                              
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+No control set information for this architecture.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

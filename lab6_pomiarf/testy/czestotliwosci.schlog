@@ -1,4 +1,0 @@
-select figure at 3169 1195 8 -wires -sn=1
-select figure at 2821 624 8 -wires -sn=1
-move wire at 2752 624 2928 624 to 2752 544 2928 544 -keepConn -sn=1
-select figure at 2615 902 8 -wires -sn=1

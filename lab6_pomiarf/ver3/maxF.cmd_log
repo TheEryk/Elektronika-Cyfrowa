@@ -1,0 +1,3 @@
+sch2sym -intstyle ise -family spartan3e -refsym maxF {C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab_6 pomiarf/testy/maxF.sch} {C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab_6 pomiarf/testy/maxF.sym} 
+sch2sym -intstyle ise -family spartan3e -refsym maxF {C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab_6 pomiarf/testy/maxF.sch} {C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab_6 pomiarf/testy/maxF.sym} 
+sch2sym -intstyle ise -family spartan3e -w -refsym maxF {C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab_6 pomiarf/testy/maxF.sch} {C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab_6 pomiarf/testy/maxF.sym} 

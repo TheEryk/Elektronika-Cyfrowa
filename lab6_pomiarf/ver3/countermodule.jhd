@@ -1,0 +1,3 @@
+MODULE countermodule
+	SUBMODULE counterlogic
+		INSTANCE XLXI_3
