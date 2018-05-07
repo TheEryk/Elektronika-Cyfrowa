@@ -1,0 +1,10 @@
+[Inputs]
+clk
+rst
+nxt
+mt
+=bin_in[31:0]=
+[Outputs]
+=bin_out[31:0]=
+=state[3:0]=
+[BiDir]

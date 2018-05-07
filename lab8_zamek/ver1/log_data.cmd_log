@@ -1,0 +1,2 @@
+vhdtdtfi -lib work log_data.vhd -prj ver1 -o log_data.spl -module log_data -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e log_data.spl C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab8_zamek/ver1/log_data.sym 

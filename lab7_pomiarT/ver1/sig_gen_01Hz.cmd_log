@@ -1,0 +1,2 @@
+vhdtdtfi -lib work clk_gen_1Hz2_v1.vhd -prj ver1 -o sig_gen_01Hz.spl -module sig_gen_01Hz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e sig_gen_01Hz.spl C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver1/sig_gen_01Hz.sym 

@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab8_zamek/ver1
+Elog_data
+Z1 w1525724583
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8log_data.vhd
+Z5 Flog_data.vhd
+l0
+L32
+V0]APH<2_T?Y1`e8^9XTH>0
+!s100 ?1=K7BS=UQ:?8;5c5EKA_0
+Z6 OP;C;10.4a;61
+31
+Z7 !s110 1525724908
+!i10b 1
+Z8 !s108 1525724908.000000
+Z9 !s90 -reportprogress|300|-explicit|-93|log_data.vhd|
+Z10 !s107 log_data.vhd|
+!i113 1
+Z11 o-explicit -93 -O0
+Z12 tExplicit 1
+Abehav_log_data
+R2
+R3
+DEx4 work 8 log_data 0 22 0]APH<2_T?Y1`e8^9XTH>0
+l41
+L38
+V<O:dcG<k3EUDbD]A?LW8Y3
+!s100 e1E0`l6fgG3@;QLXUCX<K3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Elog_data_lock
+Z13 w1525728294
+R2
+R3
+R0
+Z14 8log_data_lock.vhd
+Z15 Flog_data_lock.vhd
+l0
+L32
+VcQ_FUl@lN[m3J[Yg39;9z3
+!s100 ]gTaaB?l<2EiL0Pf>>dTM3
+R6
+31
+Z16 !s110 1525728306
+!i10b 1
+Z17 !s108 1525728306.000000
+Z18 !s90 -reportprogress|300|-explicit|-93|log_data_lock.vhd|
+Z19 !s107 log_data_lock.vhd|
+!i113 1
+R11
+R12
+Abehav_log_data_lock
+R2
+R3
+Z20 DEx4 work 13 log_data_lock 0 22 cQ_FUl@lN[m3J[Yg39;9z3
+l49
+L40
+V`5UhQD`<>[:]2G]LeNTOB0
+!s100 c5aY]^n?I;95J^CmSVJKQ1
+R6
+31
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12

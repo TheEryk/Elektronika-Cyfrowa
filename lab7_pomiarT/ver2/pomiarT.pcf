@@ -1,0 +1,25 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sun May 06 17:36:23 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "memoryswitch" LOCATE = SITE "H13" LEVEL 1;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "an<0>" LOCATE = SITE "F17" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "H17" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "C18" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "F15" LEVEL 1;
+COMP "reset" LOCATE = SITE "D18" LEVEL 1;
+COMP "sseg<0>" LOCATE = SITE "L18" LEVEL 1;
+COMP "sseg<1>" LOCATE = SITE "F18" LEVEL 1;
+COMP "sseg<2>" LOCATE = SITE "D17" LEVEL 1;
+COMP "sseg<3>" LOCATE = SITE "D16" LEVEL 1;
+COMP "sseg<4>" LOCATE = SITE "G14" LEVEL 1;
+COMP "sseg<5>" LOCATE = SITE "J17" LEVEL 1;
+COMP "sseg<6>" LOCATE = SITE "H14" LEVEL 1;
+COMP "segswitch" LOCATE = SITE "G18" LEVEL 1;
+COMP "memory" LOCATE = SITE "E18" LEVEL 1;
+COMP "startstop" LOCATE = SITE "B18" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

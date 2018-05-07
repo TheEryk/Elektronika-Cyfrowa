@@ -1,0 +1,13 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Sun May 06 21:27:39 2018
+
+drc -z pomiarT.ncd pomiarT.pcf
+
+WARNING:PhysDesignRules:1063 - Issue with pin connections and/or configuration
+   on block:<XLXI_20/lcd_ram/Mram_RAM.A>:<RAMB16_RAMB16A>.  The block is
+   configured to use an input parity pins. There is a dangling output parity
+   pin.
+DRC detected 0 errors and 1 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

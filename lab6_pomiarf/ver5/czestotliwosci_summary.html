@@ -25,7 +25,7 @@ No Errors</TD>
 <TR ALIGN=LEFT>
 <TD BGCOLOR='#FFFF99'><B>Product Version:</B></TD><TD>ISE 14.7</TD>
 <TD BGCOLOR='#FFFF99'><UL><LI><B>Warnings:</B></LI></UL></TD>
-<TD ALIGN=LEFT><A HREF_DISABLED='C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5\_xmsgs/*.xmsgs?&DataKey=Warning'>39 Warnings (39 new)</A></TD>
+<TD ALIGN=LEFT><A HREF_DISABLED='C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5\_xmsgs/*.xmsgs?&DataKey=Warning'>22 Warnings (0 new)</A></TD>
 </TR>
 <TR ALIGN=LEFT>
 <TD BGCOLOR='#FFFF99'><B>Design Goal:</B></dif></TD>
@@ -60,49 +60,55 @@ System Settings</A>
 <TD ALIGN=LEFT><B>Logic Utilization</B></TD><TD><B>Used</B></TD><TD><B>Available</B></TD><TD><B>Utilization</B></TD><TD COLSPAN='2'><B>Note(s)</B></TD>
 </TR>
 <TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of Slice Flip Flops</TD>
-<TD ALIGN=RIGHT>120</TD>
+<TD ALIGN=RIGHT>423</TD>
 <TD ALIGN=RIGHT>9,312</TD>
-<TD ALIGN=RIGHT>1%</TD>
+<TD ALIGN=RIGHT>4%</TD>
 <TD COLSPAN='2'>&nbsp;</TD>
 </TR>
 <TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of 4 input LUTs</TD>
-<TD ALIGN=RIGHT>231</TD>
+<TD ALIGN=RIGHT>626</TD>
 <TD ALIGN=RIGHT>9,312</TD>
-<TD ALIGN=RIGHT>2%</TD>
+<TD ALIGN=RIGHT>6%</TD>
 <TD COLSPAN='2'>&nbsp;</TD>
 </TR>
 <TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of occupied Slices</TD>
-<TD ALIGN=RIGHT>157</TD>
+<TD ALIGN=RIGHT>429</TD>
 <TD ALIGN=RIGHT>4,656</TD>
-<TD ALIGN=RIGHT>3%</TD>
+<TD ALIGN=RIGHT>9%</TD>
 <TD COLSPAN='2'>&nbsp;</TD>
 </TR>
 <TR ALIGN=RIGHT><TD ALIGN=LEFT>&nbsp;&nbsp;&nbsp;&nbsp;Number of Slices containing only related logic</TD>
-<TD ALIGN=RIGHT>157</TD>
-<TD ALIGN=RIGHT>157</TD>
+<TD ALIGN=RIGHT>429</TD>
+<TD ALIGN=RIGHT>429</TD>
 <TD ALIGN=RIGHT>100%</TD>
 <TD COLSPAN='2'>&nbsp;</TD>
 </TR>
 <TR ALIGN=RIGHT><TD ALIGN=LEFT>&nbsp;&nbsp;&nbsp;&nbsp;Number of Slices containing unrelated logic</TD>
 <TD ALIGN=RIGHT>0</TD>
-<TD ALIGN=RIGHT>157</TD>
+<TD ALIGN=RIGHT>429</TD>
 <TD ALIGN=RIGHT>0%</TD>
 <TD COLSPAN='2'>&nbsp;</TD>
 </TR>
 <TR ALIGN=RIGHT><TD ALIGN=LEFT>Total Number of 4 input LUTs</TD>
-<TD ALIGN=RIGHT>235</TD>
+<TD ALIGN=RIGHT>672</TD>
 <TD ALIGN=RIGHT>9,312</TD>
-<TD ALIGN=RIGHT>2%</TD>
+<TD ALIGN=RIGHT>7%</TD>
 <TD COLSPAN='2'>&nbsp;</TD>
 </TR>
 <TR ALIGN=RIGHT><TD ALIGN=LEFT>&nbsp;&nbsp;&nbsp;&nbsp;Number used as logic</TD>
-<TD ALIGN=RIGHT>231</TD>
+<TD ALIGN=RIGHT>607</TD>
 <TD>&nbsp;</TD>
 <TD>&nbsp;</TD>
 <TD COLSPAN='2'>&nbsp;</TD>
 </TR>
 <TR ALIGN=RIGHT><TD ALIGN=LEFT>&nbsp;&nbsp;&nbsp;&nbsp;Number used as a route-thru</TD>
-<TD ALIGN=RIGHT>4</TD>
+<TD ALIGN=RIGHT>46</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN='2'>&nbsp;</TD>
+</TR>
+<TR ALIGN=RIGHT><TD ALIGN=LEFT>&nbsp;&nbsp;&nbsp;&nbsp;Number used as Shift registers</TD>
+<TD ALIGN=RIGHT>19</TD>
 <TD>&nbsp;</TD>
 <TD>&nbsp;</TD>
 <TD COLSPAN='2'>&nbsp;</TD>
@@ -114,13 +120,31 @@ System Settings</A>
 <TD COLSPAN='2'>&nbsp;</TD>
 </TR>
 <TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of BUFGMUXs</TD>
-<TD ALIGN=RIGHT>1</TD>
+<TD ALIGN=RIGHT>5</TD>
 <TD ALIGN=RIGHT>24</TD>
-<TD ALIGN=RIGHT>4%</TD>
+<TD ALIGN=RIGHT>20%</TD>
+<TD COLSPAN='2'>&nbsp;</TD>
+</TR>
+<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of DCMs</TD>
+<TD ALIGN=RIGHT>1</TD>
+<TD ALIGN=RIGHT>4</TD>
+<TD ALIGN=RIGHT>25%</TD>
+<TD COLSPAN='2'>&nbsp;</TD>
+</TR>
+<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of MULT18X18SIOs</TD>
+<TD ALIGN=RIGHT>4</TD>
+<TD ALIGN=RIGHT>20</TD>
+<TD ALIGN=RIGHT>20%</TD>
+<TD COLSPAN='2'>&nbsp;</TD>
+</TR>
+<TR ALIGN=RIGHT><TD ALIGN=LEFT>Number of RPM macros</TD>
+<TD ALIGN=RIGHT>32</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
 <TD COLSPAN='2'>&nbsp;</TD>
 </TR>
 <TR ALIGN=RIGHT><TD ALIGN=LEFT>Average Fanout of Non-Clock Nets</TD>
-<TD ALIGN=RIGHT>3.93</TD>
+<TD ALIGN=RIGHT>2.69</TD>
 <TD>&nbsp;</TD>
 <TD>&nbsp;</TD>
 <TD COLSPAN='2'>&nbsp;</TD>
@@ -157,21 +181,21 @@ System Settings</A>
 <TR ALIGN=CENTER BGCOLOR='#99CCFF'><TD ALIGN=CENTER COLSPAN='6'><B>Detailed Reports</B></TD><TD ALIGN=RIGHT WIDTH='10%'COLSPAN=1> <A HREF_DISABLED="?&ExpandedTable=DetailedReports"><B>[-]</B></a></TD></TR>
 <TR BGCOLOR='#FFFF99'><TD><B>Report Name</B></TD><TD><B>Status</B></TD><TD><B>Generated</B></TD>
 <TD ALIGN=LEFT><B>Errors</B></TD><TD ALIGN=LEFT><B>Warnings</B></TD><TD ALIGN=LEFT COLSPAN='2'><B>Infos</B></TD></TR>
-<TR ALIGN=LEFT><TD><A HREF_DISABLED='C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5\czestotliwosci.syr'>Synthesis Report</A></TD><TD>Current</TD><TD>niedz. 6. maj 12:18:19 2018</TD><TD ALIGN=LEFT>0</TD><TD ALIGN=LEFT><A HREF_DISABLED='C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5\_xmsgs/xst.xmsgs?&DataKey=Warning'>39 Warnings (39 new)</A></TD><TD ALIGN=LEFT COLSPAN='2'><A HREF_DISABLED='C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5\_xmsgs/xst.xmsgs?&DataKey=Info'>23 Infos (23 new)</A></TD></TR>
-<TR ALIGN=LEFT><TD><A HREF_DISABLED='C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5\czestotliwosci.bld'>Translation Report</A></TD><TD>Current</TD><TD>niedz. 6. maj 12:18:26 2018</TD><TD ALIGN=LEFT>0</TD><TD ALIGN=LEFT>0</TD><TD ALIGN=LEFT COLSPAN='2'>0</TD></TR>
-<TR ALIGN=LEFT><TD><A HREF_DISABLED='C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5\czestotliwosci_map.mrp'>Map Report</A></TD><TD>Current</TD><TD>niedz. 6. maj 12:18:32 2018</TD><TD ALIGN=LEFT>0</TD><TD ALIGN=LEFT>0</TD><TD ALIGN=LEFT COLSPAN='2'><A HREF_DISABLED='C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5\_xmsgs/map.xmsgs?&DataKey=Info'>4 Infos (4 new)</A></TD></TR>
-<TR ALIGN=LEFT><TD><A HREF_DISABLED='C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5\czestotliwosci.par'>Place and Route Report</A></TD><TD>Current</TD><TD>niedz. 6. maj 12:18:48 2018</TD><TD ALIGN=LEFT>0</TD><TD ALIGN=LEFT>0</TD><TD ALIGN=LEFT COLSPAN='2'><A HREF_DISABLED='C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5\_xmsgs/par.xmsgs?&DataKey=Info'>2 Infos (2 new)</A></TD></TR>
+<TR ALIGN=LEFT><TD><A HREF_DISABLED='C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5\czestotliwosci.syr'>Synthesis Report</A></TD><TD>Current</TD><TD>niedz. 6. maj 21:46:42 2018</TD><TD ALIGN=LEFT>0</TD><TD ALIGN=LEFT><A HREF_DISABLED='C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5\_xmsgs/xst.xmsgs?&DataKey=Warning'>21 Warnings (0 new)</A></TD><TD ALIGN=LEFT COLSPAN='2'><A HREF_DISABLED='C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5\_xmsgs/xst.xmsgs?&DataKey=Info'>18 Infos (0 new)</A></TD></TR>
+<TR ALIGN=LEFT><TD><A HREF_DISABLED='C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5\czestotliwosci.bld'>Translation Report</A></TD><TD>Current</TD><TD>niedz. 6. maj 21:46:52 2018</TD><TD ALIGN=LEFT>0</TD><TD ALIGN=LEFT>0</TD><TD ALIGN=LEFT COLSPAN='2'>0</TD></TR>
+<TR ALIGN=LEFT><TD><A HREF_DISABLED='C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5\czestotliwosci_map.mrp'>Map Report</A></TD><TD>Current</TD><TD>niedz. 6. maj 21:46:59 2018</TD><TD ALIGN=LEFT>0</TD><TD ALIGN=LEFT>0</TD><TD ALIGN=LEFT COLSPAN='2'><A HREF_DISABLED='C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5\_xmsgs/map.xmsgs?&DataKey=Info'>5 Infos (0 new)</A></TD></TR>
+<TR ALIGN=LEFT><TD><A HREF_DISABLED='C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5\czestotliwosci.par'>Place and Route Report</A></TD><TD>Current</TD><TD>niedz. 6. maj 21:47:34 2018</TD><TD ALIGN=LEFT>0</TD><TD ALIGN=LEFT><A HREF_DISABLED='C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5\_xmsgs/par.xmsgs?&DataKey=Warning'>1 Warning (0 new)</A></TD><TD ALIGN=LEFT COLSPAN='2'><A HREF_DISABLED='C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5\_xmsgs/par.xmsgs?&DataKey=Info'>2 Infos (0 new)</A></TD></TR>
 <TR ALIGN=LEFT><TD>Power Report</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD COLSPAN='2'>&nbsp;</TD></TR>
-<TR ALIGN=LEFT><TD><A HREF_DISABLED='C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5\czestotliwosci.twr'>Post-PAR Static Timing Report</A></TD><TD>Current</TD><TD>niedz. 6. maj 12:18:52 2018</TD><TD ALIGN=LEFT>0</TD><TD ALIGN=LEFT>0</TD><TD ALIGN=LEFT COLSPAN='2'><A HREF_DISABLED='C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5\_xmsgs/trce.xmsgs?&DataKey=Info'>6 Infos (6 new)</A></TD></TR>
-<TR ALIGN=LEFT><TD><A HREF_DISABLED='C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5\czestotliwosci.bgn'>Bitgen Report</A></TD><TD>Current</TD><TD>niedz. 6. maj 12:18:59 2018</TD><TD ALIGN=LEFT>0</TD><TD ALIGN=LEFT>0</TD><TD ALIGN=LEFT COLSPAN='2'>0</TD></TR>
+<TR ALIGN=LEFT><TD><A HREF_DISABLED='C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5\czestotliwosci.twr'>Post-PAR Static Timing Report</A></TD><TD>Current</TD><TD>niedz. 6. maj 21:47:41 2018</TD><TD ALIGN=LEFT>0</TD><TD ALIGN=LEFT>0</TD><TD ALIGN=LEFT COLSPAN='2'><A HREF_DISABLED='C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5\_xmsgs/trce.xmsgs?&DataKey=Info'>6 Infos (0 new)</A></TD></TR>
+<TR ALIGN=LEFT><TD><A HREF_DISABLED='C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5\czestotliwosci.bgn'>Bitgen Report</A></TD><TD>Current</TD><TD>niedz. 6. maj 21:47:51 2018</TD><TD ALIGN=LEFT>0</TD><TD ALIGN=LEFT>0</TD><TD ALIGN=LEFT COLSPAN='2'><A HREF_DISABLED='C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5\_xmsgs/bitgen.xmsgs?&DataKey=Info'>1 Info (0 new)</A></TD></TR>
 </TABLE>
 &nbsp;<BR><TABLE BORDER CELLSPACING=0 CELLPADDING=3 WIDTH='100%'>
 <TR ALIGN=CENTER BGCOLOR='#99CCFF'><TD ALIGN=CENTER COLSPAN='3'><B>Secondary Reports</B></TD><TD ALIGN=RIGHT WIDTH='10%'COLSPAN=1> <A HREF_DISABLED="?&ExpandedTable=SecondaryReports"><B>[-]</B></a></TD></TR>
 <TR BGCOLOR='#FFFF99'><TD><B>Report Name</B></TD><TD><B>Status</B></TD><TD COLSPAN='2'><B>Generated</B></TD></TR>
-<TR ALIGN=LEFT><TD><A HREF_DISABLED='C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5\usage_statistics_webtalk.html'>WebTalk Report</A></TD><TD>Current</TD><TD COLSPAN='2'>niedz. 6. maj 12:19:00 2018</TD></TR>
-<TR ALIGN=LEFT><TD><A HREF_DISABLED='C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5\webtalk.log'>WebTalk Log File</A></TD><TD>Current</TD><TD COLSPAN='2'>niedz. 6. maj 12:19:05 2018</TD></TR>
+<TR ALIGN=LEFT><TD><A HREF_DISABLED='C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5\usage_statistics_webtalk.html'>WebTalk Report</A></TD><TD>Current</TD><TD COLSPAN='2'>niedz. 6. maj 21:47:52 2018</TD></TR>
+<TR ALIGN=LEFT><TD><A HREF_DISABLED='C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5\webtalk.log'>WebTalk Log File</A></TD><TD>Current</TD><TD COLSPAN='2'>niedz. 6. maj 21:47:59 2018</TD></TR>
 </TABLE>
 
 
-<br><center><b>Date Generated:</b> 05/06/2018 - 12:19:06</center>
+<br><center><b>Date Generated:</b> 05/07/2018 - 21:55:03</center>
 </BODY></HTML>

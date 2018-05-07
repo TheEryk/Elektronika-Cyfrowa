@@ -9,7 +9,7 @@ Target Device  : xc3s500e
 Target Package : fg320
 Target Speed   : -4
 Mapper Version : spartan3e -- $Revision: 1.55 $
-Mapped Date    : Sun May 06 12:18:29 2018
+Mapped Date    : Sun May 06 21:46:55 2018
 
 Mapping design into LUTs...
 Running directed packing...
@@ -24,28 +24,32 @@ Design Summary:
 Number of errors:      0
 Number of warnings:    0
 Logic Utilization:
-  Number of Slice Flip Flops:           120 out of   9,312    1%
-  Number of 4 input LUTs:               231 out of   9,312    2%
+  Number of Slice Flip Flops:           423 out of   9,312    4%
+  Number of 4 input LUTs:               626 out of   9,312    6%
 Logic Distribution:
-  Number of occupied Slices:            157 out of   4,656    3%
-    Number of Slices containing only related logic:     157 out of     157 100%
-    Number of Slices containing unrelated logic:          0 out of     157   0%
+  Number of occupied Slices:            429 out of   4,656    9%
+    Number of Slices containing only related logic:     429 out of     429 100%
+    Number of Slices containing unrelated logic:          0 out of     429   0%
       *See NOTES below for an explanation of the effects of unrelated logic.
-  Total Number of 4 input LUTs:         235 out of   9,312    2%
-    Number used as logic:               231
-    Number used as a route-thru:          4
+  Total Number of 4 input LUTs:         672 out of   9,312    7%
+    Number used as logic:               607
+    Number used as a route-thru:         46
+    Number used as Shift registers:      19
 
   The Slice Logic Distribution report is not meaningful if the design is
   over-mapped for a non-slice resource or if Placement fails.
 
   Number of bonded IOBs:                 18 out of     232    7%
-  Number of BUFGMUXs:                     1 out of      24    4%
+  Number of BUFGMUXs:                     5 out of      24   20%
+  Number of DCMs:                         1 out of       4   25%
+  Number of MULT18X18SIOs:                4 out of      20   20%
 
-Average Fanout of Non-Clock Nets:                3.93
+  Number of RPM macros:           32
+Average Fanout of Non-Clock Nets:                2.69
 
-Peak Memory Usage:  389 MB
+Peak Memory Usage:  404 MB
 Total REAL time to MAP completion:  3 secs 
-Total CPU time to MAP completion:   2 secs 
+Total CPU time to MAP completion:   3 secs 
 
 NOTES:
 

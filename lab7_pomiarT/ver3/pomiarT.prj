@@ -1,0 +1,8 @@
+vhdl work "sel5x32_1x32.vhd"
+vhdl work "LCD_2x16_256b.vhd"
+vhdl work "hex2ascii10.vhd"
+vhdl work "hex2ascii.vhd"
+vhdl work "debounce5.vhd"
+vhdl work "clk_gen_1M_sig.vhd"
+vhdl work "binary32_bcd.vhd"
+vhdl work "pomiarT.vhf"

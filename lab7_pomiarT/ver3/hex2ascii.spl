@@ -1,0 +1,5 @@
+[Inputs]
+=hex[3:0]=
+[Outputs]
+=ascii[7:0]=
+[BiDir]

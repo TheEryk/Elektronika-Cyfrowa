@@ -1,0 +1,6 @@
+[Inputs]
+data_strobe
+=data_in[7:0]=
+[Outputs]
+=asc[127:0]=
+[BiDir]

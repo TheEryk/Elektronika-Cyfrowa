@@ -137,26 +137,69 @@ R30
 !i113 1
 R13
 R14
-Eclk_gen_hz_v2
-Z31 w1525601682
+Eclk_gen_1hz_v3
+Z31 w1401377020
 R2
 R3
 R4
 R5
 R0
-Z32 8clk_gen_1Hz2_v1.vhd
-Z33 Fclk_gen_1Hz2_v1.vhd
+Z32 8clk_gen_1Hz_v3.vhd
+Z33 Fclk_gen_1Hz_v3.vhd
+l0
+L13
+Vl7fZb9RQJbojf8SBg:6362
+!s100 ;]W1I7kCJHg6645oYB]X10
+R8
+31
+Z34 !s110 1525633264
+!i10b 1
+Z35 !s108 1525633264.000000
+Z36 !s90 -reportprogress|300|-explicit|-93|clk_gen_1Hz_v3.vhd|
+Z37 !s107 clk_gen_1Hz_v3.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 14 clk_gen_1hz_v3 0 22 l7fZb9RQJbojf8SBg:6362
+l29
+L19
+VnmU7<N^AKGI0l9obMSCEi0
+!s100 aCABRh<6I4SZ00Z?_gH;92
+R8
+31
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R13
+R14
+Eclk_gen_hz_v2
+Z38 w1525635805
+R2
+R3
+R4
+R5
+R0
+Z39 8clk_gen_1Hz2_v1.vhd
+Z40 Fclk_gen_1Hz2_v1.vhd
 l0
 L7
 VDaZ39zA:7o8i4b8BG@ciU3
 !s100 eEfYIPc^[HIWL^QABS1;<2
 R8
 31
-R9
+Z41 !s110 1525635874
 !i10b 1
-R10
-Z34 !s90 -reportprogress|300|-explicit|-93|clk_gen_1Hz2_v1.vhd|
-Z35 !s107 clk_gen_1Hz2_v1.vhd|
+Z42 !s108 1525635874.000000
+Z43 !s90 -reportprogress|300|-explicit|-93|clk_gen_1Hz2_v1.vhd|
+Z44 !s107 clk_gen_1Hz2_v1.vhd|
 !i113 1
 R13
 R14
@@ -166,17 +209,17 @@ R3
 R4
 R5
 DEx4 work 13 clk_gen_hz_v2 0 22 DaZ39zA:7o8i4b8BG@ciU3
-l21
+l22
 L13
-VWQaX:oYdJ>UQn?GB8QH;W1
-!s100 S:[ODG4E9O6MAi8[o7T`I1
+VVW;N5=`eEGU57;0_Z`@JG1
+!s100 fP4heLg6>aC_>aK0EFAY@1
 R8
 31
-R9
+R41
 !i10b 1
-R10
-R34
-R35
+R42
+R43
+R44
 !i113 1
 R13
 R14
@@ -251,7 +294,7 @@ R24
 R25
 R4
 R5
-Z36 DEx4 work 6 dcm_4x 0 22 [Y4YdcdMf=6=R<YOzEZiA2
+Z45 DEx4 work 6 dcm_4x 0 22 [Y4YdcdMf=6=R<YOzEZiA2
 l114
 L108
 VbBf:cgUQ;C31AA8YEHVVP3
@@ -294,7 +337,7 @@ R2
 R3
 R4
 R5
-Z37 DEx4 work 10 dds_gen_v2 0 22 lmVa_gc5mGz3?]1H^0Wc21
+Z46 DEx4 work 10 dds_gen_v2 0 22 lmVa_gc5mGz3?]1H^0Wc21
 l65
 L59
 V1aJ8:LADj<VP>zjQ`cl[A2
@@ -419,14 +462,14 @@ R12
 R13
 R14
 Amix
-Z38 DEx4 work 8 gen_ctrl 0 22 ZdU<^?XQggScRo[6VJ0jb1
+Z47 DEx4 work 8 gen_ctrl 0 22 ZdU<^?XQggScRo[6VJ0jb1
 R15
-Z39 DEx4 work 7 uart_rx 0 22 0]m:n5b:c7^Dk5:d3P`H30
-Z40 DEx4 work 6 nx2_bt 0 22 YIAdA5c1mfz8X5la0aJHh1
+Z48 DEx4 work 7 uart_rx 0 22 0]m:n5b:c7^Dk5:d3P`H30
+Z49 DEx4 work 6 nx2_bt 0 22 YIAdA5c1mfz8X5la0aJHh1
 R24
 R25
-R36
-R37
+R45
+R46
 R2
 R3
 R4
@@ -474,7 +517,7 @@ R2
 R3
 R4
 R5
-R38
+R47
 l743
 L734
 VQgD1Y]_OlMlYocVd18Wza3
@@ -535,12 +578,12 @@ R12
 R13
 R14
 Eled4_driver
-Z41 w1522930812
+Z50 w1522930812
 R4
 R5
 R0
-Z42 8led4_driver.vhd
-Z43 Fled4_driver.vhd
+Z51 8led4_driver.vhd
+Z52 Fled4_driver.vhd
 l0
 L4
 VoW?=l7D2Fn5JYljbSinY_0
@@ -550,8 +593,8 @@ R8
 R9
 !i10b 1
 R10
-Z44 !s90 -reportprogress|300|-explicit|-93|led4_driver.vhd|
-Z45 !s107 led4_driver.vhd|
+Z53 !s90 -reportprogress|300|-explicit|-93|led4_driver.vhd|
+Z54 !s107 led4_driver.vhd|
 !i113 1
 R13
 R14
@@ -568,8 +611,8 @@ R8
 R9
 !i10b 1
 R10
-R44
-R45
+R53
+R54
 !i113 1
 R13
 R14
@@ -599,7 +642,7 @@ Asimple
 R24
 R4
 R5
-R40
+R49
 l211
 L187
 V_ZEeH>AD@Fl7XLnQkfTem0
@@ -615,12 +658,12 @@ R12
 R13
 R14
 Esel10_4
-Z46 w1525590549
+Z55 w1525590549
 R4
 R5
 R0
-Z47 8sel10_4.vhd
-Z48 Fsel10_4.vhd
+Z56 8sel10_4.vhd
+Z57 Fsel10_4.vhd
 l0
 L32
 VNDJnmYVY4K:CcXfa6heSa0
@@ -630,8 +673,8 @@ R8
 R9
 !i10b 1
 R10
-Z49 !s90 -reportprogress|300|-explicit|-93|sel10_4.vhd|
-Z50 !s107 sel10_4.vhd|
+Z58 !s90 -reportprogress|300|-explicit|-93|sel10_4.vhd|
+Z59 !s107 sel10_4.vhd|
 !i113 1
 R13
 R14
@@ -648,31 +691,31 @@ R8
 R9
 !i10b 1
 R10
-R49
-R50
+R58
+R59
 !i113 1
 R13
 R14
 Etrigger
-Z51 w1525599941
+Z60 w1525599941
 R3
 R2
 R4
 R5
 R0
-Z52 8trigger.vhd
-Z53 Ftrigger.vhd
+Z61 8trigger.vhd
+Z62 Ftrigger.vhd
 l0
 L5
 Vfm5V9YJ9_ncK?G7CDF^072
 !s100 5Pg^DPLiA>^94BlkhJ6PZ3
 R8
 31
-R9
+Z63 !s110 1525720984
 !i10b 1
-R20
-Z54 !s90 -reportprogress|300|-explicit|-93|trigger.vhd|
-Z55 !s107 trigger.vhd|
+Z64 !s108 1525720984.000000
+Z65 !s90 -reportprogress|300|-explicit|-93|trigger.vhd|
+Z66 !s107 trigger.vhd|
 !i113 1
 R13
 R14
@@ -681,18 +724,18 @@ R3
 R2
 R4
 R5
-DEx4 work 7 trigger 0 22 fm5V9YJ9_ncK?G7CDF^072
+Z67 DEx4 work 7 trigger 0 22 fm5V9YJ9_ncK?G7CDF^072
 l13
 L10
-V;Q^K_^@4HL4S1TB^JQlHh2
-!s100 [N<5lAz^4d=0XazDIBfNW1
+Z68 V;Q^K_^@4HL4S1TB^JQlHh2
+Z69 !s100 [N<5lAz^4d=0XazDIBfNW1
 R8
 31
-R9
+R63
 !i10b 1
-R20
-R54
-R55
+R64
+R65
+R66
 !i113 1
 R13
 R14
@@ -724,7 +767,7 @@ R2
 R3
 R4
 R5
-R39
+R48
 l699
 L683
 Vl7P6S=C0];IHY8:ZQNdGd2

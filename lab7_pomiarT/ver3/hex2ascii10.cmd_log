@@ -1,0 +1,2 @@
+vhdtdtfi -lib work hex2ascii10.vhd -prj ver3 -o hex2ascii10.spl -module hex2ascii10 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e hex2ascii10.spl C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/hex2ascii10.sym 

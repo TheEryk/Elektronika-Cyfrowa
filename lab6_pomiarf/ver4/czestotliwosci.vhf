@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : czestotliwosci.vhf
--- /___/   /\     Timestamp : 05/06/2018 10:31:39
+-- /___/   /\     Timestamp : 05/06/2018 21:16:52
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -742,12 +742,6 @@ architecture BEHAVIORAL of czestotliwosci is
              an     : out   std_logic_vector (3 downto 0));
    end component;
    
-   component clk_gen_50
-      port ( clk_in : in    std_logic; 
-             f_1    : out   std_logic; 
-             f_2    : out   std_logic);
-   end component;
-   
    component gen66_BT
       port ( clk_50MHz : in    std_logic; 
              sys_bus   : inout std_logic_vector (5 downto 0); 
@@ -806,9 +800,10 @@ architecture BEHAVIORAL of czestotliwosci is
              bcd9      : out   std_logic_vector (3 downto 0));
    end component;
    
-   component clk_gen_1Hz2_v1
-      port ( clk_in : in    std_logic; 
-             f_1Hz2 : out   std_logic);
+   component clk_gen_Hz_v2
+      port ( clk_in   : in    std_logic; 
+             f_50Hz   : out   std_logic; 
+             f_500mHz : out   std_logic);
    end component;
    
    attribute pmodName of XLXI_59 : label is "JC";
@@ -828,11 +823,6 @@ begin
                 d(3 downto 0)=>lcd(15 downto 12),
                 an(3 downto 0)=>an(3 downto 0),
                 sseg(6 downto 0)=>sseg(6 downto 0));
-   
-   XLXI_56 : clk_gen_50
-      port map (clk_in=>clk,
-                f_1=>open,
-                f_2=>clk50);
    
    XLXI_59 : gen66_BT
       port map (clk_50MHz=>clk,
@@ -899,9 +889,10 @@ begin
                 bcd8(3 downto 0)=>bcd(35 downto 32),
                 bcd9(3 downto 0)=>bcd(39 downto 36));
    
-   XLXI_139 : clk_gen_1Hz2_v1
+   XLXI_140 : clk_gen_Hz_v2
       port map (clk_in=>clk,
-                f_1Hz2=>XLXN_326);
+                f_50Hz=>clk50,
+                f_500mHz=>XLXN_326);
    
 end BEHAVIORAL;
 

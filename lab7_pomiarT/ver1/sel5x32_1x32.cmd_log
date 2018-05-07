@@ -1,0 +1,2 @@
+vhdtdtfi -lib work sel5x32_1x32v2.vhd -prj ver1 -o sel5x32_1x32.spl -module sel5x32_1x32 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e sel5x32_1x32.spl C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver1/sel5x32_1x32.sym 

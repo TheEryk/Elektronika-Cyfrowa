@@ -1,0 +1,8 @@
+[Inputs]
+clk_in
+data_strobe
+=data_in[7:0]=
+[Outputs]
+=asc[127:0]=
+=asc2[127:0]=
+[BiDir]

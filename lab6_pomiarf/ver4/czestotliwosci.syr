@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total CPU time to Xst completion: 0.13 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total CPU time to Xst completion: 0.13 secs
  
 --> Reading design: czestotliwosci.prj
 
@@ -106,8 +106,6 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/led4_driver.vhd" in Library work.
 Architecture behavioral of Entity led4_driver is up to date.
-Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/clk_gen_50.vhd" in Library work.
-Architecture behav of Entity clk_gen_50 is up to date.
 Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/gen66_BT.vhd" in Library work.
 Architecture behavioral of Entity dds_gen_v2 is up to date.
 Architecture behavioral of Entity dcm_4x is up to date.
@@ -122,8 +120,8 @@ Architecture behavi of Entity sel10_4 is up to date.
 Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/vhdl1.vhd" in Library work.
 Architecture behaviour of Entity binary_bcd is up to date.
 Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/clk_gen_1Hz2_v1.vhd" in Library work.
-Entity <clk_gen_1Hz2_v1> compiled.
-Entity <clk_gen_1Hz2_v1> (Architecture <Behavioral>) compiled.
+Entity <clk_gen_Hz_v2> compiled.
+Entity <clk_gen_Hz_v2> (Architecture <Behavioral>) compiled.
 Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/czestotliwosci.vhf" in Library work.
 Entity <ftce_mxilinx_czestotliwosci> compiled.
 Entity <ftce_mxilinx_czestotliwosci> (Architecture <behavioral>) compiled.
@@ -149,10 +147,6 @@ Analyzing hierarchy for entity <czestotliwosci> in library <work> (architecture 
 
 Analyzing hierarchy for entity <led4_driver> in library <work> (architecture <behavioral>).
 
-Analyzing hierarchy for entity <clk_gen_50> in library <work> (architecture <behav>) with generics.
-	F1 = 24
-	F2 = 7
-
 Analyzing hierarchy for entity <gen66_BT> in library <work> (architecture <mix>) with generics.
 	pmodName = "JC"
 
@@ -167,8 +161,8 @@ Analyzing hierarchy for entity <counterlogic_MUSER_czestotliwosci> in library <w
 Analyzing hierarchy for entity <binary_bcd> in library <work> (architecture <behaviour>) with generics.
 	N = 32
 
-Analyzing hierarchy for entity <clk_gen_1Hz2_v1> in library <work> (architecture <Behavioral>) with generics.
-	Fclk = 50000000
+Analyzing hierarchy for entity <clk_gen_Hz_v2> in library <work> (architecture <Behavioral>) with generics.
+	Fclk = 50
 
 Analyzing hierarchy for entity <dds_gen_v2> in library <work> (architecture <Behavioral>).
 
@@ -195,7 +189,7 @@ Analyzing hierarchy for entity <kcuart_rx> in library <work> (architecture <low_
 Analyzing hierarchy for entity <FTCE_MXILINX_czestotliwosci> in library <work> (architecture <behavioral>) with generics.
 	INIT = '0'
 
-WARNING:Xst:2591 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/czestotliwosci.vhf" line 837: attribute on instance <pmodName> overrides generic/parameter on entity. It is possible that simulator will not take this attribute into account.
+WARNING:Xst:2591 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/czestotliwosci.vhf" line 827: attribute on instance <pmodName> overrides generic/parameter on entity. It is possible that simulator will not take this attribute into account.
 WARNING:Xst:2591 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/gen66_BT.vhd" line 666: attribute on instance <INIT> overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
 WARNING:Xst:2591 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/gen66_BT.vhd" line 589: attribute on instance <INIT> overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
 WARNING:Xst:2591 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/gen66_BT.vhd" line 571: attribute on instance <INIT> overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
@@ -208,11 +202,10 @@ Analyzing Entity <czestotliwosci> in library <work> (Architecture <behavioral>).
     Set user-defined property "LOC =  B8" for signal <clk> in unit <czestotliwosci>.
     Set user-defined property "LOC =  F15 C18 H17 F17" for signal <an> in unit <czestotliwosci>.
     Set user-defined property "LOC =  H14 J17 G14 D16 D17 F18 L18" for signal <sseg> in unit <czestotliwosci>.
-WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/czestotliwosci.vhf" line 832: Unconnected output port 'f_1' of component 'clk_gen_50'.
-WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/czestotliwosci.vhf" line 846: Unconnected output port 'CEO' of component 'CB16CE_MXILINX_czestotliwosci'.
+WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/czestotliwosci.vhf" line 836: Unconnected output port 'CEO' of component 'CB16CE_MXILINX_czestotliwosci'.
     Set user-defined property "HU_SET =  XLXI_127_19" for instance <XLXI_127> in unit <czestotliwosci>.
-WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/czestotliwosci.vhf" line 854: Unconnected output port 'CEO' of component 'CB16CE_MXILINX_czestotliwosci'.
-WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/czestotliwosci.vhf" line 854: Unconnected output port 'TC' of component 'CB16CE_MXILINX_czestotliwosci'.
+WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/czestotliwosci.vhf" line 844: Unconnected output port 'CEO' of component 'CB16CE_MXILINX_czestotliwosci'.
+WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/czestotliwosci.vhf" line 844: Unconnected output port 'TC' of component 'CB16CE_MXILINX_czestotliwosci'.
     Set user-defined property "HU_SET =  XLXI_128_20" for instance <XLXI_128> in unit <czestotliwosci>.
     Set user-defined property "HU_SET =  XLXI_129_21" for instance <XLXI_129> in unit <czestotliwosci>.
     Set user-defined property "HU_SET =  XLXI_130_22" for instance <XLXI_130> in unit <czestotliwosci>.
@@ -220,11 +213,6 @@ Entity <czestotliwosci> analyzed. Unit <czestotliwosci> generated.
 
 Analyzing Entity <led4_driver> in library <work> (Architecture <behavioral>).
 Entity <led4_driver> analyzed. Unit <led4_driver> generated.
-
-Analyzing generic Entity <clk_gen_50> in library <work> (Architecture <behav>).
-	F1 = 24
-	F2 = 7
-Entity <clk_gen_50> analyzed. Unit <clk_gen_50> generated.
 
 Analyzing generic Entity <gen66_BT> in library <work> (Architecture <mix>).
 	pmodName = "JC"
@@ -414,9 +402,9 @@ Analyzing generic Entity <binary_bcd> in library <work> (Architecture <behaviour
 	N = 32
 Entity <binary_bcd> analyzed. Unit <binary_bcd> generated.
 
-Analyzing generic Entity <clk_gen_1Hz2_v1> in library <work> (Architecture <Behavioral>).
-	Fclk = 50000000
-Entity <clk_gen_1Hz2_v1> analyzed. Unit <clk_gen_1Hz2_v1> generated.
+Analyzing generic Entity <clk_gen_Hz_v2> in library <work> (Architecture <Behavioral>).
+	Fclk = 50
+Entity <clk_gen_Hz_v2> analyzed. Unit <clk_gen_Hz_v2> generated.
 
 
 =========================================================================
@@ -433,14 +421,6 @@ Synthesizing Unit <led4_driver>.
 	inferred   1 ROM(s).
 	inferred   4 D-type flip-flop(s).
 Unit <led4_driver> synthesized.
-
-
-Synthesizing Unit <clk_gen_50>.
-    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/clk_gen_50.vhd".
-    Found 32-bit up counter for signal <counter>.
-    Summary:
-	inferred   1 Counter(s).
-Unit <clk_gen_50> synthesized.
 
 
 Synthesizing Unit <sel10_4>.
@@ -509,15 +489,18 @@ WARNING:Xst:646 - Signal <bcds_reg<39>> is assigned but never used. This unconne
 Unit <binary_bcd> synthesized.
 
 
-Synthesizing Unit <clk_gen_1Hz2_v1>.
+Synthesizing Unit <clk_gen_Hz_v2>.
     Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver4/clk_gen_1Hz2_v1.vhd".
-    Found 1-bit register for signal <clk_hz2>.
-    Found 26-bit up counter for signal <hz2_count>.
-    Found 1-bit register for signal <hz2_en>.
+    Found 1-bit register for signal <clk_500mHz>.
+    Found 1-bit register for signal <clk_50Hz>.
+    Found 7-bit up counter for signal <count_500mHz>.
+    Found 19-bit up counter for signal <count_50Hz>.
+    Found 1-bit register for signal <en_500mHz>.
+    Found 1-bit register for signal <en_50Hz>.
     Summary:
-	inferred   1 Counter(s).
-	inferred   2 D-type flip-flop(s).
-Unit <clk_gen_1Hz2_v1> synthesized.
+	inferred   2 Counter(s).
+	inferred   4 D-type flip-flop(s).
+Unit <clk_gen_Hz_v2> synthesized.
 
 
 Synthesizing Unit <dds_gen_v2>.
@@ -650,14 +633,14 @@ Macro Statistics
  4-bit adder                                           : 10
  6-bit adder                                           : 1
 # Counters                                             : 4
- 26-bit up counter                                     : 1
- 32-bit up counter                                     : 1
+ 19-bit up counter                                     : 1
+ 7-bit up counter                                      : 1
  8-bit up counter                                      : 1
  9-bit up counter                                      : 1
 # Accumulators                                         : 1
  58-bit up accumulator                                 : 1
-# Registers                                            : 19
- 1-bit register                                        : 3
+# Registers                                            : 21
+ 1-bit register                                        : 5
  32-bit register                                       : 3
  4-bit register                                        : 10
  40-bit register                                       : 2
@@ -724,14 +707,14 @@ Macro Statistics
  4-bit adder                                           : 9
  6-bit adder                                           : 1
 # Counters                                             : 4
- 26-bit up counter                                     : 1
- 32-bit up counter                                     : 1
+ 19-bit up counter                                     : 1
+ 7-bit up counter                                      : 1
  8-bit up counter                                      : 1
  9-bit up counter                                      : 1
 # Accumulators                                         : 1
  58-bit up accumulator                                 : 1
-# Registers                                            : 318
- Flip-Flops                                            : 318
+# Registers                                            : 320
+ Flip-Flops                                            : 320
 # Comparators                                          : 10
  5-bit comparator greater                              : 10
 # Priority Encoders                                    : 12
@@ -743,30 +726,6 @@ Macro Statistics
 *                         Low Level Synthesis                           *
 =========================================================================
 WARNING:Xst:1293 - FF/Latch <bcd_conv/shift_reg_31> has a constant value of 0 in block <gen66_BT>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:2677 - Node <XLXI_56/counter_8> of sequential type is unconnected in block <czestotliwosci>.
-WARNING:Xst:2677 - Node <XLXI_56/counter_9> of sequential type is unconnected in block <czestotliwosci>.
-WARNING:Xst:2677 - Node <XLXI_56/counter_10> of sequential type is unconnected in block <czestotliwosci>.
-WARNING:Xst:2677 - Node <XLXI_56/counter_11> of sequential type is unconnected in block <czestotliwosci>.
-WARNING:Xst:2677 - Node <XLXI_56/counter_12> of sequential type is unconnected in block <czestotliwosci>.
-WARNING:Xst:2677 - Node <XLXI_56/counter_13> of sequential type is unconnected in block <czestotliwosci>.
-WARNING:Xst:2677 - Node <XLXI_56/counter_14> of sequential type is unconnected in block <czestotliwosci>.
-WARNING:Xst:2677 - Node <XLXI_56/counter_15> of sequential type is unconnected in block <czestotliwosci>.
-WARNING:Xst:2677 - Node <XLXI_56/counter_16> of sequential type is unconnected in block <czestotliwosci>.
-WARNING:Xst:2677 - Node <XLXI_56/counter_17> of sequential type is unconnected in block <czestotliwosci>.
-WARNING:Xst:2677 - Node <XLXI_56/counter_18> of sequential type is unconnected in block <czestotliwosci>.
-WARNING:Xst:2677 - Node <XLXI_56/counter_19> of sequential type is unconnected in block <czestotliwosci>.
-WARNING:Xst:2677 - Node <XLXI_56/counter_20> of sequential type is unconnected in block <czestotliwosci>.
-WARNING:Xst:2677 - Node <XLXI_56/counter_21> of sequential type is unconnected in block <czestotliwosci>.
-WARNING:Xst:2677 - Node <XLXI_56/counter_22> of sequential type is unconnected in block <czestotliwosci>.
-WARNING:Xst:2677 - Node <XLXI_56/counter_23> of sequential type is unconnected in block <czestotliwosci>.
-WARNING:Xst:2677 - Node <XLXI_56/counter_24> of sequential type is unconnected in block <czestotliwosci>.
-WARNING:Xst:2677 - Node <XLXI_56/counter_25> of sequential type is unconnected in block <czestotliwosci>.
-WARNING:Xst:2677 - Node <XLXI_56/counter_26> of sequential type is unconnected in block <czestotliwosci>.
-WARNING:Xst:2677 - Node <XLXI_56/counter_27> of sequential type is unconnected in block <czestotliwosci>.
-WARNING:Xst:2677 - Node <XLXI_56/counter_28> of sequential type is unconnected in block <czestotliwosci>.
-WARNING:Xst:2677 - Node <XLXI_56/counter_29> of sequential type is unconnected in block <czestotliwosci>.
-WARNING:Xst:2677 - Node <XLXI_56/counter_30> of sequential type is unconnected in block <czestotliwosci>.
-WARNING:Xst:2677 - Node <XLXI_56/counter_31> of sequential type is unconnected in block <czestotliwosci>.
 
 Optimizing unit <czestotliwosci> ...
 
@@ -775,6 +734,8 @@ Optimizing unit <led4_driver> ...
 Optimizing unit <sel10_4> ...
 
 Optimizing unit <binary_bcd> ...
+
+Optimizing unit <clk_gen_Hz_v2> ...
 
 Optimizing unit <gen_ctrl> ...
 
@@ -800,8 +761,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 426
- Flip-Flops                                            : 426
+# Registers                                            : 420
+ Flip-Flops                                            : 420
 
 =========================================================================
 
@@ -830,7 +791,7 @@ Design Statistics
 # IOs                              : 18
 
 Cell Usage :
-# BELS                             : 1092
+# BELS                             : 1067
 #      AND2                        : 13
 #      AND2B1                      : 2
 #      AND2B2                      : 1
@@ -839,24 +800,24 @@ Cell Usage :
 #      AND5                        : 6
 #      GND                         : 1
 #      INV                         : 6
-#      LUT1                        : 64
-#      LUT2                        : 153
-#      LUT3                        : 46
-#      LUT4                        : 331
-#      MUXCY                       : 195
+#      LUT1                        : 50
+#      LUT2                        : 155
+#      LUT3                        : 51
+#      LUT4                        : 339
+#      MUXCY                       : 184
 #      MUXF5                       : 25
 #      VCC                         : 4
 #      XOR2                        : 34
-#      XORCY                       : 195
-# FlipFlops/Latches                : 426
-#      FD                          : 73
+#      XORCY                       : 180
+# FlipFlops/Latches                : 420
+#      FD                          : 65
 #      FD_1                        : 46
 #      FDCE                        : 66
-#      FDE                         : 84
+#      FDE                         : 86
 #      FDE_1                       : 40
-#      FDR                         : 37
+#      FDR                         : 30
 #      FDR_1                       : 1
-#      FDRE                        : 44
+#      FDRE                        : 51
 #      FDRS                        : 1
 #      FDS                         : 1
 #      FDS_1                       : 33
@@ -879,10 +840,10 @@ Device utilization summary:
 
 Selected Device : 3s500efg320-4 
 
- Number of Slices:                      390  out of   4656     8%  
- Number of Slice Flip Flops:            426  out of   9312     4%  
- Number of 4 input LUTs:                619  out of   9312     6%  
-    Number used as logic:               600
+ Number of Slices:                      392  out of   4656     8%  
+ Number of Slice Flip Flops:            420  out of   9312     4%  
+ Number of 4 input LUTs:                620  out of   9312     6%  
+    Number used as logic:               601
     Number used as Shift registers:      19
  Number of IOs:                          18
  Number of bonded IOBs:                  18  out of    232     7%  
@@ -911,8 +872,8 @@ Clock Information:
 -----------------------------------+-------------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)         | Load  |
 -----------------------------------+-------------------------------+-------+
-clk                                | XLXI_59/mul4/DCM_SP_INST:CLK0 | 323   |
-XLXI_56/counter_7                  | NONE(XLXI_55/one_hot_3)       | 4     |
+XLXI_140/clk_50Hz                  | NONE(XLXI_55/one_hot_3)       | 4     |
+clk                                | IBUFG+BUFG                    | 317   |
 XLXN_3491(XLXI_137/XLXI_8:O)       | BUFG(*)(XLXI_130/I_Q0)        | 32    |
 XLXI_59/dds/phase_next_571         | BUFG                          | 32    |
 clk                                | XLXI_59/mul4/DCM_SP_INST:CLKFX| 58    |
@@ -924,13 +885,13 @@ INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered
 
 Asynchronous Control Signals Information:
 ----------------------------------------
-------------------------------------+-----------------------------------+-------+
-Control Signal                      | Buffer(FF name)                   | Load  |
-------------------------------------+-----------------------------------+-------+
-N0(XST_GND:G)                       | NONE(XLXI_129/I_Q0)               | 32    |
-XLXN_355(XLXI_137/XLXI_9:O)         | NONE(XLXI_127/I_Q0/I_36_35)       | 32    |
-XLXI_139/clk_hz2(XLXI_139/clk_hz2:Q)| NONE(XLXI_137/XLXI_3/I_Q0/I_36_35)| 2     |
-------------------------------------+-----------------------------------+-------+
+------------------------------------------+-----------------------------------+-------+
+Control Signal                            | Buffer(FF name)                   | Load  |
+------------------------------------------+-----------------------------------+-------+
+N0(XST_GND:G)                             | NONE(XLXI_129/I_Q0)               | 32    |
+XLXN_355(XLXI_137/XLXI_9:O)               | NONE(XLXI_127/I_Q0/I_36_35)       | 32    |
+XLXI_140/clk_500mHz(XLXI_140/clk_500mHz:Q)| NONE(XLXI_137/XLXI_3/I_Q0/I_36_35)| 2     |
+------------------------------------------+-----------------------------------+-------+
 
 Timing Summary:
 ---------------
@@ -946,9 +907,30 @@ Timing Detail:
 All values displayed in nanoseconds (ns)
 
 =========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_140/clk_50Hz'
+  Clock period: 1.568ns (frequency: 637.755MHz)
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Delay:               1.568ns (Levels of Logic = 0)
+  Source:            XLXI_55/one_hot_2 (FF)
+  Destination:       XLXI_55/one_hot_3 (FF)
+  Source Clock:      XLXI_140/clk_50Hz rising
+  Destination Clock: XLXI_140/clk_50Hz rising
+
+  Data Path: XLXI_55/one_hot_2 to XLXI_55/one_hot_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               6   0.591   0.669  XLXI_55/one_hot_2 (XLXI_55/one_hot_2)
+     FD:D                      0.308          XLXI_55/one_hot_3
+    ----------------------------------------
+    Total                      1.568ns (0.899ns logic, 0.669ns route)
+                                       (57.3% logic, 42.7% route)
+
+=========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
   Clock period: 59.464ns (frequency: 16.817MHz)
-  Total number of paths / destination ports: 646362 / 737
+  Total number of paths / destination ports: 645945 / 740
 -------------------------------------------------------------------------
 Delay:               14.866ns (Levels of Logic = 46)
   Source:            XLXI_59/dds/Mmult_M_submult_0 (MULT)
@@ -1013,27 +995,6 @@ Delay:               14.866ns (Levels of Logic = 46)
                                        (89.9% logic, 10.1% route)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'XLXI_56/counter_7'
-  Clock period: 1.568ns (frequency: 637.755MHz)
-  Total number of paths / destination ports: 4 / 4
--------------------------------------------------------------------------
-Delay:               1.568ns (Levels of Logic = 0)
-  Source:            XLXI_55/one_hot_2 (FF)
-  Destination:       XLXI_55/one_hot_3 (FF)
-  Source Clock:      XLXI_56/counter_7 rising
-  Destination Clock: XLXI_56/counter_7 rising
-
-  Data Path: XLXI_55/one_hot_2 to XLXI_55/one_hot_3
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FD:C->Q               6   0.591   0.669  XLXI_55/one_hot_2 (XLXI_55/one_hot_2)
-     FD:D                      0.308          XLXI_55/one_hot_3
-    ----------------------------------------
-    Total                      1.568ns (0.899ns logic, 0.669ns route)
-                                       (57.3% logic, 42.7% route)
-
-=========================================================================
 Timing constraint: Default period analysis for Clock 'XLXI_59/dds/phase_next_571'
   Clock period: 8.732ns (frequency: 114.521MHz)
   Total number of paths / destination ports: 528 / 48
@@ -1083,13 +1044,13 @@ Offset:              1.973ns (Levels of Logic = 1)
                                        (77.3% logic, 22.7% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_56/counter_7'
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_140/clk_50Hz'
   Total number of paths / destination ports: 424 / 11
 -------------------------------------------------------------------------
 Offset:              10.183ns (Levels of Logic = 5)
   Source:            XLXI_55/one_hot_2 (FF)
   Destination:       sseg<4> (PAD)
-  Source Clock:      XLXI_56/counter_7 rising
+  Source Clock:      XLXI_140/clk_50Hz rising
 
   Data Path: XLXI_55/one_hot_2 to sseg<4>
                                 Gate     Net
@@ -1120,7 +1081,7 @@ Offset:              15.221ns (Levels of Logic = 9)
     ----------------------------------------  ------------
      FDE_1:C->Q            4   0.591   0.762  XLXI_138/bcds_out_reg_16 (XLXI_138/bcds_out_reg_16)
      LUT4:I0->O           22   0.704   1.339  XLXI_125/led_12_cmp_eq00051 (XLXI_125/I0_lut<1>)
-     LUT4:I0->O            1   0.704   0.424  XLXI_55/digit<3>38_SW0 (N229)
+     LUT4:I0->O            1   0.704   0.424  XLXI_55/digit<3>38_SW0 (N235)
      LUT4:I3->O            1   0.704   0.424  XLXI_55/digit<3>38 (XLXI_55/digit<3>38)
      LUT4:I3->O            1   0.704   0.455  XLXI_55/digit<3>80 (XLXI_55/digit<3>80)
      LUT4:I2->O            1   0.704   0.424  XLXI_55/digit<3>122 (XLXI_55/digit<3>122)
@@ -1153,14 +1114,14 @@ Delay:               4.937ns (Levels of Logic = 2)
 =========================================================================
 
 
-Total REAL time to Xst completion: 13.00 secs
-Total CPU time to Xst completion: 12.78 secs
+Total REAL time to Xst completion: 15.00 secs
+Total CPU time to Xst completion: 15.24 secs
  
 --> 
 
-Total memory usage is 374496 kilobytes
+Total memory usage is 374544 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   47 (   0 filtered)
+Number of warnings :   22 (   0 filtered)
 Number of infos    :   18 (   0 filtered)
 

@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver1/pomiarT.xst" -ofn "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver1/pomiarT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 pomiarT.ngc pomiarT.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o pomiarT_map.ncd pomiarT.ngd pomiarT.pcf 
+par -w -intstyle ise -ol high -t 1 pomiarT_map.ncd pomiarT.ncd pomiarT.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pomiarT.twx pomiarT.ncd -o pomiarT.twr pomiarT.pcf 
+bitgen -intstyle ise -f pomiarT.ut pomiarT.ncd 
+xst -intstyle ise -ifn "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver1/pomiarT.xst" -ofn "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver1/pomiarT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 pomiarT.ngc pomiarT.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o pomiarT_map.ncd pomiarT.ngd pomiarT.pcf 
+par -w -intstyle ise -ol high -t 1 pomiarT_map.ncd pomiarT.ncd pomiarT.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pomiarT.twx pomiarT.ncd -o pomiarT.twr pomiarT.pcf 
+bitgen -intstyle ise -f pomiarT.ut pomiarT.ncd 
+xst -intstyle ise -ifn "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver1/pomiarT.xst" -ofn "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver1/pomiarT.syr" 

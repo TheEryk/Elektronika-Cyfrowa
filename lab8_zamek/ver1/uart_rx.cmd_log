@@ -1,0 +1,2 @@
+vhdtdtfi -lib work uart_rx.vhd -prj ver1 -o uart_rx.spl -module uart_rx -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e uart_rx.spl C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab8_zamek/ver1/uart_rx.sym 

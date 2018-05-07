@@ -1,0 +1,7 @@
+vhdl work "sig_gen_100Hz.vhd"
+vhdl work "selpos.vhd"
+vhdl work "sel5x32_1x32.vhd"
+vhdl work "led4_driver.vhd"
+vhdl work "debounce5.vhd"
+vhdl work "binary32_bcd.vhd"
+vhdl work "pomiarT.vhf"

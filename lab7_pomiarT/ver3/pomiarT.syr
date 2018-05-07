@@ -1,0 +1,901 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Reading design: pomiarT.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "pomiarT.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "pomiarT"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : pomiarT
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/binary32_bcd.vhd" in Library work.
+Architecture behaviour of Entity binary_bcd is up to date.
+Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/debounce5.vhd" in Library work.
+Architecture behav of Entity debounce is up to date.
+Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/sel5x32_1x32.vhd" in Library work.
+Architecture behav_sel5x32_1x32 of Entity sel5x32_1x32 is up to date.
+Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/LCD_2x16_256b.vhd" in Library work.
+Architecture simple of Entity nx2_lcd is up to date.
+Architecture behav of Entity lcd_ctrl is up to date.
+Architecture behav of Entity ram is up to date.
+Architecture mix of Entity lcd_2x16_256b is up to date.
+Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/clk_gen_1M_sig.vhd" in Library work.
+Entity <clk_gen_1m_sig> compiled.
+Entity <clk_gen_1m_sig> (Architecture <behav_clk_gen>) compiled.
+Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/hex2ascii10.vhd" in Library work.
+Architecture behav_hex2ascii10 of Entity hex2ascii10 is up to date.
+Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/hex2ascii.vhd" in Library work.
+Architecture behav of Entity hex2ascii is up to date.
+Compiling vhdl file "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/pomiarT.vhf" in Library work.
+Architecture behavioral of Entity cc16ce_mxilinx_pomiart is up to date.
+Architecture behavioral of Entity pomiart is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <pomiarT> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <binary_bcd> in library <work> (architecture <behaviour>) with generics.
+	N = 32
+
+Analyzing hierarchy for entity <debounce> in library <work> (architecture <behav>).
+
+Analyzing hierarchy for entity <CC16CE_MXILINX_pomiarT> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <sel5x32_1x32> in library <work> (architecture <behav_sel5x32_1x32>).
+
+Analyzing hierarchy for entity <LCD_2x16_256b> in library <work> (architecture <mix>) with generics.
+	PmodName = "JC"
+
+Analyzing hierarchy for entity <clk_gen_1M_sig> in library <work> (architecture <behav_clk_gen>) with generics.
+	Fclk = 50
+
+Analyzing hierarchy for entity <hex2ascii10> in library <work> (architecture <behav_hex2ascii10>).
+
+Analyzing hierarchy for entity <hex2ascii> in library <work> (architecture <behav>).
+
+Analyzing hierarchy for entity <ram> in library <work> (architecture <behav>).
+
+Analyzing hierarchy for entity <LCD_ctrl> in library <work> (architecture <behav>).
+
+Analyzing hierarchy for entity <Nx2_LCD> in library <work> (architecture <simple>) with generics.
+	pmodName = "JC"
+
+WARNING:Xst:2591 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/pomiarT.vhf" line 681: attribute on instance <PmodName> overrides generic/parameter on entity. It is possible that simulator will not take this attribute into account.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <pomiarT> in library <work> (Architecture <behavioral>).
+    Set user-defined property "LOC =  B8" for signal <clk> in unit <pomiarT>.
+    Set user-defined property "LOC =  E18" for signal <memory> in unit <pomiarT>.
+    Set user-defined property "LOC =  H13" for signal <memoryswitch> in unit <pomiarT>.
+    Set user-defined property "LOC =  D18" for signal <reset> in unit <pomiarT>.
+    Set user-defined property "LOC =  B18" for signal <startstop> in unit <pomiarT>.
+WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/pomiarT.vhf" line 637: Unconnected output port 'trig0' of component 'debounce'.
+WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/pomiarT.vhf" line 651: Unconnected output port 'CEO' of component 'CC16CE_MXILINX_pomiarT'.
+    Set user-defined property "HU_SET =  XLXI_12_0" for instance <XLXI_12> in unit <pomiarT>.
+WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/pomiarT.vhf" line 659: Unconnected output port 'CEO' of component 'CC16CE_MXILINX_pomiarT'.
+WARNING:Xst:753 - "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/pomiarT.vhf" line 659: Unconnected output port 'TC' of component 'CC16CE_MXILINX_pomiarT'.
+    Set user-defined property "HU_SET =  XLXI_13_1" for instance <XLXI_13> in unit <pomiarT>.
+Entity <pomiarT> analyzed. Unit <pomiarT> generated.
+
+Analyzing generic Entity <binary_bcd> in library <work> (Architecture <behaviour>).
+	N = 32
+Entity <binary_bcd> analyzed. Unit <binary_bcd> generated.
+
+Analyzing Entity <debounce> in library <work> (Architecture <behav>).
+Entity <debounce> analyzed. Unit <debounce> generated.
+
+Analyzing Entity <CC16CE_MXILINX_pomiarT> in library <work> (Architecture <behavioral>).
+    Set user-defined property "INIT =  0" for instance <I_36_35> in unit <CC16CE_MXILINX_pomiarT>.
+    Set user-defined property "INIT =  0" for instance <I_36_36> in unit <CC16CE_MXILINX_pomiarT>.
+    Set user-defined property "INIT =  0" for instance <I_36_224> in unit <CC16CE_MXILINX_pomiarT>.
+    Set user-defined property "INIT =  0" for instance <I_36_237> in unit <CC16CE_MXILINX_pomiarT>.
+    Set user-defined property "INIT =  0" for instance <I_36_250> in unit <CC16CE_MXILINX_pomiarT>.
+    Set user-defined property "INIT =  0" for instance <I_36_263> in unit <CC16CE_MXILINX_pomiarT>.
+    Set user-defined property "INIT =  0" for instance <I_36_276> in unit <CC16CE_MXILINX_pomiarT>.
+    Set user-defined property "INIT =  0" for instance <I_36_289> in unit <CC16CE_MXILINX_pomiarT>.
+    Set user-defined property "INIT =  0" for instance <I_36_1095> in unit <CC16CE_MXILINX_pomiarT>.
+    Set user-defined property "INIT =  0" for instance <I_36_1101> in unit <CC16CE_MXILINX_pomiarT>.
+    Set user-defined property "INIT =  0" for instance <I_36_1102> in unit <CC16CE_MXILINX_pomiarT>.
+    Set user-defined property "INIT =  0" for instance <I_36_1104> in unit <CC16CE_MXILINX_pomiarT>.
+    Set user-defined property "INIT =  0" for instance <I_36_1113> in unit <CC16CE_MXILINX_pomiarT>.
+    Set user-defined property "INIT =  0" for instance <I_36_1114> in unit <CC16CE_MXILINX_pomiarT>.
+    Set user-defined property "INIT =  0" for instance <I_36_1116> in unit <CC16CE_MXILINX_pomiarT>.
+    Set user-defined property "INIT =  0" for instance <I_36_1118> in unit <CC16CE_MXILINX_pomiarT>.
+Entity <CC16CE_MXILINX_pomiarT> analyzed. Unit <CC16CE_MXILINX_pomiarT> generated.
+
+Analyzing Entity <sel5x32_1x32> in library <work> (Architecture <behav_sel5x32_1x32>).
+Entity <sel5x32_1x32> analyzed. Unit <sel5x32_1x32> generated.
+
+Analyzing generic Entity <LCD_2x16_256b> in library <work> (Architecture <mix>).
+	PmodName = "JC"
+    Set property "opt_mode = area" for unit <LCD_ctrl>.
+    Set user-defined property "KEEP =  TRUE" for signal <sys_bus> in unit <Nx2_LCD>.
+    Set user-defined property "LOC =  g15 j16 g13 h15 f14 g16 j12" for signal <sys_bus> in unit <Nx2_LCD>.
+Entity <LCD_2x16_256b> analyzed. Unit <LCD_2x16_256b> generated.
+
+Analyzing Entity <ram> in library <work> (Architecture <behav>).
+Entity <ram> analyzed. Unit <ram> generated.
+
+Analyzing Entity <LCD_ctrl> in library <work> (Architecture <behav>).
+    Set property "signal_encoding = user" for signal <state>.
+Entity <LCD_ctrl> analyzed. Unit <LCD_ctrl> generated.
+
+Analyzing generic Entity <Nx2_LCD> in library <work> (Architecture <simple>).
+	pmodName = "JC"
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <obufen> in unit <Nx2_LCD>.
+    Set user-defined property "DRIVE =  4" for instance <obufen> in unit <Nx2_LCD>.
+    Set user-defined property "IOSTANDARD =  LVCMOS25" for instance <obufen> in unit <Nx2_LCD>.
+    Set user-defined property "SLEW =  SLOW" for instance <obufen> in unit <Nx2_LCD>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <obufrw> in unit <Nx2_LCD>.
+    Set user-defined property "DRIVE =  4" for instance <obufrw> in unit <Nx2_LCD>.
+    Set user-defined property "IOSTANDARD =  LVCMOS25" for instance <obufrw> in unit <Nx2_LCD>.
+    Set user-defined property "SLEW =  SLOW" for instance <obufrw> in unit <Nx2_LCD>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <obufrs> in unit <Nx2_LCD>.
+    Set user-defined property "DRIVE =  4" for instance <obufrs> in unit <Nx2_LCD>.
+    Set user-defined property "IOSTANDARD =  LVCMOS25" for instance <obufrs> in unit <Nx2_LCD>.
+    Set user-defined property "SLEW =  SLOW" for instance <obufrs> in unit <Nx2_LCD>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <obufd7> in unit <Nx2_LCD>.
+    Set user-defined property "DRIVE =  4" for instance <obufd7> in unit <Nx2_LCD>.
+    Set user-defined property "IOSTANDARD =  LVCMOS25" for instance <obufd7> in unit <Nx2_LCD>.
+    Set user-defined property "SLEW =  SLOW" for instance <obufd7> in unit <Nx2_LCD>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <obufd6> in unit <Nx2_LCD>.
+    Set user-defined property "DRIVE =  4" for instance <obufd6> in unit <Nx2_LCD>.
+    Set user-defined property "IOSTANDARD =  LVCMOS25" for instance <obufd6> in unit <Nx2_LCD>.
+    Set user-defined property "SLEW =  SLOW" for instance <obufd6> in unit <Nx2_LCD>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <obufd5> in unit <Nx2_LCD>.
+    Set user-defined property "DRIVE =  4" for instance <obufd5> in unit <Nx2_LCD>.
+    Set user-defined property "IOSTANDARD =  LVCMOS25" for instance <obufd5> in unit <Nx2_LCD>.
+    Set user-defined property "SLEW =  SLOW" for instance <obufd5> in unit <Nx2_LCD>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <obufd4> in unit <Nx2_LCD>.
+    Set user-defined property "DRIVE =  4" for instance <obufd4> in unit <Nx2_LCD>.
+    Set user-defined property "IOSTANDARD =  LVCMOS25" for instance <obufd4> in unit <Nx2_LCD>.
+    Set user-defined property "SLEW =  SLOW" for instance <obufd4> in unit <Nx2_LCD>.
+Entity <Nx2_LCD> analyzed. Unit <Nx2_LCD> generated.
+
+Analyzing generic Entity <clk_gen_1M_sig> in library <work> (Architecture <behav_clk_gen>).
+	Fclk = 50
+Entity <clk_gen_1M_sig> analyzed. Unit <clk_gen_1M_sig> generated.
+
+Analyzing Entity <hex2ascii10> in library <work> (Architecture <behav_hex2ascii10>).
+Entity <hex2ascii10> analyzed. Unit <hex2ascii10> generated.
+
+Analyzing Entity <hex2ascii> in library <work> (Architecture <behav>).
+Entity <hex2ascii> analyzed. Unit <hex2ascii> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <binary_bcd>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/binary32_bcd.vhd".
+WARNING:Xst:646 - Signal <bcds_reg<39>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 4                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk                       (falling_edge)       |
+    | Power Up State     | start                                          |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 40-bit register for signal <bcds>.
+    Found 40-bit register for signal <bcds_out_reg>.
+    Found 4-bit adder for signal <bcds_reg_11_8$add0000> created at line 84.
+    Found 5-bit comparator greater for signal <bcds_reg_15$cmp_gt0000> created at line 82.
+    Found 4-bit adder for signal <bcds_reg_15_12$add0000> created at line 82.
+    Found 5-bit comparator greater for signal <bcds_reg_19$cmp_gt0000> created at line 80.
+    Found 4-bit adder for signal <bcds_reg_19_16$add0000> created at line 80.
+    Found 5-bit comparator greater for signal <bcds_reg_23$cmp_gt0000> created at line 78.
+    Found 4-bit adder for signal <bcds_reg_23_20$add0000> created at line 78.
+    Found 5-bit comparator greater for signal <bcds_reg_27$cmp_gt0000> created at line 76.
+    Found 4-bit adder for signal <bcds_reg_27_24$add0000> created at line 76.
+    Found 5-bit comparator greater for signal <bcds_reg_29$cmp_gt0000> created at line 74.
+    Found 5-bit comparator greater for signal <bcds_reg_3$cmp_gt0000> created at line 88.
+    Found 4-bit adder for signal <bcds_reg_31_28$add0000> created at line 74.
+    Found 5-bit comparator greater for signal <bcds_reg_35$cmp_gt0000> created at line 72.
+    Found 4-bit adder for signal <bcds_reg_35_32$add0000> created at line 72.
+    Found 5-bit comparator greater for signal <bcds_reg_38$cmp_gt0000> created at line 70.
+    Found 4-bit adder for signal <bcds_reg_39_36$add0000> created at line 70.
+    Found 4-bit adder for signal <bcds_reg_3_0$add0000> created at line 88.
+    Found 5-bit comparator greater for signal <bcds_reg_7$cmp_gt0000> created at line 86.
+    Found 4-bit adder for signal <bcds_reg_7_4$add0000> created at line 86.
+    Found 5-bit comparator greater for signal <bcds_reg_9$cmp_gt0000> created at line 84.
+    Found 32-bit register for signal <binary>.
+    Found 6-bit register for signal <shift_counter>.
+    Found 6-bit adder for signal <shift_counter$addsub0000> created at line 63.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred 118 D-type flip-flop(s).
+	inferred  11 Adder/Subtractor(s).
+	inferred  10 Comparator(s).
+Unit <binary_bcd> synthesized.
+
+
+Synthesizing Unit <debounce>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/debounce5.vhd".
+    Found 3-bit register for signal <trigStore0>.
+    Found 3-bit register for signal <trigStore1>.
+    Found 3-bit register for signal <trigStore2>.
+    Found 3-bit register for signal <trigStore3>.
+    Found 3-bit register for signal <trigStore4>.
+    Summary:
+	inferred  15 D-type flip-flop(s).
+Unit <debounce> synthesized.
+
+
+Synthesizing Unit <sel5x32_1x32>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/sel5x32_1x32.vhd".
+    Found finite state machine <FSM_1> for signal <mt_count>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 4                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 4                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Clock enable       | mt_count$and0000          (positive)           |
+    | Power Up State     | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 5x4-bit ROM for signal <state$mux0001> created at line 86.
+    Found 4-bit register for signal <state>.
+    Found 32-bit register for signal <bin_out>.
+    Found 32-bit 5-to-1 multiplexer for signal <bin_out$mux0001> created at line 86.
+    Found 3-bit up counter for signal <nxt_count>.
+    Found 32-bit register for signal <temp0>.
+    Found 32-bit register for signal <temp1>.
+    Found 32-bit register for signal <temp2>.
+    Found 32-bit register for signal <temp3>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred 164 D-type flip-flop(s).
+	inferred  32 Multiplexer(s).
+Unit <sel5x32_1x32> synthesized.
+
+
+Synthesizing Unit <clk_gen_1M_sig>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/clk_gen_1M_sig.vhd".
+    Found 1-bit register for signal <ce_en>.
+    Found 1-bit register for signal <clk_mhz>.
+    Found 1-bit register for signal <clk_sig>.
+    Found 5-bit up counter for signal <count_mhz>.
+    Found 14-bit up counter for signal <count_sig>.
+    Found 1-bit register for signal <en_mhz>.
+    Found 1-bit register for signal <en_sig>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   5 D-type flip-flop(s).
+Unit <clk_gen_1M_sig> synthesized.
+
+
+Synthesizing Unit <hex2ascii10>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/hex2ascii10.vhd".
+    Found 8-bit 16-to-1 multiplexer for signal <asc0>.
+    Found 8-bit 16-to-1 multiplexer for signal <asc1>.
+    Found 8-bit 16-to-1 multiplexer for signal <asc2>.
+    Found 8-bit 16-to-1 multiplexer for signal <asc3>.
+    Found 8-bit 16-to-1 multiplexer for signal <asc4>.
+    Found 8-bit 16-to-1 multiplexer for signal <asc5>.
+    Found 8-bit 16-to-1 multiplexer for signal <asc6>.
+    Found 8-bit 16-to-1 multiplexer for signal <asc7>.
+    Found 8-bit 16-to-1 multiplexer for signal <asc8>.
+    Found 8-bit 16-to-1 multiplexer for signal <asc9>.
+    Summary:
+	inferred  80 Multiplexer(s).
+Unit <hex2ascii10> synthesized.
+
+
+Synthesizing Unit <hex2ascii>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/hex2ascii.vhd".
+    Found 8-bit 16-to-1 multiplexer for signal <ascii>.
+    Summary:
+	inferred   8 Multiplexer(s).
+Unit <hex2ascii> synthesized.
+
+
+Synthesizing Unit <ram>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/LCD_2x16_256b.vhd".
+WARNING:Xst:646 - Signal <read_addra> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 64x9-bit dual-port RAM <Mram_RAM> for signal <RAM>.
+    Found 6-bit register for signal <read_addrb>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   6 D-type flip-flop(s).
+Unit <ram> synthesized.
+
+
+Synthesizing Unit <LCD_ctrl>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/LCD_2x16_256b.vhd".
+    Found 4-bit up counter for signal <cmd_adr>.
+    Found 1-bit register for signal <data_en>.
+    Found 8-bit register for signal <data_i>.
+    Found 1-bit register for signal <e_i>.
+    Found 1-bit register for signal <rs_i>.
+    Found 6-bit register for signal <state>.
+    Found 16-bit up counter for signal <timer>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred  17 D-type flip-flop(s).
+Unit <LCD_ctrl> synthesized.
+
+
+Synthesizing Unit <CC16CE_MXILINX_pomiarT>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/pomiarT.vhf".
+Unit <CC16CE_MXILINX_pomiarT> synthesized.
+
+
+Synthesizing Unit <Nx2_LCD>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/LCD_2x16_256b.vhd".
+Unit <Nx2_LCD> synthesized.
+
+
+Synthesizing Unit <LCD_2x16_256b>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/LCD_2x16_256b.vhd".
+    Found 6-bit up counter for signal <iaddra>.
+    Found 6-bit up counter for signal <iaddrb>.
+    Summary:
+	inferred   2 Counter(s).
+Unit <LCD_2x16_256b> synthesized.
+
+
+Synthesizing Unit <pomiarT>.
+    Related source file is "C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/pomiarT.vhf".
+WARNING:Xst:653 - Signal <XLXI_4_but0_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <pomiarT> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 64x9-bit dual-port RAM                                : 1
+# ROMs                                                 : 1
+ 5x4-bit ROM                                           : 1
+# Adders/Subtractors                                   : 11
+ 4-bit adder                                           : 10
+ 6-bit adder                                           : 1
+# Counters                                             : 7
+ 14-bit up counter                                     : 1
+ 16-bit up counter                                     : 1
+ 3-bit up counter                                      : 1
+ 4-bit up counter                                      : 1
+ 5-bit up counter                                      : 1
+ 6-bit up counter                                      : 2
+# Registers                                            : 36
+ 1-bit register                                        : 23
+ 32-bit register                                       : 6
+ 4-bit register                                        : 1
+ 40-bit register                                       : 2
+ 6-bit register                                        : 3
+ 8-bit register                                        : 1
+# Comparators                                          : 10
+ 5-bit comparator greater                              : 10
+# Multiplexers                                         : 12
+ 32-bit 5-to-1 multiplexer                             : 1
+ 8-bit 16-to-1 multiplexer                             : 11
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <XLXI_15/mt_count/FSM> on signal <mt_count[1:4]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 0001
+ 01    | 0010
+ 10    | 0100
+ 11    | 1000
+-------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <XLXI_3/state/FSM> on signal <state[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ start | 00
+ shift | 01
+ done  | 11
+-------------------
+WARNING:Xst:1426 - The value init of the FF/Latch FFd4 hinder the constant cleaning in the block FSM.
+   You should achieve better results by setting this init to 0.
+
+Synthesizing (advanced) Unit <ram>.
+INFO:Xst:3226 - The RAM <Mram_RAM> will be implemented as a BLOCK RAM, absorbing the following register(s): <read_addrb>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 64-word x 9-bit                     |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <addra>         |          |
+    |     diA            | connected to signal <data_ia>       |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 64-word x 9-bit                     |          |
+    |     mode           | write-first                         |          |
+    |     clkB           | connected to signal <clk>           | rise     |
+    |     enB            | connected to signal <enb>           | high     |
+    |     addrB          | connected to signal <addrb>         |          |
+    |     doB            | connected to signal <data_ob>       |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <ram> synthesized (advanced).
+
+Synthesizing (advanced) Unit <sel5x32_1x32>.
+INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <Mrom_state_mux0001> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+Unit <sel5x32_1x32> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 2
+# RAMs                                                 : 1
+ 64x9-bit dual-port block RAM                          : 1
+# ROMs                                                 : 1
+ 5x4-bit ROM                                           : 1
+# Adders/Subtractors                                   : 11
+ 3-bit adder                                           : 1
+ 4-bit adder                                           : 9
+ 6-bit adder                                           : 1
+# Counters                                             : 7
+ 14-bit up counter                                     : 1
+ 16-bit up counter                                     : 1
+ 3-bit up counter                                      : 1
+ 4-bit up counter                                      : 1
+ 5-bit up counter                                      : 1
+ 6-bit up counter                                      : 2
+# Registers                                            : 351
+ Flip-Flops                                            : 351
+# Comparators                                          : 10
+ 5-bit comparator greater                              : 10
+# Multiplexers                                         : 12
+ 32-bit 5-to-1 multiplexer                             : 1
+ 8-bit 16-to-1 multiplexer                             : 11
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1426 - The value init of the FF/Latch FSM_FFd4 hinder the constant cleaning in the block FSM_1-parent.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:1710 - FF/Latch <trigStore0_0> (without init value) has a constant value of 0 in block <debounce>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trigStore0_1> (without init value) has a constant value of 0 in block <debounce>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trigStore0_2> (without init value) has a constant value of 0 in block <debounce>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <state_3> (without init value) has a constant value of 0 in block <sel5x32_1x32>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <pomiarT> ...
+
+Optimizing unit <binary_bcd> ...
+
+Optimizing unit <debounce> ...
+
+Optimizing unit <sel5x32_1x32> ...
+
+Optimizing unit <clk_gen_1M_sig> ...
+
+Optimizing unit <hex2ascii10> ...
+
+Optimizing unit <LCD_ctrl> ...
+
+Optimizing unit <CC16CE_MXILINX_pomiarT> ...
+
+Optimizing unit <LCD_2x16_256b> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block pomiarT, actual ratio is 8.
+FlipFlop XLXI_20/lcd_drv/state_0 has been replicated 2 time(s)
+FlipFlop XLXI_20/lcd_drv/state_1 has been replicated 1 time(s)
+FlipFlop XLXI_20/lcd_drv/state_2 has been replicated 1 time(s)
+FlipFlop XLXI_20/lcd_drv/state_3 has been replicated 1 time(s)
+FlipFlop XLXI_20/lcd_drv/state_4 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 413
+ Flip-Flops                                            : 413
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : pomiarT.ngr
+Top Level Output File Name         : pomiarT
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 12
+
+Cell Usage :
+# BELS                             : 872
+#      AND2                        : 3
+#      AND3                        : 2
+#      GND                         : 3
+#      INV                         : 12
+#      LUT1                        : 60
+#      LUT2                        : 56
+#      LUT2_L                      : 1
+#      LUT3                        : 153
+#      LUT3_D                      : 1
+#      LUT3_L                      : 1
+#      LUT4                        : 351
+#      LUT4_D                      : 3
+#      LUT4_L                      : 2
+#      MUXCY                       : 30
+#      MUXCY_L                     : 30
+#      MUXF5                       : 89
+#      MUXF6                       : 5
+#      MUXF7                       : 5
+#      VCC                         : 3
+#      XORCY                       : 62
+# FlipFlops/Latches                : 413
+#      FD                          : 57
+#      FD_1                        : 46
+#      FDCE                        : 161
+#      FDE                         : 20
+#      FDE_1                       : 40
+#      FDR                         : 14
+#      FDR_1                       : 2
+#      FDRE                        : 39
+#      FDS_1                       : 33
+#      FDSE                        : 1
+# RAMS                             : 1
+#      RAMB16_S9_S9                : 1
+# Clock Buffers                    : 3
+#      BUFG                        : 2
+#      BUFGP                       : 1
+# IO Buffers                       : 11
+#      IBUF                        : 4
+#      OBUF                        : 7
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                      378  out of   4656     8%  
+ Number of Slice Flip Flops:            413  out of   9312     4%  
+ Number of 4 input LUTs:                640  out of   9312     6%  
+ Number of IOs:                          12
+ Number of bonded IOBs:                  12  out of    232     5%  
+ Number of BRAMs:                         1  out of     20     5%  
+ Number of GCLKs:                         3  out of     24    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 326   |
+XLXI_21/clk_sig1                   | BUFG                   | 32    |
+XLXI_21/clk_mhz1                   | BUFG                   | 56    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+XLXN_27(XLXI_4/trig4_cmp_eq00001:O)| NONE(XLXI_12/I_36_1095)| 161   |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 23.484ns (Maximum Frequency: 42.582MHz)
+   Minimum input arrival time before clock: 1.946ns
+   Maximum output required time after clock: 6.240ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 9.327ns (frequency: 107.213MHz)
+  Total number of paths / destination ports: 3252 / 444
+-------------------------------------------------------------------------
+Delay:               9.327ns (Levels of Logic = 6)
+  Source:            XLXI_3/shift_counter_2 (FF)
+  Destination:       XLXI_3/bcds_38 (FF)
+  Source Clock:      clk falling
+  Destination Clock: clk falling
+
+  Data Path: XLXI_3/shift_counter_2 to XLXI_3/bcds_38
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD_1:C->Q             6   0.591   0.844  XLXI_3/shift_counter_2 (XLXI_3/shift_counter_2)
+     LUT3:I0->O            1   0.704   0.424  XLXI_3/state_cmp_eq0000_SW0 (N164)
+     LUT4:I3->O           29   0.704   1.436  XLXI_3/state_cmp_eq0000 (XLXI_3/state_cmp_eq0000)
+     LUT3:I0->O          101   0.704   1.459  XLXI_3/N121 (XLXI_3/N12)
+     LUT4:I0->O            1   0.704   0.424  XLXI_3/bcds_mux0000<9>_SW1 (N25)
+     LUT4:I3->O            1   0.704   0.000  XLXI_3/bcds_mux0000<9>_G (N244)
+     MUXF5:I1->O           1   0.321   0.000  XLXI_3/bcds_mux0000<9> (XLXI_3/bcds_mux0000<9>)
+     FD_1:D                    0.308          XLXI_3/bcds_30
+    ----------------------------------------
+    Total                      9.327ns (4.740ns logic, 4.587ns route)
+                                       (50.8% logic, 49.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_21/clk_sig1'
+  Clock period: 7.769ns (frequency: 128.717MHz)
+  Total number of paths / destination ports: 528 / 48
+-------------------------------------------------------------------------
+Delay:               7.769ns (Levels of Logic = 20)
+  Source:            XLXI_12/I_36_36 (FF)
+  Destination:       XLXI_13/I_36_35 (FF)
+  Source Clock:      XLXI_21/clk_sig1 rising
+  Destination Clock: XLXI_21/clk_sig1 rising
+
+  Data Path: XLXI_12/I_36_36 to XLXI_13/I_36_35
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             6   0.591   0.844  I_36_36 (Q<0>)
+     LUT1:I0->O            1   0.704   0.000  I_36_4_rt (I_36_4_rt)
+     MUXCY_L:S->LO         1   0.464   0.000  I_36_4 (C1)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_26 (C2)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_233 (C3)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_246 (C4)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_259 (C5)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_272 (C6)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_285 (C7)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_298 (C8)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_1147 (C9)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_1146 (C10)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_1145 (C11)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_1144 (C12)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_1143 (C13)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_1142 (C14)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_1141 (C15)
+     MUXCY:CI->O           2   0.459   0.447  I_36_1140 (TC_1)
+     AND2:I1->O            1   0.704   0.420  XLXI_1 (TC)
+     end scope: 'XLXI_12'
+     AND2:I1->O           17   0.704   1.051  XLXI_14 (XLXN_3)
+     begin scope: 'XLXI_13'
+     FDCE:CE                   0.555          I_36_35
+    ----------------------------------------
+    Total                      7.769ns (5.007ns logic, 2.762ns route)
+                                       (64.4% logic, 35.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_21/clk_mhz1'
+  Clock period: 23.484ns (frequency: 42.582MHz)
+  Total number of paths / destination ports: 6714 / 141
+-------------------------------------------------------------------------
+Delay:               11.742ns (Levels of Logic = 10)
+  Source:            XLXI_20/lcd_drv/state_1_1 (FF)
+  Destination:       XLXI_20/lcd_drv/e_i (FF)
+  Source Clock:      XLXI_21/clk_mhz1 rising
+  Destination Clock: XLXI_21/clk_mhz1 falling
+
+  Data Path: XLXI_20/lcd_drv/state_1_1 to XLXI_20/lcd_drv/e_i
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               7   0.591   0.787  XLXI_20/lcd_drv/state_1_1 (XLXI_20/lcd_drv/state_1_1)
+     LUT4:I1->O            1   0.704   0.455  XLXI_20/lcd_drv/delayIs_0_or0002154 (XLXI_20/lcd_drv/delayIs_0_or0002154)
+     LUT3:I2->O            1   0.704   0.424  XLXI_20/lcd_drv/delayIs_0_or0002156 (XLXI_20/lcd_drv/delayIs_0_or0002156)
+     LUT4:I3->O            3   0.704   0.535  XLXI_20/lcd_drv/delayIs_0_or0002168 (XLXI_20/lcd_drv/delayIs_0_or0002168)
+     LUT4:I3->O           19   0.704   1.089  XLXI_20/lcd_drv/delayIs_0_or0002360_2 (XLXI_20/lcd_drv/delayIs_0_or0002360_1)
+     LUT4:I3->O            1   0.704   0.000  XLXI_20/lcd_drv/nextState<1>6 (XLXI_20/lcd_drv/nextState<1>6)
+     MUXF5:I0->O           1   0.321   0.000  XLXI_20/lcd_drv/nextState<1>_f5_2 (XLXI_20/lcd_drv/nextState<1>_f53)
+     MUXF6:I0->O           1   0.521   0.000  XLXI_20/lcd_drv/nextState<1>_f6 (XLXI_20/lcd_drv/nextState<1>_f6)
+     MUXF7:I0->O           4   0.521   0.622  XLXI_20/lcd_drv/nextState<1>_f7 (XLXI_20/lcd_drv/nextState<1>)
+     LUT4:I2->O            1   0.704   0.000  XLXI_20/lcd_drv/enPulseNx_inv2 (XLXI_20/lcd_drv/enPulseNx_inv2)
+     MUXF5:I0->O           1   0.321   0.420  XLXI_20/lcd_drv/enPulseNx_inv_f5 (XLXI_20/lcd_drv/enPulseNx_inv)
+     FDR_1:R                   0.911          XLXI_20/lcd_drv/e_i
+    ----------------------------------------
+    Total                     11.742ns (7.410ns logic, 4.332ns route)
+                                       (63.1% logic, 36.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              1.946ns (Levels of Logic = 1)
+  Source:            startstop (PAD)
+  Destination:       XLXI_4/trigStore3_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: startstop to XLXI_4/trigStore3_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.218   0.420  startstop_IBUF (startstop_IBUF)
+     FD:D                      0.308          XLXI_4/trigStore3_0
+    ----------------------------------------
+    Total                      1.946ns (1.526ns logic, 0.420ns route)
+                                       (78.4% logic, 21.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_21/clk_mhz1'
+  Total number of paths / destination ports: 27 / 6
+-------------------------------------------------------------------------
+Offset:              6.240ns (Levels of Logic = 3)
+  Source:            XLXI_20/lcd_drv/cmd_adr_0 (FF)
+  Destination:       XLXN_83<1> (PAD)
+  Source Clock:      XLXI_21/clk_mhz1 rising
+
+  Data Path: XLXI_20/lcd_drv/cmd_adr_0 to XLXN_83<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              8   0.591   0.932  XLXI_20/lcd_drv/cmd_adr_0 (XLXI_20/lcd_drv/cmd_adr_0)
+     LUT4:I0->O            1   0.704   0.000  XLXI_20/lcd_drv/data_out<2>1 (XLXI_20/lcd_drv/data_out<2>)
+     MUXF5:I0->O           1   0.321   0.420  XLXI_20/lcd_drv/data_out<2>_f5 (XLXI_20/data_out<2>)
+     OBUF:I->O                 3.272          XLXI_20/nx2_pinout/obufd6 (XLXN_83<1>)
+    ----------------------------------------
+    Total                      6.240ns (4.888ns logic, 1.352ns route)
+                                       (78.3% logic, 21.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 14.00 secs
+Total CPU time to Xst completion: 14.06 secs
+ 
+--> 
+
+Total memory usage is 374536 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   14 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

@@ -1,2 +1,2 @@
-force -freeze sim:/trigger/clk 1 0, 0 {10 ps} -r 20ps
-force -freeze sim:/trigger/clk2 0 0, 1 {50 ps} -r 100ps
+force -freeze sim:/trigger/clk 1 0, 0 {10000 ps} -r 20ns
+force -freeze sim:/trigger/clk2 1 0, 0 {100000 ps} -r 200ns

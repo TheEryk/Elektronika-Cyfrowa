@@ -31,6 +31,7 @@
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="binary_bcd.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="clk_gen_1Hz2_v1.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_CMD" xil_pn:name="clk_gen_1Hz_v3.fdo"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_CMD" xil_pn:name="clk_gen_Hz_v2.fdo"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="clk_gen_Hz_v2.sym" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="czestotliwosci.bgn" xil_pn:subbranch="FPGAConfiguration"/>
@@ -63,6 +64,7 @@
     </file>
     <file xil_pn:fileType="FILE_XPI" xil_pn:name="czestotliwosci.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="czestotliwosci.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="czestotliwosci_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="czestotliwosci_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="czestotliwosci_map.map" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="czestotliwosci_map.mrp" xil_pn:subbranch="Map"/>
@@ -94,7 +96,11 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1525601686" xil_pn:in_ck="2438988021855931639" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1525601686">
+    <transform xil_pn:end_ts="1525632234" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1525632234">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1525720973" xil_pn:in_ck="2438988021855931639" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1525720973">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="clk_gen_1Hz2_v1.vhd"/>
@@ -104,11 +110,11 @@
       <outfile xil_pn:name="trigger.vhd"/>
       <outfile xil_pn:name="vhdl1.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1525601994" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="2386633310242474188" xil_pn:start_ts="1525601994">
+    <transform xil_pn:end_ts="1525720973" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1048207000214956717" xil_pn:start_ts="1525720973">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1525601996" xil_pn:in_ck="-484436432195304654" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-4923414070452586738" xil_pn:start_ts="1525601994">
+    <transform xil_pn:end_ts="1525720975" xil_pn:in_ck="-484436432195304654" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="2995183515732768559" xil_pn:start_ts="1525720973">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="czestotliwosci.vhf"/>
@@ -117,7 +123,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1525601997" xil_pn:in_ck="8357913720969782479" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1525601996">
+    <transform xil_pn:end_ts="1525720975" xil_pn:in_ck="8357913720969782479" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1525720975">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="clk_gen_1Hz2_v1.vhd"/>
@@ -128,16 +134,20 @@
       <outfile xil_pn:name="trigger.vhd"/>
       <outfile xil_pn:name="vhdl1.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1525602001" xil_pn:in_ck="8357913720969782479" xil_pn:name="TRAN_MSimulateBehavioralModel" xil_pn:prop_ck="7256766304810292024" xil_pn:start_ts="1525601997">
+    <transform xil_pn:end_ts="1525720978" xil_pn:in_ck="8357913720969782479" xil_pn:name="TRAN_MSimulateBehavioralModel" xil_pn:prop_ck="7256766304810292024" xil_pn:start_ts="1525720975">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="czestotliwosci.fdo"/>
+      <outfile xil_pn:name="trigger.fdo"/>
       <outfile xil_pn:name="vsim.wlf"/>
       <outfile xil_pn:name="work"/>
     </transform>
-    <transform xil_pn:end_ts="1525601884" xil_pn:in_ck="-484436432195304654" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-2512880474392483250" xil_pn:start_ts="1525601881">
+    <transform xil_pn:end_ts="1525634033" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1525634033">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1525634036" xil_pn:in_ck="-484436432195304654" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-2512880474392483250" xil_pn:start_ts="1525634033">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="czestotliwosci.vhf"/>
@@ -162,7 +172,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1525601900" xil_pn:in_ck="8357913720969782479" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-4758453207420031099" xil_pn:start_ts="1525601884">
+    <transform xil_pn:end_ts="1525636004" xil_pn:in_ck="8357913720969782479" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="6808728529561045265" xil_pn:start_ts="1525635971">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -186,7 +196,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1525601908" xil_pn:in_ck="-484436432195309972" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="8664697694699487880" xil_pn:start_ts="1525601900">
+    <transform xil_pn:end_ts="1525636013" xil_pn:in_ck="-484436432195309972" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="8664697694699487880" xil_pn:start_ts="1525636004">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_ngo"/>
@@ -195,7 +205,7 @@
       <outfile xil_pn:name="czestotliwosci.ngd"/>
       <outfile xil_pn:name="czestotliwosci_ngdbuild.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1525601913" xil_pn:in_ck="-484436432195309971" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-5849673150125579957" xil_pn:start_ts="1525601908">
+    <transform xil_pn:end_ts="1525636020" xil_pn:in_ck="-484436432195309971" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-5849673150125579957" xil_pn:start_ts="1525636013">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -210,8 +220,9 @@
       <outfile xil_pn:name="czestotliwosci_summary.xml"/>
       <outfile xil_pn:name="czestotliwosci_usage.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1525601933" xil_pn:in_ck="2059328202872843270" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-3872219738485705569" xil_pn:start_ts="1525601913">
+    <transform xil_pn:end_ts="1525636062" xil_pn:in_ck="2059328202872843270" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-3872219738485705569" xil_pn:start_ts="1525636020">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
       <outfile xil_pn:name="czestotliwosci.ncd"/>
@@ -224,7 +235,7 @@
       <outfile xil_pn:name="czestotliwosci_pad.txt"/>
       <outfile xil_pn:name="czestotliwosci_par.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1525601945" xil_pn:in_ck="-484436432195310103" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="287829442711806529" xil_pn:start_ts="1525601933">
+    <transform xil_pn:end_ts="1525636079" xil_pn:in_ck="-484436432195310103" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1525636062">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
@@ -236,7 +247,7 @@
       <outfile xil_pn:name="webtalk.log"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1525601933" xil_pn:in_ck="-484436432195310103" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1525601930">
+    <transform xil_pn:end_ts="1525636062" xil_pn:in_ck="-484436432195310103" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1525636056">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>

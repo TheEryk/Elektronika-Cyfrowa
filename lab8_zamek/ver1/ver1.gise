@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="ver1.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="LCD_2x16_256b.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="LCD_2x16_256b.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_CMD" xil_pn:name="log_data.fdo"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="log_data.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="log_data.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_CMD" xil_pn:name="log_data_lock.fdo"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="log_data_lock.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="log_data_lock.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="uart_rx.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_LOG" xil_pn:name="vsim.wlf"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="work"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1525702725" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1525702725">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1525728296" xil_pn:in_ck="2966792748486119681" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1525728296">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="LCD_2x16_256b.vhd"/>
+      <outfile xil_pn:name="clk_gen_1Hz_v3.vhd"/>
+      <outfile xil_pn:name="log_data.vhd"/>
+      <outfile xil_pn:name="log_data_lock.vhd"/>
+      <outfile xil_pn:name="uart_rx.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1525724923" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4207090929780399126" xil_pn:start_ts="1525724923">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1525724925" xil_pn:in_ck="154288917887" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="8185608258382335404" xil_pn:start_ts="1525724923">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+    <transform xil_pn:end_ts="1525702727" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="8650971085815357768" xil_pn:start_ts="1525702727">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1525728296" xil_pn:in_ck="2966792748486119681" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1525728296">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="LCD_2x16_256b.vhd"/>
+      <outfile xil_pn:name="clk_gen_1Hz_v3.vhd"/>
+      <outfile xil_pn:name="log_data.vhd"/>
+      <outfile xil_pn:name="log_data_lock.vhd"/>
+      <outfile xil_pn:name="uart_rx.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1525728299" xil_pn:in_ck="2966792748486119681" xil_pn:name="TRAN_MSimulateBehavioralModel" xil_pn:prop_ck="7256766304810292024" xil_pn:start_ts="1525728296">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="log_data_lock.fdo"/>
+      <outfile xil_pn:name="vsim.wlf"/>
+      <outfile xil_pn:name="work"/>
+    </transform>
+  </transforms>
+
+</generated_project>

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work LCD_2x16_256b.vhd -prj ver1 -o LCD_2x16_256b.spl -module LCD_2x16_256b -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e LCD_2x16_256b.spl C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab8_zamek/ver1/LCD_2x16_256b.sym 

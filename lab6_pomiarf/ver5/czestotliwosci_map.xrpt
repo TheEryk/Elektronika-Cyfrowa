@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Map" timeStamp="Sun May 06 12:18:32 2018">
+  <application stringID="Map" timeStamp="Sun May 06 21:46:58 2018">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -69,16 +69,17 @@
         <item dataType="int" stringID="MAP_NUM_ERRORS" value="0"/>
         <item dataType="int" stringID="MAP_FILTERED_WARNINGS" value="0"/>
         <item dataType="int" stringID="MAP_NUM_WARNINGS" value="0"/>
-        <item UNITS="KB" dataType="int" stringID="MAP_PEAK_MEMORY" value="397928"/>
+        <item UNITS="KB" dataType="int" stringID="MAP_PEAK_MEMORY" value="414104"/>
         <item stringID="MAP_TOTAL_REAL_TIME" value="3 secs "/>
-        <item stringID="MAP_TOTAL_CPU_TIME" value="2 secs "/>
+        <item stringID="MAP_TOTAL_CPU_TIME" value="3 secs "/>
       </section>
       <section stringID="MAP_SLICE_REPORTING">
-        <item AVAILABLE="9312" dataType="int" label="Number of Slice Flip Flops" stringID="MAP_NUM_SLICE_FF" value="120"/>
-        <item AVAILABLE="9312" dataType="int" label="Number of 4 input LUTs" stringID="MAP_NUM_4_INPUT_LUT" value="235">
-          <item dataType="int" label="Number of route-thrus" stringID="MAP_NUM_LUT_RT" value="4"/>
+        <item AVAILABLE="9312" dataType="int" label="Number of Slice Flip Flops" stringID="MAP_NUM_SLICE_FF" value="423"/>
+        <item AVAILABLE="9312" dataType="int" label="Number of 4 input LUTs" stringID="MAP_NUM_4_INPUT_LUT" value="672">
+          <item dataType="int" label="Number of route-thrus" stringID="MAP_NUM_LUT_RT" value="46"/>
+          <item dataType="int" label="Number used as Shift registers" stringID="MAP_NUM_SHIFT" value="19"/>
         </item>
-        <item AVAILABLE="4656" dataType="int" label="Number of occupied Slices" stringID="MAP_OCCUPIED_SLICES" value="157">
+        <item AVAILABLE="4656" dataType="int" label="Number of occupied Slices" stringID="MAP_OCCUPIED_SLICES" value="429">
           <item dataType="int" label="Number of Slices containing unrelated logic" stringID="MAP_NUM_SLICE_UNRELATED" value="0"/>
         </item>
       </section>
@@ -88,11 +89,13 @@
         </section>
       </section>
       <section stringID="MAP_HARD_IP_REPORTING">
-        <item AVAILABLE="24" dataType="int" label="Number of BUFGMUXs" stringID="MAP_NUM_BUFGMUX" value="1"/>
+        <item AVAILABLE="24" dataType="int" label="Number of BUFGMUXs" stringID="MAP_NUM_BUFGMUX" value="5"/>
+        <item AVAILABLE="4" dataType="int" stringID="MAP_NUM_DCM" value="1"/>
+        <item AVAILABLE="20" dataType="int" stringID="MAP_NUM_MULT18X18SIO" value="4"/>
       </section>
       <section stringID="MAP_MACRO_RPM_REPORTING">
         <item dataType="int" stringID="MAP_HARD_MACROS" value="0"/>
-        <item dataType="int" stringID="MAP_RPMS" value="0"/>
+        <item dataType="int" stringID="MAP_RPMS" value="32"/>
       </section>
       <section stringID="MAP_IOB_PROPERTIES">
         <table stringID="MAP_IOB_TABLE">
@@ -266,7 +269,7 @@
       </section>
       <section stringID="MAP_RPM_MACROS">
         <section stringID="MAP_SHAPE_SECTION">
-          <item dataType="int" stringID="MAP_NUM_SHAPE" value="0"/>
+          <item dataType="int" stringID="MAP_NUM_SHAPE" value="XLXI_128/XLXI_128_I_Q9_9"/>
         </section>
       </section>
       <section stringID="MAP_GUIDE_REPORT"/>
@@ -275,6 +278,19 @@
       <section stringID="MAP_CONFIGURATION_STRING_DETAILS"/>
       <section stringID="MAP_GENERAL_CONFIG_DATA">
         <item stringID="MAP_DISABLE_ATTR" value="LOW"/>
+        <item stringID="MAP_CLKDV_DIVIDE" value="2"/>
+        <item stringID="MAP_CLKOUT_PHASE_SHIFT" value="NONE"/>
+        <item stringID="MAP_CLK_FEEDBACK" value="1X"/>
+        <item stringID="MAP_DESKEW_ADJUST" value="6"/>
+        <item stringID="MAP_DFS_FREQUENCY_MODE" value="LOW"/>
+        <item stringID="MAP_DLL_FREQUENCY_MODE" value="LOW"/>
+        <item stringID="MAP_DUTY_CYCLE_CORRECTION" value="TRUE"/>
+        <item stringID="MAP_FACTORY_JF1" value="0XC0"/>
+        <item stringID="MAP_FACTORY_JF2" value="0X80"/>
+        <item stringID="MAP_CLKFX_DIVIDE" value="1"/>
+        <item stringID="MAP_CLKFX_MULTIPLY" value="4"/>
+        <item stringID="MAP_PHASE_SHIFT" value="0"/>
+        <item stringID="MAP_X_CLKIN_PERIOD" value="20.0000000000000000"/>
       </section>
       <section stringID="MAP_CONTROL_SET_INFORMATION"/>
     </task>

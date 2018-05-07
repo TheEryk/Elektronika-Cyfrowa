@@ -1,0 +1,139 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3
+Eclk_gen_1hz_v3
+Z1 w1525626464
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8clk_gen_1Hz_v3.vhd
+Z7 Fclk_gen_1Hz_v3.vhd
+l0
+L13
+V;`ZHZf`[ca>5Gj0RcA8ef0
+!s100 j]hU;UG>1C5_nPNfm=@F60
+Z8 OP;C;10.4a;61
+31
+Z9 !s110 1525626479
+!i10b 1
+Z10 !s108 1525626479.000000
+Z11 !s90 -reportprogress|300|-explicit|-93|clk_gen_1Hz_v3.vhd|
+Z12 !s107 clk_gen_1Hz_v3.vhd|
+!i113 1
+Z13 o-explicit -93 -O0
+Z14 tExplicit 1
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 14 clk_gen_1hz_v3 0 22 ;`ZHZf`[ca>5Gj0RcA8ef0
+l27
+L19
+VnkQaTPm6Emf;hg@zC>_i;0
+!s100 Ne;MlmPK<YJ1;Y2b1kbbJ2
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Eclk_gen_1m_sig
+Z15 w1525634600
+R2
+R3
+R4
+R5
+R0
+Z16 8clk_gen_1M_sig.vhd
+Z17 Fclk_gen_1M_sig.vhd
+l0
+L35
+Vf:9?9=_6BB[4<B[P3gV_32
+!s100 <^5nI[lTk_E^^JUNX5HY12
+R8
+31
+Z18 !s110 1525634611
+!i10b 1
+Z19 !s108 1525634611.000000
+Z20 !s90 -reportprogress|300|-explicit|-93|clk_gen_1M_sig.vhd|
+Z21 !s107 clk_gen_1M_sig.vhd|
+!i113 1
+R13
+R14
+Abehav_clk_gen
+R2
+R3
+R4
+R5
+Z22 DEx4 work 14 clk_gen_1m_sig 0 22 f:9?9=_6BB[4<B[P3gV_32
+l49
+L42
+V6S>;FjiKTFJoc[SJ8^d5z1
+!s100 GE60<V8N=?cXdT1P@:BUi0
+R8
+31
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R13
+R14
+Ehex2ascii
+Z23 w1525627837
+R2
+R3
+R4
+R5
+R0
+Z24 8hex2ascii.vhd
+Z25 Fhex2ascii.vhd
+l0
+L9
+V:M2emUTbm2XM^H?:GShFa3
+!s100 Q5_SEJdg;b^dzd@?iI]<g1
+R8
+31
+Z26 !s110 1525627851
+!i10b 1
+Z27 !s108 1525627851.000000
+Z28 !s90 -reportprogress|300|-explicit|-93|hex2ascii.vhd|
+Z29 !s107 hex2ascii.vhd|
+!i113 1
+R13
+R14
+Abehav
+R2
+R3
+R4
+R5
+DEx4 work 9 hex2ascii 0 22 :M2emUTbm2XM^H?:GShFa3
+l14
+L13
+VmaUQPC7R;moSkgPolG9cm2
+!s100 a`P^;F0cAk;f1JhYi<<cM3
+R8
+31
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R13
+R14

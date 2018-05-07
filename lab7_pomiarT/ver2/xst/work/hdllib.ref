@@ -1,0 +1,16 @@
+EN selpos NULL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver2/selpos.vhd sub00/vhpl10 1525620978
+AR sig_gen_100hz behav_sig_gen_100hz C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver2/sig_gen_100Hz.vhd sub00/vhpl09 1525620977
+AR cc16ce_mxilinx_pomiart behavioral C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver2/pomiarT.vhf sub00/vhpl13 1525620981
+EN led4_driver NULL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver2/led4_driver.vhd sub00/vhpl06 1525620974
+AR pomiart behavioral C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver2/pomiarT.vhf sub00/vhpl15 1525620983
+AR led4_driver behavioral C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver2/led4_driver.vhd sub00/vhpl07 1525620975
+EN cc16ce_mxilinx_pomiart NULL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver2/pomiarT.vhf sub00/vhpl12 1525620980
+EN debounce NULL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver2/debounce5.vhd sub00/vhpl02 1525620970
+AR selpos behav_selpos C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver2/selpos.vhd sub00/vhpl11 1525620979
+EN binary_bcd NULL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver2/binary32_bcd.vhd sub00/vhpl00 1525620968
+EN sel5x32_1x32 NULL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver2/sel5x32_1x32.vhd sub00/vhpl04 1525620972
+AR debounce behav C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver2/debounce5.vhd sub00/vhpl03 1525620971
+EN pomiart NULL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver2/pomiarT.vhf sub00/vhpl14 1525620982
+EN sig_gen_100hz NULL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver2/sig_gen_100Hz.vhd sub00/vhpl08 1525620976
+AR binary_bcd behaviour C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver2/binary32_bcd.vhd sub00/vhpl01 1525620969
+AR sel5x32_1x32 behav_sel5x32_1x32 C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver2/sel5x32_1x32.vhd sub00/vhpl05 1525620973

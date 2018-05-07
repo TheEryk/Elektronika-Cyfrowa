@@ -1,0 +1,83 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# do {log_data_lock.fdo}
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 23:25:06 on May 07,2018
+# vcom -reportprogress 300 -explicit -93 log_data_lock.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity log_data_lock
+# -- Compiling architecture Behav_log_data_lock of log_data_lock
+# End time: 23:25:06 on May 07,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui -do "do {log_data_lock.fdo}" 
+# Start time: 23:25:06 on May 07,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.log_data_lock(behav_log_data_lock)
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+restart
+force -freeze sim:/log_data_lock/clk_in 1 0, 0 {10000 ps} -r 20ns
+force -freeze sim:/log_data_lock/data_strobe 0 0
+force -freeze sim:/log_data_lock/data_in 8'h00 0
+run
+run
+force -freeze sim:/log_data_lock/data_in 8'h32 0
+force -freeze sim:/log_data_lock/data_strobe 1 0
+run
+force -freeze sim:/log_data_lock/data_strobe 0 0
+force -freeze sim:/log_data_lock/data_in 8'h31 0
+run
+force -freeze sim:/log_data_lock/data 32'h325F5F5F 0
+force -freeze sim:/log_data_lock/pos 3 0
+run
+restart
+force -freeze sim:/log_data_lock/data_in 8'h00 0
+force -freeze sim:/log_data_lock/data_strobe 0 0, 1 {180000 ps} -r 200ns
+force -freeze sim:/log_data_lock/clk_in 1 0, 0 {10000 ps} -r 20ns
+run
+force -freeze sim:/log_data_lock/data_in 8'h32 0
+run
+force -freeze sim:/log_data_lock/data_in 8'h31 0
+run
+force -freeze sim:/log_data_lock/data_in 8'h30 0
+run
+run
+run
+run
+noforce sim:/log_data_lock/data_in
+force -freeze sim:/log_data_lock/data_in 8'h72 0
+run
+force -freeze sim:/log_data_lock/data_in 8'h32 0
+run
+run
+run
+run
+run
+run
+run
+# End time: 23:32:18 on May 07,2018, Elapsed time: 0:07:12
+# Errors: 0, Warnings: 0

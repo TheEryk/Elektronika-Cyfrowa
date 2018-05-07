@@ -1,0 +1,7 @@
+[Inputs]
+clk_1MHz
+=row1[127:0]=
+=row2[127:0]=
+[Outputs]
+=sys_bus[6:0]=
+[BiDir]

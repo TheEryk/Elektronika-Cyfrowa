@@ -1,0 +1,8 @@
+[Inputs]
+clk_in
+trig
+rst
+[Outputs]
+f_100Hz
+ce
+[BiDir]

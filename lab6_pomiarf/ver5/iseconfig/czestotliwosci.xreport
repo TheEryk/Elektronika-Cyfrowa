@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-05-06T12:57:05</DateModified>
+  <DateModified>2018-05-07T21:55:03</DateModified>
   <ModuleName>czestotliwosci</ModuleName>
   <SummaryTimeStamp>2018-05-06T12:19:06</SummaryTimeStamp>
   <SavedFilePath>C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5/iseconfig/czestotliwosci.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab6_pomiarf/ver5\</ImplementationReportsDirectory>
   <DateInitialized>2018-05-06T11:01:12</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

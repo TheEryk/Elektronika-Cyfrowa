@@ -1,0 +1,10 @@
+vhdtdtfi -lib work sig_gen_01Hz.vhd -prj ver1 -o sig_gen_100Hz.spl -module sig_gen_100Hz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e sig_gen_100Hz.spl C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver1/sig_gen_100Hz.sym 
+vhdtdtfi -lib work sig_gen_01Hz.vhd -prj ver1 -o sig_gen_100Hz.spl -module sig_gen_100Hz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e sig_gen_100Hz.spl C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver1/sig_gen_100Hz.sym 
+vhdtdtfi -lib work sig_gen_01Hz.vhd -prj ver1 -o sig_gen_100Hz.spl -module sig_gen_100Hz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e sig_gen_100Hz.spl C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver1/sig_gen_100Hz.sym 
+vhdtdtfi -lib work sig_gen_01Hz.vhd -prj ver1 -o sig_gen_100Hz.spl -module sig_gen_100Hz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e sig_gen_100Hz.spl C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver1/sig_gen_100Hz.sym 
+vhdtdtfi -lib work sig_gen_01Hz.vhd -prj ver1 -o sig_gen_100Hz.spl -module sig_gen_100Hz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e sig_gen_100Hz.spl C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver1/sig_gen_100Hz.sym 

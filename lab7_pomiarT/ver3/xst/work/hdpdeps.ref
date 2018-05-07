@@ -1,0 +1,118 @@
+V3 70
+FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver2/binary32_bcd.vhd 2018/05/05.14:08:50 P.20131013
+FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver2/debounce5.vhd 2018/05/06.16:23:07 P.20131013
+FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver2/led4_driver.vhd 2014/04/09.12:44:24 P.20131013
+EN work/led4_driver 1525620974 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver2/led4_driver.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/led4_driver/Behavioral 1525620975 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver2/led4_driver.vhd \
+      EN work/led4_driver 1525620974 CP an CP sseg CP with
+FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver2/pomiarT.vhf 2018/05/06.17:36:04 P.20131013
+FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver2/sel5x32_1x32.vhd 2018/05/06.17:29:36 P.20131013
+FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver2/selpos.vhd 2018/05/06.17:13:15 P.20131013
+EN work/selpos 1525620978 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver2/selpos.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/selpos/Behav_selpos 1525620979 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver2/selpos.vhd \
+      EN work/selpos 1525620978
+FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver2/sig_gen_100Hz.vhd 2018/05/06.17:00:47 P.20131013
+EN work/sig_gen_100Hz 1525620976 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver2/sig_gen_100Hz.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/sig_gen_100Hz/Behav_sig_gen_100Hz 1525620977 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver2/sig_gen_100Hz.vhd \
+      EN work/sig_gen_100Hz 1525620976
+FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/binary32_bcd.vhd 2018/05/05.14:08:50 P.20131013
+EN work/binary_bcd 1525634801 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/binary32_bcd.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/binary_bcd/behaviour 1525634802 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/binary32_bcd.vhd \
+      EN work/binary_bcd 1525634801
+FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/clk_gen_1M_sig.vhd 2018/05/06.21:23:20 P.20131013
+EN work/clk_gen_1M_sig 1525634815 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/clk_gen_1M_sig.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/clk_gen_1M_sig/Behav_clk_gen 1525634816 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/clk_gen_1M_sig.vhd \
+      EN work/clk_gen_1M_sig 1525634815
+FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/debounce5.vhd 2018/05/06.16:23:07 P.20131013
+EN work/debounce 1525634803 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/debounce5.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/debounce/behav 1525634804 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/debounce5.vhd \
+      EN work/debounce 1525634803
+FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/hex2ascii.vhd 2015/05/17.21:59:14 P.20131013
+EN work/hex2ascii 1525634819 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/hex2ascii.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/hex2ascii/behav 1525634820 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/hex2ascii.vhd \
+      EN work/hex2ascii 1525634819
+FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/hex2ascii10.vhd 2018/05/06.19:59:57 P.20131013
+EN work/hex2ascii10 1525634817 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/hex2ascii10.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/hex2ascii10/Behav_hex2ascii10 1525634818 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/hex2ascii10.vhd \
+      EN work/hex2ascii10 1525634817
+FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/LCD_2x16_256b.vhd 2015/05/17.21:55:06 P.20131013
+EN work/LCD_2x16_256b 1525634807 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/LCD_2x16_256b.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+EN work/Nx2_LCD 1525634808 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/LCD_2x16_256b.vhd \
+      PB ieee/std_logic_1164 1381692176 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/Nx2_LCD/simple 1525634809 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/LCD_2x16_256b.vhd \
+      EN work/Nx2_LCD 1525634808 CP OBUF
+EN work/LCD_ctrl 1525634810 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/LCD_2x16_256b.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/LCD_ctrl/behav 1525634811 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/LCD_2x16_256b.vhd \
+      EN work/LCD_ctrl 1525634810
+EN work/ram 1525634812 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/LCD_2x16_256b.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/ram/behav 1525634813 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/LCD_2x16_256b.vhd \
+      EN work/ram 1525634812
+AR work/LCD_2x16_256b/mix 1525634814 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/LCD_2x16_256b.vhd \
+      EN work/LCD_2x16_256b 1525634807 CP work/ram CP work/LCD_ctrl CP work/Nx2_LCD \
+      CP with
+FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/pomiarT.vhf 2018/05/06.20:06:57 P.20131013
+EN work/CC16CE_MXILINX_pomiarT 1525634821 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/pomiarT.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CC16CE_MXILINX_pomiarT/BEHAVIORAL 1525634822 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/pomiarT.vhf \
+      EN work/CC16CE_MXILINX_pomiarT 1525634821 CP MUXCY_L CP XORCY CP FDCE CP GND \
+      CP VCC CP MUXCY CP AND2 CP AND3 CP INV
+EN work/pomiarT 1525634823 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/pomiarT.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/pomiarT/BEHAVIORAL 1525634824 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/pomiarT.vhf \
+      EN work/pomiarT 1525634823 CP binary_bcd CP debounce \
+      CP CC16CE_MXILINX_pomiarT CP AND2 CP sel5x32_1x32 CP LCD_2x16_256b \
+      CP clk_gen_1M_sig CP hex2ascii10 CP hex2ascii
+FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/sel5x32_1x32.vhd 2018/05/06.20:01:25 P.20131013
+EN work/sel5x32_1x32 1525634805 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/sel5x32_1x32.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/sel5x32_1x32/Behav_sel5x32_1x32 1525634806 \
+      FL C:/Users/Eryk/Documents/DokumentyPUT/Elektronika-Cyfrowa/lab7_pomiarT/ver3/sel5x32_1x32.vhd \
+      EN work/sel5x32_1x32 1525634805
